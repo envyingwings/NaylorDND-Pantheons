@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ourosi Pantheon — Deities of Ouros</title>
+<meta name="description" content="A wiki of the gods of Ouros: alignment, portfolio, and the faiths that follow them.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header-inner">
+    <div class="site-title">
+      <span>The Ourosi Pantheon</span>
+    </div>
+    <nav class="site-nav">
+      <a href="index.html">All Deities</a>
+    </nav>
+  </div>
+</header>
+
+<div class="controls">
+  <input type="search" id="search" class="search-input" placeholder="Search by name, portfolio, or title…" autocomplete="off">
+  <select id="alignment-filter" class="filter-select">
+    <option value="">All alignments</option>
+  </select>
+</div>
+<p class="result-count" id="result-count"></p>
+
+<main>
+  <div class="deity-grid" id="deity-grid">
+    <!-- populated by app.js -->
+  </div>
+</main>
+
+<footer class="site-footer">
+  A fan-made compendium of the gods of Ouros. Symbols shown are placeholder emblems pending final artwork.
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

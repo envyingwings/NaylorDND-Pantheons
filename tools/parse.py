@@ -1,0 +1,272 @@
+#!/usr/bin/env python3
+"""
+Parses the Ourosi deity markdown files (Obsidian-flavoured) into a single
+data/deities.json consumed by the static site. Run this from anywhere; it
+locates paths relative to this script.
+
+Usage:
+    python3 tools/parse.py
+
+Converts:
+  - YAML frontmatter -> deity metadata
+  - [[Wikilink]] / [[Wikilink|Display]] -> plain text
+  - ```columns ... === ... === ... ``` blocks -> plain paragraphs (columns dropped)
+  - ```datacards ... ``` blocks -> dropped (replaced by generated pantheon link list)
+  - Bullet lists under "Appendix" -> pantheon member links, cross-linked to
+    real deity pages where a match exists in this same dataset.
+"""
+import os
+import re
+import json
+import yaml
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+SRC_DIR = os.path.join(HERE, "..", "source-markdown")
+OUT_PATH = os.path.join(HERE, "..", "data", "deities.json")
+
+WIKILINK_RE = re.compile(r"\[\[([^\]|]+)\|([^\]]+)\]\]|\[\[([^\]]+)\]\]")
+IMAGE_RE = re.compile(r"!\[\[([^\]|]+)(\|[^\]]+)?\]\]")
+
+
+def slugify(name):
+    s = name.strip().lower()
+    s = re.sub(r"[^\w\s-]", "", s)
+    s = re.sub(r"[\s_]+", "-", s)
+    return s.strip("-")
+
+
+def clean_wikilinks(text):
+    """Replace [[Target|Display]] and [[Target]] with just display text (or target)."""
+    def repl(m):
+        if m.group(1) is not None:
+            return m.group(2)
+        return m.group(3)
+    return WIKILINK_RE.sub(repl, text)
+
+
+def strip_images(text):
+    return IMAGE_RE.sub("", text)
+
+
+def parse_infobox(block_text):
+    """Parse the ```\n**Alignment.** ... \n``` style infobox inside the columns block."""
+    info = {}
+    for line in block_text.split("\n"):
+        line = line.strip()
+        m = re.match(r"\*\*([^*]+)\.\*\*\s*(.*)", line)
+        if m:
+            key = m.group(1).strip()
+            val = clean_wikilinks(m.group(2).strip())
+            info[key] = val
+    return info
+
+
+def find_section(body, header_pattern, next_header_pattern=r"^#{2,3} "):
+    """Return the text of a section starting at a header matching header_pattern
+    up to (not including) the next header at level 2 or 3."""
+    m = re.search(header_pattern, body, flags=re.MULTILINE)
+    if not m:
+        return None
+    start = m.end()
+    rest = body[start:]
+    m2 = re.search(next_header_pattern, rest, flags=re.MULTILINE)
+    end = start + m2.start() if m2 else len(body)
+    return body[start:end].strip()
+
+
+def parse_bullets(text):
+    """Extract top-level '- ...' bullet lines, cleaning wikilinks."""
+    bullets = []
+    for line in text.split("\n"):
+        m = re.match(r"^-\s+(.*)", line.strip())
+        if m:
+            bullets.append(clean_wikilinks(m.group(1)).strip())
+    return bullets
+
+
+def parse_appendix(body):
+    """
+    Finds '### Appendix' section, extracts the sub-heading title (pantheon name)
+    and any bullet-list pantheon member links that follow the datacards block.
+    Returns dict: {title, members: [{name, blurb}]} or None.
+    """
+    m = re.search(r"^### Appendix\s*$", body, flags=re.MULTILINE)
+    if not m:
+        return None
+    rest = body[m.end():]
+    sub_m = re.search(r"^####\s+(.+)$", rest, flags=re.MULTILINE)
+    title = sub_m.group(1).strip() if sub_m else None
+
+    rest_wo_fence = re.sub(r"```datacards.*?```", "", rest, flags=re.DOTALL)
+
+    members = []
+    for line in rest_wo_fence.split("\n"):
+        line = line.strip()
+        if not line.startswith("-"):
+            continue
+        raw = line.lstrip("-").strip()
+        wl = re.search(r"\[\[([^\]|]+)\|([^\]]+)\]\]|\[\[([^\]]+)\]\]", raw)
+        if wl:
+            display = wl.group(2) or wl.group(3)
+            target = wl.group(1) or wl.group(3)
+        else:
+            display = raw
+            target = raw
+        display_clean = re.sub(r"^\*\*|\*\*$", "", display).strip()
+        after = raw[wl.end():].strip() if wl else ""
+        after = re.sub(r"^[\*\.\,\s]+", "", after)
+        blurb = clean_wikilinks(after).strip()
+        name_clean = re.sub(r"\*\*", "", display_clean).strip(" .")
+        if not name_clean:
+            continue
+        members.append({
+            "name": name_clean,
+            "slug": slugify(target),
+            "blurb": blurb
+        })
+    return {"title": title, "members": members}
+
+
+def parse_file(path):
+    raw = open(path, encoding="utf-8").read()
+    fm_match = re.match(r"^---\n(.*?)\n---\n", raw, flags=re.DOTALL)
+    frontmatter = {}
+    body = raw
+    if fm_match:
+        try:
+            frontmatter = yaml.safe_load(fm_match.group(1)) or {}
+        except yaml.YAMLError:
+            frontmatter = {}
+        body = raw[fm_match.end():]
+
+    cm = re.search(r"```columns\nid:.*?\n===\n", body)
+    intro_paragraphs = []
+    infobox = {}
+    display_name = None
+    titles_line = None
+    domains_line = None
+
+    if cm:
+        after_first_sep = cm.end()
+        next_sep = body.find("\n===\n", after_first_sep)
+        intro_block = body[after_first_sep:next_sep] if next_sep != -1 else ""
+        intro_lines = []
+        for line in intro_block.split("\n"):
+            if re.match(r"^\s*-\s*\[\[#", line):
+                continue
+            intro_lines.append(line)
+        intro_text = "\n".join(intro_lines).strip()
+        intro_paragraphs = [p.strip() for p in re.split(r"\n\s*\n", intro_text) if p.strip()]
+        intro_paragraphs = [clean_wikilinks(strip_images(p)) for p in intro_paragraphs]
+
+        if next_sep != -1:
+            infobox_start = next_sep + len("\n===\n")
+            fence_end = body.find("\n```", infobox_start)
+            infobox_block = body[infobox_start:fence_end] if fence_end != -1 else ""
+            lines = infobox_block.split("\n")
+            cursor = 0
+            if cursor < len(lines) and lines[cursor].startswith("### "):
+                display_name = lines[cursor][4:].strip()
+                cursor += 1
+            if cursor < len(lines) and lines[cursor].strip() and not lines[cursor].startswith("!") and "**" not in lines[cursor]:
+                cursor += 1  # skip wiki-links reference line
+            if cursor < len(lines) and lines[cursor].strip().startswith("!"):
+                cursor += 1  # skip image line
+            infobox = parse_infobox("\n".join(lines[cursor:]))
+
+    tm = re.search(r"\*\*Titles:?\*\*\s*(.*)", body)
+    if tm:
+        titles_line = clean_wikilinks(tm.group(1).strip())
+    dm = re.search(r"\*\*Domains:?\*\*\s*(.*)", body)
+    if dm:
+        domains_line = clean_wikilinks(dm.group(1).strip())
+
+    commandments = []
+    cmd_m = re.search(r"^#{3,4} Commandments of .+$", body, flags=re.MULTILINE)
+    if cmd_m:
+        section_text = find_section(body, re.escape(cmd_m.group(0)))
+        if section_text:
+            commandments = parse_bullets(section_text)
+
+    appendix = parse_appendix(body)
+
+    cover_raw = frontmatter.get("cover", "") or ""
+    cover_m = re.match(r"\[\[([^\]|]+)", cover_raw)
+    cover_file = cover_m.group(1) if cover_m else None
+
+    name_guess = display_name or os.path.splitext(os.path.basename(path))[0].replace("__", ", ").replace("_", " ")
+
+    portfolio = frontmatter.get("Portfolio", "")
+    alignment = frontmatter.get("Alignment", infobox.get("Alignment", ""))
+    domains_fm = frontmatter.get("Divine Domains", [])
+    status = frontmatter.get("Status", [])
+    warlock = frontmatter.get("Warlock Province", [])
+    tags = frontmatter.get("tags", [])
+
+    slug = slugify(name_guess.split(",")[0])
+
+    return {
+        "slug": slug,
+        "name": name_guess,
+        "portfolio": portfolio,
+        "alignment": alignment,
+        "domains": domains_fm if isinstance(domains_fm, list) else ([domains_fm] if domains_fm else []),
+        "status": status if isinstance(status, list) else ([status] if status else []),
+        "warlock_province": warlock if isinstance(warlock, list) else ([warlock] if warlock else []),
+        "tags": tags if isinstance(tags, list) else ([tags] if tags else []),
+        "cover_file": cover_file,
+        "intro": intro_paragraphs,
+        "infobox": infobox,
+        "titles_line": titles_line,
+        "domains_line": domains_line,
+        "commandments": commandments,
+        "appendix": appendix,
+        "source_file": os.path.basename(path),
+    }
+
+
+def main():
+    os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
+    deities = []
+    for fname in sorted(os.listdir(SRC_DIR)):
+        if not fname.endswith(".md"):
+            continue
+        path = os.path.join(SRC_DIR, fname)
+        try:
+            d = parse_file(path)
+            deities.append(d)
+        except Exception as e:
+            print(f"ERROR parsing {fname}: {e}")
+
+    slug_set = {d["slug"] for d in deities}
+    firstword_to_slug = {}
+    for d in deities:
+        first = d["name"].split(",")[0].split(" ")[0].strip().lower()
+        first = re.sub(r"[^\w-]", "", first)
+        if first:
+            firstword_to_slug.setdefault(first, d["slug"])
+
+    for d in deities:
+        if d["appendix"]:
+            for member in d["appendix"]["members"]:
+                member_first = re.sub(
+                    r"[^\w-]", "",
+                    member["name"].split(",")[0].split(" ")[0].split("—")[0].strip().lower()
+                )
+                matched_slug = None
+                if member["slug"] in slug_set:
+                    matched_slug = member["slug"]
+                elif member_first in firstword_to_slug:
+                    matched_slug = firstword_to_slug[member_first]
+                member["has_page"] = matched_slug is not None
+                if matched_slug:
+                    member["slug"] = matched_slug
+
+    with open(OUT_PATH, "w", encoding="utf-8") as f:
+        json.dump(deities, f, indent=2, ensure_ascii=False)
+
+    print(f"Wrote {len(deities)} deities to {OUT_PATH}")
+
+
+if __name__ == "__main__":
+    main()

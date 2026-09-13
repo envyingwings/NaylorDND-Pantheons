@@ -1,0 +1,2412 @@
+[
+  {
+    "slug": "asmodeus",
+    "name": "Asmodeus, Lord of the Nine Hells",
+    "portfolio": "Sinful God of Indulgence | Sin, Politics, Negotiation, and Damnation (the Hells)",
+    "alignment": "Lawful Evil",
+    "domains": [
+      "Beauty",
+      "Blood",
+      "Order",
+      "Trickery",
+      "War"
+    ],
+    "status": [],
+    "warlock_province": [],
+    "tags": [
+      "OurosiDeity",
+      "ArchdukeBaator",
+      "CelestialPatron",
+      "FiendPatron",
+      "HexbladePatron",
+      "BeautyDomain",
+      "BloodDomain",
+      "OrderDomain",
+      "TrickeryDomain",
+      "WarDomain"
+    ],
+    "cover_file": "AsmodeusSymbol.webp",
+    "intro": [
+      "**Asmodeus**, known across Ouros as the **Lord of the Nine**, the **Lord of Lies**, and the **King of Baator**, is the god of the Hells, devils, indulgence, sin, contracts, and domination. The first and greatest of the archdevils, he reigns over the Nine Hells from his citadel in Nessus, ruling with total and unquestioned authority. A master of temptation and tyrannical order, he embodies lawful evil in its most absolute expression—binding mortals and immortals alike through oaths, bargains, and forbidden pleasures. His worshippers include devils, corrupt officials, decadent aristocrats, and warlocks who believe their ascent to power lies through the structure of dominance he embodies."
+    ],
+    "infobox": {
+      "Alignment": "Lawful Evil",
+      "Symbol": "A crown of spiked onyx and curved horns",
+      "Portfolio": "Greater God of Indulgence, Sin, Damnation, Politics, and Negotiation",
+      "Divine Realm": "Nessus, Ninth Circle of Hell",
+      "Worshippers": "Devils, the power-hungry, the desparate"
+    },
+    "titles_line": "The Devil Lord, Lord of the Ruby Rod, Prince of Evil, the Archfiend, King of Baator, Archduke of Nessus, The Cloven, Lord of Lies, The First Fallen Angel",
+    "domains_line": "Beauty, Blood, Order, Trickery, War",
+    "commandments": [
+      "Assert dominance and power over others. Show your strength of will in the image of your Lord.",
+      "Repay cruelty done unto you with further evil. If others show you kindness, exploit it.",
+      "As you ascend to power, do not pity or show mercy to those you climb over to get there. The weak do not warrant your compassion—compassion itself is a weakness."
+    ],
+    "appendix": {
+      "title": "Vassals of Asmodeus — Archdukes of Baator",
+      "members": [
+        {
+          "name": "Zariel, Archduchess of Avernus",
+          "slug": "zariel-archduchess-of-avernus",
+          "blurb": "Once a fiery angel of war, who in a fit of rage descended into the hells and slaughtered legions of Hell alone, and now the infernal marshal of crusades in the Blood War and bargains made for martial glory. Her layer is a battlefield-scoured wasteland where armies of devils and mortals alike march in endless campaigns.",
+          "has_page": false
+        },
+        {
+          "name": "Dispater, Archduke of Dis",
+          "slug": "dispater-iron-archduke-of-dis",
+          "blurb": "Patron of paranoia, surveillance, and iron-walled cities. He rules from the Iron Tower of Dis, an ever-expanding labyrinth of forges, prisons, and archives that model the most oppressive bureaucracies of Ouros.",
+          "has_page": false
+        },
+        {
+          "name": "Mammon, Archduke of Minauros",
+          "slug": "mammon-viscount-of-minauros",
+          "blurb": "The serpent-coiled lord of avarice and corruption, whose sinking marsh-city drowns those who mistake wealth for worth. He is invoked by embezzlers, usurers, and those who trade lives for coin.",
+          "has_page": false
+        },
+        {
+          "name": "Fierna, Archduchess of Phlegethos",
+          "slug": "fierna-lady-of-phlegethos",
+          "blurb": "The mistress of passion inflamed into cruelty, ruling a sea of living flame where pleasure and pain are indistinguishable tools of control.",
+          "has_page": false
+        },
+        {
+          "name": "Levistus, Archduke of Stygia",
+          "slug": "levistus-prince-of-stygia",
+          "blurb": "A traitor entombed alive within a floating glacier, patron of treachery suspended but never forgiven. His frozen realm attracts those who seek to escape consequences by binding them in time.",
+          "has_page": false
+        },
+        {
+          "name": "Glasya, Archduchess of Malbolge",
+          "slug": "glasya-princess-of-malbolge",
+          "blurb": "Daughter of Asmodeus and mistress of intrigue, rebellion, and “reform” through crime. Her layer is a shifting maze of courts, slums, and gallows, reflecting the corruption of mortal cities.",
+          "has_page": false
+        },
+        {
+          "name": "Baalzebul, Archduke of Maladomini",
+          "slug": "baalzebul-lord-of-the-flies",
+          "blurb": "Once a shining prince, now a bloated lord of decay and failed grandeur. His ruined palaces and abandoned projects serve as warnings of pride that refuses to accept imperfection.",
+          "has_page": false
+        },
+        {
+          "name": "Mephistopheles, Archduke of Cania",
+          "slug": "mephistopheles-brimstone-baron",
+          "blurb": "Master of infernal arcana and experimental sorceries, ruling a plane of impossible cold. He tempts mages with forbidden formulae and offers empires new weapons in exchange for concessions of law and soul.",
+          "has_page": false
+        }
+      ]
+    },
+    "source_file": "Asmodeus__Lord_of_the_Nine.md"
+  },
+  {
+    "slug": "avandra",
+    "name": "Avandra, the Changebringer",
+    "portfolio": "Roaming Goddess of Change | Luck, Travel, Exploration, and Freedom",
+    "alignment": "Chaotic Good",
+    "domains": [
+      "Moon",
+      "Nature",
+      "Trickery",
+      "Twilight"
+    ],
+    "status": [
+      "Ourosi (Greater Deity)",
+      "Yondalla's Children"
+    ],
+    "warlock_province": [
+      "Archfey",
+      "Celestial"
+    ],
+    "tags": [
+      "OurosiDeity",
+      "HalflingPantheon",
+      "ArchfeyPatron",
+      "CelestialPatron",
+      "MoonDomain",
+      "NatureDomain",
+      "TrickeryDomain",
+      "TwilightDomain"
+    ],
+    "cover_file": "AvandraSymbol.webp",
+    "intro": [
+      "Also known as \"She Who Makes the Path,\" the Changebringer champions freedom, travel, trade, and adventure across the lands. Her will heralds open frontiers, and her call beckons her followers to discover that which awaits them beyond the known. There are few urban temples dedicated to the Changebringer, but her shrines are often found along well-traveled roads and on isolated wilderness hill-tops. Many merchants, adventurers, and free-spirited folk worship the Changebringer, and many a gala toast and tavern song celebrate her as a bringer of luck and fortune."
+    ],
+    "infobox": {
+      "Alignment": "Chaotic Good",
+      "Symbol": "Woman's profile embossed on a gold coin or pendant",
+      "Portfolio": "Greater Goddess of Change, Freedom, Revolution, Travel, and Luck",
+      "Divine Realm": "Happy Hunting Grounds of the Beastlands",
+      "Worshippers": "Adventurers, gamblers, merchants, travelers"
+    },
+    "titles_line": "She Who Makes the Path, Lady Luck, Wanderling, Tymora (by halflings)",
+    "domains_line": null,
+    "commandments": [
+      "Luck favors the bold. Your fate is your own to grasp, and to do so is to have the Changebringer behind you.",
+      "Change is inevitable. The righteous can ensure that such change is for the better.",
+      "Rise up against tyranny. Fight for the freedom of yourself and others when you can, and inspire others to fight when you cannot."
+    ],
+    "appendix": {
+      "title": "Yondalla's Children — Halfling Pantheon",
+      "members": [
+        {
+          "name": "Wayfarer’s Fellowship. A loose brotherhood of caravan guards, scouts, and guides who swear to never strand a traveler without cause. They keep rough maps, tales of safe wells and dangerous passes, and maintain roadside shrines to Avandra",
+          "slug": "wayfarers-fellowship-a-loose-brotherhood-of-caravan-guards-scouts-and-guides-who-swear-to-never-strand-a-traveler-without-cause-they-keep-rough-maps-tales-of-safe-wells-and-dangerous-passes-and-maintain-roadside-shrines-to-avandra",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Horizon Sisters. A semi-monastic order of predominantly women and nonbinary devotees who take vows of the road. They serve as mediators in border disputes, escorts for refugees and freed slaves, and pathfinders and heralds of new routes that bypass exploitative tolls and blockades",
+          "slug": "horizon-sisters-a-semi-monastic-order-of-predominantly-women-and-nonbinary-devotees-who-take-vows-of-the-road-they-serve-as-mediators-in-border-disputes-escorts-for-refugees-and-freed-slaves-and-pathfinders-and-heralds-of-new-routes-that-bypass-exploitative-tolls-and-blockades",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Kiss of the Changebringer. A beautiful emerald set at the heart of a silver chain, humming with contained possibility. In legend, the Kiss grants its bearer impossible escapes, sudden turns of luck, and the power to rewrite the terms of a bargain at the last possible moment. It is said to awaken fully only in times of great upheaval, when one bold choice could change the fate of nations. It is said to have been stolen in legend by Asmodeus, when he ripped it from the Changebringer’s neck and locked it away within a vault hidden upon the Material Plane",
+          "slug": "kiss-of-the-changebringer-a-beautiful-emerald-set-at-the-heart-of-a-silver-chain-humming-with-contained-possibility-in-legend-the-kiss-grants-its-bearer-impossible-escapes-sudden-turns-of-luck-and-the-power-to-rewrite-the-terms-of-a-bargain-at-the-last-possible-moment-it-is-said-to-awaken-fully-only-in-times-of-great-upheaval-when-one-bold-choice-could-change-the-fate-of-nations-it-is-said-to-have-been-stolen-in-legend-by-asmodeus-when-he-ripped-it-from-the-changebringers-neck-and-locked-it-away-within-a-vault-hidden-upon-the-material-plane",
+          "blurb": "",
+          "has_page": false
+        }
+      ]
+    },
+    "source_file": "Avandra__The_Changebringer.md"
+  },
+  {
+    "slug": "bahamut",
+    "name": "Bahamut, The Platinum Dragon",
+    "portfolio": "Platinum Dragon | Greater God of Virtue, Justice, Nobility, and good-aligned dragons.",
+    "alignment": "Lawful Good",
+    "domains": [
+      "Life",
+      "Order",
+      "War"
+    ],
+    "status": [
+      "Ourosi (Greater Deity)",
+      "Pantheon Draconis"
+    ],
+    "warlock_province": [
+      "Celestial",
+      "Hexblade"
+    ],
+    "tags": [
+      "OurosiDeity",
+      "DragonPantheon",
+      "CelestialPatron",
+      "HexbladePatron",
+      "LifeDomain",
+      "OrderDomain",
+      "WarDomain"
+    ],
+    "cover_file": "BahamutSymbol.webp",
+    "intro": [
+      "**Bahamut** is revered as the first and greatest of the metallic dragons and the exemplar of enlightened justice, and beacon of order and good to paladins everywhere. The crest of the **Platinum Dragon** adorns many halls of high leadership and judgment, invoking his will in all matters of justice. To follow him is to look after those who cannot look after themselves, upholding enlightened justice—stern against evil, yet tempered with mercy and forgiveness for the penitent."
+    ],
+    "infobox": {
+      "Alignment": "Lawful Good",
+      "Symbol": "A silver dragon's head in profile",
+      "Portfolio": "Greater God of Virtue, Honour, Justice, Good-aligned Dragons",
+      "Divine Realm": "Bahamut's Palace, Mercuria",
+      "Worshippers": "Dragonborn, knights, metallic dragons, nobles, paladins"
+    },
+    "titles_line": "The Platinum Dragon, Xymor, The Valiant, Lord of the North Wind, The Dracopaladin",
+    "domains_line": "Life, Order, Peace, War",
+    "commandments": [
+      "Stand as a paragon of honor and justice.",
+      "Smite evil wherever it is found, yet show compassion to those who have strayed from righteousness.",
+      "Defend the weak, bring freedom to the persecuted, and protect the ideals of justice and order."
+    ],
+    "appendix": {
+      "title": "Pantheon Draconis — Draconic Pantheon",
+      "members": [
+        {
+          "name": "Astilabor — The Hoardmistress",
+          "slug": "astilabor-the-hoardmistress",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Aasterinian — Quicksilver Dragon",
+          "slug": "aasterinian-quicksilver-dragon",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Kereska — Wonderbringer",
+          "slug": "kereska-wonderbringer",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Null — Great Deathwyrm",
+          "slug": "null-great-deathwyrm",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Sardior, The Ruby Wyrm",
+          "slug": "sardior",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Nathair Sgiathach — Scampdrake",
+          "slug": "nathair-sgiathach-scampdrake",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Lendys — Scale of Justice",
+          "slug": "lendys-scale-of-justice",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Tamara — Her Mercy",
+          "slug": "tamara-her-mercy",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Zorquan — Perfect Wyrm",
+          "slug": "zorquan-perfect-wyrm",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Questers of the Platinum Flame. A holy order of wandering knights-errant and companions dedicated to seeking out great evils and confronting them wherever they take root. They are guided by a brilliant blue flame first ignited within a platinum brazier, supposedly by Bahamut’s breath; and the flame glows brighter and flickers towards growing evil, and the Questers follow its direction",
+          "slug": "questers-of-the-platinum-flame-a-holy-order-of-wandering-knights-errant-and-companions-dedicated-to-seeking-out-great-evils-and-confronting-them-wherever-they-take-root-they-are-guided-by-a-brilliant-blue-flame-first-ignited-within-a-platinum-brazier-supposedly-by-bahamuts-breath-and-the-flame-glows-brighter-and-flickers-towards-growing-evil-and-the-questers-follow-its-direction",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "The Platinum Sanctuary. Grand cathedrals and fortified sanctuaries, serving as regional hearts of Bahamut’s worship. Within their walls, knights train, refugees are sheltered, alms given, and campaigns against great evils are planned. When many think of a given Temple of the Platinum Dragon, it is typically one such built and staffed by clergy trained by the Platinum Sanctuary",
+          "slug": "the-raven-queen",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Honour’s Last Stand",
+          "slug": "honours-last-stand",
+          "blurb": "",
+          "has_page": false
+        }
+      ]
+    },
+    "source_file": "Bahamut__The_Platinum_Dragon.md"
+  },
+  {
+    "slug": "bane",
+    "name": "Bane, the Strife Emperor",
+    "portfolio": "Black Handed God of Conflict | Discipline, Strategy, Warfare, and patron god of Goblinoids",
+    "alignment": "Lawful Evil",
+    "domains": [
+      "Forge",
+      "Order",
+      "War"
+    ],
+    "status": [
+      "Ourosi (Greater Deity)",
+      "Goblinoid Pantheon"
+    ],
+    "warlock_province": [
+      "Fiend",
+      "Hexblade"
+    ],
+    "tags": [
+      "OurosiDeity",
+      "GoblinoidPantheon",
+      "FiendPatron",
+      "HexbladePatron",
+      "ForgeDomain",
+      "OrderDomain",
+      "WarDomain"
+    ],
+    "cover_file": "BaneSymbol.webp",
+    "intro": [
+      "**Bane** is the Ourosi god of conflict, discipline, strategy, warfare, and oppression. Known as the **Strife Emperor** and the **Black Hand**, he is the patron of despots, warlords, drill-sergeants, and blood-drenched conquerors who seek to bend the world beneath ordered violence. Blood-drenched armies, brutal empires, and many goblinoid tribes worship him as they strike out to break “lesser peoples” and grind them into disciplined servitude. From his dread realm of Banehold, he acts indirectly through his priests, champions, and goblinoid demigods, pursuing a single, unchanging goal: total domination under his iron will."
+    ],
+    "infobox": {
+      "Alignment": "Lawful Evil",
+      "Symbol": "A steel gauntlet clutching a rusted chain",
+      "Portfolio": "Greater God of Conflict, Discipline, Oppression, Strategy, Warfare and patron of Goblinkind",
+      "Divine Realm": "Banehold, Myriad Battlefields of Acheron",
+      "Worshippers": "Goblinoids, conquerors, tyrants, and warlords"
+    },
+    "titles_line": "Strife Emperor, the Black Hand",
+    "domains_line": "Forge, Order, War",
+    "commandments": [
+      "Fear is your ally. Conquer your fear, and inspire it in your foes.",
+      "Disorder and rebellion are to be punished severely.",
+      "To kill is life's greatest pleasure, and perfecting the art of slaughter is life's greatest pursuit."
+    ],
+    "appendix": {
+      "title": "The Goblin Host — Goblinoid Pantheon",
+      "members": [
+        {
+          "name": "Maglubiyet, the Blue Chieftain",
+          "slug": "maglubiyet-blue-chieftain",
+          "blurb": "High Chieftain of the goblinoid gods and Bane’s favored general, Maglubiyet rules goblins and hobgoblins with an iron fist, urging constant war and strict internal hierarchy. Under Bane’s shadow, he drives goblinoid hordes to prove their worth in endless campaigns.",
+          "has_page": false
+        },
+        {
+          "name": "Hruggek, the Dropbear",
+          "slug": "hruggek-the-dropbear",
+          "blurb": "Chief deity of bugbears and exarch of Bane, Hruggek embodies ambush, violence, and murder. His priests decorate their halls with severed heads and serve as shock-commanders in Banite armies, sowing terror ahead of the main advance.",
+          "has_page": false
+        },
+        {
+          "name": "Grankhul, the Hunterbug",
+          "slug": "grankhul-the-hunterbug",
+          "blurb": "Bugbear god of stealth, hunting, and surprise, Grankhul teaches that the most perfect kill is one the victim never sees coming. As a lesser exarch, he lends the Strife Emperor elite scouts, assassins, and spies hidden behind the front lines.",
+          "has_page": false
+        },
+        {
+          "name": "Khurgorbaeyag, the Red Overseer",
+          "slug": "khurgorbaeyag-the-overseer",
+          "blurb": "].** Goblin god of slavery, oppression, and rigid social order. Khurgorbaeyag oversees slave-takings and camp discipline in Bane’s name, ensuring that every collar tightens the Black Hand’s grip.",
+          "has_page": false
+        },
+        {
+          "name": "Bargrivyek, Peace's Enforcer",
+          "slug": "bargrivyek-indurate-enforcer",
+          "blurb": "A god of goblinoid cooperation and unity, Bargrivyek keeps goblin and hobgoblin tribes pointed outward, making sure their aggression is directed toward expanding empires rather than internal feuds. He is no pacifist—his “peace” is one earned by quelling all dissenting voices.",
+          "has_page": false
+        },
+        {
+          "name": "Nomog-Geaya, the Red General",
+          "slug": "nomog-geaya-the-red-general",
+          "blurb": "Hobgoblin deity of war and authoritarian rule, Nomog-Geaya exemplifies brutal discipline, stoicism, and cold-blooded efficiency. As Maglubiyet’s chief lieutenant and a loyal exarch of Bane, he commands elite hobgoblin legions and embodies the ideal Banite officer: unquestioning, ruthless, and utterly devoted to victory and order.",
+          "has_page": false
+        },
+        {
+          "name": "Skiggaret, Bugbear's Bogeyman",
+          "slug": "skiggaret-bugbears-bogeyman",
+          "blurb": "The goblinoid bogeyman, and half-mad bugbear god of fear, darkness, and insanity, Skiggaret serves as Bane’s living weaponized terror against his own goblinoid troops. Among bugbears he is more often placated than worshipped; his sudden manifestations drive tribes to frenzied violence or flight.",
+          "has_page": false
+        },
+        {
+          "name": "Kikanuti — the Oasis Kiln",
+          "slug": "kikanuti-the-oasis-kiln",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Meriadar — Mongrel Saint",
+          "slug": "meriadar-mongrel-saint",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Sons of Maglubiyet. Bane and his exarchs have been uniquely devastated by the installment of the Divine Gate, as they exerting their control through physical prowess and dominance, and cannot do so when they cannot materialise before their faithful. Many goblinoid tribes have used this to justify as to why their kind have been grown to become ridiculed, and have in turn been inducted into this cult that seeks to build a living Avatar for the Blue Chieftain to inhabit, so he may lead goblinkind to a new, Great Goblin Conquest",
+          "slug": "sons-of-maglubiyet-bane-and-his-exarchs-have-been-uniquely-devastated-by-the-installment-of-the-divine-gate-as-they-exerting-their-control-through-physical-prowess-and-dominance-and-cannot-do-so-when-they-cannot-materialise-before-their-faithful-many-goblinoid-tribes-have-used-this-to-justify-as-to-why-their-kind-have-been-grown-to-become-ridiculed-and-have-in-turn-been-inducted-into-this-cult-that-seeks-to-build-a-living-avatar-for-the-blue-chieftain-to-inhabit-so-he-may-lead-goblinkind-to-a-new-great-goblin-conquest",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "The Bloody End",
+          "slug": "the-raven-queen",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "[Battletide](https://forgottenrealms.fandom.com/wiki/Battletide)",
+          "slug": "battletidehttpsforgottenrealmsfandomcomwikibattletide",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "[Closed Fist of Bane](https://forgottenrealms.fandom.com/wiki/The_closed_fist_of_Bane): 12d10 force, 1 round concentration, 60 feet. at the end of concentration deals damage, no damage otherwise",
+          "slug": "closed-fist-of-banehttpsforgottenrealmsfandomcomwikithe-closed-fist-of-bane-12d10-force-1-round-concentration-60-feet-at-the-end-of-concentration-deals-damage-no-damage-otherwise",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "[Create Baneguard](https://forgottenrealms.fandom.com/wiki/Create_baneguard)",
+          "slug": "create-baneguardhttpsforgottenrealmsfandomcomwikicreate-baneguard",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "[Dark Promise](https://forgottenrealms.fandom.com/wiki/Dark_promise)",
+          "slug": "dark-promisehttpsforgottenrealmsfandomcomwikidark-promise",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "[Death Symbol of Bane](https://forgottenrealms.fandom.com/wiki/Death_symbol_of_Bane)",
+          "slug": "death-symbol-of-banehttpsforgottenrealmsfandomcomwikideath-symbol-of-bane",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "[Doom of Bane](https://forgottenrealms.fandom.com/wiki/Doom_of_Bane)",
+          "slug": "doom-of-banehttpsforgottenrealmsfandomcomwikidoom-of-bane",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "[Moonveil](https://forgottenrealms.fandom.com/wiki/Moonveil)",
+          "slug": "moonveilhttpsforgottenrealmsfandomcomwikimoonveil",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "[Mystic Lash](https://forgottenrealms.fandom.com/wiki/Mystic_lash)",
+          "slug": "mystic-lashhttpsforgottenrealmsfandomcomwikimystic-lash",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "[Spirit Annihilation](https://forgottenrealms.fandom.com/wiki/Spirit_annihilation)",
+          "slug": "spirit-annihilationhttpsforgottenrealmsfandomcomwikispirit-annihilation",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "[Stone Walk](https://forgottenrealms.fandom.com/wiki/Stone_walk)",
+          "slug": "stone-walkhttpsforgottenrealmsfandomcomwikistone-walk",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "[Tyrant's Binding](https://forgottenrealms.fandom.com/wiki/Tyrant%27s_bindings)",
+          "slug": "tyrants-bindinghttpsforgottenrealmsfandomcomwikityrant27s-bindings",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "[Undeath After Death](https://forgottenrealms.fandom.com/wiki/Undeath_after_death)",
+          "slug": "undeath-after-deathhttpsforgottenrealmsfandomcomwikiundeath-after-death",
+          "blurb": "",
+          "has_page": false
+        }
+      ]
+    },
+    "source_file": "Bane__The_Strife_Emperor.md"
+  },
+  {
+    "slug": "corellon-larethian",
+    "name": "Corellon Larethian, the Arch-Seldarine",
+    "portfolio": "Beautiful God of Stars | Artistry, Magic, Reincarnation, and Elves",
+    "alignment": "Chaotic Good",
+    "domains": [
+      "Arcana",
+      "Beauty",
+      "Life",
+      "Light",
+      "Nature"
+    ],
+    "status": [
+      "Ourosi (Greater Deity)",
+      "Seldarine"
+    ],
+    "warlock_province": [
+      "Archfey",
+      "Celestial"
+    ],
+    "tags": [
+      "OurosiDeity",
+      "ElvenPantheon",
+      "ArchfeyPatron",
+      "CelestialPatron",
+      "ArcanaDomain",
+      "BeautyDomain",
+      "LifeDomain",
+      "LightDomain",
+      "NatureDomain"
+    ],
+    "cover_file": "CorellonSymbol.webp",
+    "intro": [
+      "**Corellon Larethian** is the Ourosi deity of elves, stars, springtime, magic, reincarnation, vanity, and artistry. Known as the **Seldarine** or **Arch Heart**, Corellon is the fey progenitor of the Seldarine pantheon and the elven peoples. The Seldarine is as fluid and changeable as a breeze or a brook—quick to anger, but equally quick to forgive and forget. Anyone who has felt the mystical presence of Corellon describes it as a joy like no other, followed by a deep melancholy when his presence is no longer felt. It was by the Arch-Seldarine's hand that the first elves wandered from the Fey Realm, and for this reason, they are considered the Parent of all elves. Those who seek art in all of their work, whether magic or mundane, often worship at the altar of Corellon. They loathe the Spider Queen and her priestesses for leading the drow astray."
+    ],
+    "infobox": {
+      "Alignment": "Chaotic Good",
+      "Symbol": "Two crescent moons facing each other atop a four-pointed star",
+      "Portfolio": "Greater God of Stars, Magic, Artistry, Reincarnation, and Elves",
+      "Divine Realm": "Crescent Grove, Arvandor, Arborea",
+      "Worshippers": "Elves, artists, centaur, fey"
+    },
+    "titles_line": "The Arch-Seldarine, the Arch-Heart, The Ascended Archfey, Their Brilliance",
+    "domains_line": "Arcana, Light, Nature",
+    "commandments": [
+      "Create, inspire, and find beauty in all that you do.",
+      "Follow the echoes of lost magic, forgotten sites,and ancient art, for within these lie the Seldarine's first works.",
+      "Combat the followers of the Spider Queen wherever they may be."
+    ],
+    "appendix": {
+      "title": "Seldarine — Elven Pantheon",
+      "members": [
+        {
+          "name": "Aerdrie Faenya — She of Azure Plumage",
+          "slug": "aerdrie-faenya-she-of-azure-plumage",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Deep Sashelas — Dolphin Prince",
+          "slug": "deep-sashelas-dolphin-prince",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Erevan Ilesere — the Green Changeling",
+          "slug": "erevan-ilesere-the-green-changeling",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Hanali Celanil — Fountain's Rose",
+          "slug": "hanali-celanil-fountains-rose",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Avachel — the Quicksilver Dragon",
+          "slug": "aasterinian-quicksilver-dragon",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Labelas Enoreth — Sage at Sunset",
+          "slug": "labelas-enoreth-sage-at-sunset",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Rillifane Rallathil — Many-Branched Wildling",
+          "slug": "rillifane-rallathil-many-branched-wildling",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Seha-Angharradh, The Moonweaver",
+          "slug": "seha-angharradh",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Solonor Thelandira — Unerring Archer",
+          "slug": "solonor-thelandira-unerring-archer",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Tarsellis Meunniduin — Frost Hermit",
+          "slug": "tarsellis-meunniduin-frost-hermit",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Vandria Gilmadrith — Lady Steelheart",
+          "slug": "vandria-gilmadrith-lady-steelheart",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Melira Taralen — Evergold Songstress",
+          "slug": "melira-taralen-evergold-songstress",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Araleth Letheranil — Prince of Stars",
+          "slug": "araleth-letheranil-prince-of-stars",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Fenmarel Mestarine — the Lone Wolf",
+          "slug": "fenmarel-mestarine-the-lone-wolf",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Naralis Analor — Watcher of Souls",
+          "slug": "naralis-analor-watcher-of-souls",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Trishina — Joyswimmer",
+          "slug": "trishina-joyswimmer",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Sarula Iliene — Nixie Queen",
+          "slug": "sarula-iliene-nixie-queen",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Tethrin Veraldé — Master of Blades",
+          "slug": "tethrin-veraldé-master-of-blades",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Shevarash — Black Archer",
+          "slug": "shevarash-black-archer",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Mythrien Sarath — Mythal Protector",
+          "slug": "mythrien-sarath-mythal-protector",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Kirith Sotheril — The Rainbow Magess",
+          "slug": "kirith-sotheril-the-rainbow-magess",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Elebrin Liothiel — Celestial Gardener",
+          "slug": "elebrin-liothiel-celestial-gardener",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Alobal Lorfiril — Merry Magician",
+          "slug": "alobal-lorfiril-merry-magician",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Alathrien Druanna — Glyphscribe",
+          "slug": "alathrien-druanna-glyphscribe",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "[Augment Artistry](https://forgottenrealms.fandom.com/wiki/Augment_artistry); advantage on artisan's tools",
+          "slug": "augment-artistryhttpsforgottenrealmsfandomcomwikiaugment-artistry-advantage-on-artisans-tools",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "[Crystallomancy](https://forgottenrealms.fandom.com/wiki/Crystallomancy); scry without concentration, you can cast spells through the sensor",
+          "slug": "crystallomancyhttpsforgottenrealmsfandomcomwikicrystallomancy-scry-without-concentration-you-can-cast-spells-through-the-sensor",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "[Probe Enemies](https://forgottenrealms.fandom.com/wiki/Probe_enemies); find the most dangerous enemy in a group",
+          "slug": "probe-enemieshttpsforgottenrealmsfandomcomwikiprobe-enemies-find-the-most-dangerous-enemy-in-a-group",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "[Sixth Sense](https://forgottenrealms.fandom.com/wiki/Sixth_sense); spidey sense",
+          "slug": "sixth-sensehttpsforgottenrealmsfandomcomwikisixth-sense-spidey-sense",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "[Sylvan Creature Form](https://forgottenrealms.fandom.com/wiki/Sylvan_creature_form); polmorph into a fey creature",
+          "slug": "sylvan-creature-formhttpsforgottenrealmsfandomcomwikisylvan-creature-form-polmorph-into-a-fey-creature",
+          "blurb": "",
+          "has_page": false
+        }
+      ]
+    },
+    "source_file": "Corellon_Larethian__The_Arch-Seldarine.md"
+  },
+  {
+    "slug": "eilistraee",
+    "name": "Eilistraee, Lady Silverhair",
+    "portfolio": "Graceful Goddess of Individuality | Night, Witchcraft, and Dance",
+    "alignment": "Chaotic Good",
+    "domains": [
+      "Beauty",
+      "Light",
+      "Moon",
+      "Peace",
+      "Twilight"
+    ],
+    "status": [
+      "Ourosi (Greater Deity)",
+      "Seldarine"
+    ],
+    "warlock_province": [
+      "Archfey",
+      "Hexblade"
+    ],
+    "tags": [
+      "OurosiDeity",
+      "ElvenPantheon",
+      "DrowPantheon",
+      "UnderdarkDeity"
+    ],
+    "cover_file": "Eilistraee.webp",
+    "intro": [
+      "Lady Silverhair is the patron of those who have been told to be ashamed of what they are and refused. Drow who have abandoned Lolth's web, witches who practice in open defiance, and those who have spent long years wearing masks they did not choose all find her in the open sky when they finally take it off. Eilistraee does not offer her followers an identity to adopt but demands they find the one already there, and voice it without apology. Her faithful dance beneath the open night not as ritual but as declaration, and they have a long tradition of turning that courage outward, inspiring others toward the same and standing against those who would deny it.",
+      "Eilistraee makes her home in Svartalfheim, a realm of deep forests and open glades beneath a starlit sky that shows no moon, where the dark is not something to hide in but something to finally be seen against."
+    ],
+    "infobox": {
+      "Alignment": "Chaotic Good",
+      "Symbol": "Nude drow dancer wielding a sword against a silver moon",
+      "Portfolio": "Greater Goddess of Individuality, Night, and Witchcraft",
+      "Divine Realm": "Svartalfheim, Heroic Domains of Ysgard",
+      "Worshippers": "Surface drow, minotaur, swordfighters, women, and witches"
+    },
+    "titles_line": "The Darkmaiden, Lady Silverhair",
+    "domains_line": "Light, Moon, Peace, Twilight",
+    "commandments": [
+      "Walk your own path, express your true self, and defend others’ right to do the same. Walk the night unafraid, and help others do the same.",
+      "Stand against Lolth’s cruelty wherever it spreads, but remember her faithful are being deceived.",
+      "Offer compassion to the lost and the exiled, that they may find a place in the world."
+    ],
+    "appendix": {
+      "title": "Liantarine — Drow Pantheon",
+      "members": []
+    },
+    "source_file": "Eilistraee__Lady_Silverhair.md"
+  },
+  {
+    "slug": "erathis",
+    "name": "Erathis, the Lawbearer",
+    "portfolio": "Stoic Goddess of Law | Civilization, Progress, and Peace",
+    "alignment": "Lawful Neutral",
+    "domains": [
+      "Knowledge",
+      "Order",
+      "Peace",
+      "War"
+    ],
+    "status": [],
+    "warlock_province": [
+      "Hexblade"
+    ],
+    "tags": [
+      "OurosiDeity",
+      "HexbladePatron",
+      "KnowledgeDomain",
+      "OrderDomain",
+      "PeaceDomain",
+      "WarDomain"
+    ],
+    "cover_file": "LawbearerSymbol.webp",
+    "intro": [
+      "**Erathis**, also known as **The Lawbearer** or the **Cobalt Lady**, is the goddess of civilization, law, peace, commerce, and progress. A patron of judges, lawmakers, city-builders, and inventors, she represents the order and structure that allows societies to flourish. The driving inspiration behind many great inventions, the creation of vast cities, and law and order within society, the Lawbearer claims dominion over civilization. Judges and lawful rulers pay respect at her temples, which are central structures in major cities around the world. Peace and order, through structure and law, guide the will of her devout followers. The Lawbearer has a tempestuous romance with the Wildmother, a furious love that is only tempered when civilization and nature are in balance. Civil unrest and riots blossom within her beloved cities in these times of imbalance."
+    ],
+    "infobox": {
+      "Alignment": "Lawful Neutral",
+      "Symbol": "Double-headed axe inset with a pattern of scales",
+      "Portfolio": "Greater Goddess of Law, Civilization, Commerce, Peace, and Progress.",
+      "Divine Realm": "Hestavar, Astral Sea",
+      "Worshippers": "Architects, judges, knights, minotaurs, rulers"
+    },
+    "titles_line": "Lawbearer, Steel Lady",
+    "domains_line": "Knowledge, Order, Peace, War",
+    "commandments": [
+      "Utilize the company and aid of others. The efforts of the individual often pale against the capabilities of community.",
+      "Strive to tame the wilds in the name of civilization,and defend the points of light and order against the chaos of darkness.",
+      "Uphold and revere the spirit of invention. Create new settlements, build where inspiration strikes,and expand the edicts of the Lawbearer."
+    ],
+    "appendix": {
+      "title": null,
+      "members": []
+    },
+    "source_file": "Erathis__The_Lawbearer.md"
+  },
+  {
+    "slug": "garl-glittergold",
+    "name": "Garl Glittergold, the Gemheart",
+    "portfolio": "Merry God of Artifice | Gemstones, Celebration, Wealth, and Gnomes",
+    "alignment": "Lawful Good",
+    "domains": [
+      "Arcana",
+      "Time",
+      "Trickery"
+    ],
+    "status": [
+      "Ourosi (Greater Deity)",
+      "Lords of Goldenhills"
+    ],
+    "warlock_province": [
+      "Archfey",
+      "Celestial",
+      "Genie (Earth)"
+    ],
+    "tags": [
+      "OurosiDeity",
+      "GnomePantheon",
+      "ArchfeyPatron",
+      "CelestialPatron",
+      "GeniePatron",
+      "ArcanaDomain",
+      "CommunityDomain",
+      "TrickeryDomain"
+    ],
+    "cover_file": "GarlSymbol.png",
+    "intro": [
+      "The Gemheart asks only this of the world: that it not take itself too seriously. Garl Glittergold is the laughing patron of invention and celebration, a golden-skinned eccentric who breathed the first gnomes into life from gems plucked off a cavern wall, then led them into the wider world by telling them a very good joke. That his children have repaid him by becoming the most curious, inventive, and joyful people in creation is a source of boundless pride. His clerics and followers, gnomes and otherwise, understand that wealth is not only gold, but the richness of a life well-lived: a clever solution, a room full of laughter, a thing made beautifully. Garl is accompanied always by Arumdina the Justifier, a sentient sapphire battleaxe who is widely considered the more sensible of the two.",
+      "Garl wanders freely throughout the Golden Hills, a seven-peaked realm that glows with warm light on the plane of Bytopia, though his own hill of Glitterhome sits at its heart. He is rarely found there."
+    ],
+    "infobox": {
+      "Alignment": "Lawful Good",
+      "Symbol": "A gold nugget",
+      "Portfolio": "Greater God of Artifice, Celebration, Jewels, Wealth, and Gnomes",
+      "Divine Realm": "The Goldenhills, Bytopia",
+      "Worshippers": "Gnomes, bards, gemcutters, inventors, jewellers"
+    },
+    "titles_line": "Lord of the Golden Hills, the Gemheart, the Merry Tinkerers",
+    "domains_line": "Arcana, Community, Trickery",
+    "commandments": [
+      "Seek wonder in every cavern, forest, and corner of the world.",
+      "Never take yourself too seriously, lest you lose touch with those you protect and care for.",
+      "Do not fear change or the unorthodox — therein lies the future."
+    ],
+    "appendix": {
+      "title": "Lords of Goldenhills — Gnome Pantheon",
+      "members": [
+        {
+          "name": "Baervan Wildwanderer, the Woodland Rascal",
+          "slug": "baervan-wildwanderer-woodland-rascal",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Baravar Cloakshadow, the Lord of Sly Disguise",
+          "slug": "baravar-cloakshadow-lord-of-sly-disguises",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Callarduran Smoothands, Brother Deepearth",
+          "slug": "callarduran-smoothhands-brother-deepearth",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Flandal Steelskin, the Great Steelsmith",
+          "slug": "flandal-steelskin-great-steelsmith",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Gaeldal Ironhand, the Shield of Goldenhills",
+          "slug": "gaerdal-ironhand-shield-of-goldenhills",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Nebelun the Meddler — the Interloping Inventor",
+          "slug": "nebelun-the-meddler-the-interloping-inventor",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Segojan Earthcaller, Lord of the Burrow",
+          "slug": "segojan-earthcaller-lord-of-the-burrow",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Sheyanna Flaxenstrand — Glamoured Princess",
+          "slug": "sheyanna-flaxenstrand-glamoured-princess",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Urdlen, the Mole of Gluttony",
+          "slug": "urdlen-crawler-below",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Ril Cleverthrush — Skylark Artist",
+          "slug": "ril-cleverthrush-skylark-artist",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Gelf Darkhearth — Twin of Sorrow",
+          "slug": "gelf-darkhearth-twin-of-sorrow",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Roykyn — Teasing Trickster",
+          "slug": "roykyn-teasing-trickster",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Three-Hundred Sibyls. The infamous order of mystics and diviners of Sibylline, the Three-Hundred Sibyls pay tribute to Garl Glittergold, Ioun, and Sardior in their operations, which entail the delving into distant worlds and environments to uncover the innovations of others and return them to Ouros. The Three-Hundred Sibyls and their observatory were Ouros’s source of information about the Dawn War as it was happening, as the gods did not walk or fight upon its surface, and did not return until they declared their departure and the installment of the Divine Gate",
+          "slug": "three-hundred-sibyls-the-infamous-order-of-mystics-and-diviners-of-sibylline-the-three-hundred-sibyls-pay-tribute-to-garl-glittergold-ioun-and-sardior-in-their-operations-which-entail-the-delving-into-distant-worlds-and-environments-to-uncover-the-innovations-of-others-and-return-them-to-ouros-the-three-hundred-sibyls-and-their-observatory-were-ouross-source-of-information-about-the-dawn-war-as-it-was-happening-as-the-gods-did-not-walk-or-fight-upon-its-surface-and-did-not-return-until-they-declared-their-departure-and-the-installment-of-the-divine-gate",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "[Conjure Aurumvorax](https://forgottenrealms.fandom.com/wiki/Conjure_aurumvorax)",
+          "slug": "conjure-aurumvoraxhttpsforgottenrealmsfandomcomwikiconjure-aurumvorax",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "[Edge of Arumdina](https://forgottenrealms.fandom.com/wiki/Edge_of_Arumdina)",
+          "slug": "edge-of-arumdinahttpsforgottenrealmsfandomcomwikiedge-of-arumdina",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "[Gembomb](https://forgottenrealms.fandom.com/wiki/Gembomb)",
+          "slug": "gembombhttpsforgottenrealmsfandomcomwikigembomb",
+          "blurb": "",
+          "has_page": false
+        }
+      ]
+    },
+    "source_file": "Garl_Glittergold__the_Gemheart.md"
+  },
+  {
+    "slug": "gruumsh-one-eye",
+    "name": "Gruumsh One-Eye, the Ruiner",
+    "portfolio": "Cursed God of Disaster | Natural Disasters, Outcasts, Strength, and Orcs",
+    "alignment": "Chaotic Evil",
+    "domains": [
+      "Blood",
+      "Cataclysm",
+      "Death",
+      "Grave",
+      "Hunt",
+      "Nature",
+      "War"
+    ],
+    "status": [
+      "Ourosi (Greater Deity)",
+      "Tribe of He-Who-Watches"
+    ],
+    "warlock_province": [
+      "Fiend",
+      "Hexblade",
+      "Undying"
+    ],
+    "tags": [
+      "OurosiDeity",
+      "OrcPantheon",
+      "FiendPatron",
+      "HexbladePatron",
+      "UndyingPatron",
+      "BloodDomain",
+      "CataclysmDomain",
+      "DeathDomain",
+      "GraveDomain",
+      "HuntDomain",
+      "NatureDomain",
+      "WarDomain"
+    ],
+    "cover_file": "GruumshSymbol.webp",
+    "intro": [
+      "**Gruumsh** (pronounced: /gruːmʃ/ GROO-msh), known as **One-Eye** and **the Ruiner**, is the Ourosi god of orcs, slaughter, natural disasters, outcasts, curses, and destructive fury. To his faithful, the world is a kill-or-be-killed hunting ground locked forever in a neolithic dusk, where only raw strength and ruthless will deserve to endure. As undisputed ruler of the orcish pantheon, Gruumsh drives his children to multiply, raid, and burn, despising walls, laws, and comforts as lies that shelter the weak from the trials they deserve. Earthquakes, landslides, volcanic fire, and plague are preached as his scouring gifts—great culls that tear down the soft and leave only the hard, the hungry, and the worthy standing."
+    ],
+    "infobox": {
+      "Alignment": "Chaotic Evil",
+      "Symbol": "A single, unlinking, bleeding eye",
+      "Portfolio": "Greater God of Natural Disasters, Curses, Outcasts, Strength, and Orcs",
+      "Divine Realm": "Nishrek, Avalas, Myriad Battlefields of Acheron",
+      "Worshippers": "Orcs, beastfolk barbarians, outcasts, raiders"
+    },
+    "titles_line": "The Ruiner, The Cursed God, He Who Never Sleeps",
+    "domains_line": "Blood, Death, Grave, Nature, War",
+    "commandments": [
+      "Raid. Take what you need to survive and thrive.",
+      "Strength is all. The strongest rules. This is the only law.",
+      "There are no emotions but fury and joy. The rest are weakness."
+    ],
+    "appendix": {
+      "title": "Tribe of He-Who-Watches — Orcish Pantheon",
+      "members": [
+        {
+          "name": "Bahgtru — Fist of the Chieftain",
+          "slug": "bahgtru-fist-of-the-chieftain",
+          "blurb": "Orc god of brute strength and unquestioning loyalty.",
+          "has_page": false
+        },
+        {
+          "name": "Ilneval — the Hordemaker",
+          "slug": "ilneval-the-hordemaker",
+          "blurb": "Orc god of strategy and command, patron of war-leaders.",
+          "has_page": false
+        },
+        {
+          "name": "Luthic — Bloodmoon Mother",
+          "slug": "luthic-bloodmoon-mother",
+          "blurb": "Orc goddess of healing and fecundity, who tends the tribe so it can continue fighting.",
+          "has_page": false
+        },
+        {
+          "name": "Shargaas — the Stalker Below",
+          "slug": "shargaas-the-stalker-below",
+          "blurb": "Orc god of darkness, dishonour, and murder.",
+          "has_page": false
+        },
+        {
+          "name": "Yurtrus — the White-Handed",
+          "slug": "yurtrus-the-white-handed",
+          "blurb": "Orc god of disease and decay, keeper of plagues and slow, suffocating deaths.",
+          "has_page": false
+        },
+        {
+          "name": "Obould Many-Arrows — Iron Khan",
+          "slug": "obould-many-arrows-iron-khan",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Ruiner’s Horde. A loose term for the great war-hosts that periodically form under a single vision or charismatic Eye of Gruumsh. These hordes often arise in the wake of natural disasters—earthquakes, eruptions, plagues—which are taken as signs that the time has come to sweep aside weakened realms. Each horde is short-lived but devastating, burning out only when internal challenges finally kill its war-leader or rival gods intervene",
+          "slug": "ruiners-horde-a-loose-term-for-the-great-war-hosts-that-periodically-form-under-a-single-vision-or-charismatic-eye-of-gruumsh-these-hordes-often-arise-in-the-wake-of-natural-disastersearthquakes-eruptions-plagueswhich-are-taken-as-signs-that-the-time-has-come-to-sweep-aside-weakened-realms-each-horde-is-short-lived-but-devastating-burning-out-only-when-internal-challenges-finally-kill-its-war-leader-or-rival-gods-intervene",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Eyes of One-Eye. The scattered network of Eyes of Gruumsh across Ouros, who occasionally convene in blood-soaked moot-sites to decide whether a rising war-chief truly holds the god’s favor or must be tested by ordeal",
+          "slug": "eyes-of-one-eye-the-scattered-network-of-eyes-of-gruumsh-across-ouros-who-occasionally-convene-in-blood-soaked-moot-sites-to-decide-whether-a-rising-war-chief-truly-holds-the-gods-favor-or-must-be-tested-by-ordeal",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Ruin’s Wake. An infamous axe and Arm of the Betrayers, Ruin’s Wake appears as a jagged, cleaver-like weapon that seems permanently wet with old blood. In legend, its blows topple walls as easily as warriors, and on the eve of a great raid its wielder dreams of a single blazing eye showing them which settlements are ripe for slaughter. In Ouros, Ruin’s Wake is said to reappear whenever a horde grows strong enough to threaten an age of relative peace",
+          "slug": "ruins-wake-an-infamous-axe-and-arm-of-the-betrayers-ruins-wake-appears-as-a-jagged-cleaver-like-weapon-that-seems-permanently-wet-with-old-blood-in-legend-its-blows-topple-walls-as-easily-as-warriors-and-on-the-eve-of-a-great-raid-its-wielder-dreams-of-a-single-blazing-eye-showing-them-which-settlements-are-ripe-for-slaughter-in-ouros-ruins-wake-is-said-to-reappear-whenever-a-horde-grows-strong-enough-to-threaten-an-age-of-relative-peace",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Battle Line",
+          "slug": "battle-line",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Pocket Cave",
+          "slug": "pocket-cave",
+          "blurb": "",
+          "has_page": false
+        }
+      ]
+    },
+    "source_file": "Gruumsh_One-Eye__The_Ruiner.md"
+  },
+  {
+    "slug": "ioun",
+    "name": "Ioun, the Knowing Mentor",
+    "portfolio": "Wounded Goddess of Knowledge | Education, Language, Lore, Prophecy, Skill, Truth, and Wizardry",
+    "alignment": "Neutral / Unaligned",
+    "domains": [
+      "Arcana",
+      "Knowledge",
+      "Time",
+      "Twilight"
+    ],
+    "status": [
+      "Ourosi (Greater Deity)"
+    ],
+    "warlock_province": [
+      "Great Old One"
+    ],
+    "tags": [
+      "OurosiDeity",
+      "GreatOldOnePatron"
+    ],
+    "cover_file": "IounSymbol.webp",
+    "intro": [
+      "Ioun (pronounced: /aɪˈuːn/ eye-OON), the Knowing Mentor, is the Ourosi goddess of knowledge, truth, prophecy, divination, and skill. Also known as the Knowing Mistress and the Cobalt Prophet, she is revered by sages, seers, archivists, and tacticians, as well as any who live by wit and learning rather than strength of arm. Revered by seers, sages, and teachers of all walks of life, the Knowing Mentor guided the growth of civilization throughout the ages like sunlight guides the branches of a tree. Her teachings were silenced when she was grievously wounded by the Chained Oblivion during the Calamity, and though she survived and went into hiding behind the Divine Gate, her followers are hunted by agents of her ancient foes to this day; but Truth and Knowledge cannot be quelled so easily."
+    ],
+    "infobox": {
+      "Alignment": "Neutral",
+      "Symbol": "Pair of open eyes crowned with a third open eye",
+      "Portfolio": "Greater Goddess of Truth, Education, Knowledge, Language, Lore, Prophecy, Skill, and Wizardry",
+      "Divine Realm": "Endless Atheneum",
+      "Worshippers": "Sages, seers, scribes, students, wizards"
+    },
+    "titles_line": "The Knowing Mentor, Knowing Mistress, Cobalt Prophet, Knowing Goddess of Truth.",
+    "domains_line": "Arcana, Knowledge, Twilight",
+    "commandments": [
+      "Unmask those who would destroy the Knowing Mentor. Learn their secrets and unveil them to the world.",
+      "Uphold and teach the importance of reason, perception, and truth in guiding one's emotions and path.",
+      "Condemn those who lie without moral cause, for evil folk gain power when their followers obscure the truth. Never stoop to the level of selfish liars."
+    ],
+    "appendix": {
+      "title": null,
+      "members": [
+        {
+          "name": "The Three-Hundred Sibyls. A council of oracular mystics based in Sibylline, who honor Garl, Sardior, and Ioun jointly. Where they work in her name, they focus on interpreting world-spanning events and warning of threats to knowledge itself",
+          "slug": "the-raven-queen",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "The Cobalt Soul. A monastic order founded in the wake of the Calamity, devoted to the recovery of lost knowledge and the exposure of lies. Members blend martial discipline with rigorous study, believing that ignorance is the root of tyranny. Many of their monasteries operate as public archives and universities by day and intelligence networks by night",
+          "slug": "the-raven-queen",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Ioun Stones. Not commonly recognised as such divine relics as rare enchanted gems from an earlier era, these multifaceted crystals and motes of mineral light orbit the heads of those blessed by Ioun, granting insight, memory, and other boons. Some traditions claim they grow naturally in the deep planes of mineral and starlight; others insist they are shards of her own ever-turning thought, broken off and gifted to mortals",
+          "slug": "ioun",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
+    },
+    "source_file": "Ioun__The_Knowing_Mentor.md"
+  },
+  {
+    "slug": "kord",
+    "name": "Kord, the Stormwarrior",
+    "portfolio": "Testing God of Skies | Storms, Athletics, Contests, Heroism, Victory, and patron god of Giants.",
+    "alignment": "Chaotic Neutral",
+    "domains": [
+      "Tempest",
+      "War"
+    ],
+    "status": [
+      "Ourosi (Greater Deity)",
+      "Interloper (Lesser Deity)",
+      "Ordning"
+    ],
+    "warlock_province": [
+      "Genie (Air)",
+      "Hexblade"
+    ],
+    "tags": [
+      "OurosiDeity",
+      "GiantPantheon",
+      "GeniePatron",
+      "HexbladePatron",
+      "HuntDomain",
+      "TempestDomain",
+      "WarDomain"
+    ],
+    "cover_file": "KordSymbol.webp",
+    "intro": [
+      "**Kord**, better known as **the Stormlord**, is the Ourosi god of the sky, storms, battle, health, victory, and heroic contest. Also called the Stormbringer and Dragonslayer God, he is revered by warriors, sailors, gladiators, and athletes across the world, and honored by giantkind of the Ourosi faith. Reveling in all tests of strength, the blessing of the Stormlord finds those that prove themselves on the battlefield. Worshiped by athletes and warriors all across Ouros, he exalts those whose force of spirit and passion for victory call his attention. He brings tumultuous storms over land and sea, and those who wish for clearer skies offer their praises and prayers to appease him."
+    ],
+    "infobox": {
+      "Alignment": "Chaotic Neutral",
+      "Symbol": "Four bolts of lightning radiating from the centre of a shield",
+      "Portfolio": "Greater God of Storms, Skies, Athletics, Battle, Heroes, Victory, and patron of Giants",
+      "Divine Realm": "Heroic Domains of Ysgard#Jotunheim",
+      "Worshippers": "Goliath, athletes, giants, giantkin, gladiators, heroes, sailors, warriors"
+    },
+    "titles_line": "The Stormwarrior, The Dragonslayer God, the Testing Tempest",
+    "domains_line": "Tempest, War",
+    "commandments": [
+      "Bravery above all. There is no glory in cowardice.",
+      "Strength is the path to greatness, but greatness is the responsible use of strength.",
+      "The glory of the Stormlord lives through your own glory on the battlefield."
+    ],
+    "appendix": {
+      "title": "The Ordning — Giant Pantheon",
+      "members": [
+        {
+          "name": "Stormgirdle",
+          "slug": "stormgirdle",
+          "blurb": "",
+          "has_page": false
+        }
+      ]
+    },
+    "source_file": "Kord__The_Stormwarrior.md"
+  },
+  {
+    "slug": "lamashtu",
+    "name": "Lamashtu, Mother of Monsters",
+    "portfolio": "Maternal Goddess of Corruption | Monsters, Evolution, Transformation, Famine, and Vermin.",
+    "alignment": "Chaotic Evil",
+    "domains": [
+      "Beauty",
+      "Blood",
+      "Nature",
+      "Trickery"
+    ],
+    "status": [
+      "Ourosi (Greater Deity)",
+      "Demon Prince"
+    ],
+    "warlock_province": [
+      "Fiend",
+      "Hexblade",
+      "Undead",
+      "Undying"
+    ],
+    "tags": [
+      "OurosiDeity",
+      "AbyssPrince",
+      "FiendPatron",
+      "HexbladePatron",
+      "UndeadPatron",
+      "UndyingPatron"
+    ],
+    "cover_file": "LamashtuSymbol.webp",
+    "intro": [
+      "The Mother of Monsters is older than the current order of the Abyss, an Obyrith queen who remembers the Tanar'ri before they had shape or purpose, and who pressed both into a fraction of them to make the first demon lords. Gnolls, goblins, the deformed, and the discarded worship Lamashtu not for healing of these forms, but for the conviction that what the world names an abomination is simply something it does not yet have the courage to understand. Her faithful seek to spread that understanding by force if necessary, and mutation is not a curse in her theology but a gift still working.",
+      "Lamashtu rules from Kurnugia, the 366th layer of the Abyss, a realm of warped terrain and ancient warrens where her children are born and remade without end."
+    ],
+    "infobox": {
+      "Alignment": "Chaotic Evil",
+      "Symbol": "",
+      "Portfolio": "Greater Goddess of Monsters, Corruption, Famine, Evolution, and Vermin",
+      "Divine Realm": "Kurnugia, Abyss",
+      "Worshippers": ""
+    },
+    "titles_line": "Mother of Monsters, Obyrith Queen",
+    "domains_line": "Beauty, Blood, Nature, Trickery",
+    "commandments": [
+      "Never change that which makes you different",
+      "Make the beautiful monstrous, and the monstrous beautiful",
+      "Reveal the corruption and flaws in all things"
+    ],
+    "appendix": {
+      "title": "Abyssal Lords — Demon Princes of the Abyss",
+      "members": [
+        {
+          "name": "Demogorgon — Prince of Demons",
+          "slug": "demogorgon-prince-of-demons",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Orcus — Prince of Undeath",
+          "slug": "orcus-prince-of-undeath",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Graz'zt — Prince of Infinite Pleasures",
+          "slug": "grazzt-prince-of-infinite-pleasures",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Baphomet — Prince of Beasts",
+          "slug": "baphomet-prince-of-beasts",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Yeenoghu — the Beast of Butchery",
+          "slug": "yeenoghu-the-beast-of-butchery",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Jubilex — Prince of Slimes",
+          "slug": "jubilex-prince-of-slimes",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Fraz-Urb'luu — Prince of Deception",
+          "slug": "fraz-urbluu-prince-of-deception",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Kostchtchie — Prince of Wrath",
+          "slug": "kostchtchie-prince-of-wrath",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Malcanthet — Queen of the Succubi",
+          "slug": "malcanthet-queen-of-the-succubi",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Zuggtmoy — Queen of Fungi",
+          "slug": "zuggtmoy-queen-of-fungi",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Concubines of Second Birth. The Concubines of Second Birth preserve worthy demons and champions through a dark rite. On the eve of battle, a warrior’s soul is bound to a concubine. If the warrior falls, their soul fuses with her, gestating within until rebirth as a Demon. The concubine temporarily gains aspects of the warrior’s strength but is drained by each birth, their soul withering over time. Despite their inevitable demise, the concubines willingly embrace this fate, venerating Lamashtu and ensuring no worthy soul is lost to the grave",
+          "slug": "concubines-of-second-birth-the-concubines-of-second-birth-preserve-worthy-demons-and-champions-through-a-dark-rite-on-the-eve-of-battle-a-warriors-soul-is-bound-to-a-concubine-if-the-warrior-falls-their-soul-fuses-with-her-gestating-within-until-rebirth-as-a-demon-the-concubine-temporarily-gains-aspects-of-the-warriors-strength-but-is-drained-by-each-birth-their-soul-withering-over-time-despite-their-inevitable-demise-the-concubines-willingly-embrace-this-fate-venerating-lamashtu-and-ensuring-no-worthy-soul-is-lost-to-the-grave",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Ikathi di Televara, the Siblingsword. This jagged, whispering weapon causes demons to imprint upon its bearer as if they were an honored sibling worthy of following. As long as the wielder sheds blood in Lamashtu’s name, the blade can wrench their “siblings” across planar boundaries, summoning demons from the Abyss to serve as a howling brood under their control. Hand-made by Lectus Arl, deceased champion of Lamashtu, from a broken fragment of the Rock of Oblivion",
+          "slug": "ikathi-di-televara-the-siblingsword-this-jagged-whispering-weapon-causes-demons-to-imprint-upon-its-bearer-as-if-they-were-an-honored-sibling-worthy-of-following-as-long-as-the-wielder-sheds-blood-in-lamashtus-name-the-blade-can-wrench-their-siblings-across-planar-boundaries-summoning-demons-from-the-abyss-to-serve-as-a-howling-brood-under-their-control-hand-made-by-lectus-arl-deceased-champion-of-lamashtu-from-a-broken-fragment-of-the-rock-of-oblivion",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Rock of Oblivion. A dense, light-devouring shard torn from the deepest layers of the Abyss during Nerigoth’s War. The Rock of Oblivion acts as a knife to reality: when awakened, it tears open the planes around it, allowing demons to pour through in chaotic waves. In Hemor, it once served as the beating heart of Lamashtu’s war-machine, sustaining the demonic legions of the Magus General until it was sealed away",
+          "slug": "rock-of-oblivion-a-dense-light-devouring-shard-torn-from-the-deepest-layers-of-the-abyss-during-nerigoths-war-the-rock-of-oblivion-acts-as-a-knife-to-reality-when-awakened-it-tears-open-the-planes-around-it-allowing-demons-to-pour-through-in-chaotic-waves-in-hemor-it-once-served-as-the-beating-heart-of-lamashtus-war-machine-sustaining-the-demonic-legions-of-the-magus-general-until-it-was-sealed-away",
+          "blurb": "",
+          "has_page": false
+        }
+      ]
+    },
+    "source_file": "Lamashtu__Mother_of_Monsters.md"
+  },
+  {
+    "slug": "lolth",
+    "name": "Lolth, the Spider Queen",
+    "portfolio": "Scheming Goddess of Nightmares | Betrayal, Espionage, Manipulation, and Drow.",
+    "alignment": "Chaotic Evil",
+    "domains": [
+      "Beauty",
+      "Knowledge",
+      "Trickery",
+      "War"
+    ],
+    "status": [
+      "Ourosi (Greater Deity)",
+      "Demon Prince",
+      "Seldarine"
+    ],
+    "warlock_province": [
+      "Fiend",
+      "Undead"
+    ],
+    "tags": [
+      "OurosiDeity",
+      "ElvenPantheon",
+      "DrowPantheon",
+      "BeautyDomain",
+      "KnowledgeDomain",
+      "TrickeryDomain",
+      "WarDomain",
+      "FiendPatron",
+      "HexbladePatron",
+      "UndeadPatron",
+      "AbyssPrince",
+      "UnderdarkDeity"
+    ],
+    "cover_file": "LolthSymbol.webp",
+    "intro": [
+      "Lolth (pronounced /loʊlθ/ LOHLTH or /lɒlθ/ LOLTH), known in elder elven myths as **Aurashnee**, is the Ourosi goddess of spiders, nightmares, paranoia, disloyalty, and espionage, and the chief patron of the drow and the Dark Seldarine. Once a lesser elven goddess of destiny and artisans and consort to Corellon, she retreated into the Abyss after a failed coup against the Seldarine and was remade as the **Demon Queen of Spiders**, ruling the Demonweb Pits. Feared as much as she is worshipped, Lolth embodies treachery elevated to a sacred principle: she demands ruthless ambition, cultivates obsessive mistrust, and delights in turning kin against kin. Among the elves she is reviled as the architect of the drow’s fall; among drow, she is both jailer and patron, rewarding bloody devotion with power while ensuring her children never grow united enough to escape her web."
+    ],
+    "infobox": {
+      "Alignment": "Chaotic Evil",
+      "Symbol": "A bejewelled spider",
+      "Portfolio": "Greater Goddess of Nightmares, Betrayal, Espionage, Manipulation, Seduction, and Drow",
+      "Divine Realm": "Demonweb Pits, 66th Layer of the Abyss",
+      "Worshippers": "Drow, assassins, matriarchal societies, spiders, spies"
+    },
+    "titles_line": "Queen of Spiders, Lady of Demonwebs, Mistress of Lies",
+    "domains_line": "Knowledge, Trickery, War",
+    "commandments": [
+      "It is better to be loved than feared, but you may certainly try to be both.",
+      "Misdirection, slander, and shadowed steps have more function than direct conflict.",
+      "Death to the elves who live under the stars, and death to all their allies!"
+    ],
+    "appendix": {
+      "title": "Liantarine — Drow Pantheon",
+      "members": [
+        {
+          "name": "Vhaeraun, Prince of the Stage",
+          "slug": "vhaeraun",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Eilistraee, Lady Silverhair",
+          "slug": "eilistraee",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Ghaunadaur — That-Which-Lurks",
+          "slug": "ghaunadaur-that-which-lurks",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Keptolo — the Masochedonist",
+          "slug": "keptolo-the-masochedonist",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Kiaransalee — Banshee's Bride",
+          "slug": "kiaransalee-banshees-bride",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Selvetarm — Champion of the Spider",
+          "slug": "selvetarm-champion-of-the-spider",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Malyk — Maelstrom Magus",
+          "slug": "malyk-maelstrom-magus",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Zinzerena — Princess of the Outcasts",
+          "slug": "zinzerena-princess-of-the-outcasts",
+          "blurb": "",
+          "has_page": false
+        }
+      ]
+    },
+    "source_file": "Lolth__The_Queen_of_Spiders.md"
+  },
+  {
+    "slug": "the-raven-queen",
+    "name": "The Raven Queen, the Duskmaven",
+    "portfolio": "Goddess of Death, Psychopomps, Memory, the Afterlife, Fate, and Winter",
+    "alignment": "Lawful Neutral",
+    "domains": [
+      "Blood",
+      "Death",
+      "Grave",
+      "Time",
+      "Twilight"
+    ],
+    "status": [
+      "Ourosi (Greater Deity)"
+    ],
+    "warlock_province": [
+      "Hexblade",
+      "Undying"
+    ],
+    "tags": [
+      "OurosiDeity",
+      "HexbladePatron",
+      "UndyingPatron"
+    ],
+    "cover_file": "TRQSymbol.webp",
+    "intro": [
+      "Master of the skein of fate and the mistress of winter, the Matron of Ravens is the god of death. Her gaze follows and marks the end of each mortal life, watching over the transition between life and death—and ensuring that the natural transition is undefiled. Mourners at funerals across the land invoke her blessing in hopes that she will protect the deceased from the terrible curse of undeath.",
+      "Keepers of ancient lore believe the Matron of Ravens was once mortal herself, and thus the only mortal known to have ascended to godhood—before the rise of The Whispered One, at least. Her rise instantly obliterated the previous, now-forgotten god of death, and in its wake, the other gods quickly and fearfully destroyed the secrets to the rites of ascension."
+    ],
+    "infobox": {
+      "Alignment": "Lawful Neutral",
+      "Symbol": "A white, featureless humanoid mask framed in black feathers.",
+      "Portfolio": "Greater Goddess of Death, the Afterlife, Fate, Psychopomps, and Winter",
+      "Divine Realm": "Letherna, Shadowfell",
+      "Worshippers": ""
+    },
+    "titles_line": "Matron of Ravens, Duskmaven, Ebon Queen",
+    "domains_line": "Blood, Death, Grave, Twilight",
+    "commandments": [
+      "Death is the natural end of life. Grieve the fallen, but do not pity them. Exult in the time that they were granted.",
+      "The path of Fate is sacrosanct. Those who pridefully cast off destiny must be punished.",
+      "Undeath is an atrocity. Death is too good a punishment for those who pervert the rightful transition of the soul."
+    ],
+    "appendix": {
+      "title": "Psychopomps of Ouros",
+      "members": []
+    },
+    "source_file": "Matron_of_Ravens__The_Raven_Queen.md"
+  },
+  {
+    "slug": "melora",
+    "name": "Melora, the Wildmother",
+    "portfolio": "Verdant Goddess of Wilderness | Beasts, Nature, Hunters, and Seas",
+    "alignment": "Neutral / Unaligned",
+    "domains": [
+      "Hunt",
+      "Life",
+      "Nature",
+      "Tempest"
+    ],
+    "status": [
+      "Ourosi (Greater Deity)"
+    ],
+    "warlock_province": [
+      "Fathomless",
+      "Genie (Air)",
+      "Genie (Earth)",
+      "Genie (Fire)",
+      "Genie (Water)"
+    ],
+    "tags": [
+      "OurosiDeity",
+      "FathomlessPatron",
+      "GeniePatron"
+    ],
+    "cover_file": "MeloraSymbol2.png",
+    "intro": [
+      "**Melora**, widely known as the **Wildmother**, is the Ourosi goddess of natural cycles, beasts, wilderness, hunters, and the restless seas. A neutral prime deity, she embodies both the gentleness and the ferocity of the living world—from fertile fields and calm tides to apex predators, and the slow reclamation of fallen cities by root and wave. Hunters, druids, sailors, and nomads revere her as the mother of untamed places and the shifting ocean, seeking her blessing to live in harmony with lands and waters that still bear their wild fangs."
+    ],
+    "infobox": {
+      "Alignment": "Neutral",
+      "Symbol": "A wreath of plantlife affixed to an anchor or crook.",
+      "Portfolio": "Greater Goddess of Nature, Beasts, Hunters, Seas, Wilderness and patron of Beastfolk.",
+      "Divine Realm": "Happy Hunting Grounds of the Beastlands",
+      "Worshippers": "Beastfolk, druids, hunters, rangers, sailors"
+    },
+    "titles_line": "Serataani, Wildmother",
+    "domains_line": "Life, Nature, Tempest",
+    "commandments": [
+      "Protect the untamed wilderness from exploitation and destruction.",
+      "Slay abominations and other mockeries of nature.",
+      "Embrace and respect that which you cannot control in this world. Exist in harmony with it."
+    ],
+    "appendix": null,
+    "source_file": "Melora__The_Wildmother.md"
+  },
+  {
+    "slug": "moradin",
+    "name": "Moradin, the All-Hammer",
+    "portfolio": "Industrious God of Creation | Loyalty, Labour, Artisans, Machines, and Dwarves",
+    "alignment": "Lawful Good",
+    "domains": [
+      "Forge",
+      "Knowledge"
+    ],
+    "status": [
+      "Ourosi (Greater Deity)",
+      "Morndinsamman"
+    ],
+    "warlock_province": [
+      "Celestial",
+      "Genie (Fire)",
+      "Genie (Earth)",
+      "Hexblade"
+    ],
+    "tags": [
+      "OurosiDeity",
+      "DwarfPantheon",
+      "CelestialPatron",
+      "GeniePatron",
+      "HexbladePatron"
+    ],
+    "cover_file": "MoradinSymbol.webp",
+    "intro": [
+      "**Moradin **(pronounced /MOAR-uh-din/), also known as the **All-Hammer**, **Dwarf Father**, and **Forger of Souls**, is the Ourosi god of dwarves, creation, craftsmen, stonework, smithing, and loyalty. Chief of the Morndinsamman and patron of the dwarven race as a whole, he is revered as the master of every craft his children practice and the architect of their souls. The patron of craft and creation, the All-Hammer is worshipped by smiths, artisans, and miners alike, granting inspiration where respect and prayer are given. Devotion to the All-Hammer is strongest in dwarven communities, even giving claim to the Solerian dwarven nation of the Spears of Erenval, said to be the mountains from which dwarves first sprung upon Ouros."
+    ],
+    "infobox": {
+      "Alignment": "Lawful Good",
+      "Symbol": "A hammer with ends carved in the likeness of dwarven heads",
+      "Portfolio": "Greater God of Creation, Artisans, Harmony, Loyalty, Labour, Machines, and Dwarves",
+      "Divine Realm": "Dwarfhome, Solania, Mt. Celestia",
+      "Worshippers": "Dwarves, artisans, craftsmen, engineers, guildmasters, and labourers"
+    },
+    "titles_line": "The All-Hammer, Dwarf Father, Forger of Souls",
+    "domains_line": "Forge, Knowledge",
+    "commandments": [
+      "Remain stoic and tenacious in the face of catastrophe.",
+      "Uphold and promote loyalty to your family, loyalty to your clan, and loyalty to your people.",
+      "Legacy is paramount. To create something that lasts is to change the world for the better."
+    ],
+    "appendix": {
+      "title": "Morndinsamman — Dwarven Pantheon",
+      "members": [
+        {
+          "name": "Abbathor — the Avaricious Trovelord",
+          "slug": "abbathor-the-avaricious-trovelord",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Berronar Truesilver — Revered Mother",
+          "slug": "berronar-truesilver-revered-mother",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Clangeddin Silverbeard — Rock of Battle",
+          "slug": "clangeddin-silverbeard-rock-of-battle",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Dugmaren Brightmantle — the Errant Explorer",
+          "slug": "dugmaren-brightmantle-the-errant-explorer",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Dumathoin — Keeper Under the Mountain",
+          "slug": "dumathoin-keeper-under-the-mountain",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Dugmaren Brightmantle — the Errant Explorer",
+          "slug": "dugmaren-brightmantle-the-errant-explorer",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Gorm Gulthyn — Lord Bronzemask",
+          "slug": "gorm-gulthyn-lord-bronzemask",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Haela Brightaxe — Lady of the Fray",
+          "slug": "haela-brightaxe-lady-of-the-fray",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Hanseath — Bearded Brewer",
+          "slug": "hanseath-bearded-brewer",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Marthammor Duin — Watcher over Wanderers",
+          "slug": "marthammor-duin-watcher-over-wanderers",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Sharindlar — the Shining Dancer",
+          "slug": "sharindlar-the-shining-dancer",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Thard Harr — Dwarf of Jungle Deeps",
+          "slug": "thard-harr-dwarf-of-jungle-deeps",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Vergadain — the Laughing Merchant",
+          "slug": "vergadain-the-laughing-merchant",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Valkauna — the Runecarver",
+          "slug": "valkauna-the-runecarver",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Thautam — the Blind Sage",
+          "slug": "thautam-the-blind-sage",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Mya — Arch-Völva",
+          "slug": "mya-arch-völva",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Ulaa — Immaculate Princess",
+          "slug": "ulaa-immaculate-princess",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Roknar — Lord with Two Tongues",
+          "slug": "roknar-lord-with-two-tongues",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Gendwar Argrim — Doomed Dwarf",
+          "slug": "gendwar-argrim-doomed-dwarf",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Laduguer — Exile in Grey",
+          "slug": "laduguer-exile-in-grey",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Deep Duerra — Queen of the Invisible Art",
+          "slug": "deep-duerra-queen-of-the-invisible-art",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Diirinka — the Betrayer Savant",
+          "slug": "diirinka-the-betrayer-savant",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Diinkarazan — Twin Betrayed",
+          "slug": "diinkarazan-twin-betrayed",
+          "blurb": "",
+          "has_page": false
+        }
+      ]
+    },
+    "source_file": "Moradin__The_All-Hammer.md"
+  },
+  {
+    "slug": "pelor",
+    "name": "Pelor, the Dawnfather",
+    "portfolio": "Righteous God of Dawn | Sun, Summer, Martyrdom, Agriculture, and patron of Humanity",
+    "alignment": "Lawful Good",
+    "domains": [
+      "Life",
+      "Light",
+      "Nature",
+      "Time"
+    ],
+    "status": [
+      "Ourosi (Greater Deity)"
+    ],
+    "warlock_province": [
+      "Celestial",
+      "Hexblade"
+    ],
+    "tags": [
+      "OurosiDeity",
+      "CelestialPatron",
+      "HexbladePatron"
+    ],
+    "cover_file": "PelorSymbol.webp",
+    "intro": [
+      "**Pelor **(pronounced /ˈpeɪlɔːr/ PAY-lore), also known as the **Dawnfather** and the **Shining One**, is the Ourosi god of the sun, summer, agriculture, and martyrdom. As lord of agriculture and harbinger of the harvest, he is worshiped by farmers and most common folk, and his priests are welcomed in many lands. Supporter of the needy and destroyer of evil, the Dawnfather is often the patron of paladins and rangers who follow a similar creed. He is also known for his defeat of the Chained Oblivion and is revered by those who hunt aberrations. Though he does not govern time itself, Pelor is widely revered as the calendarist of reality."
+    ],
+    "infobox": {
+      "Alignment": "Lawful Good",
+      "Symbol": "A bright, eight-pointed star",
+      "Portfolio": "Greater God of Dawn, Agriculture, Martyrs, Summer, the Sun, and patron of Humans",
+      "Divine Realm": "Light's Blessing, Amoria, Blessed Fields of Elysium",
+      "Worshippers": "Humans, farmers, healers, paladins"
+    },
+    "titles_line": "Dawnfather, Shining One",
+    "domains_line": "Life, Light, Nature, Time",
+    "commandments": [
+      "Be ever vigilant for evil. People are quick to forget the lessons of the past.",
+      "Help relieve the suffering of the innocent.",
+      "Deliver the light of the Dawnfather where darkness dwells, and do so with kindness, compassion, and mercy."
+    ],
+    "appendix": null,
+    "source_file": "Pelor__The_Dawnfather.md"
+  },
+  {
+    "slug": "saren-raei",
+    "name": "Saren-Raei, the Everlight",
+    "portfolio": "Compassionate Goddess of Healing | Mercy, Redemption, Altruism, and Flame",
+    "alignment": "Neutral Good",
+    "domains": [
+      "Beauty",
+      "Life",
+      "Light",
+      "Peace"
+    ],
+    "status": [
+      "Ourosi (Greater Deity)"
+    ],
+    "warlock_province": [
+      "Celestial",
+      "Genie (Fire)",
+      "Undying"
+    ],
+    "tags": [
+      "OurosiDeity",
+      "CelestialPatron",
+      "GeniePatron",
+      "UndyingPatron"
+    ],
+    "cover_file": "RaeiSymbol.webp",
+    "intro": [
+      "Raei (pronounced /ˈreɪ.i/ RAY-ee), also known as **Sarenrae**, the **Everlight**, is the Ourosi goddess of mercy, compassion, redemption, altruism, healing, and purifying fire. A neutral good deity adapted from Sarenrae of other worlds, she embodies temperance and patience, teaching that even hardened hearts can be turned toward the light. She believes that the corrupt can be redeemed, a mindset that led to a betrayal by the Lord of the Hells, who decimated her followers during the Divergence. Only recently has her faith been rediscovered and her temples returned to prominence. The Everlight's followers are often rural healers and community philosophers, offering voices of reason and empathy in angry and cynical times."
+    ],
+    "infobox": {
+      "Alignment": "Neutral Good",
+      "Symbol": "A humanoid, feminine phoenix in flames.",
+      "Portfolio": "Greater Goddess of Atonement, Altruism, Compassion, Flame, Healing, Mercy, and Redemption.",
+      "Divine Realm": "Island of Renewal, Blessed Fields of Elysium",
+      "Worshippers": "Healers, desert cultures, reformed criminals, the charitable"
+    },
+    "titles_line": "Sarenrae, Everlight, Phoenix Princess, Dawnflower, Healing Flame, Sister Cinder",
+    "domains_line": "Life, Light, Peace",
+    "commandments": [
+      "Lead with mercy, patience, and compassion. Inspire others to unite in fellowship.",
+      "Aid those who are without guide. Heal those who are without hope.",
+      "Celebrate the beauty in all things. Let your heart be open to love and your hands be guided to create and nurture."
+    ],
+    "appendix": null,
+    "source_file": "Raei__The_Everlight.md"
+  },
+  {
+    "slug": "sardior",
+    "name": "Sardior, the Ruby Wyrm",
+    "portfolio": "Ruby Wyrm | Greater God of Psionics Philosophy, Enlightenment, and neutral-aligned dragons.",
+    "alignment": "Neutral / Unaligned",
+    "domains": [
+      "Arcana",
+      "Knowledge",
+      "Trickery"
+    ],
+    "status": [
+      "Ourosi (Greater Deity)",
+      "Pantheon Draconis"
+    ],
+    "warlock_province": [
+      "Great Old One"
+    ],
+    "tags": [
+      "OurosiDeity",
+      "DragonPantheon",
+      "GreatOldOnePatron"
+    ],
+    "cover_file": "Sardior3.png",
+    "intro": [
+      "Few can say with certainty whether the Ruby Wyrm is listening. Sardior drifts at the edge of divine perception, so consumed by the vast interior architecture of his own contemplation that the affairs of gods and mortals wash past him like wind across stone. Psions and philosophers claim him as their patron regardless, drawn to a god who seems to have found something worth thinking about for eternity, and gem dragons across the planes keep a glowing ruby in their lairs as though tending a signal fire for a traveler who may never return.",
+      "The Ruby Palace drifts endlessly through the portion of the Astral Sea that can be seen in the night sky, a vast and darkened fortress of gem-encrusted stone, often mistaken from the ground for a reddish star low on the horizon. Whether Sardior is truly within, no one has been able to say for certain."
+    ],
+    "infobox": {
+      "Alignment": "Neutral",
+      "Symbol": "A ruby dragon with glowing eyes coiling a tower.",
+      "Portfolio": "Greater God of Psionics,",
+      "Divine Realm": "Ruby Palace",
+      "Worshippers": "Gem dragons, astronomers, monks, philosophers, psions"
+    },
+    "titles_line": "Ruby Wyrm, Master of Gem Dragons, Prince of Neutral Dragons",
+    "domains_line": "Arcana, Knowledge, Trickery",
+    "commandments": [
+      "Respect and harness the power of the mind, for it is the greatest tool and weapon.",
+      "Uphold the balance of power and use it responsibly, for misuse leads to corruption and destruction.",
+      "Embrace solitude as a path to self-discovery and enlightenment, but remember the importance of connection and empathy for others."
+    ],
+    "appendix": {
+      "title": "Pantheon Draconis — Draconic Pantheon",
+      "members": [
+        {
+          "name": "Aleithillithos, Amethyst Thane (M)",
+          "slug": "aleithillithos-amethyst-thane-m",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Hrodel, Crystal Thane (F)",
+          "slug": "hrodel-crystal-thane-f",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Smargad, Emerald Thane (M)",
+          "slug": "smargad-emerald-thane-m",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Charisma, Sapphire Thane (F)",
+          "slug": "charisma-sapphire-thane-f",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Tithonnas, Topaz Thane (M)",
+          "slug": "tithonnas-topaz-thane-m",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Seradess, Obsidian Thane (F)",
+          "slug": "seradess-obsidian-thane-f",
+          "blurb": "",
+          "has_page": false
+        }
+      ]
+    },
+    "source_file": "Sardior__The_Ruby_Wyrm.md"
+  },
+  {
+    "slug": "seha-angharradh",
+    "name": "Seha-Angharradh, the Moonweaver",
+    "portfolio": "Pale Goddess of Dreams | Moon, Intimacy, Mystery, and Shapechangers",
+    "alignment": "Chaotic Good",
+    "domains": [
+      "Arcana",
+      "Grave",
+      "Hunt",
+      "Moon",
+      "Trickery",
+      "Twilight"
+    ],
+    "status": [
+      "Ourosi (Greater Deity)",
+      "Seldarine"
+    ],
+    "warlock_province": [
+      "Archfey",
+      "Celestial",
+      "Great Old One"
+    ],
+    "tags": [
+      "OurosiDeity",
+      "ElvenPantheon",
+      "ArchfeyPatron",
+      "CelestialPatron",
+      "GreatOldOnePatron",
+      "Psychopomp"
+    ],
+    "cover_file": "SehanineSymbol.webp",
+    "intro": [
+      "The Moonweaver is the god of moonlight and the autumn season, as well as the patron of illusion and misdirection. Widely worshipped in halfling and elven culture, she is also considered to be the deity of love, shielding the trysts of lovers in shadows of her own making. Those who work in darkness and trickery often ask for her blessing."
+    ],
+    "infobox": {
+      "Alignment": "Chaotic Good",
+      "Symbol": "A crescent moon turned upward and strung like a bow.",
+      "Portfolio": "Greater God of",
+      "Divine Realm": "[[]]",
+      "Worshippers": ""
+    },
+    "titles_line": "Moonweaver, Angharradh, Mystic Eye of Night",
+    "domains_line": "Arcana, Grave, Moon, Trickery, Twilight",
+    "commandments": [
+      "Seize your own destiny and pursue your own passions.",
+      "Let the shadows protect you from the burning light of fanaticism and the absolute darkness of despair.",
+      "Walk unbridled and untethered, forging new memories and experiences."
+    ],
+    "appendix": {
+      "title": "Seldarine — Elven Pantheon",
+      "members": [
+        {
+          "name": "Aerdrie Faenya — She of Azure Plumage",
+          "slug": "aerdrie-faenya-she-of-azure-plumage",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Hanali Celanil — Fountain's Rose",
+          "slug": "hanali-celanil-fountains-rose",
+          "blurb": "",
+          "has_page": false
+        }
+      ]
+    },
+    "source_file": "Seha-Angharradh__The_Moonweaver.md"
+  },
+  {
+    "slug": "tharizdun",
+    "name": "Tharizdun, the Chained Oblivion",
+    "portfolio": "Deity of the Abyss, Insanity, Entropy, Extinction, and Calamity",
+    "alignment": "Chaotic Evil",
+    "domains": [
+      "Cataclysm",
+      "Death",
+      "Grave",
+      "Trickery"
+    ],
+    "status": [
+      "Ourosi (Greater Deity)",
+      "Demon Prince"
+    ],
+    "warlock_province": [
+      "Fiend",
+      "Great Old One",
+      "Hexblade"
+    ],
+    "tags": [
+      "OurosiDeity",
+      "AbyssPrince",
+      "FiendPatron",
+      "GreatOldOnePatron",
+      "HexbladePatron"
+    ],
+    "cover_file": "TharizdunSymbol.webp",
+    "intro": [
+      "It is darkness unending, less like a god and more like another world of malevolent, alien intelligence. Life and death do not exist within the Chained Oblivion; only the absolute end of all things. Few minds can comprehend the depth of oblivion. Most who do are so completely lost to nihilistic despair or denial that they devote the rest of their lives to hastening the end of this reality so that it may be swallowed up by the great inevitability: utter, tenebrous cold.",
+      "Even the other Betrayer Deities treat the Oblivion with caution. The Chained Oblivion's demented cultists work without word from their twisted patron, awaiting the Epoch of Ends, when its freedom will be attained and all beings shall be consumed in deathlessness unending.",
+      "Tharizdun is believed to be chained in the deepest pits of the Abyss, bound by divine shackles that slowly weaken, leaking its madness into the planes."
+    ],
+    "infobox": {
+      "Alignment": "Chaotic Evil",
+      "Portfolio": "Greater God of",
+      "Divine Realm": "Voidharrow, Layer 666 of the Infinite Abyss",
+      "Worshippers": "Demons, madmen"
+    },
+    "titles_line": "Chained Oblivion, Chained God, Mad God, Entropy",
+    "domains_line": "Death, Grave, Trickery",
+    "commandments": [
+      "Offer light and life into its all-consuming maw so that it may surpass all divinities and be freed.",
+      "Uncover, restore, and exalt forgotten shrines and relics in its honour.",
+      "Ruin and raze the realms to hasten the arrival of the Epoch of Ends."
+    ],
+    "appendix": {
+      "title": "Gods & Princes of the Abyss",
+      "members": []
+    },
+    "source_file": "Tharizdun__The_Chained_Oblivion.md"
+  },
+  {
+    "slug": "tiamat",
+    "name": "Tiamat, the Chromatic Tyrant",
+    "portfolio": "Chromatic Tyrant | Greater Goddess of Ambition, Greed, Piracy, and Chromatic Dragons",
+    "alignment": "Neutral Evil",
+    "domains": [
+      "Hunt",
+      "Order",
+      "Trickery",
+      "War"
+    ],
+    "status": [
+      "Ourosi (Greater Deity)",
+      "Pantheon Draconis"
+    ],
+    "warlock_province": [
+      "Fiend",
+      "Hexblade"
+    ],
+    "tags": [
+      "OurosiDeity",
+      "DragonPantheon",
+      "FiendPatron",
+      "HexbladePatron"
+    ],
+    "cover_file": "TiamatSymbol.png",
+    "intro": [
+      "Tiamat, the Scaled Tyrant is the evil queen of dragons. She is a fearsome goddess of greed, envy, and hoarded wealth, and the patron of most chromatic dragons. She is the sworn enemy of Bahamut. While chromatic dragons are her foremost worshipers, Tiamat accepts the worship of any who crave wealth. All chromatic dragons have a fearful reverence for their tyrannical queen, but many dragons of near-deific power and ambition chafe under her rule."
+    ],
+    "infobox": {
+      "Alignment": "Neutral Evil",
+      "Symbol": "A five-headed dragon",
+      "Portfolio": "Greater Goddess of Ambition, Greed, and Chromatic Dragons",
+      "Divine Realm": "Avernus, 1st Circle of Hell",
+      "Worshippers": "Chromatic dragons, pirates"
+    },
+    "titles_line": "Scaled Tyrant, Dragon Queen, Dragon Bitch, Empress of Scale, Queen of Many Colours, Takhisis, Guardian to the Gates of Dis",
+    "domains_line": "Order, Trickery, War",
+    "commandments": [
+      "Amass wealth, but spend little. The gold—and the power that comes with it—is sufficient reward in itself.",
+      "Do not forgive nor forget an indignity to yourself. Let no affront go unpunished.",
+      "Take what you covet. Those without the strength to defend their dominion are not worthy of it."
+    ],
+    "appendix": {
+      "title": "Pantheon Draconis — Dragon Pantheon",
+      "members": [
+        {
+          "name": "Astilabor — The Hoardmistress",
+          "slug": "astilabor-the-hoardmistress",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Garyx — Cleanser of Worlds",
+          "slug": "garyx-cleanser-of-worlds",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Sardior, The Ruby Wyrm",
+          "slug": "sardior",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Kurtulmak — the Horned Sorcerer",
+          "slug": "kurtulmak-the-horned-sorcerer",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Zorquan — Perfect Wyrm",
+          "slug": "zorquan-perfect-wyrm",
+          "blurb": "",
+          "has_page": false
+        }
+      ]
+    },
+    "source_file": "Tiamat__The_Chromatic_Tyrant.md"
+  },
+  {
+    "slug": "torog",
+    "name": "Torog, the King That Crawls",
+    "portfolio": "God of Pain, Jailers, Caves, the Underdark, Aberrations, Disability, Enslavement, and Torture",
+    "alignment": "Neutral Evil",
+    "domains": [
+      "Blood",
+      "Cataclysm",
+      "Death",
+      "Trickery"
+    ],
+    "status": [
+      "Ourosi (Greater Deity)"
+    ],
+    "warlock_province": [
+      "Great Old One"
+    ],
+    "tags": [
+      "OurosiDeity",
+      "GreatOldOnePatron",
+      "UnderdarkDeity"
+    ],
+    "cover_file": "TorogSymbol.webp",
+    "intro": [
+      "Torog (pronounced: /ˈtɔːrɒɡ/ TOR-og), the King That Crawls, is the Ourosi god of the Underdark, imprisonment, enslavement, torture, and pain. Also known as the Crawling King and the Lord of Pain, he is revered by torturers, slavers, and jailers, as well as those who build their power on captivity and coercion. In older myths he is a maimed, suffering god bound to the world below—unable to heal, unable to escape, and increasingly defined by the harm he both endures and enables. His faith is a theology of proximity: of dragging life into darkness until suffering stops being an idea and becomes the only remaining language."
+    ],
+    "infobox": {
+      "Alignment": "Neutral Evil",
+      "Symbol": "Three pale arms clawing from a dark void",
+      "Portfolio": "Greater God of Pain, Suffering, Disability, Imprisonment, and the Underdark",
+      "Divine Realm": "Tartarean Depths of Carceri",
+      "Worshippers": "Jailers, slavers, torturers"
+    },
+    "titles_line": "The King that Crawls, The Lame God, Warden of Carceri",
+    "domains_line": "Blood, Death, Trickery",
+    "commandments": [
+      "Seek and exalt places where no light touches.",
+      "Revel in the pain you inflict upon others, and relish the pain you suffer yourself as an offering to the Crawling King.",
+      "Imprison those who cannot resist you, and drag all life into the darkness."
+    ],
+    "appendix": null,
+    "source_file": "Torog__The_King_that_Crawls.md"
+  },
+  {
+    "slug": "vecna",
+    "name": "Vecna, the Whispered One",
+    "portfolio": "God of Necromancy, Undeath, Secrets, and Forbidden Knowledge",
+    "alignment": "Neutral Evil",
+    "domains": [
+      "Arcana",
+      "Death",
+      "Knowledge"
+    ],
+    "status": [
+      "Ourosi (Greater Deity)"
+    ],
+    "warlock_province": [
+      "Undead",
+      "Undying"
+    ],
+    "tags": [
+      "OurosiDeity",
+      "UndeadPatron",
+      "UndyingPatron"
+    ],
+    "cover_file": "VecnaSymbol.webp",
+    "intro": [
+      "The lich lord Vecna presides over villainous mages, conspiring politicians, and envious servants as the dark god of necromancy, undeath, and secrets. Once a dangerously clever and powerful archmage-turned-lich, his hunger for dominion over all mysteries and obsession with conquering the pantheon led to his own dissolution, leaving behind only his left hand and eye. His enduring spirit reformed through the ages and managed to reconstruct the Raven Queen's rites of ascension to become the newest of gods to walk Exandria. Defeated by the legendary heroes Vox Machina and sealed behind the Divine Gate, the Whispered One now quietly rules over that which is not meant to be known."
+    ],
+    "infobox": {
+      "Alignment": "Neutral Evil",
+      "Symbol": "A dessicated hand with an eye in the palm",
+      "Portfolio": "Greater God of Secrets, Archaeology, Forbidden Knowledge, and Undeath",
+      "Divine Realm": "???",
+      "Worshippers": "Historians, necromancers"
+    },
+    "titles_line": "The Whispered One, The Archlich",
+    "domains_line": "Arcana, Death, Knowledge",
+    "commandments": [
+      "Learn all you can, and keep hidden that which you know. Reveal what pieces you must, but never the whole.",
+      "Express and cultivate the evil within yourself, and in doing so, recognize it in others to exploit them for your own benefit.",
+      "Seed the ruin of all who worship other deities, until only those who kneel before the Whispered One remain."
+    ],
+    "appendix": null,
+    "source_file": "Vecna__The_Whispered_One.md"
+  },
+  {
+    "slug": "vhaeraun",
+    "name": "Vhaeraun, Prince of the Stage",
+    "portfolio": "God of Theatre, Thieves, Territory, and Retribution",
+    "alignment": "Lawful Evil",
+    "domains": [
+      "Arcana",
+      "Beauty",
+      "Knowledge",
+      "Trickery",
+      "War"
+    ],
+    "status": [
+      "Ourosi (Greater Deity)",
+      "Seldarine"
+    ],
+    "warlock_province": [
+      "Archfey",
+      "Fiend",
+      "Hexblade"
+    ],
+    "tags": [
+      "OurosiDeity",
+      "ElvenPantheon",
+      "DrowPantheon",
+      "UnderdarkDeity"
+    ],
+    "cover_file": "VhaeraunSymbol.png",
+    "intro": [
+      "The Prince of the Stage is the patron of those who take from the outside to give to the in, and wear masks to hide their true selves in doing so. Charlatans, criminals, actors, and those wronged by those who have promised to be protecte them claim Vhaeraun as their own, drawn to a god who understands that the world has those who belong and those who do not, and that the boundary between them is worth defending by any means. His followers are fiercely loyal to their own and pitiless to strangers, a philosophy Vhaeraun does not consider cruelty but sense. Retribution is his sacrament, the stage his temple, and the mask his only honest face.",
+      "Vhaeraun holds court in Ellaniath, a city of black lacquered stages and lightless alleyways cut into the cliffs of Colothys on Carceri."
+    ],
+    "infobox": {
+      "Alignment": "Lawful Evil",
+      "Symbol": "A mask with blue lenses inset over the eyes.",
+      "Portfolio": "Greater God of Theatre, Thieves, the Estranged, Territory, and Rebellion.",
+      "Divine Realm": "Ellaniath, Colothys",
+      "Worshippers": "Drow (typically males), charlatans, criminals, performers."
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Liantarine — Drow Pantheon",
+      "members": [
+        {
+          "name": "Eilistraee, Lady Silverhair",
+          "slug": "eilistraee",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Selvetarm — Champion of the Spider",
+          "slug": "selvetarm-champion-of-the-spider",
+          "blurb": "",
+          "has_page": false
+        }
+      ]
+    },
+    "source_file": "Vhaeraun__Prince_of_the_Stage.md"
+  },
+  {
+    "slug": "yondalla",
+    "name": "Yondalla, the Hearthdame",
+    "portfolio": "Goddess of Bounty | Fertility, Friendship, Home, Husbandry, Medicine, and Halflings",
+    "alignment": "Lawful Good",
+    "domains": [
+      "Life",
+      "Nature",
+      "Peace",
+      "Twilight",
+      "Community",
+      "Harvest"
+    ],
+    "status": [
+      "Ourosi (Greater Deity)",
+      "Yondalla's Children"
+    ],
+    "warlock_province": [
+      "Celestial"
+    ],
+    "tags": [
+      "OurosiDeity",
+      "HalflingPantheon",
+      "CelestialPatron",
+      "LifeDomain",
+      "NatureDomain",
+      "PeaceDomain",
+      "TwilightDomain",
+      "HarvestDomain",
+      "CommunityDomain"
+    ],
+    "cover_file": "Yondalla.png",
+    "intro": [
+      "Yondalla watches over her halfling children with quiet constancy, and a ferocity that surprises those who mistake her warmth for weakness. The Hearthdame asks little of her faithful beyond decency and welcome, but she holds long grudges against those who have threatened her people. Her temples are a rarity, disguised as humble burrow-homes and quietly stocked against siege, a reminder that hospitality and vigilance are not opposites in her eyes. Those who seek safe harbor, plentiful harvests, or the healing hand of a stranger often find themselves in her grace without ever having sought it.",
+      "Yondalla tends to her people from within the Green Fields, a realm of rolling hills and endless summer evenings nestled in the third layer of Celestia, where her family of gods and the souls of the faithful gather as kin around a table that never runs short."
+    ],
+    "infobox": {
+      "Alignment": "Lawful Good",
+      "Symbol": "A cornucopia on a shield",
+      "Portfolio": "Greater God of",
+      "Divine Realm": "Green Fields, Venya, Celestia",
+      "Worshippers": ""
+    },
+    "titles_line": "The Hearthdame, Nurturing Matriarch, Bountiful Goddess",
+    "domains_line": "Life, Nature, Peace, Twilight",
+    "commandments": [
+      "Create a welcoming hearth for all who seek refuge and warmth, extending hospitality to strangers as well as friends.",
+      "Show compassion and empathy to those in distress or hardship.",
+      "Foster a spirit of cooperation and unity within your community."
+    ],
+    "appendix": {
+      "title": "Yondalla's Children — Halfling Pantheon",
+      "members": [
+        {
+          "name": "Arvoreen — Wary Sword of Hin",
+          "slug": "arvoreen-wary-sword-of-hin",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Avandra, the Changebringer",
+          "slug": "avandra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Brandobaris, the Irrepressible Scamp",
+          "slug": "brandobaris-irrepressible-scamp",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Cyrollalee, Hand of the Fellowship",
+          "slug": "cyrollalee-hand-of-the-fellowship",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Dallah Thaun, Lady of Mysteries",
+          "slug": "dallah-thaun-lady-of-mystery",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Sheela Peryroyl, Our Green Sister",
+          "slug": "sheela-peryroyl-green-sister",
+          "blurb": "",
+          "has_page": false
+        },
+        {
+          "name": "Urogalan, the Black Hound",
+          "slug": "urogalan-black-hound",
+          "blurb": "",
+          "has_page": false
+        }
+      ]
+    },
+    "source_file": "Yondalla__The_Hearthdame.md"
+  },
+  {
+    "slug": "zehir",
+    "name": "Zehir, the Cloaked Serpent",
+    "portfolio": "God of Blood, Poison, Murder, Obsession, Reptiles, Transmutation, and Yuan-Ti",
+    "alignment": "Chaotic Evil",
+    "domains": [
+      "Blood",
+      "Death",
+      "Hunt",
+      "Nature",
+      "Trickery"
+    ],
+    "status": [
+      "Ourosi (Greater Deity)"
+    ],
+    "warlock_province": [
+      "Great Old One",
+      "Undying"
+    ],
+    "tags": [
+      "OurosiDeity",
+      "GreatOldOnePatron",
+      "UndeadPatron",
+      "UndyingPatron",
+      "BloodDomain",
+      "DeathDomain",
+      "HuntDomain",
+      "NatureDomain",
+      "TrickeryDomain"
+    ],
+    "cover_file": "ZehirSymbol.webp",
+    "intro": [
+      "A wanderer in the shadows and the creator of snakes and serpentkin, Zehir is the evil god of poisons, blood, and obssession. The ancient serpentkin worship him over all other deities, dragging screaming offerings to their temples in his honor. Most of the Cloaked Serpent's worshipers were annihilated during the Calamity, and the rest are either suspended in self-induced stasis or hunted for sport by the servants of Lolth and Torog. But perhaps Zehir is merely biding his time, waiting for the proper moment to unleash his hidden armies on the world once more.",
+      "Zehir subverts and poisons the Material Plane from the shadowed Towers of Night, hidden among the ever-shifting winds of the Astral Plane."
+    ],
+    "infobox": {
+      "Alignment": "Chaotic Evil",
+      "Symbol": "A coiled jade serpent",
+      "Portfolio": "Greater God of Blood, Poison, Murder, Obsession, Reptiles, Transmutation, and Yuan-Ti",
+      "Divine Realm": "Sea of Poison, Towers of Night, Astral Sea",
+      "Worshippers": ""
+    },
+    "titles_line": "The Cloaked Serpent, The Great Naga, Serpent God of Blood.",
+    "domains_line": "Death, Nature, Trickery",
+    "commandments": [
+      "Keep your acts obfuscated and secret. The night is your greatest ally.",
+      "Strike quickly and without reason. Blind the target with their own confusion.",
+      "Kill slowly. Agonizingly. Or worse, make them enjoy it."
+    ],
+    "appendix": null,
+    "source_file": "Zehir__The_Cloaked_Serpent.md"
+  }
+]
