@@ -1,6 +1,6 @@
 /* Shared utilities + landing page logic for The Ourosi Pantheon wiki. */
 
-const DATA_URL = "data/deities.json?v=47363656";
+const DATA_URL = "data/deities.json?v=4747968f";
 
 /** Load the deity dataset once and cache it on window. */
 async function loadDeities() {
@@ -159,7 +159,11 @@ function initLandingPage() {
         alignment: a.alignment,
         domains: d.domains,
         _cardHref: `deity.html?d=${encodeURIComponent(d.slug)}&aspect=${encodeURIComponent(a.aspect_slug)}&source=elven`,
-        _cardIcon: d,
+        // Only the combined/Angharradh aspect uses the merged page's own
+        // symbol; Aerdrie, Hanali, and Sehanine each keep their own icon.
+        _cardIcon: a.aspect_slug === d.default_aspect
+          ? d
+          : { slug: a.aspect_slug, icon_ext: a.icon_ext },
       }));
     }
 

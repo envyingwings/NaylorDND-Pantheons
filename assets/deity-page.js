@@ -42,11 +42,11 @@ function aspectAsDeity(parent, aspect, source) {
     domains_line: aspect.domains_line,
     commandments: aspect.commandments,
     appendix: aspect.appendix,
-    // All four aspects share the merged page's own symbol rather than each
-    // having a distinct icon -- iconPath() resolves by slug, so borrow the
-    // parent's slug/icon_ext here rather than the aspect's own.
-    icon_slug: parent.slug,
-    icon_ext: parent.icon_ext,
+    // Only the combined/Angharradh aspect uses the merged page's own symbol
+    // (the one shown on the Greater Pantheon page); Aerdrie, Hanali, and
+    // Sehanine each keep their own distinct icon.
+    icon_slug: aspect.aspect_slug === parent.default_aspect ? parent.slug : aspect.aspect_slug,
+    icon_ext: aspect.aspect_slug === parent.default_aspect ? parent.icon_ext : aspect.icon_ext,
   };
 }
 
