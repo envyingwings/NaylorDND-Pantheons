@@ -79,9 +79,41 @@ a:hover { text-decoration: underline; }
 .site-nav a:hover { color: var(--accent); text-decoration: none; }
 
 /* ---------- Search / filter bar ---------- */
+/* ---------- Pantheon tabs ---------- */
+.pantheon-tabs {
+  max-width: 1200px;
+  margin: 28px auto 0;
+  padding: 0 24px;
+  display: flex;
+  gap: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.pantheon-tab {
+  background: none;
+  border: none;
+  color: var(--ink-faint);
+  font-family: var(--display);
+  font-size: 0.95rem;
+  letter-spacing: 0.03em;
+  padding: 12px 18px 14px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.pantheon-tab:hover {
+  color: var(--ink-dim);
+}
+
+.pantheon-tab.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
 .controls {
   max-width: 1200px;
-  margin: 28px auto 8px;
+  margin: 20px auto 8px;
   padding: 0 24px;
   display: flex;
   flex-wrap: wrap;

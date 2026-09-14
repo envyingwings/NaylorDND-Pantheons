@@ -97,7 +97,16 @@ function initLandingPage() {
   const alignmentFilter = document.getElementById("alignment-filter");
   const nameModeSelect = document.getElementById("name-mode");
   const resultCount = document.getElementById("result-count");
+  const tabButtons = Array.from(document.querySelectorAll(".pantheon-tab"));
   if (!grid) return;
+
+  // Which tag identifies membership in each pantheon tab. A deity can carry
+  // both tags (e.g. Moradin is Greater Pantheon and head of the Dwarven
+  // Pantheon) and will appear on both tabs.
+  const PANTHEON_TAGS = {
+    greater: "OurosiDeity",
+    dwarven: "DwarfPantheon",
+  };
 
   loadDeities().then((deities) => {
     // Placeholders (unwritten pantheon members) don't appear in the main
@@ -108,20 +117,46 @@ function initLandingPage() {
     // Sort alphabetically by display name (ignoring leading articles/titles noise)
     const sorted = [...real].sort((a, b) => a.name.localeCompare(b.name));
 
-    // Populate alignment filter options in classic D&D order (good-to-evil,
-    // lawful-to-chaotic within each), not plain alphabetical.
-    const alignmentsPresent = new Set(sorted.map((d) => d.alignment).filter(Boolean));
-    const alignments = ALIGNMENT_ORDER.filter((a) => alignmentsPresent.has(a));
-    // Catch any alignment string in the data that isn't in our known order list
-    alignmentsPresent.forEach((a) => {
-      if (!alignments.includes(a)) alignments.push(a);
-    });
-    alignments.forEach((a) => {
-      const opt = document.createElement("option");
-      opt.value = a;
-      opt.textContent = a;
-      alignmentFilter.appendChild(opt);
-    });
+    // Active pantheon tab persists across visits, same as name display mode.
+    const TAB_STORAGE_KEY = "ourosi-pantheon-tab";
+    let activeTab = "greater";
+    try {
+      const saved = localStorage.getItem(TAB_STORAGE_KEY);
+      if (saved && PANTHEON_TAGS[saved]) activeTab = saved;
+    } catch (e) { /* localStorage unavailable, fall back to default */ }
+
+    function deitiesForActiveTab() {
+      const tag = PANTHEON_TAGS[activeTab];
+      return sorted.filter((d) => (d.tags || []).includes(tag));
+    }
+
+    // Rebuilds the alignment filter's options to match whichever alignments
+    // are actually present among the active tab's deities, in classic D&D
+    // order (good-to-evil, lawful-to-chaotic within each). Preserves the
+    // current selection if it's still valid for the new tab, otherwise
+    // resets to "All alignments".
+    function rebuildAlignmentOptions() {
+      const previousValue = alignmentFilter.value;
+      const tabDeities = deitiesForActiveTab();
+      const alignmentsPresent = new Set(tabDeities.map((d) => d.alignment).filter(Boolean));
+      const alignments = ALIGNMENT_ORDER.filter((a) => alignmentsPresent.has(a));
+      alignmentsPresent.forEach((a) => {
+        if (!alignments.includes(a)) alignments.push(a);
+      });
+
+      alignmentFilter.innerHTML = "";
+      const allOpt = document.createElement("option");
+      allOpt.value = "";
+      allOpt.textContent = "All alignments";
+      alignmentFilter.appendChild(allOpt);
+      alignments.forEach((a) => {
+        const opt = document.createElement("option");
+        opt.value = a;
+        opt.textContent = a;
+        alignmentFilter.appendChild(opt);
+      });
+      alignmentFilter.value = alignmentsPresent.has(previousValue) ? previousValue : "";
+    }
 
     // Name display mode persists across visits (landing page only -- deity
     // pages always show the full "Name, Epithet" form regardless).
@@ -135,7 +170,8 @@ function initLandingPage() {
     function render() {
       const q = (searchInput.value || "").trim().toLowerCase();
       const alignFilter = alignmentFilter.value;
-      const filtered = sorted.filter((d) => {
+      const tabDeities = deitiesForActiveTab();
+      const filtered = tabDeities.filter((d) => {
         if (alignFilter && d.alignment !== alignFilter) return false;
         if (!q) return true;
         const haystack = [
@@ -159,6 +195,21 @@ function initLandingPage() {
       grid.innerHTML = filtered.map((d) => deityCardHtml(d, nameMode)).join("");
     }
 
+    function setActiveTab(tab) {
+      if (!PANTHEON_TAGS[tab]) return;
+      activeTab = tab;
+      try { localStorage.setItem(TAB_STORAGE_KEY, activeTab); } catch (e) { /* ignore */ }
+      tabButtons.forEach((btn) => {
+        btn.classList.toggle("active", btn.dataset.pantheon === activeTab);
+      });
+      rebuildAlignmentOptions();
+      render();
+    }
+
+    tabButtons.forEach((btn) => {
+      btn.addEventListener("click", () => setActiveTab(btn.dataset.pantheon));
+    });
+
     searchInput.addEventListener("input", render);
     alignmentFilter.addEventListener("change", render);
     if (nameModeSelect) {
@@ -168,7 +219,11 @@ function initLandingPage() {
         render();
       });
     }
-    render();
+
+    // Apply whichever tab was restored from storage (or the "greater"
+    // default) before the first render, so the tab bar's active state and
+    // the alignment options match what's actually displayed.
+    setActiveTab(activeTab);
   }).catch((err) => {
     grid.innerHTML = `<p class="no-results">Could not load the pantheon data. (${escapeHtml(err.message)})</p>`;
     console.error(err);
