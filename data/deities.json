@@ -3076,7 +3076,7 @@
     ],
     "cover_file": null,
     "intro": [
-      "**Angharradh** (pronounced /ˈæŋˈhærəð/ ang-HA-rath), the **Moonweaver**, is the triune union of Aerdrie Faenya, Hanali Celanil, and Sehanine Moonbow, three goddesses of the Seldarine who dwell together upon Arvandor. Most commonly known by the name of Sehanine Moonbow, eldest of the three, the united goddess is worshipped across halfling and elven cultures alike as a single figure encompassing sky and storm, love and beauty, moonlight and death all at once."
+      "**Angharradh** (pronounced /ˈæŋˈhærəð/ ang-HA-rath), the **Moonweaver**, is the triune union of Aerdrie Faenya, Hanali Celanil, and Sehanine, three goddesses of the Seldarine who dwell together upon Arvandor. Most commonly known by the name of Sehanine, eldest of the three, the united goddess is worshipped across halfling and elven cultures alike as a single figure encompassing sky and storm, love and beauty, moonlight and death all at once."
     ],
     "infobox": {
       "Alignment": "Chaotic Good",
@@ -3107,7 +3107,7 @@
         "portfolio": "Greater Goddess of Dreams, Moon, Intimacy, Mystery, and Shapechanging",
         "alignment": "Chaotic Good",
         "intro": [
-          "**Angharradh** (pronounced /ˈæŋˈhærəð/ ang-HA-rath), the **Moonweaver**, is the triune union of Aerdrie Faenya, Hanali Celanil, and Sehanine Moonbow, three goddesses of the Seldarine who dwell together upon Arvandor. Most commonly known by the name of Sehanine Moonbow, eldest of the three, the united goddess is worshipped across halfling and elven cultures alike as a single figure encompassing sky and storm, love and beauty, moonlight and death all at once."
+          "**Angharradh** (pronounced /ˈæŋˈhærəð/ ang-HA-rath), the **Moonweaver**, is the triune union of Aerdrie Faenya, Hanali Celanil, and Sehanine, three goddesses of the Seldarine who dwell together upon Arvandor. Most commonly known by the name of Sehanine, eldest of the three, the united goddess is worshipped across halfling and elven cultures alike as a single figure encompassing sky and storm, love and beauty, moonlight and death all at once."
         ],
         "infobox": {
           "Alignment": "Chaotic Good",
@@ -3171,12 +3171,12 @@
         "icon_ext": "svg"
       },
       {
-        "aspect_slug": "Sehanine Moonbow",
+        "aspect_slug": "sehanine",
         "name": "Sehanine Moonbow, the Moonweaver",
         "portfolio": "Elven goddess of moonlight, dreams, and death",
         "alignment": "Chaotic Good",
         "intro": [
-          "Sehanine Moonbow, eldest of the three and elven goddess of death, governs moonlight, dreams, and the autumn season, as well as the arts of illusion and misdirection. Widely worshipped across halfling and elven cultures alike, she is also a goddess of love and intimacy, shielding the trysts of lovers in shadows of her own making."
+          "Sehanine, eldest of the three and elven goddess of death, governs moonlight, dreams, and the autumn season, as well as the arts of illusion and misdirection. Widely worshipped across halfling and elven cultures alike, she is also a goddess of love and intimacy, shielding the trysts of lovers in shadows of her own making."
         ],
         "infobox": {
           "Alignment": "Chaotic Good",

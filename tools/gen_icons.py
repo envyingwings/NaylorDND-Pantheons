@@ -80,6 +80,13 @@ def main():
     for d in data:
         if d.get("multi_aspect") and d.get("aspects"):
             for a in d["aspects"]:
+                if a["aspect_slug"] == d.get("default_aspect"):
+                    # The combined/default aspect intentionally shares the
+                    # parent record's own symbol (see icon_slug handling in
+                    # the frontend) rather than getting its own generated
+                    # placeholder -- skip it here so gen_icons.py doesn't
+                    # keep recreating an unused file every run.
+                    continue
                 icon_targets.append({
                     "slug": a["aspect_slug"],
                     "name": a["name"],
