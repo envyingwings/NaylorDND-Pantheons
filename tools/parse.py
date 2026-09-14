@@ -339,7 +339,7 @@ def parse_multi_aspect_file(path):
         "domains_line": default["domains_line"],
         "commandments": default["commandments"],
         "appendix": default["appendix"],
-        "icon_ext": default["icon_ext"],
+        "icon_ext": detect_icon_ext(slug),
         "source_file": os.path.basename(path),
         "multi_aspect": True,
         "default_aspect": default_aspect,

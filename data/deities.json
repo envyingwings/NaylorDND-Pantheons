@@ -3096,19 +3096,45 @@
       "title": "Seldarine — Elven Pantheon",
       "members": []
     },
-    "icon_ext": "svg",
+    "icon_ext": "webp",
     "source_file": "Seha-Angharradh__The_Moonweaver.md",
     "multi_aspect": true,
     "default_aspect": "angharradh",
     "aspects": [
       {
+        "aspect_slug": "angharradh",
+        "name": "Angharradh, the Moonweaver",
+        "portfolio": "Greater Goddess of Dreams, Moon, Intimacy, Mystery, and Shapechanging",
+        "alignment": "Chaotic Good",
+        "intro": [
+          "**Angharradh** (pronounced /ˈæŋˈhærəð/ ang-HA-rath), the **Moonweaver**, is the triune union of Aerdrie Faenya, Hanali Celanil, and Sehanine, three goddesses of the Seldarine who dwell together upon Arvandor. Most commonly known by the name of Sehanine, eldest of the three, the united goddess is worshipped across halfling and elven cultures alike as a single figure encompassing sky and storm, love and beauty, moonlight and death all at once."
+        ],
+        "infobox": {
+          "Alignment": "Chaotic Good",
+          "Symbol": "A crescent moon turned upward and strung like a bow",
+          "Portfolio": "Greater Goddess of Dreams, Moon, Intimacy, Mystery, and Shapechanging",
+          "Divine Realm": "Trelania, Arvandor",
+          "Worshippers": "Dreamers, lovers, the dying, illusionists, shapechangers"
+        },
+        "titles_line": "Moonweaver, Angharradh, Mystic Eye of Night",
+        "domains_line": "Arcana, Grave, Moon, Trickery, Twilight",
+        "commandments": [
+          "Seize your own destiny and pursue your own passions.",
+          "Let the shadows protect you from the burning light of fanaticism and the absolute darkness of despair.",
+          "Walk unbridled and untethered, forging new memories and experiences."
+        ],
+        "appendix": {
+          "title": "Seldarine — Elven Pantheon",
+          "members": []
+        },
+        "icon_ext": "svg"
+      },
+      {
         "aspect_slug": "aerdrie",
         "name": "Aerdrie Faenya, She of Azure Plumage",
         "portfolio": "Elven goddess of sky, fertility and weather",
         "alignment": "Chaotic Good",
-        "intro": [
-          "Aerdrie Faenya takes the form of an elf-like woman whose hair and brows are made entirely of feathers, each one shifting endlessly through colour without ever settling on a single hue. From her back spring wings vast beyond any bird's, feathered in that same restless, changing plumage. She wears a cloak of clouds draping from her shoulders and winding loosely about her waist, and small forks of lightning flicker constantly through her feathers and along her fingertips. Below the hips her body gives way entirely to a coiling mass of mist and windswept cloud, so that she is never seen resting upon solid ground."
-        ],
+        "intro": [],
         "infobox": {
           "Alignment": "Chaotic Good",
           "Symbol": "A bird silhouetted in a cloud",
@@ -3130,9 +3156,7 @@
         "name": "Hanali Celanil, Fountain's Rose",
         "portfolio": "Elven goddess of love, romance, and beauty",
         "alignment": "Chaotic Good",
-        "intro": [
-          "Hanali Celanil takes the form of an elf-like woman of flawless, luminous beauty, her presence alone said to be enough to stop mortal hearts. She moves with an unhurried, deliberate grace, and her gaze softens even the most guarded onlooker. She is rarely seen the same way twice, favouring flowing gowns woven with living blossoms that open and close with her breath, her beauty as changeable and enduring as love itself."
-        ],
+        "intro": [],
         "infobox": {
           "Alignment": "Chaotic Good",
           "Symbol": "A golden heart",
@@ -3169,34 +3193,6 @@
           "Walk unbridled and untethered, forging new memories and experiences."
         ],
         "appendix": null,
-        "icon_ext": "svg"
-      },
-      {
-        "aspect_slug": "angharradh",
-        "name": "Angharradh, the Moonweaver",
-        "portfolio": "Greater Goddess of Dreams, Moon, Intimacy, Mystery, and Shapechanging",
-        "alignment": "Chaotic Good",
-        "intro": [
-          "**Angharradh** (pronounced /ˈæŋˈhærəð/ ang-HA-rath), the **Moonweaver**, is the triune union of Aerdrie Faenya, Hanali Celanil, and Sehanine, three goddesses of the Seldarine who dwell together upon Arvandor. Most commonly known by the name of Sehanine, eldest of the three, the united goddess is worshipped across halfling and elven cultures alike as a single figure encompassing sky and storm, love and beauty, moonlight and death all at once."
-        ],
-        "infobox": {
-          "Alignment": "Chaotic Good",
-          "Symbol": "A crescent moon turned upward and strung like a bow",
-          "Portfolio": "Greater Goddess of Dreams, Moon, Intimacy, Mystery, and Shapechanging",
-          "Divine Realm": "Trelania, Arvandor",
-          "Worshippers": "Dreamers, lovers, the dying, illusionists, shapechangers"
-        },
-        "titles_line": "Moonweaver, Angharradh, Mystic Eye of Night",
-        "domains_line": "Arcana, Grave, Moon, Trickery, Twilight",
-        "commandments": [
-          "Seize your own destiny and pursue your own passions.",
-          "Let the shadows protect you from the burning light of fanaticism and the absolute darkness of despair.",
-          "Walk unbridled and untethered, forging new memories and experiences."
-        ],
-        "appendix": {
-          "title": "Seldarine — Elven Pantheon",
-          "members": []
-        },
         "icon_ext": "svg"
       }
     ],

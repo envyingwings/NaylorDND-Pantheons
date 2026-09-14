@@ -9,10 +9,29 @@ function getSlugFromQuery() {
  * object the existing single-deity render helpers (infoboxHtml, introHtml,
  * metaRowHtml, commandmentsHtml, appendixHtml, iconPath) can consume
  * unchanged, as if it were an ordinary flat deity record. */
-function aspectAsDeity(parent, aspect) {
+// The combined/default aspect (Angharradh) is the only one whose name is
+// genuinely ambiguous depending on where the reader arrived from: the
+// Greater Pantheon knows her as Seha-Angharradh, the Elven Pantheon lists
+// her as Angharradh. Every other aspect (Aerdrie, Hanali, Sehanine) has one
+// unambiguous name regardless of source. SOURCE_NAME_OVERRIDES supplies the
+// full replacement name (used everywhere the name appears on the page: tab
+// label, hero title, page title, breadcrumb) for the combined aspect only,
+// keyed by the `source` URL param a link into this page was built with.
+const SOURCE_NAME_OVERRIDES = {
+  greater: { angharradh: "Seha-Angharradh, the Moonweaver" },
+  elven: { angharradh: "Angharradh, the Moonweaver" },
+};
+
+function resolveAspectName(parent, aspect, source) {
+  const overrides = SOURCE_NAME_OVERRIDES[source];
+  if (overrides && overrides[aspect.aspect_slug]) return overrides[aspect.aspect_slug];
+  return aspect.name;
+}
+
+function aspectAsDeity(parent, aspect, source) {
   return {
     slug: aspect.aspect_slug,
-    name: aspect.name,
+    name: resolveAspectName(parent, aspect, source),
     portfolio: aspect.portfolio,
     alignment: aspect.alignment,
     domains: parent.domains,
@@ -23,15 +42,19 @@ function aspectAsDeity(parent, aspect) {
     domains_line: aspect.domains_line,
     commandments: aspect.commandments,
     appendix: aspect.appendix,
-    icon_ext: aspect.icon_ext,
+    // All four aspects share the merged page's own symbol rather than each
+    // having a distinct icon -- iconPath() resolves by slug, so borrow the
+    // parent's slug/icon_ext here rather than the aspect's own.
+    icon_slug: parent.slug,
+    icon_ext: parent.icon_ext,
   };
 }
 
-function aspectTabsHtml(parent, activeAspectSlug) {
+function aspectTabsHtml(parent, activeAspectSlug, source) {
   const tabs = parent.aspects
     .map((a) => {
       const isActive = a.aspect_slug === activeAspectSlug;
-      const shortLabel = a.name.split(",")[0];
+      const shortLabel = resolveAspectName(parent, a, source).split(",")[0];
       return `<button type="button" class="aspect-tab${isActive ? " active" : ""}" data-aspect="${escapeHtml(a.aspect_slug)}">${escapeHtml(shortLabel)}</button>`;
     })
     .join("");
@@ -44,14 +67,22 @@ function renderMultiAspectPage(parent, placeholderSlugs) {
   const validSlugs = new Set(parent.aspects.map((a) => a.aspect_slug));
   const activeSlug = validSlugs.has(requestedAspect) ? requestedAspect : parent.default_aspect;
 
-  document.title = `${parent.name} — The Ourosi Pantheon`;
-  document.getElementById("crumb-name").textContent = parent.name;
+  // Which pantheon's page linked here determines the vocabulary used
+  // throughout this page for the combined/default aspect's name (see
+  // SOURCE_NAME_OVERRIDES) -- "greater" if unspecified, since that's the
+  // page's own top-level identity when reached without a specific source
+  // hint (e.g. a direct URL or a bookmark).
+  const source = SOURCE_NAME_OVERRIDES[params.get("source")] ? params.get("source") : "greater";
 
   function renderAspect(aspectSlug) {
     const aspect = parent.aspects.find((a) => a.aspect_slug === aspectSlug);
-    const view = aspectAsDeity(parent, aspect);
+    const view = aspectAsDeity(parent, aspect, source);
+
+    document.title = `${view.name} — The Ourosi Pantheon`;
+    document.getElementById("crumb-name").textContent = view.name;
+
     const html = `
-      ${aspectTabsHtml(parent, aspectSlug)}
+      ${aspectTabsHtml(parent, aspectSlug, source)}
       <div class="deity-hero">
         <img class="symbol" src="${iconPath(view)}" alt="${escapeHtml(view.name)} symbol">
         <div class="deity-hero-text">
@@ -68,10 +99,12 @@ function renderMultiAspectPage(parent, placeholderSlugs) {
     `;
     document.getElementById("deity-content").innerHTML = html;
 
-    // Update the URL (without reloading) so the active tab is shareable/
-    // bookmarkable and survives a refresh, then wire up the new tab buttons.
+    // Update the URL (without reloading) so the active tab and source
+    // context are shareable/bookmarkable and survive a refresh, then wire
+    // up the new tab buttons.
     const url = new URL(window.location.href);
     url.searchParams.set("aspect", aspectSlug);
+    url.searchParams.set("source", source);
     window.history.replaceState({}, "", url);
 
     document.querySelectorAll(".aspect-tab").forEach((btn) => {
@@ -147,15 +180,16 @@ const ASPECT_LINK_HINTS = [
   { match: /^seha-angharradh/i, slug: "seha-angharradh", aspect: "angharradh" },
 ];
 
-function resolveMemberHref(m) {
+function resolveMemberHref(m, source) {
   const hint = ASPECT_LINK_HINTS.find((h) => h.slug === m.slug && h.match.test(m.name));
   const aspectParam = hint ? `&aspect=${encodeURIComponent(hint.aspect)}` : "";
-  return `deity.html?d=${encodeURIComponent(m.slug)}${aspectParam}`;
+  const sourceParam = hint && source ? `&source=${encodeURIComponent(source)}` : "";
+  return `deity.html?d=${encodeURIComponent(m.slug)}${aspectParam}${sourceParam}`;
 }
 
-function pantheonMemberHtml(m, placeholderSlugs) {
+function pantheonMemberHtml(m, placeholderSlugs, source) {
   const isPlaceholder = placeholderSlugs.has(m.slug);
-  const nameHtml = `<a class="m-name" href="${resolveMemberHref(m)}">${renderInline(m.name)}</a>`;
+  const nameHtml = `<a class="m-name" href="${resolveMemberHref(m, source)}">${renderInline(m.name)}</a>`;
   const blurb = m.blurb ? `<span class="m-blurb">${renderInline(m.blurb)}</span>` : "";
   const stubTag = isPlaceholder ? `<span class="stub-tag">unwritten</span>` : "";
   return `<div class="pantheon-member${isPlaceholder ? " no-page" : ""}">${nameHtml}${stubTag}${blurb}</div>`;
@@ -164,6 +198,12 @@ function pantheonMemberHtml(m, placeholderSlugs) {
 function appendixHtml(d, placeholderSlugs) {
   if (!d.appendix) return "";
   const { title, members } = d.appendix;
+  // The appendix's own title identifies which pantheon it represents (e.g.
+  // "Seldarine — Elven Pantheon"), which is exactly the "source" a reader
+  // following one of its links should be considered to have come from --
+  // independent of whatever pantheon the currently-viewed deity itself
+  // belongs to.
+  const source = title && /elven/i.test(title) ? "elven" : "greater";
   const heading = title ? `<h2>${renderInline(title)}</h2>` : `<h2>Appendix</h2>`;
   if (!members || members.length === 0) {
     return `
@@ -173,7 +213,7 @@ function appendixHtml(d, placeholderSlugs) {
       </section>
     `;
   }
-  const grid = members.map((m) => pantheonMemberHtml(m, placeholderSlugs)).join("");
+  const grid = members.map((m) => pantheonMemberHtml(m, placeholderSlugs, source)).join("");
   return `
     <section class="deity-section">
       ${heading}

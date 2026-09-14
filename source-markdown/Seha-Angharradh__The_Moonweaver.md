@@ -29,17 +29,15 @@ aliases:
 multi_aspect: true
 default_aspect: angharradh
 aspects:
+  - angharradh
   - aerdrie
   - hanali
   - sehanine
-  - angharradh
 ---
 ## Aspect: aerdrie
 ```columns
 id: -Aerdrie-Page
 ===
-Aerdrie Faenya takes the form of an elf-like woman whose hair and brows are made entirely of feathers, each one shifting endlessly through colour without ever settling on a single hue. From her back spring wings vast beyond any bird's, feathered in that same restless, changing plumage. She wears a cloak of clouds draping from her shoulders and winding loosely about her waist, and small forks of lightning flicker constantly through her feathers and along her fingertips. Below the hips her body gives way entirely to a coiling mass of mist and windswept cloud, so that she is never seen resting upon solid ground.
-
 - [[#Commandments of Aerdrie Faenya|Commandments of Aerdrie Faenya]]
 ===
 ### Aerdrie Faenya, She of Azure Plumage
@@ -59,8 +57,6 @@ Aerdrie Faenya takes the form of an elf-like woman whose hair and brows are made
 ```columns
 id: -Hanali-Page
 ===
-Hanali Celanil takes the form of an elf-like woman of flawless, luminous beauty, her presence alone said to be enough to stop mortal hearts. She moves with an unhurried, deliberate grace, and her gaze softens even the most guarded onlooker. She is rarely seen the same way twice, favouring flowing gowns woven with living blossoms that open and close with her breath, her beauty as changeable and enduring as love itself.
-
 - [[#Commandments of Hanali Celanil|Commandments of Hanali Celanil]]
 ===
 ### Hanali Celanil, Fountain's Rose

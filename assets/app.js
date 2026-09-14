@@ -1,6 +1,6 @@
 /* Shared utilities + landing page logic for The Ourosi Pantheon wiki. */
 
-const DATA_URL = "data/deities.json?v=b36db3d3";
+const DATA_URL = "data/deities.json?v=3726be2d";
 
 /** Load the deity dataset once and cache it on window. */
 async function loadDeities() {
@@ -30,7 +30,8 @@ function renderInline(str) {
 
 function iconPath(deity) {
   const ext = deity && deity.icon_ext ? deity.icon_ext : "svg";
-  return `assets/icons/${deity.slug}.${ext}`;
+  const slug = (deity && deity.icon_slug) || (deity && deity.slug);
+  return `assets/icons/${slug}.${ext}`;
 }
 
 /** Classic D&D alignment ordering, good-to-evil then lawful-to-chaotic within each. */
@@ -81,9 +82,13 @@ function displayNameHtml(d, mode) {
 /* ---------------- Landing page ---------------- */
 
 function deityCardHtml(d, nameMode) {
+  const href = d._cardHref || (d.multi_aspect
+    ? `deity.html?d=${encodeURIComponent(d.slug)}&source=greater`
+    : `deity.html?d=${encodeURIComponent(d.slug)}`);
+  const iconSource = d._cardIcon || d;
   return `
-    <a class="deity-card" href="deity.html?d=${encodeURIComponent(d.slug)}" data-slug="${d.slug}">
-      <img class="symbol" src="${iconPath(d)}" alt="${escapeHtml(d.name)} symbol" loading="lazy">
+    <a class="deity-card" href="${href}" data-slug="${d.slug}">
+      <img class="symbol" src="${iconPath(iconSource)}" alt="${escapeHtml(d.name)} symbol" loading="lazy">
       <h2 class="card-name card-name--${nameMode}">${displayNameHtml(d, nameMode)}</h2>
       <p class="portfolio">${renderInline(d.portfolio || "")}</p>
       <span class="alignment-tag">${escapeHtml(d.alignment || "Unaligned")}</span>
@@ -106,10 +111,15 @@ function initLandingPage() {
   // tab omit deities that would otherwise match -- e.g. Eilistraee, Lolth,
   // and Vhaeraun all carry ElvenPantheon (their elven origin) as well as
   // DrowPantheon, but belong on a future Drow tab by default, not here.
+  // `expandAspects: true` means a multi-aspect deity (e.g. Seha-Angharradh)
+  // shows one card per aspect on this tab instead of a single merged card --
+  // used on the Elven tab, where Aerdrie, Hanali, and Sehanine are each
+  // full pantheon members in their own right. Tabs without this flag (the
+  // Greater Pantheon) show the single merged card instead.
   const PANTHEON_TAGS = {
     greater: { include: "OurosiDeity" },
     dwarven: { include: "DwarfPantheon" },
-    elven: { include: "ElvenPantheon", exclude: "DrowPantheon" },
+    elven: { include: "ElvenPantheon", exclude: "DrowPantheon", expandAspects: true },
   };
 
   loadDeities().then((deities) => {
@@ -129,14 +139,48 @@ function initLandingPage() {
       if (saved && PANTHEON_TAGS[saved]) activeTab = saved;
     } catch (e) { /* localStorage unavailable, fall back to default */ }
 
+    // Turns one multi-aspect deity record (e.g. Seha-Angharradh) into
+    // several card-view objects, one per aspect, each linking straight to
+    // that aspect's tab on the shared page. All four share the merged
+    // page's own symbol image (not each aspect's individual icon), and the
+    // combined/default aspect displays under its pantheon-context name
+    // ("Angharradh" here on the Elven tab) rather than the landing-page
+    // name used elsewhere ("Seha-Angharradh").
+    // Mirrors SOURCE_NAME_OVERRIDES in deity-page.js: on the Elven Pantheon
+    // tab, the combined aspect displays as "Angharradh" rather than the
+    // "Seha-Angharradh" name used for its card on the Greater Pantheon tab.
+    const ELVEN_ASPECT_NAME_OVERRIDES = { angharradh: "Angharradh, the Moonweaver" };
+
+    function expandToAspectCards(d) {
+      return d.aspects.map((a) => ({
+        slug: d.slug,
+        name: ELVEN_ASPECT_NAME_OVERRIDES[a.aspect_slug] || a.name,
+        portfolio: a.portfolio,
+        alignment: a.alignment,
+        domains: d.domains,
+        _cardHref: `deity.html?d=${encodeURIComponent(d.slug)}&aspect=${encodeURIComponent(a.aspect_slug)}&source=elven`,
+        _cardIcon: d,
+      }));
+    }
+
     function deitiesForActiveTab() {
       const cfg = PANTHEON_TAGS[activeTab];
-      return sorted.filter((d) => {
+      const matched = sorted.filter((d) => {
         const tags = d.tags || [];
         if (!tags.includes(cfg.include)) return false;
         if (cfg.exclude && tags.includes(cfg.exclude)) return false;
         return true;
       });
+      if (!cfg.expandAspects) return matched;
+      const expanded = [];
+      matched.forEach((d) => {
+        if (d.multi_aspect && Array.isArray(d.aspects) && d.aspects.length > 0) {
+          expanded.push(...expandToAspectCards(d));
+        } else {
+          expanded.push(d);
+        }
+      });
+      return expanded;
     }
 
     // Rebuilds the alignment filter's options to match whichever alignments
