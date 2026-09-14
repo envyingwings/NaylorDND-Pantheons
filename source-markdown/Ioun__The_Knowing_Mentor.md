@@ -10,7 +10,7 @@ Status:
   - Ourosi (Greater Deity)
 Warlock Province:
   - Great Old One
-Alignment: Neutral / Unaligned
+Alignment: True Neutral
 tags:
   - OurosiDeity
   - GreatOldOnePatron

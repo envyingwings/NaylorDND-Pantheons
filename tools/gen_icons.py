@@ -25,7 +25,7 @@ ALIGNMENT_COLORS = {
     "Neutral Good":     ("#5b9a68", "#2f5c38"),
     "Chaotic Good":     ("#4f8fb0", "#25516a"),
     "Lawful Neutral":   ("#8b8b8b", "#4a4a4a"),
-    "Neutral / Unaligned": ("#9c8a6a", "#5c4f39"),
+    "True Neutral": ("#9c8a6a", "#5c4f39"),
     "Chaotic Neutral":  ("#a9743d", "#6b471f"),
     "Lawful Evil":      ("#7a2b3a", "#3d1219"),
     "Neutral Evil":     ("#5a3a6b", "#2c1a35"),

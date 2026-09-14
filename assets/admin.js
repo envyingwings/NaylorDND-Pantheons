@@ -8,7 +8,7 @@ let DIRTY_SLUGS = new Set(); // slugs with unsaved edits since last load/downloa
 
 const ALIGNMENT_OPTIONS = [
   "Lawful Good", "Neutral Good", "Chaotic Good",
-  "Lawful Neutral", "Neutral", "Chaotic Neutral",
+  "Lawful Neutral", "True Neutral", "Chaotic Neutral",
   "Lawful Evil", "Neutral Evil", "Chaotic Evil",
 ];
 

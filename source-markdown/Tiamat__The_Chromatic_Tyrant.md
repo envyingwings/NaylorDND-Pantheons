@@ -61,20 +61,14 @@ columns: 3
 imageProperty: cover
 ```
 - [[Aasterinian — Quicksilver Dragon]]
-- Aleithillithos, Amethyst Thane (M)
 - [[Astilabor — The Hoardmistress]]
 - [[Bahamut, the Platinum Dragon]]
-- Charisma, Sapphire Thane (F)
 - [[Garyx — Cleanser of Worlds]]
-- Hrodel, Crystal Thane (F)
 - [[Kereska — Wonderbringer]]
 - [[Kurtulmak — the Horned Sorcerer]]
 - [[Lendys — Scale of Justice]]
 - [[Nathair Sgiathach — Scampdrake]]
 - [[Null — Great Deathwyrm]]
 - [[Sardior, The Ruby Wyrm]]
-- Seradess, Obsidian Thane (F)
-- Smargad, Emerald Thane (M)
 - [[Tamara — Her Mercy]]
-- Tithonnas, Topaz Thane (M)
 - [[Zorquan — Perfect Wyrm]]

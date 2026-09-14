@@ -253,32 +253,14 @@
           "has_page": true
         },
         {
-          "name": "Aleithillithos, Amethyst Thane (M)",
-          "slug": "aleithillithos-amethyst-thane-m",
-          "blurb": "",
-          "has_page": true
-        },
-        {
           "name": "Astilabor — The Hoardmistress",
           "slug": "astilabor-the-hoardmistress",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Charisma, Sapphire Thane (F)",
-          "slug": "charisma-sapphire-thane-f",
-          "blurb": "",
-          "has_page": true
-        },
-        {
           "name": "Garyx — Cleanser of Worlds",
           "slug": "garyx-cleanser-of-worlds",
-          "blurb": "",
-          "has_page": true
-        },
-        {
-          "name": "Hrodel, Crystal Thane (F)",
-          "slug": "hrodel-crystal-thane-f",
           "blurb": "",
           "has_page": true
         },
@@ -319,18 +301,6 @@
           "has_page": true
         },
         {
-          "name": "Seradess, Obsidian Thane (F)",
-          "slug": "seradess-obsidian-thane-f",
-          "blurb": "",
-          "has_page": true
-        },
-        {
-          "name": "Smargad, Emerald Thane (M)",
-          "slug": "smargad-emerald-thane-m",
-          "blurb": "",
-          "has_page": true
-        },
-        {
           "name": "Tamara — Her Mercy",
           "slug": "tamara-her-mercy",
           "blurb": "",
@@ -339,12 +309,6 @@
         {
           "name": "Tiamat, The Chromatic Tyrant",
           "slug": "tiamat",
-          "blurb": "",
-          "has_page": true
-        },
-        {
-          "name": "Tithonnas, Topaz Thane (M)",
-          "slug": "tithonnas-topaz-thane-m",
           "blurb": "",
           "has_page": true
         },
@@ -1051,7 +1015,7 @@
     "slug": "ioun",
     "name": "Ioun, the Knowing Mentor",
     "portfolio": "Greater Goddess of Truth, Knowledge, Lore, Skill, and Wizardry",
-    "alignment": "Neutral / Unaligned",
+    "alignment": "True Neutral",
     "domains": [
       "Arcana",
       "Knowledge",
@@ -1424,7 +1388,7 @@
     "slug": "melora",
     "name": "Melora, the Wildmother",
     "portfolio": "Greater Goddess of Nature, Beasts, Hunters, Seas, and Wilderness",
-    "alignment": "Neutral / Unaligned",
+    "alignment": "True Neutral",
     "domains": [
       "Hunt",
       "Life",
@@ -1752,7 +1716,7 @@
     "slug": "sardior",
     "name": "Sardior, the Ruby Wyrm",
     "portfolio": "Greater God of Psionics, Philosophy, and Enlightenment",
-    "alignment": "Neutral / Unaligned",
+    "alignment": "True Neutral",
     "domains": [
       "Arcana",
       "Knowledge",
@@ -1799,12 +1763,6 @@
           "has_page": true
         },
         {
-          "name": "Aleithillithos, Amethyst Thane (M)",
-          "slug": "aleithillithos-amethyst-thane-m",
-          "blurb": "",
-          "has_page": true
-        },
-        {
           "name": "Astilabor — The Hoardmistress",
           "slug": "astilabor-the-hoardmistress",
           "blurb": "",
@@ -1817,20 +1775,8 @@
           "has_page": true
         },
         {
-          "name": "Charisma, Sapphire Thane (F)",
-          "slug": "charisma-sapphire-thane-f",
-          "blurb": "",
-          "has_page": true
-        },
-        {
           "name": "Garyx — Cleanser of Worlds",
           "slug": "garyx-cleanser-of-worlds",
-          "blurb": "",
-          "has_page": true
-        },
-        {
-          "name": "Hrodel, Crystal Thane (F)",
-          "slug": "hrodel-crystal-thane-f",
           "blurb": "",
           "has_page": true
         },
@@ -1865,18 +1811,6 @@
           "has_page": true
         },
         {
-          "name": "Seradess, Obsidian Thane (F)",
-          "slug": "seradess-obsidian-thane-f",
-          "blurb": "",
-          "has_page": true
-        },
-        {
-          "name": "Smargad, Emerald Thane (M)",
-          "slug": "smargad-emerald-thane-m",
-          "blurb": "",
-          "has_page": true
-        },
-        {
           "name": "Tamara — Her Mercy",
           "slug": "tamara-her-mercy",
           "blurb": "",
@@ -1885,12 +1819,6 @@
         {
           "name": "Tiamat, The Chromatic Tyrant",
           "slug": "tiamat",
-          "blurb": "",
-          "has_page": true
-        },
-        {
-          "name": "Tithonnas, Topaz Thane (M)",
-          "slug": "tithonnas-topaz-thane-m",
           "blurb": "",
           "has_page": true
         },
@@ -2082,12 +2010,6 @@
           "has_page": true
         },
         {
-          "name": "Aleithillithos, Amethyst Thane (M)",
-          "slug": "aleithillithos-amethyst-thane-m",
-          "blurb": "",
-          "has_page": true
-        },
-        {
           "name": "Astilabor — The Hoardmistress",
           "slug": "astilabor-the-hoardmistress",
           "blurb": "",
@@ -2100,20 +2022,8 @@
           "has_page": true
         },
         {
-          "name": "Charisma, Sapphire Thane (F)",
-          "slug": "charisma-sapphire-thane-f",
-          "blurb": "",
-          "has_page": true
-        },
-        {
           "name": "Garyx — Cleanser of Worlds",
           "slug": "garyx-cleanser-of-worlds",
-          "blurb": "",
-          "has_page": true
-        },
-        {
-          "name": "Hrodel, Crystal Thane (F)",
-          "slug": "hrodel-crystal-thane-f",
           "blurb": "",
           "has_page": true
         },
@@ -2154,26 +2064,8 @@
           "has_page": true
         },
         {
-          "name": "Seradess, Obsidian Thane (F)",
-          "slug": "seradess-obsidian-thane-f",
-          "blurb": "",
-          "has_page": true
-        },
-        {
-          "name": "Smargad, Emerald Thane (M)",
-          "slug": "smargad-emerald-thane-m",
-          "blurb": "",
-          "has_page": true
-        },
-        {
           "name": "Tamara — Her Mercy",
           "slug": "tamara-her-mercy",
-          "blurb": "",
-          "has_page": true
-        },
-        {
-          "name": "Tithonnas, Topaz Thane (M)",
-          "slug": "tithonnas-topaz-thane-m",
           "blurb": "",
           "has_page": true
         },
@@ -2834,26 +2726,6 @@
     "is_placeholder": true
   },
   {
-    "slug": "aleithillithos-amethyst-thane-m",
-    "name": "Aleithillithos, Amethyst Thane (M)",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
     "slug": "astilabor-the-hoardmistress",
     "name": "Astilabor — The Hoardmistress",
     "portfolio": "",
@@ -2874,48 +2746,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "charisma-sapphire-thane-f",
-    "name": "Charisma, Sapphire Thane (F)",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
     "slug": "garyx-cleanser-of-worlds",
     "name": "Garyx — Cleanser of Worlds",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "hrodel-crystal-thane-f",
-    "name": "Hrodel, Crystal Thane (F)",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -3034,68 +2866,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "seradess-obsidian-thane-f",
-    "name": "Seradess, Obsidian Thane (F)",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "smargad-emerald-thane-m",
-    "name": "Smargad, Emerald Thane (M)",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
     "slug": "tamara-her-mercy",
     "name": "Tamara — Her Mercy",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "tithonnas-topaz-thane-m",
-    "name": "Tithonnas, Topaz Thane (M)",
     "portfolio": "",
     "alignment": "",
     "domains": [],

@@ -14,7 +14,7 @@ Warlock Province:
   - Genie (Earth)
   - Genie (Fire)
   - Genie (Water)
-Alignment: Neutral / Unaligned
+Alignment: True Neutral
 tags:
   - OurosiDeity
   - FathomlessPatron
