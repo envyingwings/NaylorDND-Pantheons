@@ -47,6 +47,114 @@
     "is_placeholder": false
   },
   {
+    "slug": "alathrien-druanna",
+    "name": "Alathrien Druanna, Glyphscribe",
+    "portfolio": "Elven goddess of writing, runes, and spellcrafting",
+    "alignment": "True Neutral",
+    "domains": [
+      "Arcana",
+      "Knowledge"
+    ],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Seldarine"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "ElvenPantheon"
+    ],
+    "cover_file": "Alathrien.png",
+    "intro": [
+      "Alathrien Druanna's skin is pale as parchment, veined with looping elven script that reads as an unbroken journal of her own thoughts, the words sliding steadily down her limbs before spilling off her fingertips as fresh ink. Her hair falls in coils of flowing black ink, each strand curling back into itself on either side of her head, a current with no beginning or end. She wears a robe woven from unbound vellum pages, their edges constantly rewriting themselves in the same silver-white as her skin, closed at the waist by a girdle made of sewn book spines from which hang dozens of component pouches. A single gold-feathered quill rests between two fingers of one hand, angled to catch the ink as it runs from her fingertips, ready to be turned to whatever working she chooses next."
+    ],
+    "infobox": {
+      "Alignment": "Neutral",
+      "Symbol": "A quill drawing a rune",
+      "Portfolio": "Elven goddess of literature, runes and spellcrafting",
+      "Divine Realm": "House of Knowledge, Outlands",
+      "Worshippers": "Archivists, mages, scholars, spellwrights"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Seldarine — Elven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Alathrien_Druanna__Glyphscribe.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "alobal-lorfiril",
+    "name": "Alobal Lorfiril, Merry Magician",
+    "portfolio": "Elven god of mirth, revelry, and wine",
+    "alignment": "Chaotic Good",
+    "domains": [],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Seldarine"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "ElvenPantheon"
+    ],
+    "cover_file": "Alobal.png",
+    "intro": [
+      "Alobal Lorfiril takes the form of an elven young adult wearing a coat of overlapping flower petals in a hundred varieties, giving off an intoxicating perfume. Grapevines pierce the length of his long ears, hung with grapes in every colour and finish the eye can register, each one ripe with a different divine flavour. Where his pupils should sit, small kaleidoscope patterns spin lazily, rearranging with every blink. In his hand he turns a wine goblet that never once runs empty no matter how often it is tipped."
+    ],
+    "infobox": {
+      "Alignment": "Chaotic Good",
+      "Symbol": "A partially drunken wineglass with colourful orbs floating out of it",
+      "Portfolio": "Elven god of mirth, revelry, and wine",
+      "Divine Realm": "Arvandor",
+      "Worshippers": "Brewers, entertainers, illusionists, innkeepers, revellers, vintners"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Seldarine — Elven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Alobal_Lorfiril__Merry_Magician.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "araleth-letheranil",
+    "name": "Araleth Letheranil, Prince of Stars",
+    "portfolio": "Greater God of Stars, Elven god of light, revelations, starlight, and twilight",
+    "alignment": "Chaotic Good",
+    "domains": [],
+    "status": [],
+    "warlock_province": [],
+    "tags": [
+      "ElvenPantheon"
+    ],
+    "cover_file": "Araleth.png",
+    "intro": [
+      "Araleth Letheranil, Prince of Stars, takes the form of an elf-like man whose hair falls in strands of woven silver starlight, each strand faintly luminous. His eyes burn molten gold, casting soft sunlight out from beneath pale brows. Upon his right shoulder sits a scar of total black, rimmed at its jagged edge with a thin corona of light, like the instant of a total eclipse frozen in place. He wears constellation-etched plate armour beneath a cloak of streaming twilight, star-spurred boots at his heels, a set of rider's reins gripped in one hand and a long spear crowned with a silver sun held in the other."
+    ],
+    "infobox": {
+      "Alignment": "Chaotic Good",
+      "Symbol": "A white shaft of light, narrow at the top and widening toward the base",
+      "Portfolio": "Elven god of light, revelations, starlight, and twilight",
+      "Divine Realm": "House of Glowing Stars, Arvandor",
+      "Worshippers": "Adventurers, astrologers, sailors, scouts, sentries"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Seldarine — Elven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Araleth_Letheranil__Prince_of_Stars.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "asmodeus",
     "name": "Asmodeus, Lord of the Nine Hells",
     "portfolio": "Greater God of the Hells, Indulgence, Sin and Negotiation",
@@ -626,32 +734,32 @@
       "title": "Seldarine — Elven Pantheon",
       "members": [
         {
-          "name": "Aerdrie Faenya — She of Azure Plumage",
-          "slug": "aerdrie-faenya-she-of-azure-plumage",
-          "blurb": "",
-          "has_page": true
-        },
-        {
           "name": "Alathrien Druanna — Glyphscribe",
-          "slug": "alathrien-druanna-glyphscribe",
+          "slug": "alathrien-druanna",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Alobal Lorfiril — Merry Magician",
-          "slug": "alobal-lorfiril-merry-magician",
+          "slug": "alobal-lorfiril",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Araleth Letheranil — Prince of Stars",
-          "slug": "araleth-letheranil-prince-of-stars",
+          "slug": "araleth-letheranil",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Avachel — the Quicksilver Dragon",
           "slug": "aasterinian-quicksilver-dragon",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Angharradh",
+          "slug": "seha-angharradh",
           "blurb": "",
           "has_page": true
         },
@@ -663,109 +771,97 @@
         },
         {
           "name": "Elebrin Liothiel — Celestial Gardener",
-          "slug": "elebrin-liothiel-celestial-gardener",
+          "slug": "elebrin-liothiel",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Erevan Ilesere — the Green Changeling",
-          "slug": "erevan-ilesere-the-green-changeling",
+          "slug": "erevan-ilesere",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Fenmarel Mestarine — the Lone Wolf",
-          "slug": "fenmarel-mestarine-the-lone-wolf",
-          "blurb": "",
-          "has_page": true
-        },
-        {
-          "name": "Hanali Celanil — Fountain's Rose",
-          "slug": "hanali-celanil-fountains-rose",
+          "slug": "fenmarel-mestarine",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Kirith Sotheril — The Rainbow Magess",
-          "slug": "kirith-sotheril-the-rainbow-magess",
+          "slug": "kirith-sotheril",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Labelas Enoreth — Sage at Sunset",
-          "slug": "labelas-enoreth-sage-at-sunset",
+          "slug": "labelas-enoreth",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Melira Taralen — Evergold Songstress",
-          "slug": "melira-taralen-evergold-songstress",
+          "slug": "melira-taralen",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Mythrien Sarath — Mythal Protector",
-          "slug": "mythrien-sarath-mythal-protector",
+          "slug": "mythrien-sarath",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Naralis Analor — Watcher of Souls",
-          "slug": "naralis-analor-watcher-of-souls",
+          "slug": "naralis-analor",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Rillifane Rallathil — Many-Branched Wildling",
-          "slug": "rillifane-rallathil-many-branched-wildling",
+          "slug": "rillifane-rallathil",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Sarula Iliene — Nixie Queen",
-          "slug": "sarula-iliene-nixie-queen",
-          "blurb": "",
-          "has_page": true
-        },
-        {
-          "name": "Seha-Angharradh, The Moonweaver",
-          "slug": "seha-angharradh",
+          "slug": "sarula-iliene",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Shevarash — Black Archer",
-          "slug": "shevarash-black-archer",
+          "slug": "shevarash",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Solonor Thelandira — Unerring Archer",
-          "slug": "solonor-thelandira-unerring-archer",
+          "slug": "solonor-thelandira",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Tarsellis Meunniduin — Frost Hermit",
-          "slug": "tarsellis-meunniduin-frost-hermit",
+          "slug": "tarsellis-meunniduin",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Tethrin Veraldé — Master of Blades",
-          "slug": "tethrin-veraldé-master-of-blades",
+          "slug": "tethrin-veraldé",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Trishina — Joyswimmer",
-          "slug": "trishina-joyswimmer",
+          "slug": "trishina",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Vandria Gilmadrith — Lady Steelheart",
-          "slug": "vandria-gilmadrith-lady-steelheart",
+          "slug": "vandria-gilmadrith",
           "blurb": "",
           "has_page": true
         }
@@ -820,6 +916,56 @@
     },
     "icon_ext": "svg",
     "source_file": "Deep_Duerra__Queen_of_the_Invisible_Art.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "deep-sashelas",
+    "name": "Deep Sashelas, Dolphin Prince",
+    "portfolio": "Greater God of Undersea, Elven god of seas and knowledge",
+    "alignment": "Chaotic Good",
+    "domains": [
+      "Knowledge",
+      "Nature",
+      "Tempest",
+      "Trickery"
+    ],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Seldarine"
+    ],
+    "warlock_province": [
+      "Archfey",
+      "Celestial",
+      "Fathomless",
+      "Genie (Water)"
+    ],
+    "tags": [
+      "ElvenPantheon",
+      "KnowledgeDomain",
+      "NatureDomain",
+      "TempestDomain",
+      "TrickeryDomain"
+    ],
+    "cover_file": "Sashelas.png",
+    "intro": [
+      "Deep Sashelas takes the form of a sea elf-like man with skin and eyes of deep blue-green, both faintly luminous beneath open water. Fine ridges of pale coral run down his forearms and spine, fused directly into his flesh in overlapping layers. Threads of pale bioluminescence trace beneath his skin in shifting lines, brightening faintly at his temples and along his collarbones. He wears little beyond a mantle of dried kelp and clustered pearls slung across one shoulder, and in his hands he carries a trident of pale giant coral grown fused around three ivory narwhal horns."
+    ],
+    "infobox": {
+      "Alignment": "Chaotic Good",
+      "Symbol": "A dolphin",
+      "Portfolio": "Elven god of seas and knowledge",
+      "Divine Realm": "Elavandor, Arvandor",
+      "Worshippers": "Anglers, diplomats, fishfolk, sailors, sea elves, tritons, shipwrights"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Seldarine — Elven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Deep_Sashelas__Dolphin_Prince.md",
     "is_placeholder": false
   },
   {
@@ -1110,6 +1256,42 @@
     "is_placeholder": false
   },
   {
+    "slug": "elebrin-liothiel",
+    "name": "Elebrin Liothiel, Celestial Gardener",
+    "portfolio": "Elven god of abundance, gardens, and harvest",
+    "alignment": "Chaotic Good",
+    "domains": [],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Seldarine"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "ElvenPantheon"
+    ],
+    "cover_file": "Elebrin.png",
+    "intro": [
+      "Elebrin Liothiel's skin is dappled gold and green across cheek and shoulder, soft and yielding beneath the touch. His elven ears taper into curling tendrils of budding vine, and his eyes are a clear, honeyed amber. Small blossoms grow along his collarbone and the backs of his hands, opening and closing in a slow, steady rhythm. He wears a tunic of broad oak leaves overlapping down his chest, trousers of trailing bean-vine, a braided cord of wheat at his waist, and a cloak strung with acorns that click softly together with each step, and in one hand he carries a rowan trellis-staff wound thick with climbing roses in full bloom, the wood beneath barely visible through the growth."
+    ],
+    "infobox": {
+      "Alignment": "Chaotic Good",
+      "Symbol": "An acorn on an oak leaf",
+      "Portfolio": "Elven god of abundance, gardens, and harvest",
+      "Divine Realm": "Arvandor",
+      "Worshippers": "Farmers, foresters, gardeners"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Seldarine — Elven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Elebrin_Liothiel__Celestial_Gardener.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "erathis",
     "name": "Erathis, the Lawbearer",
     "portfolio": "Greater Goddess of Law, Civilization, Commerce, Peace, and Progress",
@@ -1153,6 +1335,77 @@
     "appendix": null,
     "icon_ext": "webp",
     "source_file": "Erathis__The_Lawbearer.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "erevan-ilesere",
+    "name": "Erevan Ilesere, the Green Changeling",
+    "portfolio": "Elven god of change and mischief",
+    "alignment": "Chaotic Good",
+    "domains": [
+      "Trickery"
+    ],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Seldarine"
+    ],
+    "warlock_province": [
+      "Archfey"
+    ],
+    "tags": [
+      "ElvenPantheon"
+    ],
+    "cover_file": "erevan.png",
+    "intro": [
+      "Erevan is a fickle, and unpredictable deity who can change his appearance at will, capable of changing between miniscule and giant. Regardless of how he appears at any given time, Erevan will always wear green somewhere upon his person."
+    ],
+    "infobox": {
+      "Alignment": "Chaotic Good",
+      "Symbol": "An asymmetrical seven-pointed starburst",
+      "Portfolio": "Elven god of change and mischief",
+      "Divine Realm": "Arvandor",
+      "Worshippers": "Actors, con artists, gamblers, pixies, rogues, sprites"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Seldarine — Elven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Erevan_Ilesere__the_Green_Changeling.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "fenmarel-mestarine",
+    "name": "Fenmarel Mestarine, the Lone Wolf",
+    "portfolio": "Elven god of survival, scapegoats, outcasts and isolation",
+    "alignment": "Chaotic Neutral",
+    "domains": [],
+    "status": [],
+    "warlock_province": [],
+    "tags": [
+      "ElvenPantheon"
+    ],
+    "cover_file": "Fenmarel.png",
+    "intro": [],
+    "infobox": {
+      "Alignment": "Chaotic Neutral",
+      "Symbol": "Two peering elven eyes surrounded by darkness",
+      "Portfolio": "Elven god of survival, scapegoats, outcasts, and isolation",
+      "Divine Realm": "Fennimar, Arvandor",
+      "Worshippers": "Exiles, hermits, outlaws, refugees, wild elves"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Seldarine — Elven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Fenmarel_Mestarine__the_Lone_Wolf.md",
     "is_placeholder": false
   },
   {
@@ -1598,6 +1851,45 @@
     "is_placeholder": false
   },
   {
+    "slug": "kirith-sotheril",
+    "name": "Kirith Sotheril, the Rainbow Magess",
+    "portfolio": "Elven goddess of counsel, politics, and statecraft",
+    "alignment": "Neutral Good",
+    "domains": [
+      "Arcana",
+      "Community",
+      "Knowledge",
+      "Peace"
+    ],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Seldarine"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "ElvenPantheon"
+    ],
+    "cover_file": "Kirith.png",
+    "intro": [],
+    "infobox": {
+      "Alignment": "Neutral Good",
+      "Symbol": "A rainbow crystal ball",
+      "Portfolio": "Elven goddess of counsel, politics, and statecraft",
+      "Divine Realm": "Tethridar Amoria",
+      "Worshippers": "Advisors, courtiers, diplomats, diviners, enchanters, politicians"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Seldarine — Elven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Kirith_Sotheril__The_Rainbow_Magess.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "kord",
     "name": "Kord, the Stormwarrior",
     "portfolio": "Greater God of Storms, Skies, Athletics, Battle, Heroes, and Victory",
@@ -1648,6 +1940,48 @@
     },
     "icon_ext": "webp",
     "source_file": "Kord__The_Stormwarrior.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "labelas-enoreth",
+    "name": "Labelas Enoreth, Sage at Sunset",
+    "portfolio": "Elven god of time, longevity, and history",
+    "alignment": "Chaotic Good",
+    "domains": [
+      "Arcana",
+      "Grave",
+      "Knowledge",
+      "Time"
+    ],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Seldarine"
+    ],
+    "warlock_province": [
+      "Celestial",
+      "Undying"
+    ],
+    "tags": [
+      "ElvenPantheon"
+    ],
+    "cover_file": "Labelas.png",
+    "intro": [],
+    "infobox": {
+      "Alignment": "Chaotic Good",
+      "Symbol": "A setting sun over a forest horizon",
+      "Portfolio": "Elven god of time, longevity, and history",
+      "Divine Realm": "The Vanishing Tower, Arvandor",
+      "Worshippers": "Elders, historians, philosophers, sages"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Seldarine — Elven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Labelas_Enoreth__Sage_at_Sunset.md",
     "is_placeholder": false
   },
   {
@@ -2010,6 +2344,37 @@
     "is_placeholder": false
   },
   {
+    "slug": "melira-taralen",
+    "name": "Melira Taralen, Fountainside Songstress",
+    "portfolio": "Elven goddess of poetry, song, and half-elves",
+    "alignment": "Chaotic Good",
+    "domains": [],
+    "status": [],
+    "warlock_province": [],
+    "tags": [
+      "ElvenPantheon"
+    ],
+    "cover_file": "Melira.png",
+    "intro": [],
+    "infobox": {
+      "Alignment": "Chaotic Good",
+      "Symbol": "A golden lute on a blue background",
+      "Portfolio": "Elven goddess of poetry, song, and half-elves",
+      "Divine Realm": "Evergold, Arvandor",
+      "Worshippers": "Bards, composers, half-elves, minstrels, musicians, poets"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Seldarine — Elven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Melira_Taralen__Evergold_Songstress.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "melora",
     "name": "Melora, the Wildmother",
     "portfolio": "Greater Goddess of Nature, Beasts, Hunters, Seas, and Wilderness",
@@ -2283,6 +2648,75 @@
     "is_placeholder": false
   },
   {
+    "slug": "mythrien-sarath",
+    "name": "Mythrien Sarath, Mythal Protector",
+    "portfolio": "Elven god of abjuration and civilization",
+    "alignment": "Chaotic Good",
+    "domains": [
+      "Arcana",
+      "Community",
+      "Knowledge"
+    ],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Seldarine"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "ElvenPantheon"
+    ],
+    "cover_file": "Mythrien.png",
+    "intro": [],
+    "infobox": {
+      "Alignment": "Chaotic Good",
+      "Symbol": "Three rings; the middle ring blue and the other two gold",
+      "Portfolio": "Elven god of abjuration and civilization",
+      "Divine Realm": "Mythralan, Arvandor",
+      "Worshippers": "Abjurers, city guards, urban planners, wardens"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Seldarine — Elven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Mythrien_Sarath__Mythal_Protector.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "naralis-analor",
+    "name": "Naralis Analor, Watcher of Souls",
+    "portfolio": "Greater God of Souls, Elven god of healing, passage and peace",
+    "alignment": "Neutral Good",
+    "domains": [],
+    "status": [],
+    "warlock_province": [],
+    "tags": [
+      "ElvenPantheon"
+    ],
+    "cover_file": "Naralis.png",
+    "intro": [],
+    "infobox": {
+      "Alignment": "Neutral Good",
+      "Symbol": "A white dove",
+      "Portfolio": "Elven god of healing, passage, and peace",
+      "Divine Realm": "Healing Glade, Amoria",
+      "Worshippers": "Caretakers, gravediggers, healers, midwives, physicians, the dying"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Seldarine — Elven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Naralis_Analor__Watcher_of_Souls.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "pelor",
     "name": "Pelor, the Dawnfather",
     "portfolio": "Greater God of Dawn, Agriculture, Martyrs, Summer, and the Sun",
@@ -2374,6 +2808,46 @@
     "appendix": null,
     "icon_ext": "webp",
     "source_file": "Raei__The_Everlight.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "rillifane-rallathil",
+    "name": "Rillifane Rallathil, Many-Branched Wildling",
+    "portfolio": "Elven god of woodlands, nature, and druidcraft",
+    "alignment": "Chaotic Good",
+    "domains": [
+      "Hunt",
+      "Nature"
+    ],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Seldarine"
+    ],
+    "warlock_province": [
+      "Archfey",
+      "Genie (Earth)"
+    ],
+    "tags": [
+      "ElvenPantheon"
+    ],
+    "cover_file": "Rillifane.png",
+    "intro": [],
+    "infobox": {
+      "Alignment": "Chaotic Good",
+      "Symbol": "An oak tree",
+      "Portfolio": "Elven god of woodlands, nature, and druidcraft",
+      "Divine Realm": "Oak Grove, Arvandor",
+      "Worshippers": "Druids, foresters, rangers, woodcutters, wood elves"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Seldarine — Elven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Rillifane_Rallathil__Many-Branched_Wildling.md",
     "is_placeholder": false
   },
   {
@@ -2537,6 +3011,40 @@
     "is_placeholder": false
   },
   {
+    "slug": "sarula-iliene",
+    "name": "Sarula Iliene, Nixie Queen",
+    "portfolio": "Elven goddess of lakes and streams",
+    "alignment": "Chaotic Good",
+    "domains": [],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Seldarine"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "ElvenPantheon"
+    ],
+    "cover_file": "Sarula Iliene.png",
+    "intro": [],
+    "infobox": {
+      "Alignment": "Chaotic Good",
+      "Symbol": "Three blue lines, each with three crested points",
+      "Portfolio": "Elven goddess of lakes and streams",
+      "Divine Realm": "Byrthanion, Arvandor",
+      "Worshippers": "Anglers, ferrymen, millers, nixies, water mages"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Seldarine — Elven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Sarula_Iliene__Nixie_Queen.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "seha-angharradh",
     "name": "Seha-Angharradh, the Moonweaver",
     "portfolio": "Greater Goddess of Dreams, Moon, Intimacy, Mystery, and Shapechanging",
@@ -2566,16 +3074,16 @@
       "GreatOldOnePatron",
       "Psychopomp"
     ],
-    "cover_file": "SehanineSymbol.webp",
+    "cover_file": null,
     "intro": [
-      "**Seha-Angharradh** (pronounced /ˈseɪhə ˌæŋˈhærəð/ SAY-huh ang-HA-rath), the **Moonweaver**, is a triune goddess dwelling upon Arvandor, most commonly known by the name of Sehanine, eldest of the three and elven goddess of death. She governs moonlight, dreams, and the autumn season, as well as the arts of illusion and misdirection. Widely worshipped across halfling and elven cultures alike, she is also a goddess of love and intimacy, shielding the trysts of lovers in shadows of her own making."
+      "**Angharradh** (pronounced /ˈæŋˈhærəð/ ang-HA-rath), the **Moonweaver**, is the triune union of Aerdrie Faenya, Hanali Celanil, and Sehanine, three goddesses of the Seldarine who dwell together upon Arvandor. Most commonly known by the name of Sehanine, eldest of the three, the united goddess is worshipped across halfling and elven cultures alike as a single figure encompassing sky and storm, love and beauty, moonlight and death all at once."
     ],
     "infobox": {
       "Alignment": "Chaotic Good",
-      "Symbol": "A crescent moon turned upward and strung like a bow.",
-      "Portfolio": "Greater God of",
-      "Divine Realm": "[[]]",
-      "Worshippers": ""
+      "Symbol": "A crescent moon turned upward and strung like a bow",
+      "Portfolio": "Greater Goddess of Dreams, Moon, Intimacy, Mystery, and Shapechanging",
+      "Divine Realm": "Trelania, Arvandor",
+      "Worshippers": "Dreamers, lovers, the dying, illusionists, shapechangers"
     },
     "titles_line": "Moonweaver, Angharradh, Mystic Eye of Night",
     "domains_line": "Arcana, Grave, Moon, Trickery, Twilight",
@@ -2586,23 +3094,112 @@
     ],
     "appendix": {
       "title": "Seldarine — Elven Pantheon",
-      "members": [
-        {
-          "name": "Aerdrie Faenya — She of Azure Plumage",
-          "slug": "aerdrie-faenya-she-of-azure-plumage",
-          "blurb": "",
-          "has_page": true
-        },
-        {
-          "name": "Hanali Celanil — Fountain's Rose",
-          "slug": "hanali-celanil-fountains-rose",
-          "blurb": "",
-          "has_page": true
-        }
-      ]
+      "members": []
     },
-    "icon_ext": "webp",
+    "icon_ext": "svg",
     "source_file": "Seha-Angharradh__The_Moonweaver.md",
+    "multi_aspect": true,
+    "default_aspect": "angharradh",
+    "aspects": [
+      {
+        "aspect_slug": "aerdrie",
+        "name": "Aerdrie Faenya, She of Azure Plumage",
+        "portfolio": "Elven goddess of sky, fertility and weather",
+        "alignment": "Chaotic Good",
+        "intro": [
+          "Aerdrie Faenya takes the form of an elf-like woman whose hair and brows are made entirely of feathers, each one shifting endlessly through colour without ever settling on a single hue. From her back spring wings vast beyond any bird's, feathered in that same restless, changing plumage. She wears a cloak of clouds draping from her shoulders and winding loosely about her waist, and small forks of lightning flicker constantly through her feathers and along her fingertips. Below the hips her body gives way entirely to a coiling mass of mist and windswept cloud, so that she is never seen resting upon solid ground."
+        ],
+        "infobox": {
+          "Alignment": "Chaotic Good",
+          "Symbol": "A bird silhouetted in a cloud",
+          "Portfolio": "Elven goddess of sky, fertility and weather",
+          "Divine Realm": "The Aerie, Arvandor",
+          "Worshippers": "Aarakocra, avariel, expectant mothers, falconers, farmers, sailors"
+        },
+        "titles_line": null,
+        "domains_line": null,
+        "commandments": [
+          "In change there is beauty, and in chaos there is the birth of new life.",
+          "Ascend, soar, glide, dive and ascend again and relish in the freedom to do so."
+        ],
+        "appendix": null,
+        "icon_ext": "svg"
+      },
+      {
+        "aspect_slug": "hanali",
+        "name": "Hanali Celanil, Fountain's Rose",
+        "portfolio": "Elven goddess of love, romance, and beauty",
+        "alignment": "Chaotic Good",
+        "intro": [
+          "Hanali Celanil takes the form of an elf-like woman of flawless, luminous beauty, her presence alone said to be enough to stop mortal hearts. She moves with an unhurried, deliberate grace, and her gaze softens even the most guarded onlooker. She is rarely seen the same way twice, favouring flowing gowns woven with living blossoms that open and close with her breath, her beauty as changeable and enduring as love itself."
+        ],
+        "infobox": {
+          "Alignment": "Chaotic Good",
+          "Symbol": "A golden heart",
+          "Portfolio": "Elven goddess of love, romance, and beauty",
+          "Divine Realm": "Evergold, Arvandor",
+          "Worshippers": "Aesthetes, courtesans, enchanters, lovers, matchmakers"
+        },
+        "titles_line": null,
+        "domains_line": null,
+        "commandments": [],
+        "appendix": null,
+        "icon_ext": "svg"
+      },
+      {
+        "aspect_slug": "sehanine",
+        "name": "Sehanine, the Moonweaver",
+        "portfolio": "Elven goddess of moonlight, dreams, and death",
+        "alignment": "Chaotic Good",
+        "intro": [
+          "Sehanine, eldest of the three and elven goddess of death, governs moonlight, dreams, and the autumn season, as well as the arts of illusion and misdirection. Widely worshipped across halfling and elven cultures alike, she is also a goddess of love and intimacy, shielding the trysts of lovers in shadows of her own making."
+        ],
+        "infobox": {
+          "Alignment": "Chaotic Good",
+          "Symbol": "A crescent moon turned upward and strung like a bow",
+          "Portfolio": "Elven goddess of moonlight, dreams, and death",
+          "Divine Realm": "Trelania, Arvandor",
+          "Worshippers": "Dreamers, lovers, the dying, illusionists, shapechangers"
+        },
+        "titles_line": null,
+        "domains_line": null,
+        "commandments": [
+          "Seize your own destiny and pursue your own passions.",
+          "Let the shadows protect you from the burning light of fanaticism and the absolute darkness of despair.",
+          "Walk unbridled and untethered, forging new memories and experiences."
+        ],
+        "appendix": null,
+        "icon_ext": "svg"
+      },
+      {
+        "aspect_slug": "angharradh",
+        "name": "Angharradh, the Moonweaver",
+        "portfolio": "Greater Goddess of Dreams, Moon, Intimacy, Mystery, and Shapechanging",
+        "alignment": "Chaotic Good",
+        "intro": [
+          "**Angharradh** (pronounced /ˈæŋˈhærəð/ ang-HA-rath), the **Moonweaver**, is the triune union of Aerdrie Faenya, Hanali Celanil, and Sehanine, three goddesses of the Seldarine who dwell together upon Arvandor. Most commonly known by the name of Sehanine, eldest of the three, the united goddess is worshipped across halfling and elven cultures alike as a single figure encompassing sky and storm, love and beauty, moonlight and death all at once."
+        ],
+        "infobox": {
+          "Alignment": "Chaotic Good",
+          "Symbol": "A crescent moon turned upward and strung like a bow",
+          "Portfolio": "Greater Goddess of Dreams, Moon, Intimacy, Mystery, and Shapechanging",
+          "Divine Realm": "Trelania, Arvandor",
+          "Worshippers": "Dreamers, lovers, the dying, illusionists, shapechangers"
+        },
+        "titles_line": "Moonweaver, Angharradh, Mystic Eye of Night",
+        "domains_line": "Arcana, Grave, Moon, Trickery, Twilight",
+        "commandments": [
+          "Seize your own destiny and pursue your own passions.",
+          "Let the shadows protect you from the burning light of fanaticism and the absolute darkness of despair.",
+          "Walk unbridled and untethered, forging new memories and experiences."
+        ],
+        "appendix": {
+          "title": "Seldarine — Elven Pantheon",
+          "members": []
+        },
+        "icon_ext": "svg"
+      }
+    ],
     "is_placeholder": false
   },
   {
@@ -2645,6 +3242,158 @@
     },
     "icon_ext": "svg",
     "source_file": "Sharindlar__the_Shining_Dancer.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "shevarash",
+    "name": "Shevarash, the Black Archer",
+    "portfolio": "Elven god of vengeance, loss, and hatred",
+    "alignment": "Chaotic Neutral",
+    "domains": [
+      "War"
+    ],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Seldarine"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "ElvenPantheon"
+    ],
+    "cover_file": "Shevarash.png",
+    "intro": [],
+    "infobox": {
+      "Alignment": "Chaotic Neutral",
+      "Symbol": "A broken arrow over a teardrop",
+      "Portfolio": "Elven god of vengeance, loss, and hatred",
+      "Divine Realm": "Fennimar, Arvandor",
+      "Worshippers": "Drow-hunters, orphans, rangers, soldiers, veterans"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Seldarine — Elven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Shevarash__Black_Archer.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "solonor-thelandira",
+    "name": "Solonor Thelandira, Unerring Archer",
+    "portfolio": "Elven god of archery and wilderness",
+    "alignment": "Chaotic Good",
+    "domains": [
+      "Hunt",
+      "Nature",
+      "War"
+    ],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Seldarine"
+    ],
+    "warlock_province": [
+      "Archfey",
+      "Hexblade"
+    ],
+    "tags": [
+      "ElvenPantheon"
+    ],
+    "cover_file": "Solonor.png",
+    "intro": [],
+    "infobox": {
+      "Alignment": "Chaotic Good",
+      "Symbol": "A steel-headed arrow with green fletching",
+      "Portfolio": "Elven god of archery and wilderness",
+      "Divine Realm": "Pale Tree, Arvandor",
+      "Worshippers": "Archers, fletchers, hunters, rangers, scouts"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Seldarine — Elven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Solonor_Thelandira__Unerring_Archer.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "tarsellis-meunniduin",
+    "name": "Tarsellis Meunniduin, the Frost Hermit",
+    "portfolio": "Elven god of mountains, rivers and snow",
+    "alignment": "Chaotic Neutral",
+    "domains": [
+      "Nature",
+      "Tempest"
+    ],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Seldarine"
+    ],
+    "warlock_province": [
+      "Archfey",
+      "Celestial",
+      "Genie (Water)"
+    ],
+    "tags": [
+      "ElvenPantheon"
+    ],
+    "cover_file": "Tarsellis.png",
+    "intro": [],
+    "infobox": {
+      "Alignment": "Chaotic Neutral",
+      "Symbol": "A snowcapped mountain",
+      "Portfolio": "Elven god of mountains, rivers, and snow",
+      "Divine Realm": "Wild Ride, Ysgard",
+      "Worshippers": "Herders, hermits, mountaineers, snow elves"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Seldarine — Elven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Tarsellis_Meunniduin__Frost_Hermit.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "tethrin-veraldé",
+    "name": "Tethrin Veraldé, Master of Blades",
+    "portfolio": "Greater God of Blades, Elven god of swordsmanship",
+    "alignment": "Neutral Good",
+    "domains": [],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Seldarine"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "ElvenPantheon"
+    ],
+    "cover_file": "Tethrin.png",
+    "intro": [],
+    "infobox": {
+      "Alignment": "Neutral Good",
+      "Symbol": "Crossed swords beneath a quarter moon and above a full moon",
+      "Portfolio": "Elven god of swordsmanship",
+      "Divine Realm": "Tethridar Amoria",
+      "Worshippers": "Bladesingers, duellists, soldiers, spellswords, swordsmiths"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Seldarine — Elven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Tethrin_Veraldé__Master_of_Blades.md",
     "is_placeholder": false
   },
   {
@@ -2983,6 +3732,44 @@
     "is_placeholder": false
   },
   {
+    "slug": "trishina",
+    "name": "Trishina, the Joyswimmer",
+    "portfolio": "Elven goddess of children, fidelity, and play",
+    "alignment": "Lawful Good",
+    "domains": [
+      "Beauty",
+      "Life",
+      "Peace"
+    ],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Seldarine"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "ElvenPantheon"
+    ],
+    "cover_file": "Trishina.png",
+    "intro": [],
+    "infobox": {
+      "Alignment": "Lawful Good",
+      "Symbol": "A dolphin and its calf",
+      "Portfolio": "Elven goddess of children, fidelity, and play",
+      "Divine Realm": "Thalasia",
+      "Worshippers": "Children, expectant parents, married couples, sailors, sea elves"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Seldarine — Elven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Trishina__Joyswimmer.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "ulaa",
     "name": "Ulaa, Immaculate Princess",
     "portfolio": "Greater God of the Hills, Dwarven goddess of aristocracy, hills, and opulence",
@@ -3052,6 +3839,46 @@
     },
     "icon_ext": "svg",
     "source_file": "Valkauna__the_Runecarver.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "vandria-gilmadrith",
+    "name": "Vandria Gilmadrith, Lady Steelheart",
+    "portfolio": "Elven goddess of justice, vigilance, and war",
+    "alignment": "Lawful Neutral",
+    "domains": [
+      "Grave",
+      "War"
+    ],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Seldarine"
+    ],
+    "warlock_province": [
+      "Celestial",
+      "Hexblade"
+    ],
+    "tags": [
+      "ElvenPantheon"
+    ],
+    "cover_file": "Vandria.png",
+    "intro": [],
+    "infobox": {
+      "Alignment": "Lawful Neutral",
+      "Symbol": "A weeping eye on a shield",
+      "Portfolio": "Elven goddess of justice, vigilance, and war",
+      "Divine Realm": "Arvandor",
+      "Worshippers": "Guards, judges, soldiers, strategists, widows"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Seldarine — Elven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Vandria_Gilmadrith__Lady_Steelheart.md",
     "is_placeholder": false
   },
   {
@@ -4032,426 +4859,6 @@
   {
     "slug": "skiggaret-bugbears-bogeyman",
     "name": "Skiggaret, Bugbear's Bogeyman",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "aerdrie-faenya-she-of-azure-plumage",
-    "name": "Aerdrie Faenya — She of Azure Plumage",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "alathrien-druanna-glyphscribe",
-    "name": "Alathrien Druanna — Glyphscribe",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "alobal-lorfiril-merry-magician",
-    "name": "Alobal Lorfiril — Merry Magician",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "araleth-letheranil-prince-of-stars",
-    "name": "Araleth Letheranil — Prince of Stars",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "elebrin-liothiel-celestial-gardener",
-    "name": "Elebrin Liothiel — Celestial Gardener",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "erevan-ilesere-the-green-changeling",
-    "name": "Erevan Ilesere — the Green Changeling",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "fenmarel-mestarine-the-lone-wolf",
-    "name": "Fenmarel Mestarine — the Lone Wolf",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "hanali-celanil-fountains-rose",
-    "name": "Hanali Celanil — Fountain's Rose",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "kirith-sotheril-the-rainbow-magess",
-    "name": "Kirith Sotheril — The Rainbow Magess",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "labelas-enoreth-sage-at-sunset",
-    "name": "Labelas Enoreth — Sage at Sunset",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "melira-taralen-evergold-songstress",
-    "name": "Melira Taralen — Evergold Songstress",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "mythrien-sarath-mythal-protector",
-    "name": "Mythrien Sarath — Mythal Protector",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "naralis-analor-watcher-of-souls",
-    "name": "Naralis Analor — Watcher of Souls",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "rillifane-rallathil-many-branched-wildling",
-    "name": "Rillifane Rallathil — Many-Branched Wildling",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "sarula-iliene-nixie-queen",
-    "name": "Sarula Iliene — Nixie Queen",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "shevarash-black-archer",
-    "name": "Shevarash — Black Archer",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "solonor-thelandira-unerring-archer",
-    "name": "Solonor Thelandira — Unerring Archer",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "tarsellis-meunniduin-frost-hermit",
-    "name": "Tarsellis Meunniduin — Frost Hermit",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "tethrin-veraldé-master-of-blades",
-    "name": "Tethrin Veraldé — Master of Blades",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "trishina-joyswimmer",
-    "name": "Trishina — Joyswimmer",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "vandria-gilmadrith-lady-steelheart",
-    "name": "Vandria Gilmadrith — Lady Steelheart",
     "portfolio": "",
     "alignment": "",
     "domains": [],

@@ -72,18 +72,32 @@ def main():
     data = json.load(open(DATA_PATH, encoding="utf-8"))
     count = 0
     skipped = 0
+
+    # Flatten: each top-level deity contributes one icon slot, but a
+    # multi-aspect deity (e.g. Seha-Angharradh) contributes one per aspect
+    # instead, since each aspect can have its own distinct symbol.
+    icon_targets = []
     for d in data:
-        # If real artwork already exists for this slug (any non-svg image),
-        # don't generate/overwrite a placeholder SVG alongside it.
+        if d.get("multi_aspect") and d.get("aspects"):
+            for a in d["aspects"]:
+                icon_targets.append({
+                    "slug": a["aspect_slug"],
+                    "name": a["name"],
+                    "alignment": a["alignment"] or d["alignment"],
+                })
+        else:
+            icon_targets.append({"slug": d["slug"], "name": d["name"], "alignment": d["alignment"]})
+
+    for t in icon_targets:
         has_real_art = any(
-            os.path.exists(os.path.join(OUT_DIR, f"{d['slug']}.{ext}"))
+            os.path.exists(os.path.join(OUT_DIR, f"{t['slug']}.{ext}"))
             for ext in ("webp", "png", "jpg", "jpeg")
         )
         if has_real_art:
             skipped += 1
             continue
-        out_path = os.path.join(OUT_DIR, f"{d['slug']}.svg")
-        svg = make_svg(d["name"], d["alignment"], d["slug"])
+        out_path = os.path.join(OUT_DIR, f"{t['slug']}.svg")
+        svg = make_svg(t["name"], t["alignment"], t["slug"])
         with open(out_path, "w", encoding="utf-8") as f:
             f.write(svg)
         count += 1

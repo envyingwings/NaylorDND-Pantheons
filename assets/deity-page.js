@@ -5,6 +5,83 @@ function getSlugFromQuery() {
   return params.get("d");
 }
 
+/* Reshapes one entry from a multi-aspect deity's `aspects` array into an
+ * object the existing single-deity render helpers (infoboxHtml, introHtml,
+ * metaRowHtml, commandmentsHtml, appendixHtml, iconPath) can consume
+ * unchanged, as if it were an ordinary flat deity record. */
+function aspectAsDeity(parent, aspect) {
+  return {
+    slug: aspect.aspect_slug,
+    name: aspect.name,
+    portfolio: aspect.portfolio,
+    alignment: aspect.alignment,
+    domains: parent.domains,
+    status: parent.status,
+    intro: aspect.intro,
+    infobox: aspect.infobox,
+    titles_line: aspect.titles_line,
+    domains_line: aspect.domains_line,
+    commandments: aspect.commandments,
+    appendix: aspect.appendix,
+    icon_ext: aspect.icon_ext,
+  };
+}
+
+function aspectTabsHtml(parent, activeAspectSlug) {
+  const tabs = parent.aspects
+    .map((a) => {
+      const isActive = a.aspect_slug === activeAspectSlug;
+      const shortLabel = a.name.split(",")[0];
+      return `<button type="button" class="aspect-tab${isActive ? " active" : ""}" data-aspect="${escapeHtml(a.aspect_slug)}">${escapeHtml(shortLabel)}</button>`;
+    })
+    .join("");
+  return `<div class="aspect-tabs" id="aspect-tabs">${tabs}</div>`;
+}
+
+function renderMultiAspectPage(parent, placeholderSlugs) {
+  const params = new URLSearchParams(window.location.search);
+  const requestedAspect = params.get("aspect");
+  const validSlugs = new Set(parent.aspects.map((a) => a.aspect_slug));
+  const activeSlug = validSlugs.has(requestedAspect) ? requestedAspect : parent.default_aspect;
+
+  document.title = `${parent.name} — The Ourosi Pantheon`;
+  document.getElementById("crumb-name").textContent = parent.name;
+
+  function renderAspect(aspectSlug) {
+    const aspect = parent.aspects.find((a) => a.aspect_slug === aspectSlug);
+    const view = aspectAsDeity(parent, aspect);
+    const html = `
+      ${aspectTabsHtml(parent, aspectSlug)}
+      <div class="deity-hero">
+        <img class="symbol" src="${iconPath(view)}" alt="${escapeHtml(view.name)} symbol">
+        <div class="deity-hero-text">
+          <h1>${renderInline(view.name)}</h1>
+          <p class="portfolio">${renderInline(view.portfolio || "")}</p>
+          ${metaRowHtml(view)}
+        </div>
+      </div>
+      ${infoboxHtml(view)}
+      ${introHtml(view)}
+      ${titlesDomainsHtml(view)}
+      ${commandmentsHtml(view)}
+      ${appendixHtml(view, placeholderSlugs)}
+    `;
+    document.getElementById("deity-content").innerHTML = html;
+
+    // Update the URL (without reloading) so the active tab is shareable/
+    // bookmarkable and survives a refresh, then wire up the new tab buttons.
+    const url = new URL(window.location.href);
+    url.searchParams.set("aspect", aspectSlug);
+    window.history.replaceState({}, "", url);
+
+    document.querySelectorAll(".aspect-tab").forEach((btn) => {
+      btn.addEventListener("click", () => renderAspect(btn.dataset.aspect));
+    });
+  }
+
+  renderAspect(activeSlug);
+}
+
 function infoboxHtml(d) {
   const rows = [];
   const box = d.infobox || {};
@@ -57,9 +134,28 @@ function commandmentsHtml(d) {
   `;
 }
 
+// Maps an appendix member's original link text to the specific aspect it
+// should open on a multi-aspect page, so following "Aerdrie Faenya" from
+// (say) Corellon's appendix lands on the Aerdrie tab rather than whichever
+// aspect happens to be the page's default. Matched case-insensitively
+// against the start of the member's display name.
+const ASPECT_LINK_HINTS = [
+  { match: /^aerdrie/i, slug: "seha-angharradh", aspect: "aerdrie" },
+  { match: /^hanali/i, slug: "seha-angharradh", aspect: "hanali" },
+  { match: /^sehanine/i, slug: "seha-angharradh", aspect: "sehanine" },
+  { match: /^angharradh/i, slug: "seha-angharradh", aspect: "angharradh" },
+  { match: /^seha-angharradh/i, slug: "seha-angharradh", aspect: "angharradh" },
+];
+
+function resolveMemberHref(m) {
+  const hint = ASPECT_LINK_HINTS.find((h) => h.slug === m.slug && h.match.test(m.name));
+  const aspectParam = hint ? `&aspect=${encodeURIComponent(hint.aspect)}` : "";
+  return `deity.html?d=${encodeURIComponent(m.slug)}${aspectParam}`;
+}
+
 function pantheonMemberHtml(m, placeholderSlugs) {
   const isPlaceholder = placeholderSlugs.has(m.slug);
-  const nameHtml = `<a class="m-name" href="deity.html?d=${encodeURIComponent(m.slug)}">${renderInline(m.name)}</a>`;
+  const nameHtml = `<a class="m-name" href="${resolveMemberHref(m)}">${renderInline(m.name)}</a>`;
   const blurb = m.blurb ? `<span class="m-blurb">${renderInline(m.blurb)}</span>` : "";
   const stubTag = isPlaceholder ? `<span class="stub-tag">unwritten</span>` : "";
   return `<div class="pantheon-member${isPlaceholder ? " no-page" : ""}">${nameHtml}${stubTag}${blurb}</div>`;
@@ -139,7 +235,11 @@ function initDeityPage() {
         return;
       }
       const placeholderSlugs = new Set(deities.filter((x) => x.is_placeholder).map((x) => x.slug));
-      renderDeityPage(d, placeholderSlugs);
+      if (d.multi_aspect && Array.isArray(d.aspects) && d.aspects.length > 0) {
+        renderMultiAspectPage(d, placeholderSlugs);
+      } else {
+        renderDeityPage(d, placeholderSlugs);
+      }
     })
     .catch((err) => {
       container.innerHTML = `<p class="empty-note">Could not load deity data. (${escapeHtml(err.message)})</p>`;

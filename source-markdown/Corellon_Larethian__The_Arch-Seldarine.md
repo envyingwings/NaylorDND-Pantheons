@@ -67,16 +67,15 @@ layout: grid
 columns: 5
 imageProperty: cover
 ```
-- [[Aerdrie Faenya — She of Azure Plumage]]
 - [[Alathrien Druanna — Glyphscribe]]
 - [[Alobal Lorfiril — Merry Magician]]
 - [[Araleth Letheranil — Prince of Stars]]
 - [[Aasterinian — Quicksilver Dragon|Avachel — the Quicksilver Dragon]]
+- [[Seha-Angharradh, The Moonweaver|Angharradh]]
 - [[Deep Sashelas — Dolphin Prince]]
 - [[Elebrin Liothiel — Celestial Gardener]]
 - [[Erevan Ilesere — the Green Changeling]]
 - [[Fenmarel Mestarine — the Lone Wolf]]
-- [[Hanali Celanil — Fountain's Rose]]
 - [[Kirith Sotheril — The Rainbow Magess]]
 - [[Labelas Enoreth — Sage at Sunset]]
 - [[Melira Taralen — Evergold Songstress]]
@@ -84,7 +83,6 @@ imageProperty: cover
 - [[Naralis Analor — Watcher of Souls]]
 - [[Rillifane Rallathil — Many-Branched Wildling]]
 - [[Sarula Iliene — Nixie Queen]]
-- [[Seha-Angharradh, The Moonweaver]]
 - [[Shevarash — Black Archer]]
 - [[Solonor Thelandira — Unerring Archer]]
 - [[Tarsellis Meunniduin — Frost Hermit]]

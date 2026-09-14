@@ -1,6 +1,6 @@
 /* Shared utilities + landing page logic for The Ourosi Pantheon wiki. */
 
-const DATA_URL = "data/deities.json?v=44f4c83f";
+const DATA_URL = "data/deities.json?v=b36db3d3";
 
 /** Load the deity dataset once and cache it on window. */
 async function loadDeities() {
@@ -102,10 +102,14 @@ function initLandingPage() {
 
   // Which tag identifies membership in each pantheon tab. A deity can carry
   // both tags (e.g. Moradin is Greater Pantheon and head of the Dwarven
-  // Pantheon) and will appear on both tabs.
+  // Pantheon) and will appear on both tabs. An optional `exclude` tag lets a
+  // tab omit deities that would otherwise match -- e.g. Eilistraee, Lolth,
+  // and Vhaeraun all carry ElvenPantheon (their elven origin) as well as
+  // DrowPantheon, but belong on a future Drow tab by default, not here.
   const PANTHEON_TAGS = {
-    greater: "OurosiDeity",
-    dwarven: "DwarfPantheon",
+    greater: { include: "OurosiDeity" },
+    dwarven: { include: "DwarfPantheon" },
+    elven: { include: "ElvenPantheon", exclude: "DrowPantheon" },
   };
 
   loadDeities().then((deities) => {
@@ -126,8 +130,13 @@ function initLandingPage() {
     } catch (e) { /* localStorage unavailable, fall back to default */ }
 
     function deitiesForActiveTab() {
-      const tag = PANTHEON_TAGS[activeTab];
-      return sorted.filter((d) => (d.tags || []).includes(tag));
+      const cfg = PANTHEON_TAGS[activeTab];
+      return sorted.filter((d) => {
+        const tags = d.tags || [];
+        if (!tags.includes(cfg.include)) return false;
+        if (cfg.exclude && tags.includes(cfg.exclude)) return false;
+        return true;
+      });
     }
 
     // Rebuilds the alignment filter's options to match whichever alignments
