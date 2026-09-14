@@ -1,6 +1,6 @@
 /* Shared utilities + landing page logic for The Ourosi Pantheon wiki. */
 
-const DATA_URL = "data/deities.json?v=3726be2d";
+const DATA_URL = "data/deities.json?v=47363656";
 
 /** Load the deity dataset once and cache it on window. */
 async function loadDeities() {
@@ -180,6 +180,13 @@ function initLandingPage() {
           expanded.push(d);
         }
       });
+      // Expansion replaces one record (sorted by its own top-level name,
+      // e.g. "Seha-Angharradh...") with several cards under their own
+      // distinct display names (e.g. "Angharradh...", "Aerdrie Faenya...")
+      // -- those need their own alphabetical position, so re-sort after
+      // expanding rather than relying on the position the un-expanded
+      // record held in `sorted`.
+      expanded.sort((a, b) => a.name.localeCompare(b.name));
       return expanded;
     }
 

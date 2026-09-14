@@ -3127,7 +3127,7 @@
           "title": "Seldarine — Elven Pantheon",
           "members": []
         },
-        "icon_ext": "svg"
+        "icon_ext": null
       },
       {
         "aspect_slug": "aerdrie",
@@ -3149,7 +3149,7 @@
           "Ascend, soar, glide, dive and ascend again and relish in the freedom to do so."
         ],
         "appendix": null,
-        "icon_ext": "svg"
+        "icon_ext": null
       },
       {
         "aspect_slug": "hanali",
@@ -3168,7 +3168,7 @@
         "domains_line": null,
         "commandments": [],
         "appendix": null,
-        "icon_ext": "svg"
+        "icon_ext": null
       },
       {
         "aspect_slug": "sehanine",
@@ -3193,7 +3193,7 @@
           "Walk unbridled and untethered, forging new memories and experiences."
         ],
         "appendix": null,
-        "icon_ext": "svg"
+        "icon_ext": null
       }
     ],
     "is_placeholder": false
