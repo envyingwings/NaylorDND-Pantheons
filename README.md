@@ -133,9 +133,14 @@ during parsing; none of it reaches the browser.
 3. Run `python3 tools/gen_icons.py` to generate a placeholder icon for the
    new deity (skip this step if you're supplying real artwork instead — see
    below).
-4. Run `python3 tools/cache_bust.py` so the update reaches visitors'
+4. Run `python3 tools/parse.py` again. Each deity's `icon_ext` field is
+   detected by checking what actually exists on disk in `assets/icons/` —
+   if step 2 ran before step 3 created the placeholder SVG, `icon_ext` will
+   be recorded as `null` and the deity's symbol won't render until you
+   regenerate the data a second time.
+5. Run `python3 tools/cache_bust.py` so the update reaches visitors'
    browsers without them needing to clear their cache.
-5. Refresh the browser.
+6. Refresh the browser.
 
 ### Replacing placeholder icons with real artwork
 

@@ -1,5 +1,52 @@
 [
   {
+    "slug": "abbathor",
+    "name": "Abbathor, Avaricious Trovelord",
+    "portfolio": "Dwarven god of avarice, investment, and thieves",
+    "alignment": "Neutral Evil",
+    "domains": [
+      "Trickery"
+    ],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Morndinsamman"
+    ],
+    "warlock_province": [
+      "Fiend",
+      "Genie (Earth)",
+      "Hexblade"
+    ],
+    "tags": [
+      "DwarfPantheon",
+      "TrickeryDomain",
+      "FiendPatron",
+      "GeniePatron",
+      "HexbladePatron"
+    ],
+    "cover_file": "Abbathor.png",
+    "intro": [
+      "Abbathor is sometimes known as the Wyrm of Avarice, for the Trovelord has such a lust for minerals and metals that it is comparible to the hoarding nature of dragonkind. Abbathor's power and wealth is said to be the reason as to why dwarves are so susceptible to the curse of Dragon Sickness. He surrounds himself with self-interested misers and thieves and lifts from their treasures and feeds them his own to transform them into wyverns and drakes to protect his temples and vaults like guard dogs, giving them the reputation of the most well-guarded treasuries in the multiverse. His position in the Morndinsamman is to protect the treasures of his clan, which the other gods frequently have to force him into submission to relinquish when they are needed.",
+      "His realm is Glitterhell, a vault of immeasurable wealth so heavy it has sunk into Oinos in the Grey Wastes of Hades. The gold there cannot be spent and the gems cannot be moved for Abbathor refuses to give up even a fraction of his wealth; the faithful of Abbathor or those damned for their greed who end up there spend eternity surrounded by everything they ever wanted and unable to touch any of it."
+    ],
+    "infobox": {
+      "Alignment": "Neutral Evil",
+      "Symbol": "Jewelled dagger, pointed down",
+      "Portfolio": "Dwarven god of avarice, investment, and thieves",
+      "Divine Realm": "Glitterhell, Oinos",
+      "Worshippers": "Misers, thieves, half-dragons"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Morndinsamman — Dwarven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Abbathor__Avaricious_Trovelord.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "asmodeus",
     "name": "Asmodeus, Lord of the Nine Hells",
     "portfolio": "Greater God of the Hells, Indulgence, Sin and Negotiation",
@@ -433,6 +480,100 @@
     "is_placeholder": false
   },
   {
+    "slug": "berronar-truesilver",
+    "name": "Berronar Truesilver, Revered Mother",
+    "portfolio": "Dwarven goddess of hearth, honesty, medicine, oaths and safety",
+    "alignment": "Lawful Good",
+    "domains": [
+      "Life",
+      "Light",
+      "Order",
+      "Peace"
+    ],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Morndinsamman"
+    ],
+    "warlock_province": [
+      "Celestial"
+    ],
+    "tags": [
+      "DwarfPantheon",
+      "LifeDomain",
+      "LightDomain",
+      "OrderDomain",
+      "PeaceDomain",
+      "CelestialPatron"
+    ],
+    "cover_file": "Berronar.png",
+    "intro": [
+      "Berronar Truesilver is the matriarch of the Morndinsamman, whose marriage to the All-Hammer formed the pantheon as it exists today by uniting their two families into a single clan. All values of dwarvenkind trace back to the household she and her husband established at the founding of the pantheon. Dwarven culture does not merely worship Berronar but is modelled on her governance. Every clan hall, every sworn oath, every stronghold and its history reflects the household she founded.",
+      "Her realm is Dwarfhome, shared with her Moradin. It is the destination of dwarves who have lived well by the standards of the clan: those who kept their oaths, maintained a welcome home, and upheld their obligations to kin. For the dwarven faithful it represents not reward so much as homecoming, a final return to the household from which all dwarven life descends."
+    ],
+    "infobox": {
+      "Alignment": "Lawful Good",
+      "Symbol": "Intertwined silver rings",
+      "Portfolio": "Dwarven goddess of hearth, honesty, medicine, oaths and safety",
+      "Divine Realm": "Dwarfhome, Electrum Heaven of Solania",
+      "Worshippers": "Children, homemakers, husbands, parents, wives"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Morndinsamman — Dwarven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Berronar_Truesilver__Revered_Mother.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "clangeddin-silverbeard",
+    "name": "Clangeddin Silverbeard, Rock of Battle",
+    "portfolio": "Greater God of Battle, Dwarven god of battle, bravery, honour, sports, and war",
+    "alignment": "Lawful Good",
+    "domains": [
+      "War"
+    ],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Morndinsamman"
+    ],
+    "warlock_province": [
+      "Celestial",
+      "Hexblade"
+    ],
+    "tags": [
+      "DwarfPantheon",
+      "WarDomain",
+      "CelestialPatron",
+      "HexbladePatron"
+    ],
+    "cover_file": "Clangeddin.png",
+    "intro": [
+      "Clangeddin Silverbeard is the greatest warrior of the dwarven gods, celebrated for leading dwarven hosts against their enemies in the ancient wars that define dwarven martial history. He is impetuous and merry in battle, a cunning strategist who sings stirring ballads and taunting ditties in equal measure mid-fight, and who extends his approval to shrewd strategy as readily as to raw courage. He never surrenders and brookes no treachery, holding that victory won by craven means is no victory at all.",
+      "His realm is Mount Clangeddin, a mountain of over thirty thousand feet, for petitioners and warriors raid Acheron and Nishrek regularly, pressing the old grudges of dwarven history forward into eternity."
+    ],
+    "infobox": {
+      "Alignment": "Lawful Good",
+      "Symbol": "Crossed bearded axes",
+      "Portfolio": "Dwarven god of battle, bravery, honour, sports, and war",
+      "Divine Realm": "Mount Clangeddin, Abellio",
+      "Worshippers": "Athletes, heroes, strategists, warriors"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Morndinsamman — Dwarven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Clangeddin_Silverbeard__Rock_of_Battle.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "corellon-larethian",
     "name": "Corellon Larethian, the Arch-Seldarine",
     "portfolio": "Greater God of Stars, Magic, Artistry, and Reincarnation",
@@ -516,7 +657,7 @@
         },
         {
           "name": "Deep Sashelas — Dolphin Prince",
-          "slug": "deep-sashelas-dolphin-prince",
+          "slug": "deep-duerra",
           "blurb": "",
           "has_page": true
         },
@@ -632,6 +773,239 @@
     },
     "icon_ext": "webp",
     "source_file": "Corellon_Larethian__The_Arch-Seldarine.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "deep-duerra",
+    "name": "Deep Duerra, Queen of the Invisible Art",
+    "portfolio": "Greater God of the Invisible Art, Duergar goddess of psionics and conquest",
+    "alignment": "Lawful Evil",
+    "domains": [
+      "Arcana",
+      "Knowledge",
+      "War"
+    ],
+    "status": [],
+    "warlock_province": [
+      "Great Old One",
+      "Hexblade"
+    ],
+    "tags": [
+      "DwarfPantheon",
+      "ArcanaDomain",
+      "KnowledgeDomain",
+      "WarDomain",
+      "GreatOldOnePatron",
+      "HexbladePatron",
+      "UnderdarkDeity"
+    ],
+    "cover_file": "Duerra.png",
+    "intro": [
+      "Deep Duerra is a hero-goddess who took mortal form to steal the secrets of illithid psionics from the mind flayers who enslaved her people, and led the duergar rebellion that broke that enslavement. The psionic power the duergar carry is her inheritance to them, seized rather than gifted, and she remains the patron of their ongoing conquest of the Underdark. She sits among the exiled members of the Morndinsamman, cast out alongside her predecessor for doctrines the clan would not sanction, and rules her following from beyond the reach of the family that disowned her.",
+      "Her realm is the Citadel of Thought, a fortress of psionic architecture built into one of the hollow iron cubes that drift through Thuldanin. It is where her faithful continue the conquest she began in life, and where the psionic secrets she stole from the illithids are studied and expanded without limit."
+    ],
+    "infobox": {
+      "Alignment": "Lawful Evil",
+      "Symbol": "Cracked illithid skull",
+      "Portfolio": "Duergar goddess of conquest and psionics",
+      "Divine Realm": "Citadel of Thought, Thuldanin",
+      "Worshippers": "Duergar, psions, underdark travellers"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Morndinsamman — Dwarven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Deep_Duerra__Queen_of_the_Invisible_Art.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "diinkarazan",
+    "name": "Diinkarazan, Twin Betrayed",
+    "portfolio": "Derro god of curses, insanity and vengeance",
+    "alignment": "Chaotic Evil",
+    "domains": [
+      "Trickery",
+      "War"
+    ],
+    "status": [],
+    "warlock_province": [
+      "Fiend",
+      "Genie (Air)",
+      "Great Old One"
+    ],
+    "tags": [
+      "AbyssPrince",
+      "DwarfPantheon",
+      "TrickeryDomain",
+      "WarDomain",
+      "FiendPatron",
+      "GeniePatron",
+      "GreatOldOnePatron",
+      "UnderdarkDeity"
+    ],
+    "cover_file": "Diinkarazan.png",
+    "intro": [
+      "Diinkarazan is the twin of the derro's patron god, betrayed by him and left to have his mind consumed by Ilsensine while his sibling fled with stolen magic. He has no organised worship; the derro shamans mention him only to praise his brother's cunning escape at his expense, and whatever faithful he retains he holds through misdirection and the pull of his madness rather than any doctrine or covenant. He is released from his prison once every fifty years for a single day and spends it hunting derro communities in revenge for their abandonment of him.",
+      "The Prison of the Mad God is not a true layer of the Abyss but a plane torn between Carceri and Pandemonium, its imprisoning and maddening qualities balanced so precisely between the two that it cannot slip into either, leaving it suspended in the Abyss instead. At its centre is a gem-set throne within a perpetual vortex of wind, gas, and orbiting stone, to which Diinkarazan is bound."
+    ],
+    "infobox": {
+      "Alignment": "Chaotic Evil",
+      "Symbol": "A ring with seven bloody diamonds",
+      "Portfolio": "Derro god of curses, insanity and vengeance",
+      "Divine Realm": "",
+      "Worshippers": "Derro, the cursed, the insane"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Morndinsamman — Dwarven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Diinkarazan__Twin_Betrayed.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "diirinka",
+    "name": "Diirinka, Betrayer Savant",
+    "portfolio": "Derro god of magic, knowledge, and cruelty",
+    "alignment": "Chaotic Evil",
+    "domains": [
+      "Arcana",
+      "Knowledge"
+    ],
+    "status": [],
+    "warlock_province": [
+      "Fiend",
+      "Great Old One",
+      "Undead"
+    ],
+    "tags": [
+      "DwarfPantheon",
+      "ArcanaDomain",
+      "KnowledgeDomain",
+      "FiendPatron",
+      "GreatOldOnePatron",
+      "UndeadPatron",
+      "UnderdarkDeity"
+    ],
+    "cover_file": "Diirinka.png",
+    "intro": [
+      "The Betrayer Savant is the creator of the derro, the god who backstabbed his twin to escape with stolen magic and spent the centuries that followed experimenting on dwarves in secret, discarding the failures as mindless abominations in isolated cave complexes until the derro emerged as his perfected work. He is the most powerfully magical of all the dwarven deities, which played no small part in his disownment from the clan; he was not merely exiled as the duergar gods were, but struck from the family entirely. Among the derro he rules through the savants, whose sorcerous power is not granted but physically shaped into them by his direct intervention before birth.",
+      "His realm is Hidden Betrayal, a place so thoroughly concealed that no visitor has ever returned to describe it. He guides no one, sends no omens, and intervenes only when a magical acquisition or act of cruelty draws his personal interest."
+    ],
+    "infobox": {
+      "Alignment": "Chaotic Evil",
+      "Symbol": "A cruel and jagged smile",
+      "Portfolio": "Derro god of cruelty, knowledge and magic",
+      "Divine Realm": "Hidden Betrayal, Phlegethon",
+      "Worshippers": "Derro"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Morndinsamman — Dwarven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Diirinka__the_Betrayer_Savant.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "dugmaren-brightmantle",
+    "name": "Dugmaren Brightmantle, Errant Explorer",
+    "portfolio": "Dwarven god of learning and innovation",
+    "alignment": "Chaotic Good",
+    "domains": [
+      "Forge",
+      "Knowledge"
+    ],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Morndinsamman"
+    ],
+    "warlock_province": [
+      "Archfey",
+      "Celestial"
+    ],
+    "tags": [
+      "DwarfPantheon",
+      "ForgeDomain",
+      "KnowledgeDomain",
+      "ArchfeyPatron",
+      "CelestialPatron"
+    ],
+    "cover_file": "Dugmaren.png",
+    "intro": [
+      "Dugmaren Brightmantle is the most chaotic of the Morndinsamman, a divine embodiment of the industrial progressivism and exploratory streak that dwarven culture carries beneath its conservatism. He pursues knowledge regardless of its utility, abandons projects the moment something more interesting presents itself, and has ruined things he was not supposed to touch more times than any of his kin care to count. He is tolerated by even the most lawful members of the clan because his inventions, however haphazardly arrived at, have proven their worth often enough to justify the chaos that surrounds him.",
+      "His realm is Soot Hall, caverns coated in millennia of forge-ash, filled with furnaces, workshops, and libraries of esoteric lore, and never quiet for he grants his petitioners the ability to work without need for sleep."
+    ],
+    "infobox": {
+      "Alignment": "Chaotic Good",
+      "Symbol": "Open book",
+      "Portfolio": "Dwarven god of learning and innovation",
+      "Divine Realm": "Soot Hall, Dwarvish Mountain",
+      "Worshippers": "Anthropologists, inventors, loremasters, scholars, tinkers"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Morndinsamman — Dwarven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Dugmaren_Brightmantle__the_Errant_Explorer.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "dumathoin",
+    "name": "Dumathoin, Keeper Under the Mountain",
+    "portfolio": "Dwarven god of mining, ore, gems, and the dead",
+    "alignment": "True Neutral",
+    "domains": [
+      "Death",
+      "Grave",
+      "Knowledge"
+    ],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Morndinsamman"
+    ],
+    "warlock_province": [
+      "Undead",
+      "Undying"
+    ],
+    "tags": [
+      "DwarfPantheon"
+    ],
+    "cover_file": "Dumathoin.png",
+    "intro": [
+      "Dumathoin is the Silent Keeper, a mute god who prepared the mountains for the coming of dwarves before they arrived, seeding veins of precious metal and gem deposits through the deep places of the world to be found when his people were ready. As he prepared the mountains for their arrival, so too does he prepare them for their return: he is the guardian of the dwarven dead, maintaining the sanctity of their tombs and guiding their souls onward. He never speaks, communicating only in gestures, which has the effect of placing him above the internal conflicts of the Morndinsamman by default.",
+      "His realm is Deepshaft Hall, the lowest district of the Dwarven Mountain, its caverns rich with ore and natural gems left untouched. It reaches deep toward the centre of the Outlands and overlaps in places with the realm of the illithid god Ilsensine, an arrangement that is nonhostile between the two gods and entirely hostile between their followers."
+    ],
+    "infobox": {
+      "Alignment": "Neutral",
+      "Symbol": "Gemstone inside a mountain",
+      "Portfolio": "Dwarven god of mining, ore, gems, and the dead",
+      "Divine Realm": "The Deepstone Forge, Outlands",
+      "Worshippers": "Miners, prospectors, gemcutters, dwarven dead"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Morndinsamman — Dwarven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Dumathoin__Keeper_Under_the_Mountain.md",
     "is_placeholder": false
   },
   {
@@ -910,6 +1284,91 @@
     "is_placeholder": false
   },
   {
+    "slug": "gendwar-argrim",
+    "name": "Gendwar Argrim, Doomed Dwarf",
+    "portfolio": "Dwarven god of swansongs, obsession, urgency, and the unfinished",
+    "alignment": "Lawful Neutral",
+    "domains": [
+      "Forge",
+      "Grave",
+      "War"
+    ],
+    "status": [],
+    "warlock_province": [],
+    "tags": [
+      "DwarfPantheon"
+    ],
+    "cover_file": "Gendwar.png",
+    "intro": [
+      "Gendwar Argrim is the Doomed Dwarf, the god called upon when a dwarf knows their time is short and their work is not yet finished. He asks nothing of those who pray to him except that they spend whatever remains of themselves on what matters, and his answer to prayers is not the promise of survival but just enough time to achieve their goals. He is not a god of death or battle specifically, but of the unfinished and the urgent, invoked by warriors in losing fights and elders in failing health alike.",
+      "His realm is the Final Hall, a fortress deep in Abellio whose gates are always open and whose inhabitants are always working. Nothing in it is complete. Every project is mid-construction, every campaign mid-march, every song unfinished. His petitioners do not rest there; they continue."
+    ],
+    "infobox": {
+      "Alignment": "Lawful Neutral",
+      "Symbol": "Cracked axe",
+      "Portfolio": "Dwarven god of swansongs, obsession, urgency, and the unfinished",
+      "Divine Realm": "The Final Hall, Abellio",
+      "Worshippers": "Dwarves soon to die, the obsessed"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [
+      "The only hope the dwarven race has to survive is if its enemies are utterly destroyed. Focus on their destruction. They breed faster than the True Folk and spawn ten times our numbers within one dwarven generation.",
+      "Honour, glory, wealth, and love are all meaningless and trivial while the future is at stake.",
+      "Expect to die in battle, but make your death cost a thousand enemies their own. If the dwarves survive only in song and legend, ours will be an empty legacy."
+    ],
+    "appendix": {
+      "title": "Morndinsamman — Dwarven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Gendwar_Argrim__Doomed_Dwarf.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "gorm-gulthyn",
+    "name": "Gorm Gulthyn, Lord Bronzemask",
+    "portfolio": "Dwarven god of guardians, protection, and vigilance",
+    "alignment": "Lawful Good",
+    "domains": [
+      "Life",
+      "War"
+    ],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Morndinsamman"
+    ],
+    "warlock_province": [
+      "Celestial",
+      "Hexblade"
+    ],
+    "tags": [
+      "DwarfPantheon"
+    ],
+    "cover_file": "Gorm.png",
+    "intro": [
+      "Gorm Gulthyn is the sentinel of the Morndinsamman, the guardian who ranges ceaselessly across dwarven holds to place himself between his people and whatever threatens them. He keeps vigils on battlefronts, sets deadfalls in passages near enclaves, and manifests wherever dwarves face armed invasion or dangerous monsters, holding nothing back before moving on to the next crisis. He is stern, humourless, and perpetually consumed by his duties, appearing only when dwarves are already in danger and never staying longer than the immediate threat requires.",
+      "His realm is Watchkeep, a tower built in Dwarfhome from which he maintains constant surveillance of every portal and passage in the plane. Dwarves who died defending their holds against impossible odds are granted the right to stand guard there, continuing in death the watch they kept in life."
+    ],
+    "infobox": {
+      "Alignment": "Lawful Good",
+      "Symbol": "Bronze mask with burning eyes",
+      "Portfolio": "Dwarven god of guardians, protection, and vigilance",
+      "Divine Realm": "Watchkeep, Shurrock",
+      "Worshippers": "Guards, defenders, paladins, soldiers"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Morndinsamman — Dwarven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Gorm_Gulthyn__Lord_Bronzemask.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "gruumsh-one-eye",
     "name": "Gruumsh One-Eye, the Ruiner",
     "portfolio": "Greater God of Natural Disasters, Curses, Outcasts, and Strength",
@@ -1010,6 +1469,91 @@
     "is_placeholder": false
   },
   {
+    "slug": "haela-brightaxe",
+    "name": "Haela Brightaxe, Lady of the Fray",
+    "portfolio": "Greater God of the Fray, Dwarven goddess of luck, anticipation, and circumstance",
+    "alignment": "Chaotic Good",
+    "domains": [
+      "War"
+    ],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Morndinsamman"
+    ],
+    "warlock_province": [
+      "Hexblade"
+    ],
+    "tags": [
+      "DwarfPantheon"
+    ],
+    "cover_file": "Haela.png",
+    "intro": [
+      "Haela Brightaxe is the Luckmaiden, the youngest of the Morndinsamman and the goddess who ranges across the planes to appear wherever dwarves face the worst odds, throwing herself into the thickest of it with infectious enthusiasm. She takes risks without hesitation, trusts fortune to see her through, and treats the chaos of a hard-fought battle as its own reward. She is gregarious and upbeat where most of the clan is dour, which earns her the patient tolerance of her elders and the fierce devotion of the dwarves she fights alongside.",
+      "Her realm is Findar Endar, a grotto hidden deep within a forest, tended by the souls of her favourite fallen warriors who serve as its guardians. She is rarely there, being almost always elsewhere in the planes where dwarves need her most."
+    ],
+    "infobox": {
+      "Alignment": "Chaotic Good",
+      "Symbol": "Upright sword with blade sheathed in flame",
+      "Portfolio": "Dwarven goddess of luck, anticipation, and circumstance",
+      "Divine Realm": "Findar Endar, Brux",
+      "Worshippers": "Dwarven fighters, mercenaries, warriors"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Morndinsamman — Dwarven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Haela_Brightaxe__Lady_of_the_Fray.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "hanseath",
+    "name": "Hanseath, the Hirsute Boozer",
+    "portfolio": "Dwarven god of alcohol, festivals, and song",
+    "alignment": "Chaotic Neutral",
+    "domains": [
+      "Peace",
+      "Trickery",
+      "War"
+    ],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Morndinsamman"
+    ],
+    "warlock_province": [
+      "Celestial",
+      "Hexblade"
+    ],
+    "tags": [
+      "DwarfPantheon"
+    ],
+    "cover_file": "hanseath.png",
+    "intro": [
+      "Hanseath is the Bearded Brewer, the god who waits at the end of the working day with a full tankard and a song already started. He is the loudest member of the Morndinsamman and the least interested in duty for its own sake, holding that a dwarf who never rests never truly appreciates what they are working for.",
+      "His realm is the Raucous Hall, a feast hall where the ale never runs dry and the songs get louder as the night goes on. His petitioners work no shifts and keep no schedules, and the only obligation in the hall is to enjoy being there."
+    ],
+    "infobox": {
+      "Alignment": "Chaotic Neutral",
+      "Symbol": "Frothy tankard of ale",
+      "Portfolio": "Dwarven god of alcohol, festivals, and song",
+      "Divine Realm": "The Raucous Hall, Krigala",
+      "Worshippers": "Brewers, dwarven warriors, revellers"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Morndinsamman — Dwarven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Hanseath__Bearded_Brewer.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "ioun",
     "name": "Ioun, the Knowing Mentor",
     "portfolio": "Greater Goddess of Truth, Knowledge, Lore, Skill, and Wizardry",
@@ -1104,6 +1648,48 @@
     },
     "icon_ext": "webp",
     "source_file": "Kord__The_Stormwarrior.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "laduguer",
+    "name": "Laduguer, Exile in Grey",
+    "portfolio": "Dwarven god of artificers, exploitation and toil",
+    "alignment": "Lawful Evil",
+    "domains": [
+      "Arcana",
+      "Blood",
+      "Forge"
+    ],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Morndinsamman"
+    ],
+    "warlock_province": [
+      "Hexblade",
+      "Undying"
+    ],
+    "tags": [
+      "DwarfPantheon",
+      "UnderdarkDeity"
+    ],
+    "cover_file": "laduguer.png",
+    "intro": [],
+    "infobox": {
+      "Alignment": "Lawful Evil",
+      "Symbol": "Broken arrow",
+      "Portfolio": "Duergar god of artificers, exploitation and toil",
+      "Divine Realm": "Hammergrim, Thuldanin",
+      "Worshippers": "Duergar, artificers, slavers"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Morndinsamman — Dwarven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Laduguer__Exile_in_Grey.md",
     "is_placeholder": false
   },
   {
@@ -1331,6 +1917,49 @@
     "is_placeholder": false
   },
   {
+    "slug": "marthammor-duin",
+    "name": "Marthammor Duin, Watcher over Wanderers",
+    "portfolio": "Dwarven god of travellers and weather",
+    "alignment": "Neutral Good",
+    "domains": [
+      "Nature",
+      "Tempest",
+      "Twilight"
+    ],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Morndinsamman"
+    ],
+    "warlock_province": [
+      "Hexblade"
+    ],
+    "tags": [
+      "DwarfPantheon"
+    ],
+    "cover_file": "Marthammor.png",
+    "intro": [
+      "Marthammor Duin is the Finder-of-Trails, the most openly curious member of the Morndinsamman, whose interest lies in the world beyond the clanholds of dwarvenkind. He watches over dwarves who have left their holds to live or travel among other people, and is the god most likely to be invoked by a dwarf far from home.",
+      "His realm is the Cavern of Rest beneath Nidavellir, guarded by the souls of dwarves who died travelling far from home and by war dogs and boars he trained himself. Very rarely is he found within his realm, instead following whatever paths throughout the planes he has not yet walked."
+    ],
+    "infobox": {
+      "Alignment": "Neutral Good",
+      "Symbol": "Upright mace above a fur-trimmed boot",
+      "Portfolio": "Dwarven god of travellers and weather",
+      "Divine Realm": "Noldrin's Rock, Mercuria",
+      "Worshippers": "Dwarven explorers, guides, messengers, wanderers"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Morndinsamman — Dwarven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Marthammor_Duin__Watcher_over_Wanderers.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "the-raven-queen",
     "name": "The Raven Queen, the Duskmaven",
     "portfolio": "Greater Goddess of Death, the Afterlife, Fate, Psychopomps, and Winter",
@@ -1478,133 +2107,133 @@
       "members": [
         {
           "name": "Abbathor — the Avaricious Trovelord",
-          "slug": "abbathor-the-avaricious-trovelord",
+          "slug": "abbathor",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Berronar Truesilver — Revered Mother",
-          "slug": "berronar-truesilver-revered-mother",
+          "slug": "berronar-truesilver",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Clangeddin Silverbeard — Rock of Battle",
-          "slug": "clangeddin-silverbeard-rock-of-battle",
+          "slug": "clangeddin-silverbeard",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Dugmaren Brightmantle — the Errant Explorer",
-          "slug": "dugmaren-brightmantle-the-errant-explorer",
+          "slug": "dugmaren-brightmantle",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Dumathoin — Keeper Under the Mountain",
-          "slug": "dumathoin-keeper-under-the-mountain",
+          "slug": "dumathoin",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Gendwar Argrim — Doomed Dwarf",
-          "slug": "gendwar-argrim-doomed-dwarf",
+          "slug": "gendwar-argrim",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Gorm Gulthyn — Lord Bronzemask",
-          "slug": "gorm-gulthyn-lord-bronzemask",
+          "slug": "gorm-gulthyn",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Haela Brightaxe — Lady of the Fray",
-          "slug": "haela-brightaxe-lady-of-the-fray",
+          "slug": "haela-brightaxe",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Hanseath — Bearded Brewer",
-          "slug": "hanseath-bearded-brewer",
+          "slug": "hanseath",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Marthammor Duin — Watcher over Wanderers",
-          "slug": "marthammor-duin-watcher-over-wanderers",
+          "slug": "marthammor-duin",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Mya — Arch-Völva",
-          "slug": "mya-arch-völva",
+          "slug": "mya",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Roknar — Lord with Two Tongues",
-          "slug": "roknar-lord-with-two-tongues",
+          "slug": "roknar",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Sharindlar — the Shining Dancer",
-          "slug": "sharindlar-the-shining-dancer",
+          "slug": "sharindlar",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Thard Harr — Dwarf of Jungle Deeps",
-          "slug": "thard-harr-dwarf-of-jungle-deeps",
+          "slug": "thard-harr",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Thautam — the Blind Sage",
-          "slug": "thautam-the-blind-sage",
+          "slug": "thautam",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Ulaa — Immaculate Princess",
-          "slug": "ulaa-immaculate-princess",
+          "slug": "ulaa",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Valkauna — the Runecarver",
-          "slug": "valkauna-the-runecarver",
+          "slug": "valkauna",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Vergadain — the Laughing Merchant",
-          "slug": "vergadain-the-laughing-merchant",
+          "slug": "vergadain",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Deep Duerra — Queen of the Invisible Art",
-          "slug": "deep-duerra-queen-of-the-invisible-art",
+          "slug": "deep-duerra",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Diinkarazan — Twin Betrayed",
-          "slug": "diinkarazan-twin-betrayed",
+          "slug": "diinkarazan",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Diirinka — the Betrayer Savant",
-          "slug": "diirinka-the-betrayer-savant",
+          "slug": "diirinka",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Laduguer — Exile in Grey",
-          "slug": "laduguer-exile-in-grey",
+          "slug": "laduguer",
           "blurb": "",
           "has_page": true
         }
@@ -1612,6 +2241,45 @@
     },
     "icon_ext": "webp",
     "source_file": "Moradin__The_All-Hammer.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "mya",
+    "name": "Mya, Arch-Völva",
+    "portfolio": "Dwarven goddess of divination, fertility, sagas, and wisdom",
+    "alignment": "Neutral Good",
+    "domains": [
+      "Knowledge",
+      "Life",
+      "Order",
+      "Peace"
+    ],
+    "status": [],
+    "warlock_province": [],
+    "tags": [
+      "DwarfPantheon"
+    ],
+    "cover_file": "Mya.png",
+    "intro": [
+      "Mya is the Voice of Wisdom, the goddess to whom dwarves turn when the question is not what to build or how to fight but what to remember and what to pass on. Dwarven myth holds that Moradin sought her counsel before breathing souls into the elemental Azer he had shaped from fire and stone, and that it was Mya who told him what a mortal people would need to survive across generations. The proliferation of twins and triplets among dwarves is attributed to her hand, the first gift she gave to a people whose survival would depend on the bonds between those who shared a womb.",
+      "Her realm is the Hearth Eternal, a vast longhouse of warm firelight with every wall inscribed with the sagas of dwarven bloodlines stretching back to the first generation. Her petitioners spend eternity ensuring that nothing a dwarf ever lived and learned is lost."
+    ],
+    "infobox": {
+      "Alignment": "Neutral Good",
+      "Symbol": "Silhouetted mother figure with hands raised",
+      "Portfolio": "Dwarven goddess of divination, fertility, sagas, and wisdom",
+      "Divine Realm": "The Hearth Eternal, Solania",
+      "Worshippers": "Clan elders, diviners, loremasters, mothers, storytellers"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Morndinsamman — Dwarven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Mya__Arch-Völva.md",
     "is_placeholder": false
   },
   {
@@ -1706,6 +2374,45 @@
     "appendix": null,
     "icon_ext": "webp",
     "source_file": "Raei__The_Everlight.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "roknar",
+    "name": "Roknar, Lord with Two Tongues",
+    "portfolio": "Dwarven god of deception, opportunism, schemes, and sloth",
+    "alignment": "Neutral Evil",
+    "domains": [
+      "Knowledge",
+      "Trickery"
+    ],
+    "status": [],
+    "warlock_province": [
+      "Archfey"
+    ],
+    "tags": [
+      "DwarfPantheon"
+    ],
+    "cover_file": "Roknar.png",
+    "intro": [
+      "Roknar is the Lord with Two Tongues, a god who has never done more than the bare minimum required to keep his seat at the clan table. He inserts himself into the plans of others when it serves him, lending just enough assistance to remain indispensable while ensuring that anything which might inconvenience him quietly fails from within. He is not idle out of weakness but out of a profound conviction that effort spent on anyone else's behalf is effort wasted. The Morndinsamman finds him more useful within reach than beyond it, doing just enough in their shared interests to protect him from exile.",
+      "His realm is Hollowhoard, where nothing is demanded from its inhabitants yet nothing is offered either. Those who arrive find themselves sitting with exactly what they gave and what they earned across their lives, which in his domain always amounts to less than they believed they deserved."
+    ],
+    "infobox": {
+      "Alignment": "Neutral Evil",
+      "Symbol": "Hands filled with coins",
+      "Portfolio": "Dwarven god of deception, opportunism, schemes, and sloth",
+      "Divine Realm": "Hollowhoard, Second Gloom of Niflheim",
+      "Worshippers": "Cheats, corrupt officials, opportunists, saboteurs, the slothful."
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Morndinsamman — Dwarven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Roknar__Lord_with_Two_Tongues.md",
     "is_placeholder": false
   },
   {
@@ -1899,6 +2606,92 @@
     "is_placeholder": false
   },
   {
+    "slug": "sharindlar",
+    "name": "Sharindlar, the Shining Dancer",
+    "portfolio": "Dwarven goddess of communication, love, mercy, and the moon",
+    "alignment": "Chaotic Good",
+    "domains": [
+      "Beauty",
+      "Life"
+    ],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Morndinsamman"
+    ],
+    "warlock_province": [
+      "Celestial"
+    ],
+    "tags": [
+      "DwarfPantheon"
+    ],
+    "cover_file": "Sharindlar.png",
+    "intro": [
+      "Sharindlar is the Shining Dancer, the most warmly regarded member of the Morndinsamman, whose goodwill extends further than any of her kin and whose realm serves as the neutral ground where the clan's most difficult relationships are brokered. She is spontaneous and exuberant in a pantheon that is largely neither, given to bursts of wild laughter and impromptu dancing, and has managed to establish working relationships with members of the clan that her peers have written off entirely. She holds no grudges and nurses no rivalries, which makes her uniquely suited to serve as her Moradin's ambassador when communication with the estranged members of the family becomes unavoidable.",
+      "Her realm is the Merciful Court, a circle of standing stones on a foothill where nightly dances are held without exception. It is the one place in the dwarven afterlife where the estranged and the exiled are permitted to be in the Morndinsamman's presence."
+    ],
+    "infobox": {
+      "Alignment": "Chaotic Good",
+      "Symbol": "Burning needle",
+      "Portfolio": "Dwarven goddess of love, dance, mercy, and the moon",
+      "Divine Realm": "The Merciful Court, Nidavellir",
+      "Worshippers": "Healers, lovers, midwives, those seeking courtship"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Morndinsamman — Dwarven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Sharindlar__the_Shining_Dancer.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "thard-harr",
+    "name": "Thard Harr, Dwarf of Jungle Deeps",
+    "portfolio": "Greater God of Jungle Deeps, Dwarven god of instincts, resourcefulness, and wilderness",
+    "alignment": "Chaotic Good",
+    "domains": [
+      "Hunt",
+      "Nature"
+    ],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Morndinsamman"
+    ],
+    "warlock_province": [
+      "Archfey",
+      "Undead",
+      "Undying"
+    ],
+    "tags": [
+      "DwarfPantheon"
+    ],
+    "cover_file": "Thard Harr.png",
+    "intro": [
+      "Thard Harr is the most feral member of the Morndinsamman, a god who communicates through animal calls and physical gestures rather than speech, and who is emotionally and geographically estranged from the rest of the clan despite never being in poor standing with them. He is the patron of wild dwarves specifically, those who abandoned the holds for the deep jungles and built a way of life entirely around survival and instinct rather than craft and tradition. He lives with the beasts of the jungle as kin rather than presiding over them, and responds to threats against his people with the same ferocity. Commonly attributed to him is the fey mood, the involuntary creative seizure that occasionally overtakes dwarves of any background and produces work far beyond their natural skill.",
+      "His realm is the Forbidden Plateau in Krigala, a heavily forested highland swarming with dinosaurs and beasts of every kind. He rarely stays there, preferring to roam all three layers of the Beastlands as one of its animals rather than preside over his realm as a god."
+    ],
+    "infobox": {
+      "Alignment": "Chaotic Good",
+      "Symbol": "Two clawed gauntlets",
+      "Portfolio": "Dwarven god of instincts, resourcefulness, and wilderness",
+      "Divine Realm": "The Green Deep, Krigala",
+      "Worshippers": "Dwarven druids, jungle dwarves, hunters"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Morndinsamman — Dwarven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Thard_Harr__Dwarf_of_Jungle_Deeps.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "tharizdun",
     "name": "Tharizdun, the Chained Oblivion",
     "portfolio": "Greater God of the Abyss, Insanity, Entropy, Extinction, and Calamity",
@@ -1948,6 +2741,76 @@
     },
     "icon_ext": "webp",
     "source_file": "Tharizdun__The_Chained_Oblivion.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "tharmekhûl",
+    "name": "Tharmekhûl, Tender of the Forge",
+    "portfolio": "Greater God of the Forge, Dwarven god of azers, metalworking, and volcanoes",
+    "alignment": "True Neutral",
+    "domains": [
+      "Cataclysm",
+      "Forge"
+    ],
+    "status": [],
+    "warlock_province": [],
+    "tags": [
+      "DwarfPantheon"
+    ],
+    "cover_file": "Tharmekhul.png",
+    "intro": [
+      "Tharmekhûl is the eldest of the All-Hammer's children, the first Azer shaped at his father's hands with the singular purpose of tending the Soul Forge and keeping it fit for the work of making worlds and dwarves. He has held that position since before the Morndinsamman had a name and shows no interest in any other. While his father is occupied with the larger work, Tharmekhûl maintains the equipment of the clan, and seeds geothermal vents across the planes of the multiverse to supply the heat the Soul Forge demands. He is meticulous and incredibly proud of his work to the point of being difficult about it.",
+      "His realm is the Istor's Forge in Dwarfhome, the beating heart of the dwarven afterlife, which dwarven scholars hold to be the source of all heat in its surrounding plane. His petitioners tend it alongside him, and ensure no fire in Dwarfhome goes out without his express orders."
+    ],
+    "infobox": {
+      "Alignment": "Neutral",
+      "Symbol": "Hammer wreathed in magma",
+      "Portfolio": "Dwarven god of azers, metalworking, and volcanoes",
+      "Divine Realm": "Istor's Forge, Dwarfhome",
+      "Worshippers": "Azers, blacksmiths, pyromancers, smelters"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Morndinsamman — Dwarven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Tharmekhûl__Tender_of_the_Forge.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "thautam",
+    "name": "Thautam, the Blind Sage",
+    "portfolio": "Dwarven god of magic, mysteries, blindness, and lost treasures",
+    "alignment": "True Neutral",
+    "domains": [],
+    "status": [],
+    "warlock_province": [],
+    "tags": [
+      "DwarfPantheon",
+      "ArcanaDomain",
+      "KnowledgeDomain"
+    ],
+    "cover_file": "Thautam.png",
+    "intro": [],
+    "infobox": {
+      "Alignment": "Neutral",
+      "Symbol": "A blindfolded dwarf's face",
+      "Portfolio": "Dwarven god of magic, mysteries, blindness, and lost treasures",
+      "Divine Realm": "The Vault of Unknowing, Outlands",
+      "Worshippers": "Blind dwarves, enchanters, treasure-seekers, wizards"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Morndinsamman — Dwarven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Thautam__the_Blind_Sage.md",
     "is_placeholder": false
   },
   {
@@ -2120,6 +2983,78 @@
     "is_placeholder": false
   },
   {
+    "slug": "ulaa",
+    "name": "Ulaa, Immaculate Princess",
+    "portfolio": "Greater God of the Hills, Dwarven goddess of aristocracy, hills, and opulence",
+    "alignment": "Lawful Good",
+    "domains": [
+      "Beauty",
+      "Forge",
+      "Nature"
+    ],
+    "status": [],
+    "warlock_province": [],
+    "tags": [
+      "DwarfPantheon"
+    ],
+    "cover_file": "Ulaa.png",
+    "intro": [
+      "Ulaa is Moradin's only daughter and the most extravagant member of the Morndinsamman, a goddess who holds that dwarven greatness deserves to look like dwarven greatness. She is the standard against which the finest holds measure their grandeur, her name invoked in all manner of decoration or when a bloodline is being formally recognised. She is not wasteful; she is exacting. Everything she owns is the finest available, and she considers anything less a failure of ambition.",
+      "Her realm is the Palace of the Resplendent, among the richest hills of Elysium, its walls inlaid with every gemstone her domain produces. Her petitioners spend their afterlife in conditions that would embarrass any mortal palace."
+    ],
+    "infobox": {
+      "Alignment": "Lawful Good",
+      "Symbol": "A heart-shaped ruby above a blooming lotsu",
+      "Portfolio": "Dwarven goddess of aristocracy, hills, and opulence",
+      "Divine Realm": "Palace of the Resplendent, Eronia",
+      "Worshippers": "Dwarven nobility, gemcutters, hill-dwellers, jewellers"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Morndinsamman — Dwarven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Ulaa__Immaculate_Princess.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "valkauna",
+    "name": "Valkauna, the Runecarver",
+    "portfolio": "Dwarven goddess of water, birth, aging, and death",
+    "alignment": "Lawful Neutral",
+    "domains": [],
+    "status": [],
+    "warlock_province": [],
+    "tags": [
+      "DwarfPantheon",
+      "GraveDomain",
+      "LifeDomain",
+      "Psychopomp"
+    ],
+    "cover_file": "Valkauna.png",
+    "intro": [],
+    "infobox": {
+      "Alignment": "Lawful Neutral",
+      "Symbol": "Clasped hands or a silver ewer",
+      "Portfolio": "Dwarven goddess of water, birth, aging, and death",
+      "Divine Realm": "The Still Waters, Solania",
+      "Worshippers": "Dying warriors, midwives, mourners, the elderly"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Morndinsamman — Dwarven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Valkauna__the_Runecarver.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "vecna",
     "name": "Vecna, the Whispered One",
     "portfolio": "Greater God of Secrets, Archaeology, Forbidden Knowledge, and Undeath",
@@ -2162,6 +3097,45 @@
     "appendix": null,
     "icon_ext": "webp",
     "source_file": "Vecna__The_Whispered_One.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "vergadain",
+    "name": "Vergadain, the Laughing Merchant",
+    "portfolio": "Dwarven god of wealth, luck, trickery, and diplomacy",
+    "alignment": "True Neutral",
+    "domains": [
+      "Trickery"
+    ],
+    "status": [
+      "Interloper (Lesser Deity)",
+      "Morndinsamman"
+    ],
+    "warlock_province": [
+      "Celestial",
+      "Genie (Earth)"
+    ],
+    "tags": [
+      "DwarfPantheon"
+    ],
+    "cover_file": "Vergadain.png",
+    "intro": [],
+    "infobox": {
+      "Alignment": "Neutral",
+      "Symbol": "Gold coin with a dwarf's face",
+      "Portfolio": "Dwarven god of wealth, luck, trickery, and diplomacy",
+      "Divine Realm": "The Golden Hall, Outlands",
+      "Worshippers": "Merchants, negotiators, rogues, traders"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "title": "Morndinsamman — Dwarven Pantheon",
+      "members": []
+    },
+    "icon_ext": "svg",
+    "source_file": "Vergadain__the_Laughing_Merchant.md",
     "is_placeholder": false
   },
   {
@@ -3138,26 +4112,6 @@
   {
     "slug": "araleth-letheranil-prince-of-stars",
     "name": "Araleth Letheranil — Prince of Stars",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "deep-sashelas-dolphin-prince",
-    "name": "Deep Sashelas — Dolphin Prince",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -4178,446 +5132,6 @@
   {
     "slug": "zuggtmoy-queen-of-fungi",
     "name": "Zuggtmoy — Queen of Fungi",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "abbathor-the-avaricious-trovelord",
-    "name": "Abbathor — the Avaricious Trovelord",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "berronar-truesilver-revered-mother",
-    "name": "Berronar Truesilver — Revered Mother",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "clangeddin-silverbeard-rock-of-battle",
-    "name": "Clangeddin Silverbeard — Rock of Battle",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "dugmaren-brightmantle-the-errant-explorer",
-    "name": "Dugmaren Brightmantle — the Errant Explorer",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "dumathoin-keeper-under-the-mountain",
-    "name": "Dumathoin — Keeper Under the Mountain",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "gendwar-argrim-doomed-dwarf",
-    "name": "Gendwar Argrim — Doomed Dwarf",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "gorm-gulthyn-lord-bronzemask",
-    "name": "Gorm Gulthyn — Lord Bronzemask",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "haela-brightaxe-lady-of-the-fray",
-    "name": "Haela Brightaxe — Lady of the Fray",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "hanseath-bearded-brewer",
-    "name": "Hanseath — Bearded Brewer",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "marthammor-duin-watcher-over-wanderers",
-    "name": "Marthammor Duin — Watcher over Wanderers",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "mya-arch-völva",
-    "name": "Mya — Arch-Völva",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "roknar-lord-with-two-tongues",
-    "name": "Roknar — Lord with Two Tongues",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "sharindlar-the-shining-dancer",
-    "name": "Sharindlar — the Shining Dancer",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "thard-harr-dwarf-of-jungle-deeps",
-    "name": "Thard Harr — Dwarf of Jungle Deeps",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "thautam-the-blind-sage",
-    "name": "Thautam — the Blind Sage",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "ulaa-immaculate-princess",
-    "name": "Ulaa — Immaculate Princess",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "valkauna-the-runecarver",
-    "name": "Valkauna — the Runecarver",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "vergadain-the-laughing-merchant",
-    "name": "Vergadain — the Laughing Merchant",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "deep-duerra-queen-of-the-invisible-art",
-    "name": "Deep Duerra — Queen of the Invisible Art",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "diinkarazan-twin-betrayed",
-    "name": "Diinkarazan — Twin Betrayed",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "diirinka-the-betrayer-savant",
-    "name": "Diirinka — the Betrayer Savant",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "laduguer-exile-in-grey",
-    "name": "Laduguer — Exile in Grey",
     "portfolio": "",
     "alignment": "",
     "domains": [],
