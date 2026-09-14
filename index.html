@@ -16,6 +16,7 @@
     </div>
     <nav class="site-nav">
       <a href="index.html">All Deities</a>
+      <a href="admin.html">Admin</a>
     </nav>
   </div>
 </header>
@@ -24,6 +25,11 @@
   <input type="search" id="search" class="search-input" placeholder="Search by name, portfolio, or title…" autocomplete="off">
   <select id="alignment-filter" class="filter-select">
     <option value="">All alignments</option>
+  </select>
+  <select id="name-mode" class="filter-select" title="How deity names are shown on this page">
+    <option value="name">Show: Name only</option>
+    <option value="epithet">Show: Epithet only</option>
+    <option value="both" selected>Show: Name + Epithet</option>
   </select>
 </div>
 <p class="result-count" id="result-count"></p>

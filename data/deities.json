@@ -2,7 +2,7 @@
   {
     "slug": "asmodeus",
     "name": "Asmodeus, Lord of the Nine Hells",
-    "portfolio": "Indulgence, Sin, Politics, Negotiation, and Damnation (the Hells)",
+    "portfolio": "Greater God of the Hells, Indulgence, Sin and Negotiation",
     "alignment": "Lawful Evil",
     "domains": [
       "Beauty",
@@ -102,7 +102,7 @@
   {
     "slug": "avandra",
     "name": "Avandra, the Changebringer",
-    "portfolio": "Change, Luck, Travel, Exploration, and Freedom",
+    "portfolio": "Greater Goddess of Change, Freedom, Revolution, Travel, and Luck",
     "alignment": "Chaotic Good",
     "domains": [
       "Moon",
@@ -199,7 +199,7 @@
   {
     "slug": "bahamut",
     "name": "Bahamut, The Platinum Dragon",
-    "portfolio": "Greater God of Virtue, Justice, Nobility, and good-aligned dragons",
+    "portfolio": "Greater God of Virtue, Honour, and Justice",
     "alignment": "Lawful Good",
     "domains": [
       "Life",
@@ -360,7 +360,7 @@
   {
     "slug": "bane",
     "name": "Bane, the Strife Emperor",
-    "portfolio": "Conflict, Discipline, Strategy, Warfare, and patron god of Goblinoids",
+    "portfolio": "Greater God of Conflict, Discipline, Oppression, and Warfare",
     "alignment": "Lawful Evil",
     "domains": [
       "Forge",
@@ -467,7 +467,7 @@
   {
     "slug": "corellon-larethian",
     "name": "Corellon Larethian, the Arch-Seldarine",
-    "portfolio": "Stars, Artistry, Magic, Reincarnation, and Elves",
+    "portfolio": "Greater God of Stars, Magic, Artistry, and Reincarnation",
     "alignment": "Chaotic Good",
     "domains": [
       "Arcana",
@@ -668,7 +668,7 @@
   {
     "slug": "eilistraee",
     "name": "Eilistraee, Lady Silverhair",
-    "portfolio": "Individuality, Night, Witchcraft, and Dance",
+    "portfolio": "Greater Goddess of Individuality, Night, and Witchcraft",
     "alignment": "Chaotic Good",
     "domains": [
       "Beauty",
@@ -769,7 +769,7 @@
   {
     "slug": "erathis",
     "name": "Erathis, the Lawbearer",
-    "portfolio": "Law, Civilization, Progress, and Peace",
+    "portfolio": "Greater Goddess of Law, Civilization, Commerce, Peace, and Progress",
     "alignment": "Lawful Neutral",
     "domains": [
       "Knowledge",
@@ -814,7 +814,7 @@
   {
     "slug": "garl-glittergold",
     "name": "Garl Glittergold, the Gemheart",
-    "portfolio": "Artifice, Gemstones, Celebration, Wealth, and Gnomes",
+    "portfolio": "Greater God of Artifice, Celebration, Jewels, and Wealth",
     "alignment": "Lawful Good",
     "domains": [
       "Arcana",
@@ -942,7 +942,7 @@
   {
     "slug": "gruumsh-one-eye",
     "name": "Gruumsh One-Eye, the Ruiner",
-    "portfolio": "Disaster, Natural Disasters, Outcasts, Strength, and Orcs",
+    "portfolio": "Greater God of Natural Disasters, Curses, Outcasts, and Strength",
     "alignment": "Chaotic Evil",
     "domains": [
       "Blood",
@@ -1041,7 +1041,7 @@
   {
     "slug": "ioun",
     "name": "Ioun, the Knowing Mentor",
-    "portfolio": "Knowledge, Education, Language, Lore, Prophecy, Skill, Truth, and Wizardry",
+    "portfolio": "Greater Goddess of Truth, Education, Knowledge, Language, Lore, Prophecy, Skill, and Wizardry",
     "alignment": "Neutral / Unaligned",
     "domains": [
       "Arcana",
@@ -1084,7 +1084,7 @@
   {
     "slug": "kord",
     "name": "Kord, the Stormwarrior",
-    "portfolio": "Skies, Storms, Athletics, Contests, Heroism, Victory, and patron god of Giants",
+    "portfolio": "Greater God of Storms, Skies, Athletics, Battle, Heroes, and Victory",
     "alignment": "Chaotic Neutral",
     "domains": [
       "Tempest",
@@ -1136,7 +1136,7 @@
   {
     "slug": "lamashtu",
     "name": "Lamashtu, Mother of Monsters",
-    "portfolio": "Corruption, Monsters, Evolution, Transformation, Famine, and Vermin",
+    "portfolio": "Greater Goddess of Monsters, Corruption, Famine, Evolution, and Vermin",
     "alignment": "Chaotic Evil",
     "domains": [
       "Beauty",
@@ -1251,7 +1251,7 @@
   {
     "slug": "lolth",
     "name": "Lolth, the Spider Queen",
-    "portfolio": "Nightmares, Betrayal, Espionage, Manipulation, and Drow",
+    "portfolio": "Greater Goddess of Nightmares, Betrayal, Espionage, Manipulation, and Seduction",
     "alignment": "Chaotic Evil",
     "domains": [
       "Beauty",
@@ -1359,7 +1359,7 @@
   {
     "slug": "the-raven-queen",
     "name": "The Raven Queen, the Duskmaven",
-    "portfolio": "Goddess of Death, Psychopomps, Memory, the Afterlife, Fate, and Winter",
+    "portfolio": "Greater Goddess of Death, the Afterlife, Fate, Psychopomps, and Winter",
     "alignment": "Lawful Neutral",
     "domains": [
       "Blood",
@@ -1409,7 +1409,7 @@
   {
     "slug": "melora",
     "name": "Melora, the Wildmother",
-    "portfolio": "Wilderness, Beasts, Nature, Hunters, and Seas",
+    "portfolio": "Greater Goddess of Nature, Beasts, Hunters, Seas, and Wilderness",
     "alignment": "Neutral / Unaligned",
     "domains": [
       "Hunt",
@@ -1457,7 +1457,7 @@
   {
     "slug": "moradin",
     "name": "Moradin, the All-Hammer",
-    "portfolio": "Creation, Loyalty, Labour, Artisans, Machines, and Dwarves",
+    "portfolio": "Greater God of Creation, Artisans, Harmony, Loyalty, Labour, and Machines",
     "alignment": "Lawful Good",
     "domains": [
       "Forge",
@@ -1641,7 +1641,7 @@
   {
     "slug": "pelor",
     "name": "Pelor, the Dawnfather",
-    "portfolio": "Dawn, Sun, Summer, Martyrdom, Agriculture, and patron of Humanity",
+    "portfolio": "Greater God of Dawn, Agriculture, Martyrs, Summer, and the Sun",
     "alignment": "Lawful Good",
     "domains": [
       "Life",
@@ -1686,7 +1686,7 @@
   {
     "slug": "saren-raei",
     "name": "Saren-Raei, the Everlight",
-    "portfolio": "Healing, Mercy, Redemption, Altruism, and Flame",
+    "portfolio": "Greater Goddess of Atonement, Altruism, Compassion, Flame, Healing, Mercy, and Redemption",
     "alignment": "Neutral Good",
     "domains": [
       "Beauty",
@@ -1733,7 +1733,7 @@
   {
     "slug": "sardior",
     "name": "Sardior, the Ruby Wyrm",
-    "portfolio": "Greater God of Psionics, Philosophy, Enlightenment, and neutral-aligned dragons",
+    "portfolio": "Greater God of Psionics, Philosophy, and Enlightenment",
     "alignment": "Neutral / Unaligned",
     "domains": [
       "Arcana",
@@ -1890,7 +1890,7 @@
   {
     "slug": "seha-angharradh",
     "name": "Seha-Angharradh, the Moonweaver",
-    "portfolio": "Dreams, Moon, Intimacy, Mystery, and Shapechangers",
+    "portfolio": "Greater Goddess of Dreams, Moon, Intimacy, Mystery, and Shapechanging",
     "alignment": "Chaotic Good",
     "domains": [
       "Arcana",
@@ -1958,7 +1958,7 @@
   {
     "slug": "tharizdun",
     "name": "Tharizdun, the Chained Oblivion",
-    "portfolio": "Deity of the Abyss, Insanity, Entropy, Extinction, and Calamity",
+    "portfolio": "Greater God of the Abyss, Insanity, Entropy, Extinction, and Calamity",
     "alignment": "Chaotic Evil",
     "domains": [
       "Cataclysm",
@@ -2011,7 +2011,7 @@
   {
     "slug": "tiamat",
     "name": "Tiamat, the Chromatic Tyrant",
-    "portfolio": "Greater Goddess of Ambition, Greed, Piracy, and Chromatic Dragons",
+    "portfolio": "Greater Goddess of Ambition, Greed, and Piracy",
     "alignment": "Neutral Evil",
     "domains": [
       "Hunt",
@@ -2170,7 +2170,7 @@
   {
     "slug": "torog",
     "name": "Torog, the King That Crawls",
-    "portfolio": "God of Pain, Jailers, Caves, the Underdark, Aberrations, Disability, Enslavement, and Torture",
+    "portfolio": "Greater God of Pain, Suffering, Disability, and Imprisonment",
     "alignment": "Neutral Evil",
     "domains": [
       "Blood",
@@ -2214,7 +2214,7 @@
   {
     "slug": "vecna",
     "name": "Vecna, the Whispered One",
-    "portfolio": "God of Necromancy, Undeath, Secrets, and Forbidden Knowledge",
+    "portfolio": "Greater God of Secrets, Archaeology, Forbidden Knowledge, and Undeath",
     "alignment": "Neutral Evil",
     "domains": [
       "Arcana",
@@ -2258,7 +2258,7 @@
   {
     "slug": "vhaeraun",
     "name": "Vhaeraun, Prince of the Stage",
-    "portfolio": "God of Theatre, Thieves, Territory, and Retribution",
+    "portfolio": "Greater God of Theatre, Thieves, Territory, and Rebellion",
     "alignment": "Lawful Evil",
     "domains": [
       "Arcana",
@@ -2356,7 +2356,7 @@
   {
     "slug": "yondalla",
     "name": "Yondalla, the Hearthdame",
-    "portfolio": "Bounty, Fertility, Friendship, Home, Husbandry, Medicine, and Halflings",
+    "portfolio": "Greater Goddess of Bounty, Fertility, Friendship, Home, Husbandry, and Medicine",
     "alignment": "Lawful Good",
     "domains": [
       "Life",
@@ -2456,7 +2456,7 @@
   {
     "slug": "zehir",
     "name": "Zehir, the Cloaked Serpent",
-    "portfolio": "God of Blood, Poison, Murder, Obsession, Reptiles, Transmutation, and Yuan-Ti",
+    "portfolio": "Greater God of Blood, Poison, Murder, Obsession, Reptiles, and Transmutation",
     "alignment": "Chaotic Evil",
     "domains": [
       "Blood",

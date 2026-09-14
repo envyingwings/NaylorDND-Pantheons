@@ -44,6 +44,42 @@ Then visit `http://localhost:8000/`.
 
 ## Editing deity content
 
+There are two ways to edit deity content: the **admin editor** (a form-based
+UI in your browser) or **editing markdown directly** and regenerating.
+
+### Using the admin editor
+
+Visit `admin.html` (linked from the site header) while serving the site
+locally. It lists every deity — including placeholder pages — and lets you
+edit any field through a form: name, portfolio, alignment, intro
+paragraphs, infobox details, titles, domains, commandments, and the
+Appendix/sub-pantheon member list. You can also add a brand new deity or
+delete one.
+
+**This editor does not save anything automatically.** It works entirely in
+your browser against an in-memory copy of `data/deities.json`. When you're
+done:
+
+1. Click **Download deities.json**.
+2. Replace `data/deities.json` in your project folder with the downloaded
+   file.
+3. Commit and push as usual (`git add data/deities.json && git commit -m
+   "Update deity data" && git push`).
+
+If you close the tab or reload the page without downloading, your changes
+are lost — there's a browser warning if you try to leave with unsaved
+edits, but there's no autosave. The sidebar marks any deity with unsaved
+changes with a small dot next to its name.
+
+The admin editor works on `data/deities.json` directly, not on the
+markdown files in `source-markdown/`. If you also maintain the markdown
+(e.g. because you like having readable source files, or because you plan
+to regenerate everything from scratch later), you'll want to hand-copy
+significant edits back into the matching `.md` file yourself — the editor
+has no awareness of the markdown source.
+
+### Editing markdown and regenerating
+
 The site never reads the markdown directly — it reads `data/deities.json`.
 If you edit a file in `source-markdown/`, regenerate the data:
 
@@ -51,8 +87,9 @@ If you edit a file in `source-markdown/`, regenerate the data:
 python3 tools/parse.py
 ```
 
-This rewrites `data/deities.json` from scratch. Refresh the browser (no
-server restart needed) to see the changes.
+This rewrites `data/deities.json` from scratch, **overwriting any edits
+made through the admin editor that weren't reflected in the markdown**.
+Refresh the browser (no server restart needed) to see the changes.
 
 ### What the parser keeps
 

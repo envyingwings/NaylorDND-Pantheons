@@ -127,17 +127,54 @@ def parse_appendix(body):
     return {"title": title, "members": members}
 
 
-def clean_portfolio(raw):
-    """
-    Frontmatter Portfolio strings come in three shapes:
-      1. "<Adjective> God/Goddess of <Thing> | <rest, of, list>"
-         -> merge <Thing> into the front of <rest> (it belongs in the portfolio,
-            not as a separate "title" fragment): "<Thing>, <rest>"
-      2. "<Epithet title (no 'of')> | Greater God/Goddess of <full list>"
-         -> the second half is already the complete portfolio; use it as-is.
-      3. No pipe at all -> already a clean flat list; use as-is.
-    Returns a single clean display string with no pipe character.
-    """
+# Hand-curated canonical portfolios. The source frontmatter/infobox Portfolio
+# fields are inconsistent (different shapes, some incomplete, some carrying
+# race names or "patron of X" phrasing that shouldn't appear in the display
+# portfolio), so rather than trying to regex every edge case correctly, each
+# deity's clean portfolio is written out explicitly here. All follow the
+# same "Greater God/Goddess of <comma list>" shape, with no patron-of-race
+# or specific-race mentions (e.g. "Elves", "good-aligned dragons",
+# "patron of Goblinoids" are omitted; the underlying domain like "Conflict"
+# or "Creation" is kept).
+CANONICAL_PORTFOLIOS = {
+    "asmodeus": "Greater God of the Hells, Indulgence, Sin and Negotiation",
+    "avandra": "Greater Goddess of Change, Freedom, Revolution, Travel, and Luck",
+    "bahamut": "Greater God of Virtue, Honour, and Justice",
+    "bane": "Greater God of Conflict, Discipline, Oppression, and Warfare",
+    "corellon-larethian": "Greater God of Stars, Magic, Artistry, and Reincarnation",
+    "eilistraee": "Greater Goddess of Individuality, Night, and Witchcraft",
+    "erathis": "Greater Goddess of Law, Civilization, Commerce, Peace, and Progress",
+    "garl-glittergold": "Greater God of Artifice, Celebration, Jewels, and Wealth",
+    "gruumsh-one-eye": "Greater God of Natural Disasters, Curses, Outcasts, and Strength",
+    "ioun": "Greater Goddess of Truth, Education, Knowledge, Language, Lore, Prophecy, Skill, and Wizardry",
+    "kord": "Greater God of Storms, Skies, Athletics, Battle, Heroes, and Victory",
+    "lamashtu": "Greater Goddess of Monsters, Corruption, Famine, Evolution, and Vermin",
+    "lolth": "Greater Goddess of Nightmares, Betrayal, Espionage, Manipulation, and Seduction",
+    "the-raven-queen": "Greater Goddess of Death, the Afterlife, Fate, Psychopomps, and Winter",
+    "melora": "Greater Goddess of Nature, Beasts, Hunters, Seas, and Wilderness",
+    "moradin": "Greater God of Creation, Artisans, Harmony, Loyalty, Labour, and Machines",
+    "pelor": "Greater God of Dawn, Agriculture, Martyrs, Summer, and the Sun",
+    "saren-raei": "Greater Goddess of Atonement, Altruism, Compassion, Flame, Healing, Mercy, and Redemption",
+    "sardior": "Greater God of Psionics, Philosophy, and Enlightenment",
+    "seha-angharradh": "Greater Goddess of Dreams, Moon, Intimacy, Mystery, and Shapechanging",
+    "tharizdun": "Greater God of the Abyss, Insanity, Entropy, Extinction, and Calamity",
+    "tiamat": "Greater Goddess of Ambition, Greed, and Piracy",
+    "torog": "Greater God of Pain, Suffering, Disability, and Imprisonment",
+    "vecna": "Greater God of Secrets, Archaeology, Forbidden Knowledge, and Undeath",
+    "vhaeraun": "Greater God of Theatre, Thieves, Territory, and Rebellion",
+    "yondalla": "Greater Goddess of Bounty, Fertility, Friendship, Home, Husbandry, and Medicine",
+    "zehir": "Greater God of Blood, Poison, Murder, Obsession, Reptiles, and Transmutation",
+}
+
+
+def clean_portfolio(raw, slug):
+    """Return the hand-curated canonical portfolio for this deity slug, if
+    one exists; otherwise fall back to a best-effort clean of the raw
+    frontmatter string (used for any future deity not yet in the table
+    above)."""
+    if slug in CANONICAL_PORTFOLIOS:
+        return CANONICAL_PORTFOLIOS[slug]
+
     if not raw:
         return raw
     if "|" not in raw:
@@ -146,17 +183,14 @@ def clean_portfolio(raw):
     left, right = [p.strip() for p in raw.split("|", 1)]
     right_clean = right.rstrip(".")
 
-    # Shape 2: right side is already a full "Greater God/Goddess of ..." portfolio
     if re.match(r"^Greater\s+(God|Goddess)\s+of\s+", right, flags=re.IGNORECASE):
         return right_clean
 
-    # Shape 1: left side names a "<thing>" via "... of <thing>"; merge it in front
     m = re.search(r"\bof\s+(.+)$", left, flags=re.IGNORECASE)
     if m:
         thing = m.group(1).strip().rstrip(".")
-        return f"{thing}, {right_clean}"
+        return f"Greater God of {thing}, {right_clean}"
 
-    # Fallback: left has no "of X" to extract (e.g. a bare epithet) -> just use right
     return right_clean
 
 
@@ -228,16 +262,15 @@ def parse_file(path):
     cover_file = cover_m.group(1) if cover_m else None
 
     name_guess = display_name or os.path.splitext(os.path.basename(path))[0].replace("__", ", ").replace("_", " ")
+    slug = slugify(name_guess.split(",")[0])
 
     portfolio_raw = frontmatter.get("Portfolio", "")
-    portfolio = clean_portfolio(portfolio_raw)
+    portfolio = clean_portfolio(portfolio_raw, slug)
     alignment = frontmatter.get("Alignment", infobox.get("Alignment", ""))
     domains_fm = frontmatter.get("Divine Domains", [])
     status = frontmatter.get("Status", [])
     warlock = frontmatter.get("Warlock Province", [])
     tags = frontmatter.get("tags", [])
-
-    slug = slugify(name_guess.split(",")[0])
 
     return {
         "slug": slug,

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin — The Ourosi Pantheon</title>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/admin.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header-inner">
+    <div class="site-title">
+      <a href="index.html" style="color:inherit;">The Ourosi Pantheon</a>
+    </div>
+    <nav class="site-nav">
+      <a href="index.html">All Deities</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+  </div>
+</header>
+
+<main class="admin-page">
+
+  <div class="admin-banner">
+    <strong>This editor works entirely in your browser.</strong> It does not save to GitHub or your live
+    site automatically. When you're done editing, click <strong>Download deities.json</strong> and replace
+    <code>data/deities.json</code> in your project with the downloaded file, then commit and push as usual.
+    Nothing you do here is uploaded anywhere.
+  </div>
+
+  <div class="admin-layout">
+    <aside class="admin-sidebar">
+      <div class="admin-sidebar-controls">
+        <input type="search" id="admin-search" class="search-input" placeholder="Find a deity…" autocomplete="off">
+        <button id="new-deity-btn" class="btn btn-secondary">+ New Deity</button>
+      </div>
+      <ul class="admin-deity-list" id="admin-deity-list">
+        <!-- populated by admin.js -->
+      </ul>
+    </aside>
+
+    <section class="admin-editor" id="admin-editor">
+      <p class="empty-note">Select a deity from the list, or click "New Deity" to create one.</p>
+    </section>
+  </div>
+
+  <div class="admin-footer-bar">
+    <button id="download-btn" class="btn btn-primary">Download deities.json</button>
+    <button id="reload-btn" class="btn btn-secondary">Reload from data/deities.json (discard changes)</button>
+    <span id="admin-status" class="admin-status"></span>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  Admin editor — local only, changes are not saved until you download and commit deities.json.
+</footer>
+
+<script src="assets/app.js"></script>
+<script src="assets/admin.js"></script>
+</body>
+</html>
