@@ -12,7 +12,7 @@ id: -Melira-Page
 - [[#Appendix|Appendix]]
 	- [[#Appendix#Seldarine — Elven Pantheon|Seldarine — Elven Pantheon]]
 ===
-### Melira Taralen, Fountainside Songstress
+### Melira Taralen, the Fountainside Songstress
 [Forgotten Realms Wiki](https://forgottenrealms.fandom.com/wiki/Melira_Taralen)
 ![[Melira.png]]
 **Alignment.** Chaotic Good
@@ -36,3 +36,25 @@ layout: grid
 columns: 5
 imageProperty: cover
 ```
+- [[Alathrien Druanna — the Glyphscribe]]
+- [[Alobal Lorfiril — the Merry Magician]]
+- [[Araleth Letheranil — the Prince of Stars]]
+- [[Aasterinian — Quicksilver Dragon|Avachel — the Quicksilver Dragon]]
+- [[Seha-Angharradh, The Moonweaver|Angharradh]]
+- [[Corellon Larethian, The Arch-Seldarine]]
+- [[Deep Sashelas — the Dolphin Prince]]
+- [[Elebrin Liothiel — the Celestial Gardener]]
+- [[Erevan Ilesere — the Green Changeling]]
+- [[Fenmarel Mestarine — the Lone Wolf]]
+- [[Kirith Sotheril — The Rainbow Magess]]
+- [[Labelas Enoreth — the Sage at Sunset]]
+- [[Mythrien Sarath — the Mythal Protector]]
+- [[Naralis Analor — the Watcher of Souls]]
+- [[Rillifane Rallathil — the Many-Branched Wildling]]
+- [[Sarula Iliene — the Nixie Queen]]
+- [[Shevarash — Black Archer]]
+- [[Solonor Thelandira — the Unerring Archer]]
+- [[Tarsellis Meunniduin — Frost Hermit]]
+- [[Tethrin Veraldé — the Master of Blades]]
+- [[Trishina — Joyswimmer]]
+- [[Vandria Gilmadrith — Lady Steelheart]]

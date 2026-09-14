@@ -48,7 +48,7 @@
   },
   {
     "slug": "alathrien-druanna",
-    "name": "Alathrien Druanna, Glyphscribe",
+    "name": "Alathrien Druanna, the Glyphscribe",
     "portfolio": "Elven goddess of writing, runes, and spellcrafting",
     "alignment": "True Neutral",
     "domains": [
@@ -79,7 +79,140 @@
     "commandments": [],
     "appendix": {
       "title": "Seldarine — Elven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Alobal Lorfiril — the Merry Magician",
+          "slug": "alobal-lorfiril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Araleth Letheranil — the Prince of Stars",
+          "slug": "araleth-letheranil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Avachel — the Quicksilver Dragon",
+          "slug": "aasterinian-quicksilver-dragon",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Angharradh",
+          "slug": "seha-angharradh",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Corellon Larethian, The Arch-Seldarine",
+          "slug": "corellon-larethian",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Sashelas — the Dolphin Prince",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Elebrin Liothiel — the Celestial Gardener",
+          "slug": "elebrin-liothiel",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Erevan Ilesere — the Green Changeling",
+          "slug": "erevan-ilesere",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Fenmarel Mestarine — the Lone Wolf",
+          "slug": "fenmarel-mestarine",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Kirith Sotheril — The Rainbow Magess",
+          "slug": "kirith-sotheril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Labelas Enoreth — the Sage at Sunset",
+          "slug": "labelas-enoreth",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Melira Taralen — the Fountainside Songstress",
+          "slug": "melira-taralen",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mythrien Sarath — the Mythal Protector",
+          "slug": "mythrien-sarath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Naralis Analor — the Watcher of Souls",
+          "slug": "naralis-analor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Rillifane Rallathil — the Many-Branched Wildling",
+          "slug": "rillifane-rallathil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sarula Iliene — the Nixie Queen",
+          "slug": "sarula-iliene",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Shevarash — Black Archer",
+          "slug": "shevarash",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Solonor Thelandira — the Unerring Archer",
+          "slug": "solonor-thelandira",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tarsellis Meunniduin — Frost Hermit",
+          "slug": "tarsellis-meunniduin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tethrin Veraldé — the Master of Blades",
+          "slug": "tethrin-veraldé",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Trishina — Joyswimmer",
+          "slug": "trishina",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vandria Gilmadrith — Lady Steelheart",
+          "slug": "vandria-gilmadrith",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "svg",
     "source_file": "Alathrien_Druanna__Glyphscribe.md",
@@ -87,7 +220,7 @@
   },
   {
     "slug": "alobal-lorfiril",
-    "name": "Alobal Lorfiril, Merry Magician",
+    "name": "Alobal Lorfiril, the Merry Magician",
     "portfolio": "Elven god of mirth, revelry, and wine",
     "alignment": "Chaotic Good",
     "domains": [],
@@ -115,7 +248,140 @@
     "commandments": [],
     "appendix": {
       "title": "Seldarine — Elven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Alathrien Druanna — the Glyphscribe",
+          "slug": "alathrien-druanna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Araleth Letheranil — the Prince of Stars",
+          "slug": "araleth-letheranil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Avachel — the Quicksilver Dragon",
+          "slug": "aasterinian-quicksilver-dragon",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Angharradh",
+          "slug": "seha-angharradh",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Corellon Larethian, The Arch-Seldarine",
+          "slug": "corellon-larethian",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Sashelas — the Dolphin Prince",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Elebrin Liothiel — the Celestial Gardener",
+          "slug": "elebrin-liothiel",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Erevan Ilesere — the Green Changeling",
+          "slug": "erevan-ilesere",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Fenmarel Mestarine — the Lone Wolf",
+          "slug": "fenmarel-mestarine",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Kirith Sotheril — The Rainbow Magess",
+          "slug": "kirith-sotheril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Labelas Enoreth — the Sage at Sunset",
+          "slug": "labelas-enoreth",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Melira Taralen — the Fountainside Songstress",
+          "slug": "melira-taralen",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mythrien Sarath — the Mythal Protector",
+          "slug": "mythrien-sarath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Naralis Analor — the Watcher of Souls",
+          "slug": "naralis-analor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Rillifane Rallathil — the Many-Branched Wildling",
+          "slug": "rillifane-rallathil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sarula Iliene — the Nixie Queen",
+          "slug": "sarula-iliene",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Shevarash — Black Archer",
+          "slug": "shevarash",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Solonor Thelandira — the Unerring Archer",
+          "slug": "solonor-thelandira",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tarsellis Meunniduin — Frost Hermit",
+          "slug": "tarsellis-meunniduin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tethrin Veraldé — the Master of Blades",
+          "slug": "tethrin-veraldé",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Trishina — Joyswimmer",
+          "slug": "trishina",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vandria Gilmadrith — Lady Steelheart",
+          "slug": "vandria-gilmadrith",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "svg",
     "source_file": "Alobal_Lorfiril__Merry_Magician.md",
@@ -123,7 +389,7 @@
   },
   {
     "slug": "araleth-letheranil",
-    "name": "Araleth Letheranil, Prince of Stars",
+    "name": "Araleth Letheranil, the Prince of Stars",
     "portfolio": "Greater God of Stars, Elven god of light, revelations, starlight, and twilight",
     "alignment": "Chaotic Good",
     "domains": [],
@@ -148,7 +414,140 @@
     "commandments": [],
     "appendix": {
       "title": "Seldarine — Elven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Alathrien Druanna — the Glyphscribe",
+          "slug": "alathrien-druanna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Alobal Lorfiril — the Merry Magician",
+          "slug": "alobal-lorfiril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Avachel — the Quicksilver Dragon",
+          "slug": "aasterinian-quicksilver-dragon",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Angharradh",
+          "slug": "seha-angharradh",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Corellon Larethian, The Arch-Seldarine",
+          "slug": "corellon-larethian",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Sashelas — the Dolphin Prince",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Elebrin Liothiel — the Celestial Gardener",
+          "slug": "elebrin-liothiel",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Erevan Ilesere — the Green Changeling",
+          "slug": "erevan-ilesere",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Fenmarel Mestarine — the Lone Wolf",
+          "slug": "fenmarel-mestarine",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Kirith Sotheril — The Rainbow Magess",
+          "slug": "kirith-sotheril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Labelas Enoreth — the Sage at Sunset",
+          "slug": "labelas-enoreth",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Melira Taralen — the Fountainside Songstress",
+          "slug": "melira-taralen",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mythrien Sarath — the Mythal Protector",
+          "slug": "mythrien-sarath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Naralis Analor — the Watcher of Souls",
+          "slug": "naralis-analor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Rillifane Rallathil — the Many-Branched Wildling",
+          "slug": "rillifane-rallathil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sarula Iliene — the Nixie Queen",
+          "slug": "sarula-iliene",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Shevarash — Black Archer",
+          "slug": "shevarash",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Solonor Thelandira — the Unerring Archer",
+          "slug": "solonor-thelandira",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tarsellis Meunniduin — Frost Hermit",
+          "slug": "tarsellis-meunniduin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tethrin Veraldé — the Master of Blades",
+          "slug": "tethrin-veraldé",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Trishina — Joyswimmer",
+          "slug": "trishina",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vandria Gilmadrith — Lady Steelheart",
+          "slug": "vandria-gilmadrith",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "svg",
     "source_file": "Araleth_Letheranil__Prince_of_Stars.md",
@@ -734,19 +1133,19 @@
       "title": "Seldarine — Elven Pantheon",
       "members": [
         {
-          "name": "Alathrien Druanna — Glyphscribe",
+          "name": "Alathrien Druanna — the Glyphscribe",
           "slug": "alathrien-druanna",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Alobal Lorfiril — Merry Magician",
+          "name": "Alobal Lorfiril — the Merry Magician",
           "slug": "alobal-lorfiril",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Araleth Letheranil — Prince of Stars",
+          "name": "Araleth Letheranil — the Prince of Stars",
           "slug": "araleth-letheranil",
           "blurb": "",
           "has_page": true
@@ -764,13 +1163,13 @@
           "has_page": true
         },
         {
-          "name": "Deep Sashelas — Dolphin Prince",
+          "name": "Deep Sashelas — the Dolphin Prince",
           "slug": "deep-duerra",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Elebrin Liothiel — Celestial Gardener",
+          "name": "Elebrin Liothiel — the Celestial Gardener",
           "slug": "elebrin-liothiel",
           "blurb": "",
           "has_page": true
@@ -794,37 +1193,37 @@
           "has_page": true
         },
         {
-          "name": "Labelas Enoreth — Sage at Sunset",
+          "name": "Labelas Enoreth — the Sage at Sunset",
           "slug": "labelas-enoreth",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Melira Taralen — Evergold Songstress",
+          "name": "Melira Taralen — the Fountainside Songstress",
           "slug": "melira-taralen",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Mythrien Sarath — Mythal Protector",
+          "name": "Mythrien Sarath — the Mythal Protector",
           "slug": "mythrien-sarath",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Naralis Analor — Watcher of Souls",
+          "name": "Naralis Analor — the Watcher of Souls",
           "slug": "naralis-analor",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Rillifane Rallathil — Many-Branched Wildling",
+          "name": "Rillifane Rallathil — the Many-Branched Wildling",
           "slug": "rillifane-rallathil",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Sarula Iliene — Nixie Queen",
+          "name": "Sarula Iliene — the Nixie Queen",
           "slug": "sarula-iliene",
           "blurb": "",
           "has_page": true
@@ -836,7 +1235,7 @@
           "has_page": true
         },
         {
-          "name": "Solonor Thelandira — Unerring Archer",
+          "name": "Solonor Thelandira — the Unerring Archer",
           "slug": "solonor-thelandira",
           "blurb": "",
           "has_page": true
@@ -848,7 +1247,7 @@
           "has_page": true
         },
         {
-          "name": "Tethrin Veraldé — Master of Blades",
+          "name": "Tethrin Veraldé — the Master of Blades",
           "slug": "tethrin-veraldé",
           "blurb": "",
           "has_page": true
@@ -920,7 +1319,7 @@
   },
   {
     "slug": "deep-sashelas",
-    "name": "Deep Sashelas, Dolphin Prince",
+    "name": "Deep Sashelas, the Dolphin Prince",
     "portfolio": "Greater God of Undersea, Elven god of seas and knowledge",
     "alignment": "Chaotic Good",
     "domains": [
@@ -962,7 +1361,140 @@
     "commandments": [],
     "appendix": {
       "title": "Seldarine — Elven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Alathrien Druanna — the Glyphscribe",
+          "slug": "alathrien-druanna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Alobal Lorfiril — the Merry Magician",
+          "slug": "alobal-lorfiril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Araleth Letheranil — the Prince of Stars",
+          "slug": "araleth-letheranil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Avachel — the Quicksilver Dragon",
+          "slug": "aasterinian-quicksilver-dragon",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Angharradh",
+          "slug": "seha-angharradh",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Corellon Larethian, The Arch-Seldarine",
+          "slug": "corellon-larethian",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Elebrin Liothiel — the Celestial Gardener",
+          "slug": "elebrin-liothiel",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Erevan Ilesere — the Green Changeling",
+          "slug": "erevan-ilesere",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Fenmarel Mestarine — the Lone Wolf",
+          "slug": "fenmarel-mestarine",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Kirith Sotheril — The Rainbow Magess",
+          "slug": "kirith-sotheril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Labelas Enoreth — the Sage at Sunset",
+          "slug": "labelas-enoreth",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Melira Taralen — the Fountainside Songstress",
+          "slug": "melira-taralen",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mythrien Sarath — the Mythal Protector",
+          "slug": "mythrien-sarath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Naralis Analor — the Watcher of Souls",
+          "slug": "naralis-analor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Rillifane Rallathil — the Many-Branched Wildling",
+          "slug": "rillifane-rallathil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sarula Iliene — the Nixie Queen",
+          "slug": "sarula-iliene",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Shevarash — Black Archer",
+          "slug": "shevarash",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Solonor Thelandira — the Unerring Archer",
+          "slug": "solonor-thelandira",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tarsellis Meunniduin — Frost Hermit",
+          "slug": "tarsellis-meunniduin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tethrin Veraldé — the Master of Blades",
+          "slug": "tethrin-veraldé",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Trishina — Joyswimmer",
+          "slug": "trishina",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vandria Gilmadrith — Lady Steelheart",
+          "slug": "vandria-gilmadrith",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "svg",
     "source_file": "Deep_Sashelas__Dolphin_Prince.md",
@@ -1257,7 +1789,7 @@
   },
   {
     "slug": "elebrin-liothiel",
-    "name": "Elebrin Liothiel, Celestial Gardener",
+    "name": "Elebrin Liothiel, the Celestial Gardener",
     "portfolio": "Elven god of abundance, gardens, and harvest",
     "alignment": "Chaotic Good",
     "domains": [],
@@ -1285,7 +1817,140 @@
     "commandments": [],
     "appendix": {
       "title": "Seldarine — Elven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Alathrien Druanna — the Glyphscribe",
+          "slug": "alathrien-druanna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Alobal Lorfiril — the Merry Magician",
+          "slug": "alobal-lorfiril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Araleth Letheranil — the Prince of Stars",
+          "slug": "araleth-letheranil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Avachel — the Quicksilver Dragon",
+          "slug": "aasterinian-quicksilver-dragon",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Angharradh",
+          "slug": "seha-angharradh",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Corellon Larethian, The Arch-Seldarine",
+          "slug": "corellon-larethian",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Sashelas — the Dolphin Prince",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Erevan Ilesere — the Green Changeling",
+          "slug": "erevan-ilesere",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Fenmarel Mestarine — the Lone Wolf",
+          "slug": "fenmarel-mestarine",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Kirith Sotheril — The Rainbow Magess",
+          "slug": "kirith-sotheril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Labelas Enoreth — the Sage at Sunset",
+          "slug": "labelas-enoreth",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Melira Taralen — the Fountainside Songstress",
+          "slug": "melira-taralen",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mythrien Sarath — the Mythal Protector",
+          "slug": "mythrien-sarath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Naralis Analor — the Watcher of Souls",
+          "slug": "naralis-analor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Rillifane Rallathil — the Many-Branched Wildling",
+          "slug": "rillifane-rallathil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sarula Iliene — the Nixie Queen",
+          "slug": "sarula-iliene",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Shevarash — Black Archer",
+          "slug": "shevarash",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Solonor Thelandira — the Unerring Archer",
+          "slug": "solonor-thelandira",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tarsellis Meunniduin — Frost Hermit",
+          "slug": "tarsellis-meunniduin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tethrin Veraldé — the Master of Blades",
+          "slug": "tethrin-veraldé",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Trishina — Joyswimmer",
+          "slug": "trishina",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vandria Gilmadrith — Lady Steelheart",
+          "slug": "vandria-gilmadrith",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "svg",
     "source_file": "Elebrin_Liothiel__Celestial_Gardener.md",
@@ -1371,7 +2036,140 @@
     "commandments": [],
     "appendix": {
       "title": "Seldarine — Elven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Alathrien Druanna — the Glyphscribe",
+          "slug": "alathrien-druanna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Alobal Lorfiril — the Merry Magician",
+          "slug": "alobal-lorfiril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Araleth Letheranil — the Prince of Stars",
+          "slug": "araleth-letheranil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Avachel — the Quicksilver Dragon",
+          "slug": "aasterinian-quicksilver-dragon",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Angharradh",
+          "slug": "seha-angharradh",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Corellon Larethian, The Arch-Seldarine",
+          "slug": "corellon-larethian",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Sashelas — the Dolphin Prince",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Elebrin Liothiel — the Celestial Gardener",
+          "slug": "elebrin-liothiel",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Fenmarel Mestarine — the Lone Wolf",
+          "slug": "fenmarel-mestarine",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Kirith Sotheril — The Rainbow Magess",
+          "slug": "kirith-sotheril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Labelas Enoreth — the Sage at Sunset",
+          "slug": "labelas-enoreth",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Melira Taralen — the Fountainside Songstress",
+          "slug": "melira-taralen",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mythrien Sarath — the Mythal Protector",
+          "slug": "mythrien-sarath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Naralis Analor — the Watcher of Souls",
+          "slug": "naralis-analor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Rillifane Rallathil — the Many-Branched Wildling",
+          "slug": "rillifane-rallathil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sarula Iliene — the Nixie Queen",
+          "slug": "sarula-iliene",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Shevarash — Black Archer",
+          "slug": "shevarash",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Solonor Thelandira — the Unerring Archer",
+          "slug": "solonor-thelandira",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tarsellis Meunniduin — Frost Hermit",
+          "slug": "tarsellis-meunniduin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tethrin Veraldé — the Master of Blades",
+          "slug": "tethrin-veraldé",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Trishina — Joyswimmer",
+          "slug": "trishina",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vandria Gilmadrith — Lady Steelheart",
+          "slug": "vandria-gilmadrith",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "svg",
     "source_file": "Erevan_Ilesere__the_Green_Changeling.md",
@@ -1402,7 +2200,140 @@
     "commandments": [],
     "appendix": {
       "title": "Seldarine — Elven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Alathrien Druanna — the Glyphscribe",
+          "slug": "alathrien-druanna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Alobal Lorfiril — the Merry Magician",
+          "slug": "alobal-lorfiril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Araleth Letheranil — the Prince of Stars",
+          "slug": "araleth-letheranil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Avachel — the Quicksilver Dragon",
+          "slug": "aasterinian-quicksilver-dragon",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Angharradh",
+          "slug": "seha-angharradh",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Corellon Larethian, The Arch-Seldarine",
+          "slug": "corellon-larethian",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Sashelas — the Dolphin Prince",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Elebrin Liothiel — the Celestial Gardener",
+          "slug": "elebrin-liothiel",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Erevan Ilesere — the Green Changeling",
+          "slug": "erevan-ilesere",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Kirith Sotheril — The Rainbow Magess",
+          "slug": "kirith-sotheril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Labelas Enoreth — the Sage at Sunset",
+          "slug": "labelas-enoreth",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Melira Taralen — the Fountainside Songstress",
+          "slug": "melira-taralen",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mythrien Sarath — the Mythal Protector",
+          "slug": "mythrien-sarath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Naralis Analor — the Watcher of Souls",
+          "slug": "naralis-analor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Rillifane Rallathil — the Many-Branched Wildling",
+          "slug": "rillifane-rallathil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sarula Iliene — the Nixie Queen",
+          "slug": "sarula-iliene",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Shevarash — Black Archer",
+          "slug": "shevarash",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Solonor Thelandira — the Unerring Archer",
+          "slug": "solonor-thelandira",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tarsellis Meunniduin — Frost Hermit",
+          "slug": "tarsellis-meunniduin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tethrin Veraldé — the Master of Blades",
+          "slug": "tethrin-veraldé",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Trishina — Joyswimmer",
+          "slug": "trishina",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vandria Gilmadrith — Lady Steelheart",
+          "slug": "vandria-gilmadrith",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "svg",
     "source_file": "Fenmarel_Mestarine__the_Lone_Wolf.md",
@@ -1883,7 +2814,140 @@
     "commandments": [],
     "appendix": {
       "title": "Seldarine — Elven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Alathrien Druanna — the Glyphscribe",
+          "slug": "alathrien-druanna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Alobal Lorfiril — the Merry Magician",
+          "slug": "alobal-lorfiril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Araleth Letheranil — the Prince of Stars",
+          "slug": "araleth-letheranil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Avachel — the Quicksilver Dragon",
+          "slug": "aasterinian-quicksilver-dragon",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Angharradh",
+          "slug": "seha-angharradh",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Corellon Larethian, The Arch-Seldarine",
+          "slug": "corellon-larethian",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Sashelas — the Dolphin Prince",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Elebrin Liothiel — the Celestial Gardener",
+          "slug": "elebrin-liothiel",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Erevan Ilesere — the Green Changeling",
+          "slug": "erevan-ilesere",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Fenmarel Mestarine — the Lone Wolf",
+          "slug": "fenmarel-mestarine",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Labelas Enoreth — the Sage at Sunset",
+          "slug": "labelas-enoreth",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Melira Taralen — the Fountainside Songstress",
+          "slug": "melira-taralen",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mythrien Sarath — the Mythal Protector",
+          "slug": "mythrien-sarath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Naralis Analor — the Watcher of Souls",
+          "slug": "naralis-analor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Rillifane Rallathil — the Many-Branched Wildling",
+          "slug": "rillifane-rallathil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sarula Iliene — the Nixie Queen",
+          "slug": "sarula-iliene",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Shevarash — Black Archer",
+          "slug": "shevarash",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Solonor Thelandira — the Unerring Archer",
+          "slug": "solonor-thelandira",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tarsellis Meunniduin — Frost Hermit",
+          "slug": "tarsellis-meunniduin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tethrin Veraldé — the Master of Blades",
+          "slug": "tethrin-veraldé",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Trishina — Joyswimmer",
+          "slug": "trishina",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vandria Gilmadrith — Lady Steelheart",
+          "slug": "vandria-gilmadrith",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "svg",
     "source_file": "Kirith_Sotheril__The_Rainbow_Magess.md",
@@ -1944,7 +3008,7 @@
   },
   {
     "slug": "labelas-enoreth",
-    "name": "Labelas Enoreth, Sage at Sunset",
+    "name": "Labelas Enoreth, the Sage at Sunset",
     "portfolio": "Elven god of time, longevity, and history",
     "alignment": "Chaotic Good",
     "domains": [
@@ -1978,7 +3042,140 @@
     "commandments": [],
     "appendix": {
       "title": "Seldarine — Elven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Alathrien Druanna — the Glyphscribe",
+          "slug": "alathrien-druanna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Alobal Lorfiril — the Merry Magician",
+          "slug": "alobal-lorfiril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Araleth Letheranil — the Prince of Stars",
+          "slug": "araleth-letheranil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Avachel — the Quicksilver Dragon",
+          "slug": "aasterinian-quicksilver-dragon",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Angharradh",
+          "slug": "seha-angharradh",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Corellon Larethian, The Arch-Seldarine",
+          "slug": "corellon-larethian",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Sashelas — the Dolphin Prince",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Elebrin Liothiel — the Celestial Gardener",
+          "slug": "elebrin-liothiel",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Erevan Ilesere — the Green Changeling",
+          "slug": "erevan-ilesere",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Fenmarel Mestarine — the Lone Wolf",
+          "slug": "fenmarel-mestarine",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Kirith Sotheril — The Rainbow Magess",
+          "slug": "kirith-sotheril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Melira Taralen — the Fountainside Songstress",
+          "slug": "melira-taralen",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mythrien Sarath — the Mythal Protector",
+          "slug": "mythrien-sarath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Naralis Analor — the Watcher of Souls",
+          "slug": "naralis-analor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Rillifane Rallathil — the Many-Branched Wildling",
+          "slug": "rillifane-rallathil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sarula Iliene — the Nixie Queen",
+          "slug": "sarula-iliene",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Shevarash — Black Archer",
+          "slug": "shevarash",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Solonor Thelandira — the Unerring Archer",
+          "slug": "solonor-thelandira",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tarsellis Meunniduin — Frost Hermit",
+          "slug": "tarsellis-meunniduin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tethrin Veraldé — the Master of Blades",
+          "slug": "tethrin-veraldé",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Trishina — Joyswimmer",
+          "slug": "trishina",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vandria Gilmadrith — Lady Steelheart",
+          "slug": "vandria-gilmadrith",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "svg",
     "source_file": "Labelas_Enoreth__Sage_at_Sunset.md",
@@ -2345,7 +3542,7 @@
   },
   {
     "slug": "melira-taralen",
-    "name": "Melira Taralen, Fountainside Songstress",
+    "name": "Melira Taralen, the Fountainside Songstress",
     "portfolio": "Elven goddess of poetry, song, and half-elves",
     "alignment": "Chaotic Good",
     "domains": [],
@@ -2368,7 +3565,140 @@
     "commandments": [],
     "appendix": {
       "title": "Seldarine — Elven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Alathrien Druanna — the Glyphscribe",
+          "slug": "alathrien-druanna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Alobal Lorfiril — the Merry Magician",
+          "slug": "alobal-lorfiril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Araleth Letheranil — the Prince of Stars",
+          "slug": "araleth-letheranil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Avachel — the Quicksilver Dragon",
+          "slug": "aasterinian-quicksilver-dragon",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Angharradh",
+          "slug": "seha-angharradh",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Corellon Larethian, The Arch-Seldarine",
+          "slug": "corellon-larethian",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Sashelas — the Dolphin Prince",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Elebrin Liothiel — the Celestial Gardener",
+          "slug": "elebrin-liothiel",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Erevan Ilesere — the Green Changeling",
+          "slug": "erevan-ilesere",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Fenmarel Mestarine — the Lone Wolf",
+          "slug": "fenmarel-mestarine",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Kirith Sotheril — The Rainbow Magess",
+          "slug": "kirith-sotheril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Labelas Enoreth — the Sage at Sunset",
+          "slug": "labelas-enoreth",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mythrien Sarath — the Mythal Protector",
+          "slug": "mythrien-sarath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Naralis Analor — the Watcher of Souls",
+          "slug": "naralis-analor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Rillifane Rallathil — the Many-Branched Wildling",
+          "slug": "rillifane-rallathil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sarula Iliene — the Nixie Queen",
+          "slug": "sarula-iliene",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Shevarash — Black Archer",
+          "slug": "shevarash",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Solonor Thelandira — the Unerring Archer",
+          "slug": "solonor-thelandira",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tarsellis Meunniduin — Frost Hermit",
+          "slug": "tarsellis-meunniduin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tethrin Veraldé — the Master of Blades",
+          "slug": "tethrin-veraldé",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Trishina — Joyswimmer",
+          "slug": "trishina",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vandria Gilmadrith — Lady Steelheart",
+          "slug": "vandria-gilmadrith",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "svg",
     "source_file": "Melira_Taralen__Evergold_Songstress.md",
@@ -2649,7 +3979,7 @@
   },
   {
     "slug": "mythrien-sarath",
-    "name": "Mythrien Sarath, Mythal Protector",
+    "name": "Mythrien Sarath, the Mythal Protector",
     "portfolio": "Elven god of abjuration and civilization",
     "alignment": "Chaotic Good",
     "domains": [
@@ -2679,7 +4009,140 @@
     "commandments": [],
     "appendix": {
       "title": "Seldarine — Elven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Alathrien Druanna — the Glyphscribe",
+          "slug": "alathrien-druanna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Alobal Lorfiril — the Merry Magician",
+          "slug": "alobal-lorfiril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Araleth Letheranil — the Prince of Stars",
+          "slug": "araleth-letheranil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Avachel — the Quicksilver Dragon",
+          "slug": "aasterinian-quicksilver-dragon",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Angharradh",
+          "slug": "seha-angharradh",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Corellon Larethian, The Arch-Seldarine",
+          "slug": "corellon-larethian",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Sashelas — the Dolphin Prince",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Elebrin Liothiel — the Celestial Gardener",
+          "slug": "elebrin-liothiel",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Erevan Ilesere — the Green Changeling",
+          "slug": "erevan-ilesere",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Fenmarel Mestarine — the Lone Wolf",
+          "slug": "fenmarel-mestarine",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Kirith Sotheril — The Rainbow Magess",
+          "slug": "kirith-sotheril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Labelas Enoreth — the Sage at Sunset",
+          "slug": "labelas-enoreth",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Melira Taralen — the Fountainside Songstress",
+          "slug": "melira-taralen",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Naralis Analor — the Watcher of Souls",
+          "slug": "naralis-analor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Rillifane Rallathil — the Many-Branched Wildling",
+          "slug": "rillifane-rallathil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sarula Iliene — the Nixie Queen",
+          "slug": "sarula-iliene",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Shevarash — Black Archer",
+          "slug": "shevarash",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Solonor Thelandira — the Unerring Archer",
+          "slug": "solonor-thelandira",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tarsellis Meunniduin — Frost Hermit",
+          "slug": "tarsellis-meunniduin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tethrin Veraldé — the Master of Blades",
+          "slug": "tethrin-veraldé",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Trishina — Joyswimmer",
+          "slug": "trishina",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vandria Gilmadrith — Lady Steelheart",
+          "slug": "vandria-gilmadrith",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "svg",
     "source_file": "Mythrien_Sarath__Mythal_Protector.md",
@@ -2687,7 +4150,7 @@
   },
   {
     "slug": "naralis-analor",
-    "name": "Naralis Analor, Watcher of Souls",
+    "name": "Naralis Analor, the Watcher of Souls",
     "portfolio": "Greater God of Souls, Elven god of healing, passage and peace",
     "alignment": "Neutral Good",
     "domains": [],
@@ -2710,7 +4173,140 @@
     "commandments": [],
     "appendix": {
       "title": "Seldarine — Elven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Alathrien Druanna — the Glyphscribe",
+          "slug": "alathrien-druanna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Alobal Lorfiril — the Merry Magician",
+          "slug": "alobal-lorfiril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Araleth Letheranil — the Prince of Stars",
+          "slug": "araleth-letheranil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Avachel — the Quicksilver Dragon",
+          "slug": "aasterinian-quicksilver-dragon",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Angharradh",
+          "slug": "seha-angharradh",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Corellon Larethian, The Arch-Seldarine",
+          "slug": "corellon-larethian",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Sashelas — the Dolphin Prince",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Elebrin Liothiel — the Celestial Gardener",
+          "slug": "elebrin-liothiel",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Erevan Ilesere — the Green Changeling",
+          "slug": "erevan-ilesere",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Fenmarel Mestarine — the Lone Wolf",
+          "slug": "fenmarel-mestarine",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Kirith Sotheril — The Rainbow Magess",
+          "slug": "kirith-sotheril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Labelas Enoreth — the Sage at Sunset",
+          "slug": "labelas-enoreth",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Melira Taralen — the Fountainside Songstress",
+          "slug": "melira-taralen",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mythrien Sarath — the Mythal Protector",
+          "slug": "mythrien-sarath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Rillifane Rallathil — the Many-Branched Wildling",
+          "slug": "rillifane-rallathil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sarula Iliene — the Nixie Queen",
+          "slug": "sarula-iliene",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Shevarash — Black Archer",
+          "slug": "shevarash",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Solonor Thelandira — the Unerring Archer",
+          "slug": "solonor-thelandira",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tarsellis Meunniduin — Frost Hermit",
+          "slug": "tarsellis-meunniduin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tethrin Veraldé — the Master of Blades",
+          "slug": "tethrin-veraldé",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Trishina — Joyswimmer",
+          "slug": "trishina",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vandria Gilmadrith — Lady Steelheart",
+          "slug": "vandria-gilmadrith",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "svg",
     "source_file": "Naralis_Analor__Watcher_of_Souls.md",
@@ -2812,7 +4408,7 @@
   },
   {
     "slug": "rillifane-rallathil",
-    "name": "Rillifane Rallathil, Many-Branched Wildling",
+    "name": "Rillifane Rallathil, the Many-Branched Wildling",
     "portfolio": "Elven god of woodlands, nature, and druidcraft",
     "alignment": "Chaotic Good",
     "domains": [
@@ -2844,7 +4440,140 @@
     "commandments": [],
     "appendix": {
       "title": "Seldarine — Elven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Alathrien Druanna — the Glyphscribe",
+          "slug": "alathrien-druanna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Alobal Lorfiril — the Merry Magician",
+          "slug": "alobal-lorfiril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Araleth Letheranil — the Prince of Stars",
+          "slug": "araleth-letheranil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Avachel — the Quicksilver Dragon",
+          "slug": "aasterinian-quicksilver-dragon",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Angharradh",
+          "slug": "seha-angharradh",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Corellon Larethian, The Arch-Seldarine",
+          "slug": "corellon-larethian",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Sashelas — the Dolphin Prince",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Elebrin Liothiel — the Celestial Gardener",
+          "slug": "elebrin-liothiel",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Erevan Ilesere — the Green Changeling",
+          "slug": "erevan-ilesere",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Fenmarel Mestarine — the Lone Wolf",
+          "slug": "fenmarel-mestarine",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Kirith Sotheril — The Rainbow Magess",
+          "slug": "kirith-sotheril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Labelas Enoreth — the Sage at Sunset",
+          "slug": "labelas-enoreth",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Melira Taralen — the Fountainside Songstress",
+          "slug": "melira-taralen",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mythrien Sarath — the Mythal Protector",
+          "slug": "mythrien-sarath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Naralis Analor — the Watcher of Souls",
+          "slug": "naralis-analor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sarula Iliene — the Nixie Queen",
+          "slug": "sarula-iliene",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Shevarash — Black Archer",
+          "slug": "shevarash",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Solonor Thelandira — the Unerring Archer",
+          "slug": "solonor-thelandira",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tarsellis Meunniduin — Frost Hermit",
+          "slug": "tarsellis-meunniduin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tethrin Veraldé — the Master of Blades",
+          "slug": "tethrin-veraldé",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Trishina — Joyswimmer",
+          "slug": "trishina",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vandria Gilmadrith — Lady Steelheart",
+          "slug": "vandria-gilmadrith",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "svg",
     "source_file": "Rillifane_Rallathil__Many-Branched_Wildling.md",
@@ -3012,7 +4741,7 @@
   },
   {
     "slug": "sarula-iliene",
-    "name": "Sarula Iliene, Nixie Queen",
+    "name": "Sarula Iliene, the Nixie Queen",
     "portfolio": "Elven goddess of lakes and streams",
     "alignment": "Chaotic Good",
     "domains": [],
@@ -3038,7 +4767,140 @@
     "commandments": [],
     "appendix": {
       "title": "Seldarine — Elven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Alathrien Druanna — the Glyphscribe",
+          "slug": "alathrien-druanna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Alobal Lorfiril — the Merry Magician",
+          "slug": "alobal-lorfiril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Araleth Letheranil — the Prince of Stars",
+          "slug": "araleth-letheranil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Avachel — the Quicksilver Dragon",
+          "slug": "aasterinian-quicksilver-dragon",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Angharradh",
+          "slug": "seha-angharradh",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Corellon Larethian, The Arch-Seldarine",
+          "slug": "corellon-larethian",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Sashelas — the Dolphin Prince",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Elebrin Liothiel — the Celestial Gardener",
+          "slug": "elebrin-liothiel",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Erevan Ilesere — the Green Changeling",
+          "slug": "erevan-ilesere",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Fenmarel Mestarine — the Lone Wolf",
+          "slug": "fenmarel-mestarine",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Kirith Sotheril — The Rainbow Magess",
+          "slug": "kirith-sotheril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Labelas Enoreth — the Sage at Sunset",
+          "slug": "labelas-enoreth",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Melira Taralen — the Fountainside Songstress",
+          "slug": "melira-taralen",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mythrien Sarath — the Mythal Protector",
+          "slug": "mythrien-sarath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Naralis Analor — the Watcher of Souls",
+          "slug": "naralis-analor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Rillifane Rallathil — the Many-Branched Wildling",
+          "slug": "rillifane-rallathil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Shevarash — Black Archer",
+          "slug": "shevarash",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Solonor Thelandira — the Unerring Archer",
+          "slug": "solonor-thelandira",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tarsellis Meunniduin — Frost Hermit",
+          "slug": "tarsellis-meunniduin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tethrin Veraldé — the Master of Blades",
+          "slug": "tethrin-veraldé",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Trishina — Joyswimmer",
+          "slug": "trishina",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vandria Gilmadrith — Lady Steelheart",
+          "slug": "vandria-gilmadrith",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "svg",
     "source_file": "Sarula_Iliene__Nixie_Queen.md",
@@ -3094,7 +4956,140 @@
     ],
     "appendix": {
       "title": "Seldarine — Elven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Alathrien Druanna — the Glyphscribe",
+          "slug": "alathrien-druanna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Alobal Lorfiril — the Merry Magician",
+          "slug": "alobal-lorfiril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Araleth Letheranil — the Prince of Stars",
+          "slug": "araleth-letheranil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Avachel — the Quicksilver Dragon",
+          "slug": "aasterinian-quicksilver-dragon",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Corellon Larethian, The Arch-Seldarine",
+          "slug": "corellon-larethian",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Sashelas — the Dolphin Prince",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Elebrin Liothiel — the Celestial Gardener",
+          "slug": "elebrin-liothiel",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Erevan Ilesere — the Green Changeling",
+          "slug": "erevan-ilesere",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Fenmarel Mestarine — the Lone Wolf",
+          "slug": "fenmarel-mestarine",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Kirith Sotheril — The Rainbow Magess",
+          "slug": "kirith-sotheril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Labelas Enoreth — the Sage at Sunset",
+          "slug": "labelas-enoreth",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Melira Taralen — the Fountainside Songstress",
+          "slug": "melira-taralen",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mythrien Sarath — the Mythal Protector",
+          "slug": "mythrien-sarath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Naralis Analor — the Watcher of Souls",
+          "slug": "naralis-analor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Rillifane Rallathil — the Many-Branched Wildling",
+          "slug": "rillifane-rallathil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sarula Iliene — the Nixie Queen",
+          "slug": "sarula-iliene",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Shevarash — Black Archer",
+          "slug": "shevarash",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Solonor Thelandira — the Unerring Archer",
+          "slug": "solonor-thelandira",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tarsellis Meunniduin — Frost Hermit",
+          "slug": "tarsellis-meunniduin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tethrin Veraldé — the Master of Blades",
+          "slug": "tethrin-veraldé",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Trishina — Joyswimmer",
+          "slug": "trishina",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vandria Gilmadrith — Lady Steelheart",
+          "slug": "vandria-gilmadrith",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "webp",
     "source_file": "Seha-Angharradh__The_Moonweaver.md",
@@ -3125,7 +5120,140 @@
         ],
         "appendix": {
           "title": "Seldarine — Elven Pantheon",
-          "members": []
+          "members": [
+            {
+              "name": "Alathrien Druanna — the Glyphscribe",
+              "slug": "alathrien-druanna",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Alobal Lorfiril — the Merry Magician",
+              "slug": "alobal-lorfiril",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Araleth Letheranil — the Prince of Stars",
+              "slug": "araleth-letheranil",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Avachel — the Quicksilver Dragon",
+              "slug": "aasterinian-quicksilver-dragon",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Corellon Larethian, The Arch-Seldarine",
+              "slug": "corellon-larethian",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Deep Sashelas — the Dolphin Prince",
+              "slug": "deep-duerra",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Elebrin Liothiel — the Celestial Gardener",
+              "slug": "elebrin-liothiel",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Erevan Ilesere — the Green Changeling",
+              "slug": "erevan-ilesere",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Fenmarel Mestarine — the Lone Wolf",
+              "slug": "fenmarel-mestarine",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Kirith Sotheril — The Rainbow Magess",
+              "slug": "kirith-sotheril",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Labelas Enoreth — the Sage at Sunset",
+              "slug": "labelas-enoreth",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Melira Taralen — the Fountainside Songstress",
+              "slug": "melira-taralen",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Mythrien Sarath — the Mythal Protector",
+              "slug": "mythrien-sarath",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Naralis Analor — the Watcher of Souls",
+              "slug": "naralis-analor",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Rillifane Rallathil — the Many-Branched Wildling",
+              "slug": "rillifane-rallathil",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Sarula Iliene — the Nixie Queen",
+              "slug": "sarula-iliene",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Shevarash — Black Archer",
+              "slug": "shevarash",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Solonor Thelandira — the Unerring Archer",
+              "slug": "solonor-thelandira",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Tarsellis Meunniduin — Frost Hermit",
+              "slug": "tarsellis-meunniduin",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Tethrin Veraldé — the Master of Blades",
+              "slug": "tethrin-veraldé",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Trishina — Joyswimmer",
+              "slug": "trishina",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Vandria Gilmadrith — Lady Steelheart",
+              "slug": "vandria-gilmadrith",
+              "blurb": "",
+              "has_page": true
+            }
+          ]
         },
         "icon_ext": null
       },
@@ -3270,7 +5398,140 @@
     "commandments": [],
     "appendix": {
       "title": "Seldarine — Elven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Alathrien Druanna — the Glyphscribe",
+          "slug": "alathrien-druanna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Alobal Lorfiril — the Merry Magician",
+          "slug": "alobal-lorfiril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Araleth Letheranil — the Prince of Stars",
+          "slug": "araleth-letheranil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Avachel — the Quicksilver Dragon",
+          "slug": "aasterinian-quicksilver-dragon",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Angharradh",
+          "slug": "seha-angharradh",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Corellon Larethian, The Arch-Seldarine",
+          "slug": "corellon-larethian",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Sashelas — the Dolphin Prince",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Elebrin Liothiel — the Celestial Gardener",
+          "slug": "elebrin-liothiel",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Erevan Ilesere — the Green Changeling",
+          "slug": "erevan-ilesere",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Fenmarel Mestarine — the Lone Wolf",
+          "slug": "fenmarel-mestarine",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Kirith Sotheril — The Rainbow Magess",
+          "slug": "kirith-sotheril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Labelas Enoreth — the Sage at Sunset",
+          "slug": "labelas-enoreth",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Melira Taralen — the Fountainside Songstress",
+          "slug": "melira-taralen",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mythrien Sarath — the Mythal Protector",
+          "slug": "mythrien-sarath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Naralis Analor — the Watcher of Souls",
+          "slug": "naralis-analor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Rillifane Rallathil — the Many-Branched Wildling",
+          "slug": "rillifane-rallathil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sarula Iliene — the Nixie Queen",
+          "slug": "sarula-iliene",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Solonor Thelandira — the Unerring Archer",
+          "slug": "solonor-thelandira",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tarsellis Meunniduin — Frost Hermit",
+          "slug": "tarsellis-meunniduin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tethrin Veraldé — the Master of Blades",
+          "slug": "tethrin-veraldé",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Trishina — Joyswimmer",
+          "slug": "trishina",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vandria Gilmadrith — Lady Steelheart",
+          "slug": "vandria-gilmadrith",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "svg",
     "source_file": "Shevarash__Black_Archer.md",
@@ -3278,7 +5539,7 @@
   },
   {
     "slug": "solonor-thelandira",
-    "name": "Solonor Thelandira, Unerring Archer",
+    "name": "Solonor Thelandira, the Unerring Archer",
     "portfolio": "Elven god of archery and wilderness",
     "alignment": "Chaotic Good",
     "domains": [
@@ -3311,7 +5572,140 @@
     "commandments": [],
     "appendix": {
       "title": "Seldarine — Elven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Alathrien Druanna — the Glyphscribe",
+          "slug": "alathrien-druanna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Alobal Lorfiril — the Merry Magician",
+          "slug": "alobal-lorfiril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Araleth Letheranil — the Prince of Stars",
+          "slug": "araleth-letheranil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Avachel — the Quicksilver Dragon",
+          "slug": "aasterinian-quicksilver-dragon",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Angharradh",
+          "slug": "seha-angharradh",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Corellon Larethian, The Arch-Seldarine",
+          "slug": "corellon-larethian",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Sashelas — the Dolphin Prince",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Elebrin Liothiel — the Celestial Gardener",
+          "slug": "elebrin-liothiel",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Erevan Ilesere — the Green Changeling",
+          "slug": "erevan-ilesere",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Fenmarel Mestarine — the Lone Wolf",
+          "slug": "fenmarel-mestarine",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Kirith Sotheril — The Rainbow Magess",
+          "slug": "kirith-sotheril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Labelas Enoreth — the Sage at Sunset",
+          "slug": "labelas-enoreth",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Melira Taralen — the Fountainside Songstress",
+          "slug": "melira-taralen",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mythrien Sarath — the Mythal Protector",
+          "slug": "mythrien-sarath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Naralis Analor — the Watcher of Souls",
+          "slug": "naralis-analor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Rillifane Rallathil — the Many-Branched Wildling",
+          "slug": "rillifane-rallathil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sarula Iliene — the Nixie Queen",
+          "slug": "sarula-iliene",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Shevarash — Black Archer",
+          "slug": "shevarash",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tarsellis Meunniduin — Frost Hermit",
+          "slug": "tarsellis-meunniduin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tethrin Veraldé — the Master of Blades",
+          "slug": "tethrin-veraldé",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Trishina — Joyswimmer",
+          "slug": "trishina",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vandria Gilmadrith — Lady Steelheart",
+          "slug": "vandria-gilmadrith",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "svg",
     "source_file": "Solonor_Thelandira__Unerring_Archer.md",
@@ -3352,7 +5746,140 @@
     "commandments": [],
     "appendix": {
       "title": "Seldarine — Elven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Alathrien Druanna — the Glyphscribe",
+          "slug": "alathrien-druanna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Alobal Lorfiril — the Merry Magician",
+          "slug": "alobal-lorfiril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Araleth Letheranil — the Prince of Stars",
+          "slug": "araleth-letheranil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Avachel — the Quicksilver Dragon",
+          "slug": "aasterinian-quicksilver-dragon",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Angharradh",
+          "slug": "seha-angharradh",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Corellon Larethian, The Arch-Seldarine",
+          "slug": "corellon-larethian",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Sashelas — the Dolphin Prince",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Elebrin Liothiel — the Celestial Gardener",
+          "slug": "elebrin-liothiel",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Erevan Ilesere — the Green Changeling",
+          "slug": "erevan-ilesere",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Fenmarel Mestarine — the Lone Wolf",
+          "slug": "fenmarel-mestarine",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Kirith Sotheril — The Rainbow Magess",
+          "slug": "kirith-sotheril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Labelas Enoreth — the Sage at Sunset",
+          "slug": "labelas-enoreth",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Melira Taralen — the Fountainside Songstress",
+          "slug": "melira-taralen",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mythrien Sarath — the Mythal Protector",
+          "slug": "mythrien-sarath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Naralis Analor — the Watcher of Souls",
+          "slug": "naralis-analor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Rillifane Rallathil — the Many-Branched Wildling",
+          "slug": "rillifane-rallathil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sarula Iliene — the Nixie Queen",
+          "slug": "sarula-iliene",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Shevarash — Black Archer",
+          "slug": "shevarash",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Solonor Thelandira — the Unerring Archer",
+          "slug": "solonor-thelandira",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tethrin Veraldé — the Master of Blades",
+          "slug": "tethrin-veraldé",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Trishina — Joyswimmer",
+          "slug": "trishina",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vandria Gilmadrith — Lady Steelheart",
+          "slug": "vandria-gilmadrith",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "svg",
     "source_file": "Tarsellis_Meunniduin__Frost_Hermit.md",
@@ -3360,7 +5887,7 @@
   },
   {
     "slug": "tethrin-veraldé",
-    "name": "Tethrin Veraldé, Master of Blades",
+    "name": "Tethrin Veraldé, the Master of Blades",
     "portfolio": "Greater God of Blades, Elven god of swordsmanship",
     "alignment": "Neutral Good",
     "domains": [],
@@ -3386,7 +5913,140 @@
     "commandments": [],
     "appendix": {
       "title": "Seldarine — Elven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Alathrien Druanna — the Glyphscribe",
+          "slug": "alathrien-druanna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Alobal Lorfiril — the Merry Magician",
+          "slug": "alobal-lorfiril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Araleth Letheranil — the Prince of Stars",
+          "slug": "araleth-letheranil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Avachel — the Quicksilver Dragon",
+          "slug": "aasterinian-quicksilver-dragon",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Angharradh",
+          "slug": "seha-angharradh",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Corellon Larethian, The Arch-Seldarine",
+          "slug": "corellon-larethian",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Sashelas — the Dolphin Prince",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Elebrin Liothiel — the Celestial Gardener",
+          "slug": "elebrin-liothiel",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Erevan Ilesere — the Green Changeling",
+          "slug": "erevan-ilesere",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Fenmarel Mestarine — the Lone Wolf",
+          "slug": "fenmarel-mestarine",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Kirith Sotheril — The Rainbow Magess",
+          "slug": "kirith-sotheril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Labelas Enoreth — the Sage at Sunset",
+          "slug": "labelas-enoreth",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Melira Taralen — the Fountainside Songstress",
+          "slug": "melira-taralen",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mythrien Sarath — the Mythal Protector",
+          "slug": "mythrien-sarath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Naralis Analor — the Watcher of Souls",
+          "slug": "naralis-analor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Rillifane Rallathil — the Many-Branched Wildling",
+          "slug": "rillifane-rallathil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sarula Iliene — the Nixie Queen",
+          "slug": "sarula-iliene",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Shevarash — Black Archer",
+          "slug": "shevarash",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Solonor Thelandira — the Unerring Archer",
+          "slug": "solonor-thelandira",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tarsellis Meunniduin — Frost Hermit",
+          "slug": "tarsellis-meunniduin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Trishina — Joyswimmer",
+          "slug": "trishina",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vandria Gilmadrith — Lady Steelheart",
+          "slug": "vandria-gilmadrith",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "svg",
     "source_file": "Tethrin_Veraldé__Master_of_Blades.md",
@@ -3759,7 +6419,140 @@
     "commandments": [],
     "appendix": {
       "title": "Seldarine — Elven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Alathrien Druanna — the Glyphscribe",
+          "slug": "alathrien-druanna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Alobal Lorfiril — the Merry Magician",
+          "slug": "alobal-lorfiril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Araleth Letheranil — the Prince of Stars",
+          "slug": "araleth-letheranil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Avachel — the Quicksilver Dragon",
+          "slug": "aasterinian-quicksilver-dragon",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Angharradh",
+          "slug": "seha-angharradh",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Corellon Larethian, The Arch-Seldarine",
+          "slug": "corellon-larethian",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Sashelas — the Dolphin Prince",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Elebrin Liothiel — the Celestial Gardener",
+          "slug": "elebrin-liothiel",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Erevan Ilesere — the Green Changeling",
+          "slug": "erevan-ilesere",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Fenmarel Mestarine — the Lone Wolf",
+          "slug": "fenmarel-mestarine",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Kirith Sotheril — The Rainbow Magess",
+          "slug": "kirith-sotheril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Labelas Enoreth — the Sage at Sunset",
+          "slug": "labelas-enoreth",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Melira Taralen — the Fountainside Songstress",
+          "slug": "melira-taralen",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mythrien Sarath — the Mythal Protector",
+          "slug": "mythrien-sarath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Naralis Analor — the Watcher of Souls",
+          "slug": "naralis-analor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Rillifane Rallathil — the Many-Branched Wildling",
+          "slug": "rillifane-rallathil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sarula Iliene — the Nixie Queen",
+          "slug": "sarula-iliene",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Shevarash — Black Archer",
+          "slug": "shevarash",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Solonor Thelandira — the Unerring Archer",
+          "slug": "solonor-thelandira",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tarsellis Meunniduin — Frost Hermit",
+          "slug": "tarsellis-meunniduin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tethrin Veraldé — the Master of Blades",
+          "slug": "tethrin-veraldé",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vandria Gilmadrith — Lady Steelheart",
+          "slug": "vandria-gilmadrith",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "svg",
     "source_file": "Trishina__Joyswimmer.md",
@@ -3871,7 +6664,140 @@
     "commandments": [],
     "appendix": {
       "title": "Seldarine — Elven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Alathrien Druanna — the Glyphscribe",
+          "slug": "alathrien-druanna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Alobal Lorfiril — the Merry Magician",
+          "slug": "alobal-lorfiril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Araleth Letheranil — the Prince of Stars",
+          "slug": "araleth-letheranil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Avachel — the Quicksilver Dragon",
+          "slug": "aasterinian-quicksilver-dragon",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Angharradh",
+          "slug": "seha-angharradh",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Corellon Larethian, The Arch-Seldarine",
+          "slug": "corellon-larethian",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Sashelas — the Dolphin Prince",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Elebrin Liothiel — the Celestial Gardener",
+          "slug": "elebrin-liothiel",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Erevan Ilesere — the Green Changeling",
+          "slug": "erevan-ilesere",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Fenmarel Mestarine — the Lone Wolf",
+          "slug": "fenmarel-mestarine",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Kirith Sotheril — The Rainbow Magess",
+          "slug": "kirith-sotheril",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Labelas Enoreth — the Sage at Sunset",
+          "slug": "labelas-enoreth",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Melira Taralen — the Fountainside Songstress",
+          "slug": "melira-taralen",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mythrien Sarath — the Mythal Protector",
+          "slug": "mythrien-sarath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Naralis Analor — the Watcher of Souls",
+          "slug": "naralis-analor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Rillifane Rallathil — the Many-Branched Wildling",
+          "slug": "rillifane-rallathil",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sarula Iliene — the Nixie Queen",
+          "slug": "sarula-iliene",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Shevarash — Black Archer",
+          "slug": "shevarash",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Solonor Thelandira — the Unerring Archer",
+          "slug": "solonor-thelandira",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tarsellis Meunniduin — Frost Hermit",
+          "slug": "tarsellis-meunniduin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tethrin Veraldé — the Master of Blades",
+          "slug": "tethrin-veraldé",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Trishina — Joyswimmer",
+          "slug": "trishina",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "svg",
     "source_file": "Vandria_Gilmadrith__Lady_Steelheart.md",
@@ -4213,6 +7139,26 @@
     "is_placeholder": false
   },
   {
+    "slug": "aasterinian-quicksilver-dragon",
+    "name": "Avachel — the Quicksilver Dragon",
+    "portfolio": "",
+    "alignment": "",
+    "domains": [],
+    "status": [],
+    "warlock_province": [],
+    "tags": [],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {},
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "source_file": null,
+    "icon_ext": "svg",
+    "is_placeholder": true
+  },
+  {
     "slug": "baalzebul-lord-of-the-flies",
     "name": "Baalzebul, Archduke of Maladomini",
     "portfolio": "",
@@ -4475,26 +7421,6 @@
   {
     "slug": "urogalan-black-hound",
     "name": "Urogalan — Black Hound",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "aasterinian-quicksilver-dragon",
-    "name": "Aasterinian — Quicksilver Dragon",
     "portfolio": "",
     "alignment": "",
     "domains": [],

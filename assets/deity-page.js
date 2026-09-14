@@ -41,7 +41,10 @@ function aspectAsDeity(parent, aspect, source) {
     titles_line: aspect.titles_line,
     domains_line: aspect.domains_line,
     commandments: aspect.commandments,
-    appendix: aspect.appendix,
+    // Only the Angharradh block in the source carries its own ### Appendix
+    // section; the other three aspects fall back to it here so the
+    // Seldarine roster shows on every tab of this page, not just one.
+    appendix: aspect.appendix || parent.appendix,
     // Only the combined/Angharradh aspect uses the merged page's own symbol
     // (the one shown on the Greater Pantheon page); Aerdrie, Hanali, and
     // Sehanine each keep their own distinct icon.

@@ -14,7 +14,7 @@ Araleth Letheranil, Prince of Stars, takes the form of an elf-like man whose hai
 - [[#Appendix|Appendix]]
 	- [[#Appendix#Seldarine — Elven Pantheon|Seldarine — Elven Pantheon]]
 ===
-### Araleth Letheranil, Prince of Stars
+### Araleth Letheranil, the Prince of Stars
 [Forgotten Realms Wiki](https://forgottenrealms.fandom.com/wiki/Araleth_Letheranil)
 ![[Araleth.png]]
 **Alignment.** Chaotic Good
@@ -38,3 +38,25 @@ layout: grid
 columns: 5
 imageProperty: cover
 ```
+- [[Alathrien Druanna — the Glyphscribe]]
+- [[Alobal Lorfiril — the Merry Magician]]
+- [[Aasterinian — Quicksilver Dragon|Avachel — the Quicksilver Dragon]]
+- [[Seha-Angharradh, The Moonweaver|Angharradh]]
+- [[Corellon Larethian, The Arch-Seldarine]]
+- [[Deep Sashelas — the Dolphin Prince]]
+- [[Elebrin Liothiel — the Celestial Gardener]]
+- [[Erevan Ilesere — the Green Changeling]]
+- [[Fenmarel Mestarine — the Lone Wolf]]
+- [[Kirith Sotheril — The Rainbow Magess]]
+- [[Labelas Enoreth — the Sage at Sunset]]
+- [[Melira Taralen — the Fountainside Songstress]]
+- [[Mythrien Sarath — the Mythal Protector]]
+- [[Naralis Analor — the Watcher of Souls]]
+- [[Rillifane Rallathil — the Many-Branched Wildling]]
+- [[Sarula Iliene — the Nixie Queen]]
+- [[Shevarash — Black Archer]]
+- [[Solonor Thelandira — the Unerring Archer]]
+- [[Tarsellis Meunniduin — Frost Hermit]]
+- [[Tethrin Veraldé — the Master of Blades]]
+- [[Trishina — Joyswimmer]]
+- [[Vandria Gilmadrith — Lady Steelheart]]
