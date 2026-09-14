@@ -24,7 +24,7 @@ cover: "[[MoradinSymbol.webp]]"
 ```columns
 id: -Moradin-Page
 ===
-**Moradin **(pronounced /MOAR-uh-din/), also known as the **All-Hammer**, **Dwarf Father**, and **Forger of Souls**, is the Ourosi god of dwarves, creation, craftsmen, stonework, smithing, and loyalty. Chief of the Morndinsamman and patron of the dwarven race as a whole, he is revered as the master of every craft his children practice and the architect of their souls. The patron of craft and creation, the All-Hammer is worshipped by smiths, artisans, and miners alike, granting inspiration where respect and prayer are given. Devotion to the All-Hammer is strongest in dwarven communities, even giving claim to the Solerian dwarven nation of the Spears of Erenval, said to be the mountains from which dwarves first sprung upon Ouros.
+**Moradin** (pronounced /ˈmɔːrədɪn/ MOR-uh-din), also known as the **All-Hammer**, **Dwarf Father**, and **Forger of Souls**, is chief of the Morndinsamman and patron of the dwarven race as a whole. He rules from Dwarfhome, his hall within Mount Celestia, and is revered as the master of every craft his children practice and the architect of their souls. Smiths, artisans, and miners worship him alike, granting inspiration where respect and prayer are given. Devotion to him is strongest in dwarven communities, even giving claim to the Spears of Erenval, said to be the mountains from which dwarves first sprung upon Ouros.
 
 - [[#Commandments of Moradin|Commandments of Moradin]]
 - [[#Appendix|Appendix]]

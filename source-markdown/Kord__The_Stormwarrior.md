@@ -25,7 +25,7 @@ cover: "[[KordSymbol.webp]]"
 ```columns
 id: -Kord-Page
 ===
-**Kord**, better known as **the Stormlord**, is the Ourosi god of the sky, storms, battle, health, victory, and heroic contest. Also called the Stormbringer and Dragonslayer God, he is revered by warriors, sailors, gladiators, and athletes across the world, and honored by giantkind of the Ourosi faith. Reveling in all tests of strength, the blessing of the Stormlord finds those that prove themselves on the battlefield. Worshiped by athletes and warriors all across Ouros, he exalts those whose force of spirit and passion for victory call his attention. He brings tumultuous storms over land and sea, and those who wish for clearer skies offer their praises and prayers to appease him.
+**Kord** (pronounced /kɔːrd/ KORD), the **Stormwarrior**, is the Ourosi god of storms, the sky, and heroic contest. He makes his home upon the high mountains of Jotunheim, though he holds no rule there; giants honor him as a demigod within their own pantheon, and warriors, sailors, and athletes across Ouros call on him for victory. He reveals himself in every test of strength, and his blessing finds those who prove themselves on the battlefield or in the arena. He brings tumultuous storms over land and sea, and those who wish for clearer skies offer their praises to appease him.
 
 - [[#Commandments of Kord|Commandments of Kord]]
 - [[#Appendix|Appendix]]

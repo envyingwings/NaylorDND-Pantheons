@@ -23,7 +23,7 @@ cover: "[[AsmodeusSymbol.webp]]"
 ```columns
 id: -Asmodeus-Page
 ===
-**Asmodeus**, known across Ouros as the **Lord of the Nine**, the **Lord of Lies**, and the **King of Baator**, is the god of the Hells, devils, indulgence, sin, contracts, and domination. The first and greatest of the archdevils, he reigns over the Nine Hells from his citadel in Nessus, ruling with total and unquestioned authority. A master of temptation and tyrannical order, he embodies lawful evil in its most absolute expression—binding mortals and immortals alike through oaths, bargains, and forbidden pleasures. His worshippers include devils, corrupt officials, decadent aristocrats, and warlocks who believe their ascent to power lies through the structure of dominance he embodies.
+**Asmodeus** (pronounced /ˈæzmoʊdiəs/ AZ-moh-dee-us), known across Ouros as the **Lord of the Nine**, the **Lord of Lies**, and the **King of Baator**, rules the Hells as their first and greatest archdevil. He reigns from Nessus, the ninth and lowest circle of Baator, with total and unquestioned authority. A master of temptation and tyrannical order, he embodies lawful evil in its most absolute expression, binding mortals and immortals alike through oaths, bargains, and forbidden pleasures. His worshippers include devils, corrupt officials, decadent aristocrats, and warlocks who believe their ascent to power lies through the structure of dominance he embodies.
 
 - [[#Commandments of Asmodeus|Commandments of Asmodeus]]
 - [[#Appendix|Appendix]]

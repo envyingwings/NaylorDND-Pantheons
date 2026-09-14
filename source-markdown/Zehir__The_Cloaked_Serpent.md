@@ -28,9 +28,7 @@ cover: "[[ZehirSymbol.webp]]"
 ```columns
 id: -Zehir-Page
 ===
-A wanderer in the shadows and the creator of snakes and serpentkin, Zehir is the evil god of poisons, blood, and obssession. The ancient serpentkin worship him over all other deities, dragging screaming offerings to their temples in his honor. Most of the Cloaked Serpent's worshipers were annihilated during the Calamity, and the rest are either suspended in self-induced stasis or hunted for sport by the servants of Lolth and Torog. But perhaps Zehir is merely biding his time, waiting for the proper moment to unleash his hidden armies on the world once more. 
-
-Zehir subverts and poisons the Material Plane from the shadowed Towers of Night, hidden among the ever-shifting winds of the Astral Plane.
+**Zehir** (pronounced /ˈzɛhɪər/ ZEH-heer), the **Cloaked Serpent**, is a wanderer in the shadows and creator of the Yuan-Ti, a serpentfolk race he shaped from ancient humans through forbidden ritual, and who have not been seen since the dawn of the Age of Faith. He dwells within the Towers of Night, hidden fortresses ringed by the Sea of Poisons adrift in the Astral Sea. A hidden predator who moves through blood and transformation, his worship is steeped in ritual and alchemy. Nobody is certain whether he answers prayers or performs miracles through his clerics, but he is invoked regardless, whether or not he grants what is asked.
 
 - [[#Commandments of Zehir|Commandments of Zehir]]
 ===

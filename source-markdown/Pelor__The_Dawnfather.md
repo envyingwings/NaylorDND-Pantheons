@@ -21,7 +21,7 @@ cover: "[[PelorSymbol.webp]]"
 ```columns
 id: --Page
 ===
-**Pelor **(pronounced /ˈpeɪlɔːr/ PAY-lore), also known as the **Dawnfather** and the **Shining One**, is the Ourosi god of the sun, summer, agriculture, and martyrdom. As lord of agriculture and harbinger of the harvest, he is worshiped by farmers and most common folk, and his priests are welcomed in many lands. Supporter of the needy and destroyer of evil, the Dawnfather is often the patron of paladins and rangers who follow a similar creed. He is also known for his defeat of the Chained Oblivion and is revered by those who hunt aberrations. Though he does not govern time itself, Pelor is widely revered as the calendarist of reality.
+**Pelor** (pronounced /ˈpeɪlɔːr/ PAY-lore), also known as the **Dawnfather** and the **Shining One**, rules from Light's Blessing, his realm within the Blessed Fields of Elysium. As lord of agriculture and harbinger of the harvest, he is worshiped by farmers and common folk alike, and his priests are welcomed in many lands. Supporter of the needy and destroyer of evil, he is often the patron of paladins and rangers who follow a similar creed. He is remembered for his defeat of the Chained Oblivion and is revered by those who hunt aberrations. Though he does not govern time itself, Pelor is widely regarded as the calendarist of reality.
 
 - [[#Commandments of Pelor|Commandments of Pelor]]
 ===

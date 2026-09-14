@@ -29,9 +29,7 @@ cover: "[[Yondalla.png]]"
 ```columns
 id: -Yondalla-Page
 ===
-Yondalla watches over her halfling children with quiet constancy, and a ferocity that surprises those who mistake her warmth for weakness. The Hearthdame asks little of her faithful beyond decency and welcome, but she holds long grudges against those who have threatened her people. Her temples are a rarity, disguised as humble burrow-homes and quietly stocked against siege, a reminder that hospitality and vigilance are not opposites in her eyes. Those who seek safe harbor, plentiful harvests, or the healing hand of a stranger often find themselves in her grace without ever having sought it.
-
-Yondalla tends to her people from within the Green Fields, a realm of rolling hills and endless summer evenings nestled in the third layer of Celestia, where her family of gods and the souls of the faithful gather as kin around a table that never runs short.
+**Yondalla** (pronounced /jɒnˈdælə/ yon-DAL-uh), the **Hearthdame**, is matriarch of the halfling pantheon, said to have created the halfling race in her own image. With her charming personality and friendly demeanor, she is an example to all halflings, who almost all share her curiosity, loyalty, and sense of mischief. As a provider, she is a goddess of fertility and growing things, of birth and youth, of nature and plants, tending to home, husbandry, and hearth alike. She is forgiving and slow to anger, but when her people are threatened, she acts with a bravery and ferocity that has earned the respect of even her most warlike godly contemporaries.
 
 - [[#Commandments of Yondalla|Commandments of Yondalla]]
 - [[#Appendix|Appendix]]

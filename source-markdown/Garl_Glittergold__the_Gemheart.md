@@ -26,9 +26,7 @@ cover: "[[GarlSymbol.png]]"
 ```columns
 id: -Garl-Page
 ===
-The Gemheart asks only this of the world: that it not take itself too seriously. Garl Glittergold is the laughing patron of invention and celebration, a golden-skinned eccentric who breathed the first gnomes into life from gems plucked off a cavern wall, then led them into the wider world by telling them a very good joke. That his children have repaid him by becoming the most curious, inventive, and joyful people in creation is a source of boundless pride. His clerics and followers, gnomes and otherwise, understand that wealth is not only gold, but the richness of a life well-lived: a clever solution, a room full of laughter, a thing made beautifully. Garl is accompanied always by Arumdina the Justifier, a sentient sapphire battleaxe who is widely considered the more sensible of the two.
-
-Garl wanders freely throughout the Golden Hills, a seven-peaked realm that glows with warm light on the plane of Bytopia, though his own hill of Glitterhome sits at its heart. He is rarely found there.
+**Garl Glittergold** (pronounced /gɑːrl ˈglɪtərɡoʊld/ GARL GLIT-er-gold), the **Gemheart**, asks only this of the world: that it not take itself too seriously. He is the laughing patron of invention and celebration, a golden-skinned eccentric who breathed the first gnomes into life from gems plucked off a cavern wall. He won their trust with a very good joke before leading them into the wider world beyond it. He wanders freely throughout the Golden Hills, a seven-peaked realm on the plane of Bytopia, though his own hill of Glitterhome sits at its heart and he is rarely found there. His clerics understand that wealth is not only gold, but the richness of a life well-lived.
 
 - [[#Commandments of Garl Glittergold|Commandments of Garl Glittergold]]
 - [[#Appendix|Appendix]]

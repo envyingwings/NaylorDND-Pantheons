@@ -19,7 +19,7 @@ cover: "[[IounSymbol.webp]]"
 ```columns
 id: -Ioun-Page
 ===
-Ioun (pronounced: /aɪˈuːn/ eye-OON), the Knowing Mentor, is the Ourosi goddess of knowledge, truth, prophecy, divination, and skill. Also known as the Knowing Mistress and the Cobalt Prophet, she is revered by sages, seers, archivists, and tacticians, as well as any who live by wit and learning rather than strength of arm. Revered by seers, sages, and teachers of all walks of life, the Knowing Mentor guided the growth of civilization throughout the ages like sunlight guides the branches of a tree. Her teachings were silenced when she was grievously wounded by the Chained Oblivion during the Calamity, and though she survived and went into hiding behind the Divine Gate, her followers are hunted by agents of her ancient foes to this day; but Truth and Knowledge cannot be quelled so easily.
+**Ioun** (pronounced /aɪˈuːn/ eye-OON), the **Knowing Mentor**, keeps the **Endless Atheneum** adrift in the Astral Sea, where she is revered by sages, seers, archivists, and tacticians, and by any who live by wit and learning rather than strength of arm. She guided the growth of civilization throughout the ages like sunlight guides the branches of a tree. Her teachings were silenced when she was grievously wounded by the Chained Oblivion during the Calamity, and though she survived and went into hiding behind the Divine Gate, her followers are hunted by agents of her ancient foes to this day. Truth and Knowledge, she teaches, cannot be quelled so easily.
 
 - [[#Commandments of Ioun|Commandments of Ioun]]
 ===

@@ -32,7 +32,7 @@ aliases:
 ```columns
 id: -Seha-Page
 ===
-The Moonweaver is the god of moonlight and the autumn season, as well as the patron of illusion and misdirection. Widely worshipped in halfling and elven culture, she is also considered to be the deity of love, shielding the trysts of lovers in shadows of her own making. Those who work in darkness and trickery often ask for her blessing.
+**Seha-Angharradh** (pronounced /ˈseɪhə ˌæŋˈhærəð/ SAY-huh ang-HA-rath), the **Moonweaver**, is a triune goddess dwelling upon Arvandor, most commonly known by the name of Sehanine, eldest of the three and elven goddess of death. She governs moonlight, dreams, and the autumn season, as well as the arts of illusion and misdirection. Widely worshipped across halfling and elven cultures alike, she is also a goddess of love and intimacy, shielding the trysts of lovers in shadows of her own making.
 
 - [[#Commandments of Seha-Angharradh|Commandments of Seha-Angharradh]]
 - [[#Appendix|Appendix]]

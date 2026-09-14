@@ -19,7 +19,7 @@ cover: "[[TorogSymbol.webp]]"
 ```columns
 id: -Torog-Page
 ===
-Torog (pronounced: /ˈtɔːrɒɡ/ TOR-og), the King That Crawls, is the Ourosi god of the Underdark, imprisonment, enslavement, torture, and pain. Also known as the Crawling King and the Lord of Pain, he is revered by torturers, slavers, and jailers, as well as those who build their power on captivity and coercion. In older myths he is a maimed, suffering god bound to the world below—unable to heal, unable to escape, and increasingly defined by the harm he both endures and enables. His faith is a theology of proximity: of dragging life into darkness until suffering stops being an idea and becomes the only remaining language.
+**Torog** (pronounced /ˈtɔːrɒɡ/ TOR-og), the **King That Crawls**, is revered by torturers, slavers, and jailers, as well as any who build their power on captivity and coercion. He rules, if it can be called ruling, from the Tartarean Depths of Carceri, a realm bound to the Underdark itself, where in older myths he is a maimed, suffering god bound to the world below, unable to heal, unable to escape, and increasingly defined by the harm he both endures and enables.
 
 - [[#Commandments of Torog|Commandments of Torog]]
 ===

@@ -24,9 +24,7 @@ cover: "[[VhaeraunSymbol.png]]"
 ```columns
 id: -Vhaeraun-Page
 ===
-The Prince of the Stage is the patron of those who take from the outside to give to the in, and wear masks to hide their true selves in doing so. Charlatans, criminals, actors, and those wronged by those who have promised to be protecte them claim Vhaeraun as their own, drawn to a god who understands that the world has those who belong and those who do not, and that the boundary between them is worth defending by any means. His followers are fiercely loyal to their own and pitiless to strangers, a philosophy Vhaeraun does not consider cruelty but sense. Retribution is his sacrament, the stage his temple, and the mask his only honest face.
-
-Vhaeraun holds court in Ellaniath, a city of black lacquered stages and lightless alleyways cut into the cliffs of Colothys on Carceri.
+**Vhaeraun** (pronounced /vɛˈreɪn/ veh-RAYN), the **Prince of the Stage**, is the patron of those who take from the outside to give to the in, and wear masks to hide their true selves in doing so. Charlatans, criminals, actors, and those wronged by ones who promised to protect them claim him as their own, drawn to a god who understands that the world has those who belong and those who do not, and that the boundary between them is worth defending by any means. He resides in Ellaniath, a city of black lacquered stages and lightless alleyways cut into the cliffs of Colothys on Carceri.
 
 - [[#Appendix|Appendix]]
 	- [[#Appendix#Liantarine — Drow Pantheon|Liantarine — Drow Pantheon]]

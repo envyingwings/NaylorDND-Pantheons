@@ -19,9 +19,7 @@ cover: "[[Sardior3.png]]"
 ```columns
 id: -Sardior-Page
 ===
-Few can say with certainty whether the Ruby Wyrm is listening. Sardior drifts at the edge of divine perception, so consumed by the vast interior architecture of his own contemplation that the affairs of gods and mortals wash past him like wind across stone. Psions and philosophers claim him as their patron regardless, drawn to a god who seems to have found something worth thinking about for eternity, and gem dragons across the planes keep a glowing ruby in their lairs as though tending a signal fire for a traveler who may never return.
-
-The Ruby Palace drifts endlessly through the portion of the Astral Sea that can be seen in the night sky, a vast and darkened fortress of gem-encrusted stone, often mistaken from the ground for a reddish star low on the horizon. Whether Sardior is truly within, no one has been able to say for certain.
+**Sardior** (pronounced /ˈsɑːrdiɔːr/ SAR-dee-or), the **Ruby Wyrm**, drifts at the edge of divine perception, so consumed by the vast interior architecture of his own contemplation that the affairs of gods and mortals wash past him like wind across stone. Psions and philosophers claim him as their patron regardless, drawn to a god who seems to have found something worth thinking about for eternity. He is said to reside in the Ruby Palace, a vast and darkened fortress of gem-encrusted stone that drifts endlessly through the visible Astral Sea, often mistaken from the ground for a reddish star low on the horizon; whether he is truly within, no one has been able to say for certain.
 
 - [[#Commandments of Sardior|Commandments of Sardior]]
 - [[#Appendix|Appendix]]

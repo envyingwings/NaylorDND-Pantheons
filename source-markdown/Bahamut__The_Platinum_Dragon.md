@@ -25,7 +25,7 @@ cover: "[[BahamutSymbol.webp]]"
 ```columns
 id: -Bahamut-Page
 ===
- **Bahamut** is revered as the first and greatest of the metallic dragons and the exemplar of enlightened justice, and beacon of order and good to paladins everywhere. The crest of the **Platinum Dragon** adorns many halls of high leadership and judgment, invoking his will in all matters of justice. To follow him is to look after those who cannot look after themselves, upholding enlightened justice—stern against evil, yet tempered with mercy and forgiveness for the penitent.
+**Bahamut** (pronounced /bəˈhæmʊt/ buh-HAM-ut), the **Platinum Dragon**, is revered as the first and greatest of the metallic dragons and the exemplar of enlightened justice, a beacon of order and good to paladins everywhere. He rules from his palace in Mercuria, the second layer of Mount Celestia, and his crest adorns many halls of high leadership and judgment, invoking his will in all matters of justice. To follow him is to look after those who cannot look after themselves, upholding a justice that is stern against evil yet tempered with mercy and forgiveness for the penitent.
 
 - [[#Commandments of Bahamut|Commandments of Bahamut]]
 - [[#Appendix|Appendix]]

@@ -25,11 +25,7 @@ cover: "[[TharizdunSymbol.webp]]"
 ```columns
 id: -Tharizdun-Page
 ===
-It is darkness unending, less like a god and more like another world of malevolent, alien intelligence. Life and death do not exist within the Chained Oblivion; only the absolute end of all things. Few minds can comprehend the depth of oblivion. Most who do are so completely lost to nihilistic despair or denial that they devote the rest of their lives to hastening the end of this reality so that it may be swallowed up by the great inevitability: utter, tenebrous cold.
-
-Even the other Betrayer Deities treat the Oblivion with caution. The Chained Oblivion's demented cultists work without word from their twisted patron, awaiting the Epoch of Ends, when its freedom will be attained and all beings shall be consumed in deathlessness unending.
-
-Tharizdun is believed to be chained in the deepest pits of the Abyss, bound by divine shackles that slowly weaken, leaking its madness into the planes.
+**Tharizdun** (pronounced /ˈθærɪzdʌn/ THA-riz-dun), the **Chained Oblivion**, is less a god than another world of malevolent, alien intelligence: darkness unending, in which life and death alike cease to exist, only the absolute end of all things. He is believed to be chained in Voidharrow, the deepest pit of the Abyss, bound by divine shackles that slowly weaken and leak his madness into the planes. Few minds can comprehend the depth of his oblivion; most who do are so lost to nihilistic despair that they devote the rest of their lives to hastening the end of this reality. Even the other Betrayer Deities treat him with caution, and his cultists work without word from their patron, awaiting the Epoch of Ends.
 
 - [[#Commandments of Tharizdun|Commandments of Tharizdun]]
 - [[#Appendix|Appendix]]

@@ -32,7 +32,7 @@ cover: "[[LolthSymbol.webp]]"
 ```columns
 id: -Lolth-Page
 ===
-Lolth (pronounced /loʊlθ/ LOHLTH or /lɒlθ/ LOLTH), known in elder elven myths as **Aurashnee**, is the Ourosi goddess of spiders, nightmares, paranoia, disloyalty, and espionage, and the chief patron of the drow and the Dark Seldarine. Once a lesser elven goddess of destiny and artisans and consort to Corellon, she retreated into the Abyss after a failed coup against the Seldarine and was remade as the **Demon Queen of Spiders**, ruling the Demonweb Pits. Feared as much as she is worshipped, Lolth embodies treachery elevated to a sacred principle: she demands ruthless ambition, cultivates obsessive mistrust, and delights in turning kin against kin. Among the elves she is reviled as the architect of the drow’s fall; among drow, she is both jailer and patron, rewarding bloody devotion with power while ensuring her children never grow united enough to escape her web.
+**Lolth** (pronounced /loʊlθ/ LOHLTH or /lɒlθ/ LOLTH), known in elder elven myths as **Aurashnee**, is chief patron of the drow and the Dark Seldarine. Once a lesser elven goddess of destiny and artisans and consort to Corellon, she retreated into the Abyss after a failed coup against the Seldarine and was remade as the **Demon Queen of Spiders**, ruling the Demonweb Pits. Feared as much as she is worshipped, Lolth embodies treachery elevated to a sacred principle: she demands ruthless ambition, cultivates obsessive mistrust, and delights in turning kin against kin. Among the elves she is reviled as the architect of the drow's fall; among drow, she is both jailer and patron.
 
 - [[#Commandments of Lolth|Commandments of Lolth]]
 - [[#Appendix|Appendix]]

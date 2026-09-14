@@ -23,7 +23,7 @@ cover: "[[RaeiSymbol.webp]]"
 ```columns
 id: -Raei-Page
 ===
-Raei (pronounced /ˈreɪ.i/ RAY-ee), also known as **Sarenrae**, the **Everlight**, is the Ourosi goddess of mercy, compassion, redemption, altruism, healing, and purifying fire. A neutral good deity adapted from Sarenrae of other worlds, she embodies temperance and patience, teaching that even hardened hearts can be turned toward the light. She believes that the corrupt can be redeemed, a mindset that led to a betrayal by the Lord of the Hells, who decimated her followers during the Divergence. Only recently has her faith been rediscovered and her temples returned to prominence. The Everlight's followers are often rural healers and community philosophers, offering voices of reason and empathy in angry and cynical times.
+**Sarenraei** (pronounced /ˈreɪ.i/ RAY-ee), the **Everlight**, embodies temperance and patience, teaching that even hardened hearts can be turned toward the light. She rules from the Island of Renewal within the Blessed Fields of Elysium, and believes wholly that the corrupt can be redeemed, a conviction that led to a betrayal by the Lord of the Hells, who decimated her followers during the Divergence. Only recently has her faith been rediscovered and her temples returned to prominence. Her followers are often rural healers and community philosophers, offering voices of reason and empathy in angry and cynical times.
 
 - [[#Commandments of Raei|Commandments of Raei]]
 ===

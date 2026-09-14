@@ -27,7 +27,7 @@ cover: "[[AvandraSymbol.webp]]"
 ```columns
 id: -Avandra-Page
 ===
-Also known as "She Who Makes the Path," the Changebringer champions freedom, travel, trade, and adventure across the lands. Her will heralds open frontiers, and her call beckons her followers to discover that which awaits them beyond the known. There are few urban temples dedicated to the Changebringer, but her shrines are often found along well-traveled roads and on isolated wilderness hill-tops. Many merchants, adventurers, and free-spirited folk worship the Changebringer, and many a gala toast and tavern song celebrate her as a bringer of luck and fortune.
+**Avandra** (pronounced /əˈvændrə/ uh-VAN-drə), also known as **She Who Makes the Path**, is the **Changebringer**, champion of freedom, luck, and the open road. She wanders the Outer Planes without rest, though the Beastlands are where she is most often found at ease. Her will heralds open frontiers, and her call beckons her followers to discover what awaits beyond the known. There are few urban temples dedicated to her, but her shrines are often found along well-traveled roads and on isolated wilderness hilltops. Merchants, adventurers, and free-spirited folk worship her widely, and many a gala toast and tavern song celebrate her as a bringer of luck and fortune.
 
 - [[#Commandments of Avandra|Commandments of Avandra]]
 - [[#Appendix|Appendix]]

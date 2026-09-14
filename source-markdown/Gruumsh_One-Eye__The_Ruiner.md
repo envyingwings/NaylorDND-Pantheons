@@ -35,7 +35,7 @@ cover: "[[GruumshSymbol.webp]]"
 ```columns
 id: -Gruumsh-Page
 ===
-**Gruumsh** (pronounced: /gruːmʃ/ GROO-msh), known as **One-Eye** and **the Ruiner**, is the Ourosi god of orcs, slaughter, natural disasters, outcasts, curses, and destructive fury. To his faithful, the world is a kill-or-be-killed hunting ground locked forever in a neolithic dusk, where only raw strength and ruthless will deserve to endure. As undisputed ruler of the orcish pantheon, Gruumsh drives his children to multiply, raid, and burn, despising walls, laws, and comforts as lies that shelter the weak from the trials they deserve. Earthquakes, landslides, volcanic fire, and plague are preached as his scouring gifts—great culls that tear down the soft and leave only the hard, the hungry, and the worthy standing.
+**Gruumsh** (pronounced /gruːmʃ/ GROO-msh), known as **One-Eye** and **the Ruiner**, rules the orcish pantheon from Nishrek, his fortress amid the Battleplains of Acheron. He is said to have carved the first orcs from wild boars, tusked and relentless in his own image. To his faithful, the world is a kill-or-be-killed hunting ground where only raw strength and ruthless will deserve to endure. He despises walls, laws, and comforts as lies that shelter the weak, and preaches earthquakes, plague, and volcanic fire as his scouring gifts, great culls that leave only the hard and the worthy standing.
 
 - [[#Commandments of Gruumsh|Commandments of Gruumsh]]
 - [[#Appendix|Appendix]]

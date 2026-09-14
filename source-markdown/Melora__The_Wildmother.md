@@ -24,7 +24,7 @@ cover: "[[MeloraSymbol2.png]]"
 ```columns
 id: -Melora-Page
 ===
-**Melora**, widely known as the **Wildmother**, is the Ourosi goddess of natural cycles, beasts, wilderness, hunters, and the restless seas. A neutral prime deity, she embodies both the gentleness and the ferocity of the living world—from fertile fields and calm tides to apex predators, and the slow reclamation of fallen cities by root and wave. Hunters, druids, sailors, and nomads revere her as the mother of untamed places and the shifting ocean, seeking her blessing to live in harmony with lands and waters that still bear their wild fangs. 
+**Melora** (pronounced /məˈlɔːrə/ muh-LOR-uh), widely known as the **Wildmother**, is as much beast as woman, both predator and prey, embodying every part of the living world's hunger and its gentleness. She roams the Beastlands, present in docile grasslands and calm tides as surely as in apex predators and the slow reclamation of fallen cities by root and wave. Hunters, druids, sailors, and nomads revere her as the mother of untamed places and the shifting ocean, seeking her blessing to live in harmony with lands and waters that still bear their wild fangs.
 
 - [[#Commandments of Melora|Commandments of Melora]]
 ===

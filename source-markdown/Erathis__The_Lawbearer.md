@@ -21,7 +21,7 @@ cover: "[[LawbearerSymbol.webp]]"
 ```columns
 id: -Erathis-Page
 ===
-**Erathis**, also known as **The Lawbearer** or the **Cobalt Lady**, is the goddess of civilization, law, peace, commerce, and progress. A patron of judges, lawmakers, city-builders, and inventors, she represents the order and structure that allows societies to flourish. The driving inspiration behind many great inventions, the creation of vast cities, and law and order within society, the Lawbearer claims dominion over civilization. Judges and lawful rulers pay respect at her temples, which are central structures in major cities around the world. Peace and order, through structure and law, guide the will of her devout followers. The Lawbearer has a tempestuous romance with the [[Melora, The Wildmother|Wildmother]], a furious love that is only tempered when civilization and nature are in balance. Civil unrest and riots blossom within her beloved cities in these times of imbalance.
+**Erathis** (pronounced /ɛˈrɑːθɪs/ eh-RAH-thiss), also known as the **Lawbearer** and the **Cobalt Lady**, represents the order and structure that allows societies to flourish. A patron of judges, lawmakers, city-builders, and inventors, she claims dominion over civilization from Hestavar, her city adrift in the Astral Sea. Judges and lawful rulers pay respect at her temples, which stand as central structures in major cities around the world. She keeps a tempestuous romance with the Wildmother, a furious love that is only tempered when civilization and nature are in balance; civil unrest and riots blossom within her beloved cities when that balance fails.
 
 - [[#Commandments of Erathis|Commandments of Erathis]]
 ===

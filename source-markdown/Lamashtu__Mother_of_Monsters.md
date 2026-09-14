@@ -27,9 +27,7 @@ cover: "[[LamashtuSymbol.webp]]"
 ```columns
 id: -Lamashtu-Page
 ===
-The Mother of Monsters is older than the current order of the Abyss, an Obyrith queen who remembers the Tanar'ri before they had shape or purpose, and who pressed both into a fraction of them to make the first demon lords. Gnolls, goblins, the deformed, and the discarded worship Lamashtu not for healing of these forms, but for the conviction that what the world names an abomination is simply something it does not yet have the courage to understand. Her faithful seek to spread that understanding by force if necessary, and mutation is not a curse in her theology but a gift still working.
-
-Lamashtu rules from Kurnugia, the 366th layer of the Abyss, a realm of warped terrain and ancient warrens where her children are born and remade without end.
+**Lamashtu** (pronounced /ləˈmæʃtuː/ luh-MASH-too), the **Mother of Monsters**, is older than the current order of the Abyss, an Obyrith queen who existed before the Tanar'ri themselves, and who pressed both into a fraction of them to make the first demon lords. She rules from Kurnugia, a realm of warped terrain and ancient warrens where her children are born and remade without end. Gnolls, goblins, the deformed, and the discarded worship her not for healing of these forms, but for the conviction that what the world calls an abomination is simply something it does not yet have the courage to understand.
 
 - [[#Commandments of Lamashtu|Commandments of Lamashtu]]
 - [[#Appendix|Appendix]]

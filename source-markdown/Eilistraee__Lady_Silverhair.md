@@ -24,9 +24,7 @@ cover: "[[Eilistraee.webp]]"
 ```columns
 id: -Eilistraee-Page
 ===
-Lady Silverhair is the patron of those who have been told to be ashamed of what they are and refused. Drow who have abandoned Lolth's web, witches who practice in open defiance, and those who have spent long years wearing masks they did not choose all find her in the open sky when they finally take it off. Eilistraee does not offer her followers an identity to adopt but demands they find the one already there, and voice it without apology. Her faithful dance beneath the open night not as ritual but as declaration, and they have a long tradition of turning that courage outward, inspiring others toward the same and standing against those who would deny it.
-
-Eilistraee makes her home in Svartalfheim, a realm of deep forests and open glades beneath a starlit sky that shows no moon, where the dark is not something to hide in but something to finally be seen against.
+**Eilistraee** (pronounced /eɪlɪˈstreɪ/ ay-lih-STRAY), known as **Lady Silverhair** and the **Darkmaiden**, is the patron of those who have been told to be ashamed of what they are, and refused. Drow who have abandoned Lolth's web, witches who practice in open defiance, and those who have spent long years wearing masks they did not choose all find her in the open sky when they finally take it off. She makes her home in Svartalfheim, a realm of deep forests and open glades beneath a starlit sky that shows no moon, where the dark is not something to hide in but something to finally be seen against. Her faithful dance beneath the open night not as ritual but as declaration.
 
 - [[#Commandments of Eilistraee|Commandments of Eilistraee]]
 - [[#Appendix|Appendix]]

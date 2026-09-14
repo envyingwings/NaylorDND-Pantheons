@@ -25,7 +25,7 @@ cover: "[[BaneSymbol.webp]]"
 ```columns
 id: -Bane-Page
 ===
-**Bane** is the Ourosi god of conflict, discipline, strategy, warfare, and oppression. Known as the **Strife Emperor** and the **Black Hand**, he is the patron of despots, warlords, drill-sergeants, and blood-drenched conquerors who seek to bend the world beneath ordered violence. Blood-drenched armies, brutal empires, and many goblinoid tribes worship him as they strike out to break “lesser peoples” and grind them into disciplined servitude. From his dread realm of Banehold, he acts indirectly through his priests, champions, and goblinoid demigods, pursuing a single, unchanging goal: total domination under his iron will.
+**Bane** (pronounced /beɪn/ BAYN), known as the **Strife Emperor** and the **Black Hand**, is the patron of despots, warlords, drill-sergeants, and blood-drenched conquerors who seek to bend the world beneath ordered violence. Brutal empires and many goblinoid tribes worship him as they strike out to break lesser peoples and grind them into disciplined servitude. From Banehold, his dread realm amid the endless Battlefields of Acheron, he acts indirectly through his priests, champions, and goblinoid demigods, pursuing a single, unchanging goal: total domination under his iron will.
 
 - [[#Commandments of Bane|Commandments of Bane]]
 - [[#Appendix|Appendix]]

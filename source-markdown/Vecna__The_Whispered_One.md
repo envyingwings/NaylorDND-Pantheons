@@ -19,7 +19,7 @@ cover: "[[VecnaSymbol.webp]]"
 ```columns
 id: -Vecna-Page
 ===
-The lich lord Vecna presides over villainous mages, conspiring politicians, and envious servants as the dark god of necromancy, undeath, and secrets. Once a dangerously clever and powerful archmage-turned-lich, his hunger for dominion over all mysteries and obsession with conquering the pantheon led to his own dissolution, leaving behind only his left hand and eye. His enduring spirit reformed through the ages and managed to reconstruct the Raven Queen's rites of ascension to become the newest of gods to walk Exandria. Defeated by the legendary heroes Vox Machina and sealed behind the Divine Gate, the Whispered One now quietly rules over that which is not meant to be known.
+**Vecna** (pronounced /ˈvɛknə/ VEK-nuh), the **Whispered One**, presides over villainous mages, conspiring politicians, and envious servants as the dark god of necromancy, undeath, and secrets. Once a dangerously clever archmage-turned-lich, his hunger for dominion over all mysteries and obsession with conquering the pantheon led to his own dissolution, leaving behind only his left hand and eye. His enduring spirit reformed through the ages and reconstructed the Raven Queen's rites of ascension, becoming the newest god among the Ourosi pantheon. Defeated and sealed behind the Divine Gate, the Whispered One now quietly rules over that which is not meant to be known.
 
 - [[#Commandments of Vecna|Commandments of Vecna]]
 ===

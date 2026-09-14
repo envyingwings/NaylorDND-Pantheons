@@ -22,7 +22,7 @@ cover: "[[TiamatSymbol.png]]"
 ```columns
 id: -Tiamat-Page
 ===
-Tiamat, the Scaled Tyrant is the evil queen of dragons. She is a fearsome goddess of greed, envy, and hoarded wealth, and the patron of most chromatic dragons. She is the sworn enemy of Bahamut. While chromatic dragons are her foremost worshipers, Tiamat accepts the worship of any who crave wealth. All chromatic dragons have a fearful reverence for their tyrannical queen, but many dragons of near-deific power and ambition chafe under her rule.
+**Tiamat** (pronounced /ˈtiːəmæt/ TEE-uh-mat), the **Chromatic Tyrant**, is the evil queen of dragons, a fearsome goddess of greed, envy, and hoarded wealth, and sworn enemy of Bahamut. She remains imprisoned in Avernus, the first of the Nine Hells, set as guardian to the Gates of Dis, where chromatic dragons pay her fearful reverence as their tyrannical queen even as many of near-deific power and ambition chafe under her rule. She accepts the worship of any who crave wealth beyond dragonkind, and forgives no affront, however small, to her own.
 
 - [[#Commandments of Tiamat|Commandments of Tiamat]]
 - [[#Appendix|Appendix]]

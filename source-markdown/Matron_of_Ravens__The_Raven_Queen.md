@@ -22,9 +22,7 @@ cover: "[[TRQSymbol.webp]]"
 ```columns
 id: -TRQ-Page
 ===
-Master of the skein of fate and the mistress of winter, the Matron of Ravens is the god of death. Her gaze follows and marks the end of each mortal life, watching over the transition between life and death—and ensuring that the natural transition is undefiled. Mourners at funerals across the land invoke her blessing in hopes that she will protect the deceased from the terrible curse of undeath.
-
-Keepers of ancient lore believe the Matron of Ravens was once mortal herself, and thus the only mortal known to have ascended to godhood—before the rise of The Whispered One, at least. Her rise instantly obliterated the previous, now-forgotten god of death, and in its wake, the other gods quickly and fearfully destroyed the secrets to the rites of ascension.
+The **Matron of Ravens**, mistress of winter and keeper of the skein of fate, is the Ourosi god of death. She rules from Letherna, her demiplane within the Shadowfell, and her gaze follows and marks the end of every mortal life, watching over the transition between life and death to ensure it goes undefiled. Mourners at funerals across the land invoke her blessing in hopes she will protect the deceased from the terrible curse of undeath. She is the only mortal known to have achieved apotheosis before the Age of Faith, the era marked by the Divine Gate's creation, when the gods lost the power of direct intervention and were forced to rely on worship alone; Vecna's ascension, by contrast, came after that threshold, and is recent history by comparison.
 
 - [[#Commandments of the Raven Queen|Commandments of the Raven Queen]]
 - [[#Appendix|Appendix]]

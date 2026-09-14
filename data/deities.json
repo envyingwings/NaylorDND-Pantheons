@@ -27,7 +27,7 @@
     ],
     "cover_file": "AsmodeusSymbol.webp",
     "intro": [
-      "**Asmodeus**, known across Ouros as the **Lord of the Nine**, the **Lord of Lies**, and the **King of Baator**, is the god of the Hells, devils, indulgence, sin, contracts, and domination. The first and greatest of the archdevils, he reigns over the Nine Hells from his citadel in Nessus, ruling with total and unquestioned authority. A master of temptation and tyrannical order, he embodies lawful evil in its most absolute expression—binding mortals and immortals alike through oaths, bargains, and forbidden pleasures. His worshippers include devils, corrupt officials, decadent aristocrats, and warlocks who believe their ascent to power lies through the structure of dominance he embodies."
+      "**Asmodeus** (pronounced /ˈæzmoʊdiəs/ AZ-moh-dee-us), known across Ouros as the **Lord of the Nine**, the **Lord of Lies**, and the **King of Baator**, rules the Hells as their first and greatest archdevil. He reigns from Nessus, the ninth and lowest circle of Baator, with total and unquestioned authority. A master of temptation and tyrannical order, he embodies lawful evil in its most absolute expression, binding mortals and immortals alike through oaths, bargains, and forbidden pleasures. His worshippers include devils, corrupt officials, decadent aristocrats, and warlocks who believe their ascent to power lies through the structure of dominance he embodies."
     ],
     "infobox": {
       "Alignment": "Lawful Evil",
@@ -131,7 +131,7 @@
     ],
     "cover_file": "AvandraSymbol.webp",
     "intro": [
-      "Also known as \"She Who Makes the Path,\" the Changebringer champions freedom, travel, trade, and adventure across the lands. Her will heralds open frontiers, and her call beckons her followers to discover that which awaits them beyond the known. There are few urban temples dedicated to the Changebringer, but her shrines are often found along well-traveled roads and on isolated wilderness hill-tops. Many merchants, adventurers, and free-spirited folk worship the Changebringer, and many a gala toast and tavern song celebrate her as a bringer of luck and fortune."
+      "**Avandra** (pronounced /əˈvændrə/ uh-VAN-drə), also known as **She Who Makes the Path**, is the **Changebringer**, champion of freedom, luck, and the open road. She wanders the Outer Planes without rest, though the Beastlands are where she is most often found at ease. Her will heralds open frontiers, and her call beckons her followers to discover what awaits beyond the known. There are few urban temples dedicated to her, but her shrines are often found along well-traveled roads and on isolated wilderness hilltops. Merchants, adventurers, and free-spirited folk worship her widely, and many a gala toast and tavern song celebrate her as a bringer of luck and fortune."
     ],
     "infobox": {
       "Alignment": "Chaotic Good",
@@ -227,7 +227,7 @@
     ],
     "cover_file": "BahamutSymbol.webp",
     "intro": [
-      "**Bahamut** is revered as the first and greatest of the metallic dragons and the exemplar of enlightened justice, and beacon of order and good to paladins everywhere. The crest of the **Platinum Dragon** adorns many halls of high leadership and judgment, invoking his will in all matters of justice. To follow him is to look after those who cannot look after themselves, upholding enlightened justice—stern against evil, yet tempered with mercy and forgiveness for the penitent."
+      "**Bahamut** (pronounced /bəˈhæmʊt/ buh-HAM-ut), the **Platinum Dragon**, is revered as the first and greatest of the metallic dragons and the exemplar of enlightened justice, a beacon of order and good to paladins everywhere. He rules from his palace in Mercuria, the second layer of Mount Celestia, and his crest adorns many halls of high leadership and judgment, invoking his will in all matters of justice. To follow him is to look after those who cannot look after themselves, upholding a justice that is stern against evil yet tempered with mercy and forgiveness for the penitent."
     ],
     "infobox": {
       "Alignment": "Lawful Good",
@@ -353,7 +353,7 @@
     ],
     "cover_file": "BaneSymbol.webp",
     "intro": [
-      "**Bane** is the Ourosi god of conflict, discipline, strategy, warfare, and oppression. Known as the **Strife Emperor** and the **Black Hand**, he is the patron of despots, warlords, drill-sergeants, and blood-drenched conquerors who seek to bend the world beneath ordered violence. Blood-drenched armies, brutal empires, and many goblinoid tribes worship him as they strike out to break “lesser peoples” and grind them into disciplined servitude. From his dread realm of Banehold, he acts indirectly through his priests, champions, and goblinoid demigods, pursuing a single, unchanging goal: total domination under his iron will."
+      "**Bane** (pronounced /beɪn/ BAYN), known as the **Strife Emperor** and the **Black Hand**, is the patron of despots, warlords, drill-sergeants, and blood-drenched conquerors who seek to bend the world beneath ordered violence. Brutal empires and many goblinoid tribes worship him as they strike out to break lesser peoples and grind them into disciplined servitude. From Banehold, his dread realm amid the endless Battlefields of Acheron, he acts indirectly through his priests, champions, and goblinoid demigods, pursuing a single, unchanging goal: total domination under his iron will."
     ],
     "infobox": {
       "Alignment": "Lawful Evil",
@@ -465,7 +465,7 @@
     ],
     "cover_file": "CorellonSymbol.webp",
     "intro": [
-      "**Corellon Larethian** is the Ourosi deity of elves, stars, springtime, magic, reincarnation, vanity, and artistry. Known as the **Seldarine** or **Arch Heart**, Corellon is the fey progenitor of the Seldarine pantheon and the elven peoples. The Seldarine is as fluid and changeable as a breeze or a brook—quick to anger, but equally quick to forgive and forget. Anyone who has felt the mystical presence of Corellon describes it as a joy like no other, followed by a deep melancholy when his presence is no longer felt. It was by the Arch-Seldarine's hand that the first elves wandered from the Fey Realm, and for this reason, they are considered the Parent of all elves. Those who seek art in all of their work, whether magic or mundane, often worship at the altar of Corellon. They loathe the Spider Queen and her priestesses for leading the drow astray."
+      "**Corellon Larethian** (pronounced /kɒˈrɛlɒn ˌlærəˈθiːən/ kor-EL-on la-reh-THEE-an), known as the **Arch-Seldarine**, is the fey progenitor of the Seldarine pantheon and is considered the parent of all elves, for it was by their hand that the first elves wandered from Faerie. They hold court in the Crescent Grove of Arvandor, within Arborea, where the Seldarine is as fluid and changeable as a breeze or a brook, quick to anger but equally quick to forgive and forget. Anyone who has felt his mystical presence describes it as a joy like no other, followed by a deep melancholy when it fades. Those who seek art in all their work, whether magic or mundane, often worship at their altar, and loathe the Spider Queen and her priestesses for leading the drow astray."
     ],
     "infobox": {
       "Alignment": "Chaotic Good",
@@ -662,8 +662,7 @@
     ],
     "cover_file": "Eilistraee.webp",
     "intro": [
-      "Lady Silverhair is the patron of those who have been told to be ashamed of what they are and refused. Drow who have abandoned Lolth's web, witches who practice in open defiance, and those who have spent long years wearing masks they did not choose all find her in the open sky when they finally take it off. Eilistraee does not offer her followers an identity to adopt but demands they find the one already there, and voice it without apology. Her faithful dance beneath the open night not as ritual but as declaration, and they have a long tradition of turning that courage outward, inspiring others toward the same and standing against those who would deny it.",
-      "Eilistraee makes her home in Svartalfheim, a realm of deep forests and open glades beneath a starlit sky that shows no moon, where the dark is not something to hide in but something to finally be seen against."
+      "**Eilistraee** (pronounced /eɪlɪˈstreɪ/ ay-lih-STRAY), known as **Lady Silverhair** and the **Darkmaiden**, is the patron of those who have been told to be ashamed of what they are, and refused. Drow who have abandoned Lolth's web, witches who practice in open defiance, and those who have spent long years wearing masks they did not choose all find her in the open sky when they finally take it off. She makes her home in Svartalfheim, a realm of deep forests and open glades beneath a starlit sky that shows no moon, where the dark is not something to hide in but something to finally be seen against. Her faithful dance beneath the open night not as ritual but as declaration."
     ],
     "infobox": {
       "Alignment": "Chaotic Good",
@@ -761,7 +760,7 @@
     ],
     "cover_file": "LawbearerSymbol.webp",
     "intro": [
-      "**Erathis**, also known as **The Lawbearer** or the **Cobalt Lady**, is the goddess of civilization, law, peace, commerce, and progress. A patron of judges, lawmakers, city-builders, and inventors, she represents the order and structure that allows societies to flourish. The driving inspiration behind many great inventions, the creation of vast cities, and law and order within society, the Lawbearer claims dominion over civilization. Judges and lawful rulers pay respect at her temples, which are central structures in major cities around the world. Peace and order, through structure and law, guide the will of her devout followers. The Lawbearer has a tempestuous romance with the Wildmother, a furious love that is only tempered when civilization and nature are in balance. Civil unrest and riots blossom within her beloved cities in these times of imbalance."
+      "**Erathis** (pronounced /ɛˈrɑːθɪs/ eh-RAH-thiss), also known as the **Lawbearer** and the **Cobalt Lady**, represents the order and structure that allows societies to flourish. A patron of judges, lawmakers, city-builders, and inventors, she claims dominion over civilization from Hestavar, her city adrift in the Astral Sea. Judges and lawful rulers pay respect at her temples, which stand as central structures in major cities around the world. She keeps a tempestuous romance with the Wildmother, a furious love that is only tempered when civilization and nature are in balance; civil unrest and riots blossom within her beloved cities when that balance fails."
     ],
     "infobox": {
       "Alignment": "Lawful Neutral",
@@ -813,8 +812,7 @@
     ],
     "cover_file": "GarlSymbol.png",
     "intro": [
-      "The Gemheart asks only this of the world: that it not take itself too seriously. Garl Glittergold is the laughing patron of invention and celebration, a golden-skinned eccentric who breathed the first gnomes into life from gems plucked off a cavern wall, then led them into the wider world by telling them a very good joke. That his children have repaid him by becoming the most curious, inventive, and joyful people in creation is a source of boundless pride. His clerics and followers, gnomes and otherwise, understand that wealth is not only gold, but the richness of a life well-lived: a clever solution, a room full of laughter, a thing made beautifully. Garl is accompanied always by Arumdina the Justifier, a sentient sapphire battleaxe who is widely considered the more sensible of the two.",
-      "Garl wanders freely throughout the Golden Hills, a seven-peaked realm that glows with warm light on the plane of Bytopia, though his own hill of Glitterhome sits at its heart. He is rarely found there."
+      "**Garl Glittergold** (pronounced /gɑːrl ˈglɪtərɡoʊld/ GARL GLIT-er-gold), the **Gemheart**, asks only this of the world: that it not take itself too seriously. He is the laughing patron of invention and celebration, a golden-skinned eccentric who breathed the first gnomes into life from gems plucked off a cavern wall. He won their trust with a very good joke before leading them into the wider world beyond it. He wanders freely throughout the Golden Hills, a seven-peaked realm on the plane of Bytopia, though his own hill of Glitterhome sits at its heart and he is rarely found there. His clerics understand that wealth is not only gold, but the richness of a life well-lived."
     ],
     "infobox": {
       "Alignment": "Lawful Good",
@@ -950,7 +948,7 @@
     ],
     "cover_file": "GruumshSymbol.webp",
     "intro": [
-      "**Gruumsh** (pronounced: /gruːmʃ/ GROO-msh), known as **One-Eye** and **the Ruiner**, is the Ourosi god of orcs, slaughter, natural disasters, outcasts, curses, and destructive fury. To his faithful, the world is a kill-or-be-killed hunting ground locked forever in a neolithic dusk, where only raw strength and ruthless will deserve to endure. As undisputed ruler of the orcish pantheon, Gruumsh drives his children to multiply, raid, and burn, despising walls, laws, and comforts as lies that shelter the weak from the trials they deserve. Earthquakes, landslides, volcanic fire, and plague are preached as his scouring gifts—great culls that tear down the soft and leave only the hard, the hungry, and the worthy standing."
+      "**Gruumsh** (pronounced /gruːmʃ/ GROO-msh), known as **One-Eye** and **the Ruiner**, rules the orcish pantheon from Nishrek, his fortress amid the Battleplains of Acheron. He is said to have carved the first orcs from wild boars, tusked and relentless in his own image. To his faithful, the world is a kill-or-be-killed hunting ground where only raw strength and ruthless will deserve to endure. He despises walls, laws, and comforts as lies that shelter the weak, and preaches earthquakes, plague, and volcanic fire as his scouring gifts, great culls that leave only the hard and the worthy standing."
     ],
     "infobox": {
       "Alignment": "Chaotic Evil",
@@ -1034,7 +1032,7 @@
     ],
     "cover_file": "IounSymbol.webp",
     "intro": [
-      "Ioun (pronounced: /aɪˈuːn/ eye-OON), the Knowing Mentor, is the Ourosi goddess of knowledge, truth, prophecy, divination, and skill. Also known as the Knowing Mistress and the Cobalt Prophet, she is revered by sages, seers, archivists, and tacticians, as well as any who live by wit and learning rather than strength of arm. Revered by seers, sages, and teachers of all walks of life, the Knowing Mentor guided the growth of civilization throughout the ages like sunlight guides the branches of a tree. Her teachings were silenced when she was grievously wounded by the Chained Oblivion during the Calamity, and though she survived and went into hiding behind the Divine Gate, her followers are hunted by agents of her ancient foes to this day; but Truth and Knowledge cannot be quelled so easily."
+      "**Ioun** (pronounced /aɪˈuːn/ eye-OON), the **Knowing Mentor**, keeps the **Endless Atheneum** adrift in the Astral Sea, where she is revered by sages, seers, archivists, and tacticians, and by any who live by wit and learning rather than strength of arm. She guided the growth of civilization throughout the ages like sunlight guides the branches of a tree. Her teachings were silenced when she was grievously wounded by the Chained Oblivion during the Calamity, and though she survived and went into hiding behind the Divine Gate, her followers are hunted by agents of her ancient foes to this day. Truth and Knowledge, she teaches, cannot be quelled so easily."
     ],
     "infobox": {
       "Alignment": "Neutral",
@@ -1084,7 +1082,7 @@
     ],
     "cover_file": "KordSymbol.webp",
     "intro": [
-      "**Kord**, better known as **the Stormlord**, is the Ourosi god of the sky, storms, battle, health, victory, and heroic contest. Also called the Stormbringer and Dragonslayer God, he is revered by warriors, sailors, gladiators, and athletes across the world, and honored by giantkind of the Ourosi faith. Reveling in all tests of strength, the blessing of the Stormlord finds those that prove themselves on the battlefield. Worshiped by athletes and warriors all across Ouros, he exalts those whose force of spirit and passion for victory call his attention. He brings tumultuous storms over land and sea, and those who wish for clearer skies offer their praises and prayers to appease him."
+      "**Kord** (pronounced /kɔːrd/ KORD), the **Stormwarrior**, is the Ourosi god of storms, the sky, and heroic contest. He makes his home upon the high mountains of Jotunheim, though he holds no rule there; giants honor him as a demigod within their own pantheon, and warriors, sailors, and athletes across Ouros call on him for victory. He reveals himself in every test of strength, and his blessing finds those who prove themselves on the battlefield or in the arena. He brings tumultuous storms over land and sea, and those who wish for clearer skies offer their praises to appease him."
     ],
     "infobox": {
       "Alignment": "Chaotic Neutral",
@@ -1139,8 +1137,7 @@
     ],
     "cover_file": "LamashtuSymbol.webp",
     "intro": [
-      "The Mother of Monsters is older than the current order of the Abyss, an Obyrith queen who remembers the Tanar'ri before they had shape or purpose, and who pressed both into a fraction of them to make the first demon lords. Gnolls, goblins, the deformed, and the discarded worship Lamashtu not for healing of these forms, but for the conviction that what the world names an abomination is simply something it does not yet have the courage to understand. Her faithful seek to spread that understanding by force if necessary, and mutation is not a curse in her theology but a gift still working.",
-      "Lamashtu rules from Kurnugia, the 366th layer of the Abyss, a realm of warped terrain and ancient warrens where her children are born and remade without end."
+      "**Lamashtu** (pronounced /ləˈmæʃtuː/ luh-MASH-too), the **Mother of Monsters**, is older than the current order of the Abyss, an Obyrith queen who existed before the Tanar'ri themselves, and who pressed both into a fraction of them to make the first demon lords. She rules from Kurnugia, a realm of warped terrain and ancient warrens where her children are born and remade without end. Gnolls, goblins, the deformed, and the discarded worship her not for healing of these forms, but for the conviction that what the world calls an abomination is simply something it does not yet have the courage to understand."
     ],
     "infobox": {
       "Alignment": "Chaotic Evil",
@@ -1260,7 +1257,7 @@
     ],
     "cover_file": "LolthSymbol.webp",
     "intro": [
-      "Lolth (pronounced /loʊlθ/ LOHLTH or /lɒlθ/ LOLTH), known in elder elven myths as **Aurashnee**, is the Ourosi goddess of spiders, nightmares, paranoia, disloyalty, and espionage, and the chief patron of the drow and the Dark Seldarine. Once a lesser elven goddess of destiny and artisans and consort to Corellon, she retreated into the Abyss after a failed coup against the Seldarine and was remade as the **Demon Queen of Spiders**, ruling the Demonweb Pits. Feared as much as she is worshipped, Lolth embodies treachery elevated to a sacred principle: she demands ruthless ambition, cultivates obsessive mistrust, and delights in turning kin against kin. Among the elves she is reviled as the architect of the drow’s fall; among drow, she is both jailer and patron, rewarding bloody devotion with power while ensuring her children never grow united enough to escape her web."
+      "**Lolth** (pronounced /loʊlθ/ LOHLTH or /lɒlθ/ LOLTH), known in elder elven myths as **Aurashnee**, is chief patron of the drow and the Dark Seldarine. Once a lesser elven goddess of destiny and artisans and consort to Corellon, she retreated into the Abyss after a failed coup against the Seldarine and was remade as the **Demon Queen of Spiders**, ruling the Demonweb Pits. Feared as much as she is worshipped, Lolth embodies treachery elevated to a sacred principle: she demands ruthless ambition, cultivates obsessive mistrust, and delights in turning kin against kin. Among the elves she is reviled as the architect of the drow's fall; among drow, she is both jailer and patron."
     ],
     "infobox": {
       "Alignment": "Chaotic Evil",
@@ -1359,8 +1356,7 @@
     ],
     "cover_file": "TRQSymbol.webp",
     "intro": [
-      "Master of the skein of fate and the mistress of winter, the Matron of Ravens is the god of death. Her gaze follows and marks the end of each mortal life, watching over the transition between life and death—and ensuring that the natural transition is undefiled. Mourners at funerals across the land invoke her blessing in hopes that she will protect the deceased from the terrible curse of undeath.",
-      "Keepers of ancient lore believe the Matron of Ravens was once mortal herself, and thus the only mortal known to have ascended to godhood—before the rise of The Whispered One, at least. Her rise instantly obliterated the previous, now-forgotten god of death, and in its wake, the other gods quickly and fearfully destroyed the secrets to the rites of ascension."
+      "The **Matron of Ravens**, mistress of winter and keeper of the skein of fate, is the Ourosi god of death. She rules from Letherna, her demiplane within the Shadowfell, and her gaze follows and marks the end of every mortal life, watching over the transition between life and death to ensure it goes undefiled. Mourners at funerals across the land invoke her blessing in hopes she will protect the deceased from the terrible curse of undeath. She is the only mortal known to have achieved apotheosis before the Age of Faith, the era marked by the Divine Gate's creation, when the gods lost the power of direct intervention and were forced to rely on worship alone; Vecna's ascension, by contrast, came after that threshold, and is recent history by comparison."
     ],
     "infobox": {
       "Alignment": "Lawful Neutral",
@@ -1412,7 +1408,7 @@
     ],
     "cover_file": "MeloraSymbol2.png",
     "intro": [
-      "**Melora**, widely known as the **Wildmother**, is the Ourosi goddess of natural cycles, beasts, wilderness, hunters, and the restless seas. A neutral prime deity, she embodies both the gentleness and the ferocity of the living world—from fertile fields and calm tides to apex predators, and the slow reclamation of fallen cities by root and wave. Hunters, druids, sailors, and nomads revere her as the mother of untamed places and the shifting ocean, seeking her blessing to live in harmony with lands and waters that still bear their wild fangs."
+      "**Melora** (pronounced /məˈlɔːrə/ muh-LOR-uh), widely known as the **Wildmother**, is as much beast as woman, both predator and prey, embodying every part of the living world's hunger and its gentleness. She roams the Beastlands, present in docile grasslands and calm tides as surely as in apex predators and the slow reclamation of fallen cities by root and wave. Hunters, druids, sailors, and nomads revere her as the mother of untamed places and the shifting ocean, seeking her blessing to live in harmony with lands and waters that still bear their wild fangs."
     ],
     "infobox": {
       "Alignment": "Neutral",
@@ -1461,7 +1457,7 @@
     ],
     "cover_file": "MoradinSymbol.webp",
     "intro": [
-      "**Moradin **(pronounced /MOAR-uh-din/), also known as the **All-Hammer**, **Dwarf Father**, and **Forger of Souls**, is the Ourosi god of dwarves, creation, craftsmen, stonework, smithing, and loyalty. Chief of the Morndinsamman and patron of the dwarven race as a whole, he is revered as the master of every craft his children practice and the architect of their souls. The patron of craft and creation, the All-Hammer is worshipped by smiths, artisans, and miners alike, granting inspiration where respect and prayer are given. Devotion to the All-Hammer is strongest in dwarven communities, even giving claim to the Solerian dwarven nation of the Spears of Erenval, said to be the mountains from which dwarves first sprung upon Ouros."
+      "**Moradin** (pronounced /ˈmɔːrədɪn/ MOR-uh-din), also known as the **All-Hammer**, **Dwarf Father**, and **Forger of Souls**, is chief of the Morndinsamman and patron of the dwarven race as a whole. He rules from Dwarfhome, his hall within Mount Celestia, and is revered as the master of every craft his children practice and the architect of their souls. Smiths, artisans, and miners worship him alike, granting inspiration where respect and prayer are given. Devotion to him is strongest in dwarven communities, even giving claim to the Spears of Erenval, said to be the mountains from which dwarves first sprung upon Ouros."
     ],
     "infobox": {
       "Alignment": "Lawful Good",
@@ -1643,7 +1639,7 @@
     ],
     "cover_file": "PelorSymbol.webp",
     "intro": [
-      "**Pelor **(pronounced /ˈpeɪlɔːr/ PAY-lore), also known as the **Dawnfather** and the **Shining One**, is the Ourosi god of the sun, summer, agriculture, and martyrdom. As lord of agriculture and harbinger of the harvest, he is worshiped by farmers and most common folk, and his priests are welcomed in many lands. Supporter of the needy and destroyer of evil, the Dawnfather is often the patron of paladins and rangers who follow a similar creed. He is also known for his defeat of the Chained Oblivion and is revered by those who hunt aberrations. Though he does not govern time itself, Pelor is widely revered as the calendarist of reality."
+      "**Pelor** (pronounced /ˈpeɪlɔːr/ PAY-lore), also known as the **Dawnfather** and the **Shining One**, rules from Light's Blessing, his realm within the Blessed Fields of Elysium. As lord of agriculture and harbinger of the harvest, he is worshiped by farmers and common folk alike, and his priests are welcomed in many lands. Supporter of the needy and destroyer of evil, he is often the patron of paladins and rangers who follow a similar creed. He is remembered for his defeat of the Chained Oblivion and is revered by those who hunt aberrations. Though he does not govern time itself, Pelor is widely regarded as the calendarist of reality."
     ],
     "infobox": {
       "Alignment": "Lawful Good",
@@ -1691,7 +1687,7 @@
     ],
     "cover_file": "RaeiSymbol.webp",
     "intro": [
-      "Raei (pronounced /ˈreɪ.i/ RAY-ee), also known as **Sarenrae**, the **Everlight**, is the Ourosi goddess of mercy, compassion, redemption, altruism, healing, and purifying fire. A neutral good deity adapted from Sarenrae of other worlds, she embodies temperance and patience, teaching that even hardened hearts can be turned toward the light. She believes that the corrupt can be redeemed, a mindset that led to a betrayal by the Lord of the Hells, who decimated her followers during the Divergence. Only recently has her faith been rediscovered and her temples returned to prominence. The Everlight's followers are often rural healers and community philosophers, offering voices of reason and empathy in angry and cynical times."
+      "**Sarenraei** (pronounced /ˈreɪ.i/ RAY-ee), the **Everlight**, embodies temperance and patience, teaching that even hardened hearts can be turned toward the light. She rules from the Island of Renewal within the Blessed Fields of Elysium, and believes wholly that the corrupt can be redeemed, a conviction that led to a betrayal by the Lord of the Hells, who decimated her followers during the Divergence. Only recently has her faith been rediscovered and her temples returned to prominence. Her followers are often rural healers and community philosophers, offering voices of reason and empathy in angry and cynical times."
     ],
     "infobox": {
       "Alignment": "Neutral Good",
@@ -1736,8 +1732,7 @@
     ],
     "cover_file": "Sardior3.png",
     "intro": [
-      "Few can say with certainty whether the Ruby Wyrm is listening. Sardior drifts at the edge of divine perception, so consumed by the vast interior architecture of his own contemplation that the affairs of gods and mortals wash past him like wind across stone. Psions and philosophers claim him as their patron regardless, drawn to a god who seems to have found something worth thinking about for eternity, and gem dragons across the planes keep a glowing ruby in their lairs as though tending a signal fire for a traveler who may never return.",
-      "The Ruby Palace drifts endlessly through the portion of the Astral Sea that can be seen in the night sky, a vast and darkened fortress of gem-encrusted stone, often mistaken from the ground for a reddish star low on the horizon. Whether Sardior is truly within, no one has been able to say for certain."
+      "**Sardior** (pronounced /ˈsɑːrdiɔːr/ SAR-dee-or), the **Ruby Wyrm**, drifts at the edge of divine perception, so consumed by the vast interior architecture of his own contemplation that the affairs of gods and mortals wash past him like wind across stone. Psions and philosophers claim him as their patron regardless, drawn to a god who seems to have found something worth thinking about for eternity. He is said to reside in the Ruby Palace, a vast and darkened fortress of gem-encrusted stone that drifts endlessly through the visible Astral Sea, often mistaken from the ground for a reddish star low on the horizon; whether he is truly within, no one has been able to say for certain."
     ],
     "infobox": {
       "Alignment": "Neutral",
@@ -1866,7 +1861,7 @@
     ],
     "cover_file": "SehanineSymbol.webp",
     "intro": [
-      "The Moonweaver is the god of moonlight and the autumn season, as well as the patron of illusion and misdirection. Widely worshipped in halfling and elven culture, she is also considered to be the deity of love, shielding the trysts of lovers in shadows of her own making. Those who work in darkness and trickery often ask for her blessing."
+      "**Seha-Angharradh** (pronounced /ˈseɪhə ˌæŋˈhærəð/ SAY-huh ang-HA-rath), the **Moonweaver**, is a triune goddess dwelling upon Arvandor, most commonly known by the name of Sehanine, eldest of the three and elven goddess of death. She governs moonlight, dreams, and the autumn season, as well as the arts of illusion and misdirection. Widely worshipped across halfling and elven cultures alike, she is also a goddess of love and intimacy, shielding the trysts of lovers in shadows of her own making."
     ],
     "infobox": {
       "Alignment": "Chaotic Good",
@@ -1932,9 +1927,7 @@
     ],
     "cover_file": "TharizdunSymbol.webp",
     "intro": [
-      "It is darkness unending, less like a god and more like another world of malevolent, alien intelligence. Life and death do not exist within the Chained Oblivion; only the absolute end of all things. Few minds can comprehend the depth of oblivion. Most who do are so completely lost to nihilistic despair or denial that they devote the rest of their lives to hastening the end of this reality so that it may be swallowed up by the great inevitability: utter, tenebrous cold.",
-      "Even the other Betrayer Deities treat the Oblivion with caution. The Chained Oblivion's demented cultists work without word from their twisted patron, awaiting the Epoch of Ends, when its freedom will be attained and all beings shall be consumed in deathlessness unending.",
-      "Tharizdun is believed to be chained in the deepest pits of the Abyss, bound by divine shackles that slowly weaken, leaking its madness into the planes."
+      "**Tharizdun** (pronounced /ˈθærɪzdʌn/ THA-riz-dun), the **Chained Oblivion**, is less a god than another world of malevolent, alien intelligence: darkness unending, in which life and death alike cease to exist, only the absolute end of all things. He is believed to be chained in Voidharrow, the deepest pit of the Abyss, bound by divine shackles that slowly weaken and leak his madness into the planes. Few minds can comprehend the depth of his oblivion; most who do are so lost to nihilistic despair that they devote the rest of their lives to hastening the end of this reality. Even the other Betrayer Deities treat him with caution, and his cultists work without word from their patron, awaiting the Epoch of Ends."
     ],
     "infobox": {
       "Alignment": "Chaotic Evil",
@@ -1984,7 +1977,7 @@
     ],
     "cover_file": "TiamatSymbol.png",
     "intro": [
-      "Tiamat, the Scaled Tyrant is the evil queen of dragons. She is a fearsome goddess of greed, envy, and hoarded wealth, and the patron of most chromatic dragons. She is the sworn enemy of Bahamut. While chromatic dragons are her foremost worshipers, Tiamat accepts the worship of any who crave wealth. All chromatic dragons have a fearful reverence for their tyrannical queen, but many dragons of near-deific power and ambition chafe under her rule."
+      "**Tiamat** (pronounced /ˈtiːəmæt/ TEE-uh-mat), the **Chromatic Tyrant**, is the evil queen of dragons, a fearsome goddess of greed, envy, and hoarded wealth, and sworn enemy of Bahamut. She remains imprisoned in Avernus, the first of the Nine Hells, set as guardian to the Gates of Dis, where chromatic dragons pay her fearful reverence as their tyrannical queen even as many of near-deific power and ambition chafe under her rule. She accepts the worship of any who crave wealth beyond dragonkind, and forgives no affront, however small, to her own."
     ],
     "infobox": {
       "Alignment": "Neutral Evil",
@@ -2105,7 +2098,7 @@
     ],
     "cover_file": "TorogSymbol.webp",
     "intro": [
-      "Torog (pronounced: /ˈtɔːrɒɡ/ TOR-og), the King That Crawls, is the Ourosi god of the Underdark, imprisonment, enslavement, torture, and pain. Also known as the Crawling King and the Lord of Pain, he is revered by torturers, slavers, and jailers, as well as those who build their power on captivity and coercion. In older myths he is a maimed, suffering god bound to the world below—unable to heal, unable to escape, and increasingly defined by the harm he both endures and enables. His faith is a theology of proximity: of dragging life into darkness until suffering stops being an idea and becomes the only remaining language."
+      "**Torog** (pronounced /ˈtɔːrɒɡ/ TOR-og), the **King That Crawls**, is revered by torturers, slavers, and jailers, as well as any who build their power on captivity and coercion. He rules, if it can be called ruling, from the Tartarean Depths of Carceri, a realm bound to the Underdark itself, where in older myths he is a maimed, suffering god bound to the world below, unable to heal, unable to escape, and increasingly defined by the harm he both endures and enables."
     ],
     "infobox": {
       "Alignment": "Neutral Evil",
@@ -2150,7 +2143,7 @@
     ],
     "cover_file": "VecnaSymbol.webp",
     "intro": [
-      "The lich lord Vecna presides over villainous mages, conspiring politicians, and envious servants as the dark god of necromancy, undeath, and secrets. Once a dangerously clever and powerful archmage-turned-lich, his hunger for dominion over all mysteries and obsession with conquering the pantheon led to his own dissolution, leaving behind only his left hand and eye. His enduring spirit reformed through the ages and managed to reconstruct the Raven Queen's rites of ascension to become the newest of gods to walk Exandria. Defeated by the legendary heroes Vox Machina and sealed behind the Divine Gate, the Whispered One now quietly rules over that which is not meant to be known."
+      "**Vecna** (pronounced /ˈvɛknə/ VEK-nuh), the **Whispered One**, presides over villainous mages, conspiring politicians, and envious servants as the dark god of necromancy, undeath, and secrets. Once a dangerously clever archmage-turned-lich, his hunger for dominion over all mysteries and obsession with conquering the pantheon led to his own dissolution, leaving behind only his left hand and eye. His enduring spirit reformed through the ages and reconstructed the Raven Queen's rites of ascension, becoming the newest god among the Ourosi pantheon. Defeated and sealed behind the Divine Gate, the Whispered One now quietly rules over that which is not meant to be known."
     ],
     "infobox": {
       "Alignment": "Neutral Evil",
@@ -2200,8 +2193,7 @@
     ],
     "cover_file": "VhaeraunSymbol.png",
     "intro": [
-      "The Prince of the Stage is the patron of those who take from the outside to give to the in, and wear masks to hide their true selves in doing so. Charlatans, criminals, actors, and those wronged by those who have promised to be protecte them claim Vhaeraun as their own, drawn to a god who understands that the world has those who belong and those who do not, and that the boundary between them is worth defending by any means. His followers are fiercely loyal to their own and pitiless to strangers, a philosophy Vhaeraun does not consider cruelty but sense. Retribution is his sacrament, the stage his temple, and the mask his only honest face.",
-      "Vhaeraun holds court in Ellaniath, a city of black lacquered stages and lightless alleyways cut into the cliffs of Colothys on Carceri."
+      "**Vhaeraun** (pronounced /vɛˈreɪn/ veh-RAYN), the **Prince of the Stage**, is the patron of those who take from the outside to give to the in, and wear masks to hide their true selves in doing so. Charlatans, criminals, actors, and those wronged by ones who promised to protect them claim him as their own, drawn to a god who understands that the world has those who belong and those who do not, and that the boundary between them is worth defending by any means. He resides in Ellaniath, a city of black lacquered stages and lightless alleyways cut into the cliffs of Colothys on Carceri."
     ],
     "infobox": {
       "Alignment": "Lawful Evil",
@@ -2303,8 +2295,7 @@
     ],
     "cover_file": "Yondalla.png",
     "intro": [
-      "Yondalla watches over her halfling children with quiet constancy, and a ferocity that surprises those who mistake her warmth for weakness. The Hearthdame asks little of her faithful beyond decency and welcome, but she holds long grudges against those who have threatened her people. Her temples are a rarity, disguised as humble burrow-homes and quietly stocked against siege, a reminder that hospitality and vigilance are not opposites in her eyes. Those who seek safe harbor, plentiful harvests, or the healing hand of a stranger often find themselves in her grace without ever having sought it.",
-      "Yondalla tends to her people from within the Green Fields, a realm of rolling hills and endless summer evenings nestled in the third layer of Celestia, where her family of gods and the souls of the faithful gather as kin around a table that never runs short."
+      "**Yondalla** (pronounced /jɒnˈdælə/ yon-DAL-uh), the **Hearthdame**, is matriarch of the halfling pantheon, said to have created the halfling race in her own image. With her charming personality and friendly demeanor, she is an example to all halflings, who almost all share her curiosity, loyalty, and sense of mischief. As a provider, she is a goddess of fertility and growing things, of birth and youth, of nature and plants, tending to home, husbandry, and hearth alike. She is forgiving and slow to anger, but when her people are threatened, she acts with a bravery and ferocity that has earned the respect of even her most warlike godly contemporaries."
     ],
     "infobox": {
       "Alignment": "Lawful Good",
@@ -2403,8 +2394,7 @@
     ],
     "cover_file": "ZehirSymbol.webp",
     "intro": [
-      "A wanderer in the shadows and the creator of snakes and serpentkin, Zehir is the evil god of poisons, blood, and obssession. The ancient serpentkin worship him over all other deities, dragging screaming offerings to their temples in his honor. Most of the Cloaked Serpent's worshipers were annihilated during the Calamity, and the rest are either suspended in self-induced stasis or hunted for sport by the servants of Lolth and Torog. But perhaps Zehir is merely biding his time, waiting for the proper moment to unleash his hidden armies on the world once more.",
-      "Zehir subverts and poisons the Material Plane from the shadowed Towers of Night, hidden among the ever-shifting winds of the Astral Plane."
+      "**Zehir** (pronounced /ˈzɛhɪər/ ZEH-heer), the **Cloaked Serpent**, is a wanderer in the shadows and creator of the Yuan-Ti, a serpentfolk race he shaped from ancient humans through forbidden ritual, and who have not been seen since the dawn of the Age of Faith. He dwells within the Towers of Night, hidden fortresses ringed by the Sea of Poisons adrift in the Astral Sea. A hidden predator who moves through blood and transformation, his worship is steeped in ritual and alchemy. Nobody is certain whether he answers prayers or performs miracles through his clerics, but he is invoked regardless, whether or not he grants what is asked."
     ],
     "infobox": {
       "Alignment": "Chaotic Evil",
