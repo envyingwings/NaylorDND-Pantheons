@@ -29,7 +29,7 @@ id: -Vecna-Page
 **Alignment.** Neutral Evil
 **Symbol.** A dessicated hand with an eye in the palm
 **Portfolio.** Greater God of Secrets, Archaeology, Forbidden Knowledge, and Undeath
-**Divine Realm.** ???
+**Divine Realm.** [[Thar Amphala|Thar Amphala, Oinos]]
 **Worshippers.** Historians, necromancers
 ```
 **Titles:** The Whispered One, The Archlich

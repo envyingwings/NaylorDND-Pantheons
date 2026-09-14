@@ -27,6 +27,8 @@ source-markdown/          The original Obsidian-flavoured markdown, one file per
 tools/
   parse.py                Regenerates data/deities.json from source-markdown/
   gen_icons.py             Regenerates placeholder icons from data/deities.json
+  cache_bust.py            Updates ?v=<hash> query strings so browsers fetch
+                           the latest CSS/JS/data instead of a cached copy
 ```
 
 ## Previewing locally
@@ -85,10 +87,21 @@ If you edit a file in `source-markdown/`, regenerate the data:
 
 ```bash
 python3 tools/parse.py
+python3 tools/cache_bust.py
 ```
 
 This rewrites `data/deities.json` from scratch, **overwriting any edits
 made through the admin editor that weren't reflected in the markdown**.
+
+The second command updates the `?v=<hash>` query strings on `style.css`,
+`app.js`, `deity-page.js`, `admin.js`, and `deities.json` in `index.html`,
+`deity.html`, and `admin.html`, so visitors' browsers fetch the new files
+instead of a stale cached copy. Run it after *any* change to those files —
+not just after `parse.py` — including plain CSS or JS edits. Skipping it
+doesn't break anything locally (a hard refresh always works), but visitors
+to the live GitHub Pages site may keep seeing the old version until their
+browser's cache expires on its own.
+
 Refresh the browser (no server restart needed) to see the changes.
 
 ### What the parser keeps
@@ -120,7 +133,9 @@ during parsing; none of it reaches the browser.
 3. Run `python3 tools/gen_icons.py` to generate a placeholder icon for the
    new deity (skip this step if you're supplying real artwork instead — see
    below).
-4. Refresh the browser.
+4. Run `python3 tools/cache_bust.py` so the update reaches visitors'
+   browsers without them needing to clear their cache.
+5. Refresh the browser.
 
 ### Replacing placeholder icons with real artwork
 
