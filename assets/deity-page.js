@@ -57,15 +57,15 @@ function commandmentsHtml(d) {
   `;
 }
 
-function pantheonMemberHtml(m) {
-  const nameHtml = m.has_page
-    ? `<a class="m-name" href="deity.html?d=${encodeURIComponent(m.slug)}">${renderInline(m.name)}</a>`
-    : `<span class="m-name">${renderInline(m.name)}</span>`;
+function pantheonMemberHtml(m, placeholderSlugs) {
+  const isPlaceholder = placeholderSlugs.has(m.slug);
+  const nameHtml = `<a class="m-name" href="deity.html?d=${encodeURIComponent(m.slug)}">${renderInline(m.name)}</a>`;
   const blurb = m.blurb ? `<span class="m-blurb">${renderInline(m.blurb)}</span>` : "";
-  return `<div class="pantheon-member${m.has_page ? "" : " no-page"}">${nameHtml}${blurb}</div>`;
+  const stubTag = isPlaceholder ? `<span class="stub-tag">unwritten</span>` : "";
+  return `<div class="pantheon-member${isPlaceholder ? " no-page" : ""}">${nameHtml}${stubTag}${blurb}</div>`;
 }
 
-function appendixHtml(d) {
+function appendixHtml(d, placeholderSlugs) {
   if (!d.appendix) return "";
   const { title, members } = d.appendix;
   const heading = title ? `<h2>${renderInline(title)}</h2>` : `<h2>Appendix</h2>`;
@@ -77,7 +77,7 @@ function appendixHtml(d) {
       </section>
     `;
   }
-  const grid = members.map(pantheonMemberHtml).join("");
+  const grid = members.map((m) => pantheonMemberHtml(m, placeholderSlugs)).join("");
   return `
     <section class="deity-section">
       ${heading}
@@ -86,9 +86,25 @@ function appendixHtml(d) {
   `;
 }
 
-function renderDeityPage(d) {
+function renderDeityPage(d, placeholderSlugs) {
   document.title = `${d.name} — The Ourosi Pantheon`;
   document.getElementById("crumb-name").textContent = d.name;
+
+  if (d.is_placeholder) {
+    document.getElementById("deity-content").innerHTML = `
+      <div class="deity-hero">
+        <img class="symbol" src="${iconPath(d.slug)}" alt="${escapeHtml(d.name)} symbol">
+        <div class="deity-hero-text">
+          <h1>${renderInline(d.name)}</h1>
+          <p class="portfolio">This deity's page has not been written yet.</p>
+        </div>
+      </div>
+      <div class="deity-section">
+        <p class="empty-note">${escapeHtml(d.name)} is named as part of a pantheon elsewhere on this wiki, but doesn't have a full entry of their own yet. Check back later, or follow a link back to the deity whose page mentioned them.</p>
+      </div>
+    `;
+    return;
+  }
 
   const html = `
     <div class="deity-hero">
@@ -103,7 +119,7 @@ function renderDeityPage(d) {
     ${introHtml(d)}
     ${titlesDomainsHtml(d)}
     ${commandmentsHtml(d)}
-    ${appendixHtml(d)}
+    ${appendixHtml(d, placeholderSlugs)}
   `;
   document.getElementById("deity-content").innerHTML = html;
 }
@@ -122,7 +138,8 @@ function initDeityPage() {
         container.innerHTML = `<p class="empty-note">No deity found for "${escapeHtml(slug)}".</p>`;
         return;
       }
-      renderDeityPage(d);
+      const placeholderSlugs = new Set(deities.filter((x) => x.is_placeholder).map((x) => x.slug));
+      renderDeityPage(d, placeholderSlugs);
     })
     .catch((err) => {
       container.innerHTML = `<p class="empty-note">Could not load deity data. (${escapeHtml(err.message)})</p>`;

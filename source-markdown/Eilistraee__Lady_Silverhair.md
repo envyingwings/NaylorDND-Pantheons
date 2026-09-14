@@ -62,3 +62,11 @@ layout: grid
 columns: 3
 imageProperty: cover
 ```
+- [[Ghaunadaur — That-Which-Lurks]]
+- [[Keptolo — the Masochedonist]]
+- [[Kiaransalee — Banshee's Bride]]
+- [[Lolth, The Queen of Spiders]]
+- [[Malyk — Maelstrom Magus]]
+- [[Selvetarm — Champion of the Spider]]
+- [[Vhaeraun, Prince of the Stage]]
+- [[Zinzerena — Princess of the Outcasts]]

@@ -3,7 +3,7 @@ Divine Domains:
   - Arcana
   - Knowledge
   - Trickery
-Portfolio: Ruby Wyrm | Greater God of Psionics Philosophy, Enlightenment, and neutral-aligned dragons.
+Portfolio: Ruby Wyrm | Greater God of Psionics, Philosophy, Enlightenment, and neutral-aligned dragons.
 Status:
   - Ourosi (Greater Deity)
   - Pantheon Draconis
@@ -32,7 +32,7 @@ The Ruby Palace drifts endlessly through the portion of the Astral Sea that can 
 ![[Sardior3.png]]
 **Alignment.** Neutral
 **Symbol.** A ruby dragon with glowing eyes coiling a tower.
-**Portfolio.** Greater God of Psionics, 
+**Portfolio.** Greater God of Psionics
 **Divine Realm.** [[Ruby Palace]]
 **Worshippers.** Gem dragons, astronomers, monks, philosophers, psions
 ```
@@ -57,9 +57,21 @@ layout: grid
 columns: 3
 imageProperty: cover
 ```
+- [[Aasterinian — Quicksilver Dragon]]
 - Aleithillithos, Amethyst Thane (M)
-- Hrodel, Crystal Thane (F)
-- Smargad, Emerald Thane (M)
+- [[Astilabor — The Hoardmistress]]
+- [[Bahamut, The Platinum Dragon]]
 - Charisma, Sapphire Thane (F)
-- Tithonnas, Topaz Thane (M)
+- [[Garyx — Cleanser of Worlds]]
+- Hrodel, Crystal Thane (F)
+- [[Kereska — Wonderbringer]]
+- [[Kurtulmak — the Horned Sorcerer]]
+- [[Lendys — Scale of Justice]]
+- [[Nathair Sgiathach — Scampdrake]]
+- [[Null — Great Deathwyrm]]
 - Seradess, Obsidian Thane (F)
+- Smargad, Emerald Thane (M)
+- [[Tamara — Her Mercy]]
+- [[Tiamat, The Chromatic Tyrant]]
+- Tithonnas, Topaz Thane (M)
+- [[Zorquan — Perfect Wyrm]]

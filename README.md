@@ -127,3 +127,35 @@ in within the repo.
   Organizations, Divine Relics, player-options spell lists). That extra
   content still exists in git history / your original vault if you want it
   back later — it's just not part of this site.
+- The Portfolio shown on each card and page is built from the frontmatter's
+  `Portfolio` field, which follows one of three shapes in the source files:
+  `"<Adjective> God of <Thing> | <rest>"` (the `<Thing>` gets merged into
+  the front of the list), `"<Epithet> | Greater God of <full list>"` (the
+  second half is used as-is), or a plain comma list with no pipe (used
+  unchanged). `tools/parse.py`'s `clean_portfolio()` handles all three.
+
+### Placeholder pages for unwritten pantheon members
+
+Every deity's Appendix links to the other members of their pantheon (e.g.
+Bane's page links to Maglubiyet, Hruggek, and the rest of the Goblin Host).
+Most of those linked names don't have their own markdown file yet. Rather
+than showing dead, unclickable text, the parser generates a minimal
+**placeholder page** for every such name automatically:
+
+- Placeholder pages show the deity's name and a "this page hasn't been
+  written yet" notice — no invented lore.
+- On the deity page that links to them, placeholder members are visually
+  tagged **unwritten** so it's clear at a glance which links go to a full
+  entry and which don't.
+- Placeholders never appear on the main landing page grid — that's reserved
+  for deities with an actual written entry. They're only reachable by
+  clicking through from a real deity's Appendix.
+- If the same placeholder name is referenced from more than one deity's
+  Appendix (e.g. a shared exarch), all of those links point at the same
+  single placeholder page rather than creating duplicates.
+
+To turn a placeholder into a real page, just add a proper markdown file for
+that deity to `source-markdown/` (matching the slug shown in the
+placeholder's URL) and rerun `tools/parse.py` — the placeholder disappears
+and every link that used to point at it now points at the real page
+automatically.

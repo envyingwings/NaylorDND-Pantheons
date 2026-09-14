@@ -127,6 +127,39 @@ def parse_appendix(body):
     return {"title": title, "members": members}
 
 
+def clean_portfolio(raw):
+    """
+    Frontmatter Portfolio strings come in three shapes:
+      1. "<Adjective> God/Goddess of <Thing> | <rest, of, list>"
+         -> merge <Thing> into the front of <rest> (it belongs in the portfolio,
+            not as a separate "title" fragment): "<Thing>, <rest>"
+      2. "<Epithet title (no 'of')> | Greater God/Goddess of <full list>"
+         -> the second half is already the complete portfolio; use it as-is.
+      3. No pipe at all -> already a clean flat list; use as-is.
+    Returns a single clean display string with no pipe character.
+    """
+    if not raw:
+        return raw
+    if "|" not in raw:
+        return raw.strip().rstrip(".")
+
+    left, right = [p.strip() for p in raw.split("|", 1)]
+    right_clean = right.rstrip(".")
+
+    # Shape 2: right side is already a full "Greater God/Goddess of ..." portfolio
+    if re.match(r"^Greater\s+(God|Goddess)\s+of\s+", right, flags=re.IGNORECASE):
+        return right_clean
+
+    # Shape 1: left side names a "<thing>" via "... of <thing>"; merge it in front
+    m = re.search(r"\bof\s+(.+)$", left, flags=re.IGNORECASE)
+    if m:
+        thing = m.group(1).strip().rstrip(".")
+        return f"{thing}, {right_clean}"
+
+    # Fallback: left has no "of X" to extract (e.g. a bare epithet) -> just use right
+    return right_clean
+
+
 def parse_file(path):
     raw = open(path, encoding="utf-8").read()
     fm_match = re.match(r"^---\n(.*?)\n---\n", raw, flags=re.DOTALL)
@@ -196,7 +229,8 @@ def parse_file(path):
 
     name_guess = display_name or os.path.splitext(os.path.basename(path))[0].replace("__", ", ").replace("_", " ")
 
-    portfolio = frontmatter.get("Portfolio", "")
+    portfolio_raw = frontmatter.get("Portfolio", "")
+    portfolio = clean_portfolio(portfolio_raw)
     alignment = frontmatter.get("Alignment", infobox.get("Alignment", ""))
     domains_fm = frontmatter.get("Divine Domains", [])
     status = frontmatter.get("Status", [])
@@ -261,6 +295,53 @@ def main():
                 member["has_page"] = matched_slug is not None
                 if matched_slug:
                     member["slug"] = matched_slug
+
+    # Every appendix member without a real page gets a minimal placeholder
+    # "deity" entry instead, so links always resolve to something rather
+    # than rendering as dead, unclickable text. Deduplicated by slug, since
+    # the same member can appear in more than one deity's appendix (e.g. a
+    # goblinoid god listed under both Bane and their own future page).
+    placeholder_slugs_seen = set()
+    placeholders = []
+    for d in deities:
+        if not d["appendix"]:
+            continue
+        for member in d["appendix"]["members"]:
+            if member["has_page"]:
+                continue
+            slug = member["slug"]
+            if slug in slug_set or slug in placeholder_slugs_seen:
+                # Already a real page, or already created as a placeholder from
+                # an earlier deity's appendix -- just point this member at it.
+                member["has_page"] = True
+                placeholder_slugs_seen.add(slug)
+                continue
+            placeholder_slugs_seen.add(slug)
+            placeholders.append({
+                "slug": slug,
+                "name": member["name"],
+                "portfolio": "",
+                "alignment": "",
+                "domains": [],
+                "status": [],
+                "warlock_province": [],
+                "tags": [],
+                "cover_file": None,
+                "intro": [],
+                "infobox": {},
+                "titles_line": None,
+                "domains_line": None,
+                "commandments": [],
+                "appendix": None,
+                "source_file": None,
+                "is_placeholder": True,
+            })
+            member["has_page"] = True
+
+    for d in deities:
+        d.setdefault("is_placeholder", False)
+
+    deities.extend(placeholders)
 
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         json.dump(deities, f, indent=2, ensure_ascii=False)

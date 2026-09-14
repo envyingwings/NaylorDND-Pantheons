@@ -26,7 +26,7 @@ Tiamat, the Scaled Tyrant is the evil queen of dragons. She is a fearsome goddes
 
 - [[#Commandments of Tiamat|Commandments of Tiamat]]
 - [[#Appendix|Appendix]]
-	- [[#Appendix#Pantheon Draconis — Dragon Pantheon|Pantheon Draconis — Dragon Pantheon]]
+	- [[#Appendix#Pantheon Draconis — Draconic Pantheon|Pantheon Draconis — Draconic Pantheon]]
 ===
 ### Tiamat, the Chromatic Tyrant
 [Miraheze](https://criticalrole.miraheze.org/wiki/Tiamat) | [Forgotten Realms Wiki](https://forgottenrealms.fandom.com/wiki/Tiamat)
@@ -44,7 +44,7 @@ Tiamat, the Scaled Tyrant is the evil queen of dragons. She is a fearsome goddes
 - Do not forgive nor forget an indignity to yourself. Let no affront go unpunished.
 - Take what you covet. Those without the strength to defend their dominion are not worthy of it.
 ### Appendix
-#### Pantheon Draconis — Dragon Pantheon
+#### Pantheon Draconis — Draconic Pantheon
 ```datacards
 TABLE WITHOUT ID
   file.link AS "",
@@ -60,8 +60,21 @@ layout: grid
 columns: 3
 imageProperty: cover
 ```
+- [[Aasterinian — Quicksilver Dragon]]
+- Aleithillithos, Amethyst Thane (M)
 - [[Astilabor — The Hoardmistress]]
+- [[Bahamut, The Platinum Dragon]]
+- Charisma, Sapphire Thane (F)
 - [[Garyx — Cleanser of Worlds]]
-- [[Sardior, The Ruby Wyrm]]
+- Hrodel, Crystal Thane (F)
+- [[Kereska — Wonderbringer]]
 - [[Kurtulmak — the Horned Sorcerer]]
+- [[Lendys — Scale of Justice]]
+- [[Nathair Sgiathach — Scampdrake]]
+- [[Null — Great Deathwyrm]]
+- [[Sardior, The Ruby Wyrm]]
+- Seradess, Obsidian Thane (F)
+- Smargad, Emerald Thane (M)
+- [[Tamara — Her Mercy]]
+- Tithonnas, Topaz Thane (M)
 - [[Zorquan — Perfect Wyrm]]

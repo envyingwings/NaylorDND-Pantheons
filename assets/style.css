@@ -376,6 +376,19 @@ a:hover { text-decoration: underline; }
   border-style: dashed;
 }
 
+.stub-tag {
+  display: inline-block;
+  font-size: 0.62rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1px 7px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
 .empty-note {
   color: var(--ink-faint);
   font-style: italic;

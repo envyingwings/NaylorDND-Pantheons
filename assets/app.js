@@ -53,8 +53,13 @@ function initLandingPage() {
   if (!grid) return;
 
   loadDeities().then((deities) => {
+    // Placeholders (unwritten pantheon members) don't appear in the main
+    // directory -- only real, fully-written deity pages do. Placeholders
+    // are still reachable by following a link from a deity's Appendix.
+    const real = deities.filter((d) => !d.is_placeholder);
+
     // Sort alphabetically by display name (ignoring leading articles/titles noise)
-    const sorted = [...deities].sort((a, b) => a.name.localeCompare(b.name));
+    const sorted = [...real].sort((a, b) => a.name.localeCompare(b.name));
 
     // Populate alignment filter options
     const alignments = [...new Set(sorted.map((d) => d.alignment).filter(Boolean))].sort();
