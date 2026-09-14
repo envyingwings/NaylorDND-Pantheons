@@ -31,7 +31,7 @@ id: -Bahamut-Page
 - [[#Appendix|Appendix]]
 	- [[#Appendix#Pantheon Draconis — Draconic Pantheon|Pantheon Draconis — Draconic Pantheon]]
 ===
-### Bahamut, The Platinum Dragon
+### Bahamut, the Platinum Dragon
 [Miraheze](https://criticalrole.miraheze.org/wiki/Bahamut) | [Forgotten Realms Wiki](https://forgottenrealms.fandom.com/wiki/Bahamut)
 ![[BahamutSymbol.webp]]
 **Alignment.** Lawful Good
@@ -40,7 +40,7 @@ id: -Bahamut-Page
 **Divine Realm.** [[Seven Heavens of Mount Celestia#Mercuria — 2nd Golden Heaven|Bahamut's Palace, Mercuria]]
 **Worshippers.** Dragonborn, knights, metallic dragons, nobles, paladins
 ```
-**Titles:** The Platinum Dragon, Xymor, The Valiant, Lord of the North Wind, The Dracopaladin
+**Titles:** the Platinum Dragon, Xymor, The Valiant, Lord of the North Wind, The Dracopaladin
 **Domains:** Life, Order, Peace, War
 ### Commandments of Bahamut
 - Stand as a paragon of honor and justice.

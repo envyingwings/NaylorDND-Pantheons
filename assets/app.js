@@ -28,8 +28,9 @@ function renderInline(str) {
   return out;
 }
 
-function iconPath(slug) {
-  return `assets/icons/${slug}.svg`;
+function iconPath(deity) {
+  const ext = deity && deity.icon_ext ? deity.icon_ext : "svg";
+  return `assets/icons/${deity.slug}.${ext}`;
 }
 
 /** Classic D&D alignment ordering, good-to-evil then lawful-to-chaotic within each. */
@@ -83,7 +84,7 @@ function displayNameHtml(d, mode) {
 function deityCardHtml(d, nameMode) {
   return `
     <a class="deity-card" href="deity.html?d=${encodeURIComponent(d.slug)}" data-slug="${d.slug}">
-      <img class="symbol" src="${iconPath(d.slug)}" alt="${escapeHtml(d.name)} symbol" loading="lazy">
+      <img class="symbol" src="${iconPath(d)}" alt="${escapeHtml(d.name)} symbol" loading="lazy">
       <h2 class="card-name card-name--${nameMode}">${displayNameHtml(d, nameMode)}</h2>
       <p class="portfolio">${renderInline(d.portfolio || "")}</p>
       <span class="alignment-tag">${escapeHtml(d.alignment || "Unaligned")}</span>

@@ -93,7 +93,7 @@ function renderDeityPage(d, placeholderSlugs) {
   if (d.is_placeholder) {
     document.getElementById("deity-content").innerHTML = `
       <div class="deity-hero">
-        <img class="symbol" src="${iconPath(d.slug)}" alt="${escapeHtml(d.name)} symbol">
+        <img class="symbol" src="${iconPath(d)}" alt="${escapeHtml(d.name)} symbol">
         <div class="deity-hero-text">
           <h1>${renderInline(d.name)}</h1>
           <p class="portfolio">This deity's page has not been written yet.</p>
@@ -108,7 +108,7 @@ function renderDeityPage(d, placeholderSlugs) {
 
   const html = `
     <div class="deity-hero">
-      <img class="symbol" src="${iconPath(d.slug)}" alt="${escapeHtml(d.name)} symbol">
+      <img class="symbol" src="${iconPath(d)}" alt="${escapeHtml(d.name)} symbol">
       <div class="deity-hero-text">
         <h1>${renderInline(d.name)}</h1>
         <p class="portfolio">${renderInline(d.portfolio || "")}</p>

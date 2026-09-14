@@ -96,6 +96,7 @@
         }
       ]
     },
+    "icon_ext": "webp",
     "source_file": "Asmodeus__Lord_of_the_Nine.md",
     "is_placeholder": false
   },
@@ -193,12 +194,13 @@
         }
       ]
     },
+    "icon_ext": "webp",
     "source_file": "Avandra__The_Changebringer.md",
     "is_placeholder": false
   },
   {
     "slug": "bahamut",
-    "name": "Bahamut, The Platinum Dragon",
+    "name": "Bahamut, the Platinum Dragon",
     "portfolio": "Greater God of Virtue, Honour, and Justice",
     "alignment": "Lawful Good",
     "domains": [
@@ -234,7 +236,7 @@
       "Divine Realm": "Bahamut's Palace, Mercuria",
       "Worshippers": "Dragonborn, knights, metallic dragons, nobles, paladins"
     },
-    "titles_line": "The Platinum Dragon, Xymor, The Valiant, Lord of the North Wind, The Dracopaladin",
+    "titles_line": "the Platinum Dragon, Xymor, The Valiant, Lord of the North Wind, The Dracopaladin",
     "domains_line": "Life, Order, Peace, War",
     "commandments": [
       "Stand as a paragon of honor and justice.",
@@ -354,6 +356,7 @@
         }
       ]
     },
+    "icon_ext": "webp",
     "source_file": "Bahamut__The_Platinum_Dragon.md",
     "is_placeholder": false
   },
@@ -461,6 +464,7 @@
         }
       ]
     },
+    "icon_ext": "webp",
     "source_file": "Bane__The_Strife_Emperor.md",
     "is_placeholder": false
   },
@@ -662,6 +666,7 @@
         }
       ]
     },
+    "icon_ext": "webp",
     "source_file": "Corellon_Larethian__The_Arch-Seldarine.md",
     "is_placeholder": false
   },
@@ -763,6 +768,7 @@
         }
       ]
     },
+    "icon_ext": "webp",
     "source_file": "Eilistraee__Lady_Silverhair.md",
     "is_placeholder": false
   },
@@ -808,6 +814,7 @@
       "Uphold and revere the spirit of invention. Create new settlements, build where inspiration strikes,and expand the edicts of the Lawbearer."
     ],
     "appendix": null,
+    "icon_ext": "webp",
     "source_file": "Erathis__The_Lawbearer.md",
     "is_placeholder": false
   },
@@ -936,6 +943,7 @@
         }
       ]
     },
+    "icon_ext": "webp",
     "source_file": "Garl_Glittergold__the_Gemheart.md",
     "is_placeholder": false
   },
@@ -1035,13 +1043,14 @@
         }
       ]
     },
+    "icon_ext": "webp",
     "source_file": "Gruumsh_One-Eye__The_Ruiner.md",
     "is_placeholder": false
   },
   {
     "slug": "ioun",
     "name": "Ioun, the Knowing Mentor",
-    "portfolio": "Greater Goddess of Truth, Education, Knowledge, Language, Lore, Prophecy, Skill, and Wizardry",
+    "portfolio": "Greater Goddess of Truth, Knowledge, Lore, Skill, and Wizardry",
     "alignment": "Neutral / Unaligned",
     "domains": [
       "Arcana",
@@ -1078,6 +1087,7 @@
       "Condemn those who lie without moral cause, for evil folk gain power when their followers obscure the truth. Never stoop to the level of selfish liars."
     ],
     "appendix": null,
+    "icon_ext": "webp",
     "source_file": "Ioun__The_Knowing_Mentor.md",
     "is_placeholder": false
   },
@@ -1130,6 +1140,7 @@
       "title": "The Ordning — Giant Pantheon",
       "members": []
     },
+    "icon_ext": "webp",
     "source_file": "Kord__The_Stormwarrior.md",
     "is_placeholder": false
   },
@@ -1245,6 +1256,7 @@
         }
       ]
     },
+    "icon_ext": "webp",
     "source_file": "Lamashtu__Mother_of_Monsters.md",
     "is_placeholder": false
   },
@@ -1353,6 +1365,7 @@
         }
       ]
     },
+    "icon_ext": "webp",
     "source_file": "Lolth__The_Queen_of_Spiders.md",
     "is_placeholder": false
   },
@@ -1403,6 +1416,7 @@
       "title": "Psychopomps of Ouros",
       "members": []
     },
+    "icon_ext": "webp",
     "source_file": "Matron_of_Ravens__The_Raven_Queen.md",
     "is_placeholder": false
   },
@@ -1451,6 +1465,7 @@
       "Embrace and respect that which you cannot control in this world. Exist in harmony with it."
     ],
     "appendix": null,
+    "icon_ext": "webp",
     "source_file": "Melora__The_Wildmother.md",
     "is_placeholder": false
   },
@@ -1635,6 +1650,7 @@
         }
       ]
     },
+    "icon_ext": "webp",
     "source_file": "Moradin__The_All-Hammer.md",
     "is_placeholder": false
   },
@@ -1680,13 +1696,14 @@
       "Deliver the light of the Dawnfather where darkness dwells, and do so with kindness, compassion, and mercy."
     ],
     "appendix": null,
+    "icon_ext": "webp",
     "source_file": "Pelor__The_Dawnfather.md",
     "is_placeholder": false
   },
   {
-    "slug": "saren-raei",
-    "name": "Saren-Raei, the Everlight",
-    "portfolio": "Greater Goddess of Atonement, Altruism, Compassion, Flame, Healing, Mercy, and Redemption",
+    "slug": "sarenraei",
+    "name": "Sarenraei, the Everlight",
+    "portfolio": "Greater Goddess of Redemption, Altruism, Fire, and Healing",
     "alignment": "Neutral Good",
     "domains": [
       "Beauty",
@@ -1715,7 +1732,7 @@
     "infobox": {
       "Alignment": "Neutral Good",
       "Symbol": "A humanoid, feminine phoenix in flames.",
-      "Portfolio": "Greater Goddess of Atonement, Altruism, Compassion, Flame, Healing, Mercy, and Redemption.",
+      "Portfolio": "Greater Goddess of Redemption, Altruism, Fire, and Healing.",
       "Divine Realm": "Island of Renewal, Blessed Fields of Elysium",
       "Worshippers": "Healers, desert cultures, reformed criminals, the charitable"
     },
@@ -1727,6 +1744,7 @@
       "Celebrate the beauty in all things. Let your heart be open to love and your hands be guided to create and nurture."
     ],
     "appendix": null,
+    "icon_ext": "webp",
     "source_file": "Raei__The_Everlight.md",
     "is_placeholder": false
   },
@@ -1793,7 +1811,7 @@
           "has_page": true
         },
         {
-          "name": "Bahamut, The Platinum Dragon",
+          "name": "Bahamut, the Platinum Dragon",
           "slug": "bahamut",
           "blurb": "",
           "has_page": true
@@ -1884,6 +1902,7 @@
         }
       ]
     },
+    "icon_ext": "webp",
     "source_file": "Sardior__The_Ruby_Wyrm.md",
     "is_placeholder": false
   },
@@ -1952,6 +1971,7 @@
         }
       ]
     },
+    "icon_ext": "webp",
     "source_file": "Seha-Angharradh__The_Moonweaver.md",
     "is_placeholder": false
   },
@@ -2005,6 +2025,7 @@
       "title": "Gods & Princes of the Abyss",
       "members": []
     },
+    "icon_ext": "webp",
     "source_file": "Tharizdun__The_Chained_Oblivion.md",
     "is_placeholder": false
   },
@@ -2073,7 +2094,7 @@
           "has_page": true
         },
         {
-          "name": "Bahamut, The Platinum Dragon",
+          "name": "Bahamut, the Platinum Dragon",
           "slug": "bahamut",
           "blurb": "",
           "has_page": true
@@ -2164,6 +2185,7 @@
         }
       ]
     },
+    "icon_ext": "webp",
     "source_file": "Tiamat__The_Chromatic_Tyrant.md",
     "is_placeholder": false
   },
@@ -2208,6 +2230,7 @@
       "Imprison those who cannot resist you, and drag all life into the darkness."
     ],
     "appendix": null,
+    "icon_ext": "webp",
     "source_file": "Torog__The_King_that_Crawls.md",
     "is_placeholder": false
   },
@@ -2252,6 +2275,7 @@
       "Seed the ruin of all who worship other deities, until only those who kneel before the Whispered One remain."
     ],
     "appendix": null,
+    "icon_ext": "webp",
     "source_file": "Vecna__The_Whispered_One.md",
     "is_placeholder": false
   },
@@ -2350,6 +2374,7 @@
         }
       ]
     },
+    "icon_ext": "webp",
     "source_file": "Vhaeraun__Prince_of_the_Stage.md",
     "is_placeholder": false
   },
@@ -2450,6 +2475,7 @@
         }
       ]
     },
+    "icon_ext": "webp",
     "source_file": "Yondalla__The_Hearthdame.md",
     "is_placeholder": false
   },
@@ -2503,6 +2529,7 @@
       "Kill slowly. Agonizingly. Or worse, make them enjoy it."
     ],
     "appendix": null,
+    "icon_ext": "webp",
     "source_file": "Zehir__The_Cloaked_Serpent.md",
     "is_placeholder": false
   },
@@ -2523,6 +2550,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -2542,6 +2570,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -2561,6 +2590,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -2580,6 +2610,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -2599,6 +2630,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -2618,6 +2650,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -2637,6 +2670,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -2656,6 +2690,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -2675,6 +2710,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -2694,6 +2730,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -2713,6 +2750,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -2732,6 +2770,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -2751,6 +2790,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -2770,6 +2810,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -2789,6 +2830,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -2808,6 +2850,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -2827,6 +2870,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -2846,6 +2890,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -2865,6 +2910,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -2884,6 +2930,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -2903,6 +2950,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -2922,6 +2970,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -2941,6 +2990,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -2960,6 +3010,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -2979,6 +3030,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -2998,6 +3050,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3017,6 +3070,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3036,6 +3090,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3055,6 +3110,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3074,6 +3130,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3093,6 +3150,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3112,6 +3170,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3131,6 +3190,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3150,6 +3210,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3169,6 +3230,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3188,6 +3250,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3207,6 +3270,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3226,6 +3290,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3245,6 +3310,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3264,6 +3330,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3283,6 +3350,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3302,6 +3370,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3321,6 +3390,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3340,6 +3410,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3359,6 +3430,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3378,6 +3450,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3397,6 +3470,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3416,6 +3490,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3435,6 +3510,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3454,6 +3530,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3473,6 +3550,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3492,6 +3570,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3511,6 +3590,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3530,6 +3610,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3549,6 +3630,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3568,6 +3650,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3587,6 +3670,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3606,6 +3690,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3625,6 +3710,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3644,6 +3730,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3663,6 +3750,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3682,6 +3770,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3701,6 +3790,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3720,6 +3810,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3739,6 +3830,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3758,6 +3850,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3777,6 +3870,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3796,6 +3890,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3815,6 +3910,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3834,6 +3930,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3853,6 +3950,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3872,6 +3970,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3891,6 +3990,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3910,6 +4010,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3929,6 +4030,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3948,6 +4050,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3967,6 +4070,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -3986,6 +4090,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4005,6 +4110,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4024,6 +4130,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4043,6 +4150,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4062,6 +4170,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4081,6 +4190,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4100,6 +4210,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4119,6 +4230,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4138,6 +4250,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4157,6 +4270,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4176,6 +4290,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4195,6 +4310,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4214,6 +4330,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4233,6 +4350,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4252,6 +4370,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4271,6 +4390,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4290,6 +4410,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4309,6 +4430,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4328,6 +4450,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4347,6 +4470,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4366,6 +4490,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4385,6 +4510,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4404,6 +4530,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4423,6 +4550,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4442,6 +4570,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4461,6 +4590,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4480,6 +4610,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4499,6 +4630,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4518,6 +4650,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4537,6 +4670,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4556,6 +4690,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4575,6 +4710,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4594,6 +4730,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4613,6 +4750,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4632,6 +4770,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4651,6 +4790,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4670,6 +4810,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4689,6 +4830,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4708,6 +4850,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   },
   {
@@ -4727,6 +4870,7 @@
     "commandments": [],
     "appendix": null,
     "source_file": null,
+    "icon_ext": "svg",
     "is_placeholder": true
   }
 ]

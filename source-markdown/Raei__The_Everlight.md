@@ -27,18 +27,18 @@ Raei (pronounced /ˈreɪ.i/ RAY-ee), also known as **Sarenrae**, the **Everlight
 
 - [[#Commandments of Raei|Commandments of Raei]]
 ===
-### Saren-Raei, the Everlight
+### Sarenraei, the Everlight
 [Miraheze](https://criticalrole.miraheze.org/wiki/Sarenrae) | [Pathfinder Wiki](https://pathfinderwiki.com/wiki/Sarenrae) | [PF2e (Archives of Nethys)](https://2e.aonprd.com/Deities.aspx?ID=16)
 ![[RaeiSymbol.webp]]
 **Alignment.** Neutral Good
 **Symbol.** A humanoid, feminine phoenix in flames.
-**Portfolio.** Greater Goddess of Atonement, Altruism, Compassion, Flame, Healing, Mercy, and Redemption.
+**Portfolio.** Greater Goddess of Redemption, Altruism, Fire, and Healing.
 **Divine Realm.** [[Blessed Fields of Elysium|Island of Renewal, Blessed Fields of Elysium]]
 **Worshippers.** Healers, desert cultures, reformed criminals, the charitable
 ```
 **Titles:** Sarenrae, Everlight, Phoenix Princess, Dawnflower, Healing Flame, Sister Cinder
 **Domains:** Life, Light, Peace
-### Commandments of Raei
+### Commandments of Sarenraei
 - Lead with mercy, patience, and compassion. Inspire others to unite in fellowship.
 - Aid those who are without guide. Heal those who are without hope.
 - Celebrate the beauty in all things. Let your heart be open to love and your hands be guided to create and nurture.

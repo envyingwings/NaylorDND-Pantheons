@@ -63,7 +63,7 @@ imageProperty: cover
 - [[Aasterinian — Quicksilver Dragon]]
 - Aleithillithos, Amethyst Thane (M)
 - [[Astilabor — The Hoardmistress]]
-- [[Bahamut, The Platinum Dragon]]
+- [[Bahamut, the Platinum Dragon]]
 - Charisma, Sapphire Thane (F)
 - [[Garyx — Cleanser of Worlds]]
 - Hrodel, Crystal Thane (F)

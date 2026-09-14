@@ -146,7 +146,7 @@ CANONICAL_PORTFOLIOS = {
     "erathis": "Greater Goddess of Law, Civilization, Commerce, Peace, and Progress",
     "garl-glittergold": "Greater God of Artifice, Celebration, Jewels, and Wealth",
     "gruumsh-one-eye": "Greater God of Natural Disasters, Curses, Outcasts, and Strength",
-    "ioun": "Greater Goddess of Truth, Education, Knowledge, Language, Lore, Prophecy, Skill, and Wizardry",
+    "ioun": "Greater Goddess of Truth, Knowledge, Lore, Skill, and Wizardry",
     "kord": "Greater God of Storms, Skies, Athletics, Battle, Heroes, and Victory",
     "lamashtu": "Greater Goddess of Monsters, Corruption, Famine, Evolution, and Vermin",
     "lolth": "Greater Goddess of Nightmares, Betrayal, Espionage, Manipulation, and Seduction",
@@ -154,7 +154,7 @@ CANONICAL_PORTFOLIOS = {
     "melora": "Greater Goddess of Nature, Beasts, Hunters, Seas, and Wilderness",
     "moradin": "Greater God of Creation, Artisans, Harmony, Loyalty, Labour, and Machines",
     "pelor": "Greater God of Dawn, Agriculture, Martyrs, Summer, and the Sun",
-    "saren-raei": "Greater Goddess of Atonement, Altruism, Compassion, Flame, Healing, Mercy, and Redemption",
+    "sarenraei": "Greater Goddess of Redemption, Altruism, Fire, and Healing",
     "sardior": "Greater God of Psionics, Philosophy, and Enlightenment",
     "seha-angharradh": "Greater Goddess of Dreams, Moon, Intimacy, Mystery, and Shapechanging",
     "tharizdun": "Greater God of the Abyss, Insanity, Entropy, Extinction, and Calamity",
@@ -192,6 +192,19 @@ def clean_portfolio(raw, slug):
         return f"Greater God of {thing}, {right_clean}"
 
     return right_clean
+
+
+def detect_icon_ext(slug):
+    """Check assets/icons/<slug>.<ext> on disk and return whichever real
+    extension exists (webp/png/jpg preferred over the generated svg
+    placeholder), so the frontend never has to guess or fail a request."""
+    icons_dir = os.path.join(HERE, "..", "assets", "icons")
+    for ext in ("webp", "png", "jpg", "jpeg"):
+        if os.path.exists(os.path.join(icons_dir, f"{slug}.{ext}")):
+            return ext
+    if os.path.exists(os.path.join(icons_dir, f"{slug}.svg")):
+        return "svg"
+    return None
 
 
 def parse_file(path):
@@ -288,6 +301,7 @@ def parse_file(path):
         "domains_line": domains_line,
         "commandments": commandments,
         "appendix": appendix,
+        "icon_ext": detect_icon_ext(slug),
         "source_file": os.path.basename(path),
     }
 
@@ -367,6 +381,7 @@ def main():
                 "commandments": [],
                 "appendix": None,
                 "source_file": None,
+                "icon_ext": detect_icon_ext(slug),
                 "is_placeholder": True,
             })
             member["has_page"] = True

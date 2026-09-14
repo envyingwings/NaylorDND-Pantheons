@@ -71,13 +71,23 @@ def main():
     os.makedirs(OUT_DIR, exist_ok=True)
     data = json.load(open(DATA_PATH, encoding="utf-8"))
     count = 0
+    skipped = 0
     for d in data:
+        # If real artwork already exists for this slug (any non-svg image),
+        # don't generate/overwrite a placeholder SVG alongside it.
+        has_real_art = any(
+            os.path.exists(os.path.join(OUT_DIR, f"{d['slug']}.{ext}"))
+            for ext in ("webp", "png", "jpg", "jpeg")
+        )
+        if has_real_art:
+            skipped += 1
+            continue
         out_path = os.path.join(OUT_DIR, f"{d['slug']}.svg")
         svg = make_svg(d["name"], d["alignment"], d["slug"])
         with open(out_path, "w", encoding="utf-8") as f:
             f.write(svg)
         count += 1
-    print(f"Generated {count} icons in {OUT_DIR}")
+    print(f"Generated {count} icons in {OUT_DIR} ({skipped} skipped, already have real artwork)")
 
 
 if __name__ == "__main__":
