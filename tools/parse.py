@@ -329,7 +329,7 @@ def parse_multi_aspect_file(path):
     if default is None:
         raise ValueError(f"No aspects parsed from {path}")
 
-    name_guess = "Seha-Angharradh, the Moonweaver"
+    name_guess = os.path.splitext(os.path.basename(path))[0].replace("__", ", ").replace("_", " ")
     slug = slugify(os.path.splitext(os.path.basename(path))[0].split("__")[0])
 
     tags = frontmatter.get("tags", [])

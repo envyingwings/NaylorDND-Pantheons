@@ -934,7 +934,7 @@
       "title": "Pantheon Draconis — Draconic Pantheon",
       "members": [
         {
-          "name": "Aasterinian — Quicksilver Dragon",
+          "name": "Avachel — the Quicksilver Dragon",
           "slug": "aasterinian-quicksilver-dragon",
           "blurb": "",
           "has_page": true
@@ -4658,7 +4658,68 @@
     ],
     "appendix": {
       "title": "The Ordning — Giant Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Annam All-Father — the Lord of the Ordning",
+          "slug": "annam-all-father-the-lord-of-the-ordning",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Grolantor — the Ever-Hungry",
+          "slug": "grolantor-the-ever-hungry",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Hiatea — Huntress of Legends",
+          "slug": "hiatea-huntress-of-legends",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Iallanis — the Gentle Giantess",
+          "slug": "iallanis-the-gentle-giantess",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Karontor — the Crawler-Below",
+          "slug": "karontor-the-crawler-below",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Memnor — the Silver-lined Prince",
+          "slug": "memnor-the-silver-lined-prince",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Skoraeus Stonebones — the Earthen Dream",
+          "slug": "skoraeus-stonebones-the-earthen-dream",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Stronmaus — the Smiling Storm",
+          "slug": "stronmaus-the-smiling-storm",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Surtr — All-Consuming Flame",
+          "slug": "surtr-all-consuming-flame",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thrymr — the Frost Reaver",
+          "slug": "thrymr-the-frost-reaver",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "webp",
     "source_file": "Kord__The_Stormwarrior.md",
@@ -6882,7 +6943,7 @@
       "title": "Pantheon Draconis — Draconic Pantheon",
       "members": [
         {
-          "name": "Aasterinian — Quicksilver Dragon",
+          "name": "Avachel — the Quicksilver Dragon",
           "slug": "aasterinian-quicksilver-dragon",
           "blurb": "",
           "has_page": true
@@ -7312,7 +7373,7 @@
       ]
     },
     "icon_ext": "webp",
-    "source_file": "Seha-Angharradh__The_Moonweaver.md",
+    "source_file": "Seha-Angharradh__the_Moonweaver.md",
     "multi_aspect": true,
     "default_aspect": "angharradh",
     "aspects": [
@@ -9041,7 +9102,7 @@
       "title": "Pantheon Draconis — Draconic Pantheon",
       "members": [
         {
-          "name": "Aasterinian — Quicksilver Dragon",
+          "name": "Avachel — the Quicksilver Dragon",
           "slug": "aasterinian-quicksilver-dragon",
           "blurb": "",
           "has_page": true
@@ -11454,6 +11515,206 @@
   {
     "slug": "yurtrus-the-white-handed",
     "name": "Yurtrus — the White-Handed",
+    "portfolio": "",
+    "alignment": "",
+    "domains": [],
+    "status": [],
+    "warlock_province": [],
+    "tags": [],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {},
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "source_file": null,
+    "icon_ext": "svg",
+    "is_placeholder": true
+  },
+  {
+    "slug": "annam-all-father-the-lord-of-the-ordning",
+    "name": "Annam All-Father — the Lord of the Ordning",
+    "portfolio": "",
+    "alignment": "",
+    "domains": [],
+    "status": [],
+    "warlock_province": [],
+    "tags": [],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {},
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "source_file": null,
+    "icon_ext": "svg",
+    "is_placeholder": true
+  },
+  {
+    "slug": "grolantor-the-ever-hungry",
+    "name": "Grolantor — the Ever-Hungry",
+    "portfolio": "",
+    "alignment": "",
+    "domains": [],
+    "status": [],
+    "warlock_province": [],
+    "tags": [],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {},
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "source_file": null,
+    "icon_ext": "svg",
+    "is_placeholder": true
+  },
+  {
+    "slug": "hiatea-huntress-of-legends",
+    "name": "Hiatea — Huntress of Legends",
+    "portfolio": "",
+    "alignment": "",
+    "domains": [],
+    "status": [],
+    "warlock_province": [],
+    "tags": [],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {},
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "source_file": null,
+    "icon_ext": "svg",
+    "is_placeholder": true
+  },
+  {
+    "slug": "iallanis-the-gentle-giantess",
+    "name": "Iallanis — the Gentle Giantess",
+    "portfolio": "",
+    "alignment": "",
+    "domains": [],
+    "status": [],
+    "warlock_province": [],
+    "tags": [],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {},
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "source_file": null,
+    "icon_ext": "svg",
+    "is_placeholder": true
+  },
+  {
+    "slug": "karontor-the-crawler-below",
+    "name": "Karontor — the Crawler-Below",
+    "portfolio": "",
+    "alignment": "",
+    "domains": [],
+    "status": [],
+    "warlock_province": [],
+    "tags": [],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {},
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "source_file": null,
+    "icon_ext": "svg",
+    "is_placeholder": true
+  },
+  {
+    "slug": "memnor-the-silver-lined-prince",
+    "name": "Memnor — the Silver-lined Prince",
+    "portfolio": "",
+    "alignment": "",
+    "domains": [],
+    "status": [],
+    "warlock_province": [],
+    "tags": [],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {},
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "source_file": null,
+    "icon_ext": "svg",
+    "is_placeholder": true
+  },
+  {
+    "slug": "skoraeus-stonebones-the-earthen-dream",
+    "name": "Skoraeus Stonebones — the Earthen Dream",
+    "portfolio": "",
+    "alignment": "",
+    "domains": [],
+    "status": [],
+    "warlock_province": [],
+    "tags": [],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {},
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "source_file": null,
+    "icon_ext": "svg",
+    "is_placeholder": true
+  },
+  {
+    "slug": "stronmaus-the-smiling-storm",
+    "name": "Stronmaus — the Smiling Storm",
+    "portfolio": "",
+    "alignment": "",
+    "domains": [],
+    "status": [],
+    "warlock_province": [],
+    "tags": [],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {},
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "source_file": null,
+    "icon_ext": "svg",
+    "is_placeholder": true
+  },
+  {
+    "slug": "surtr-all-consuming-flame",
+    "name": "Surtr — All-Consuming Flame",
+    "portfolio": "",
+    "alignment": "",
+    "domains": [],
+    "status": [],
+    "warlock_province": [],
+    "tags": [],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {},
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "source_file": null,
+    "icon_ext": "svg",
+    "is_placeholder": true
+  },
+  {
+    "slug": "thrymr-the-frost-reaver",
+    "name": "Thrymr — the Frost Reaver",
     "portfolio": "",
     "alignment": "",
     "domains": [],
