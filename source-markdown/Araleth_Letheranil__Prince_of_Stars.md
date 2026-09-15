@@ -9,8 +9,6 @@ base:
 ```columns
 id: -Araleth-Page
 ===
-Araleth Letheranil, Prince of Stars, takes the form of an elf-like man whose hair falls in strands of woven silver starlight, each strand faintly luminous. His eyes burn molten gold, casting soft sunlight out from beneath pale brows. Upon his right shoulder sits a scar of total black, rimmed at its jagged edge with a thin corona of light, like the instant of a total eclipse frozen in place. He wears constellation-etched plate armour beneath a cloak of streaming twilight, star-spurred boots at his heels, a set of rider's reins gripped in one hand and a long spear crowned with a silver sun held in the other.
-
 - [[#Appendix|Appendix]]
 	- [[#Appendix#Seldarine — Elven Pantheon|Seldarine — Elven Pantheon]]
 ===

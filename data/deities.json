@@ -64,9 +64,7 @@
       "ElvenPantheon"
     ],
     "cover_file": "Alathrien.png",
-    "intro": [
-      "Alathrien Druanna's skin is pale as parchment, veined with looping elven script that reads as an unbroken journal of her own thoughts, the words sliding steadily down her limbs before spilling off her fingertips as fresh ink. Her hair falls in coils of flowing black ink, each strand curling back into itself on either side of her head, a current with no beginning or end. She wears a robe woven from unbound vellum pages, their edges constantly rewriting themselves in the same silver-white as her skin, closed at the waist by a girdle made of sewn book spines from which hang dozens of component pouches. A single gold-feathered quill rests between two fingers of one hand, angled to catch the ink as it runs from her fingertips, ready to be turned to whatever working she chooses next."
-    ],
+    "intro": [],
     "infobox": {
       "Alignment": "Neutral",
       "Symbol": "A quill drawing a rune",
@@ -233,9 +231,7 @@
       "ElvenPantheon"
     ],
     "cover_file": "Alobal.png",
-    "intro": [
-      "Alobal Lorfiril takes the form of an elven young adult wearing a coat of overlapping flower petals in a hundred varieties, giving off an intoxicating perfume. Grapevines pierce the length of his long ears, hung with grapes in every colour and finish the eye can register, each one ripe with a different divine flavour. Where his pupils should sit, small kaleidoscope patterns spin lazily, rearranging with every blink. In his hand he turns a wine goblet that never once runs empty no matter how often it is tipped."
-    ],
+    "intro": [],
     "infobox": {
       "Alignment": "Chaotic Good",
       "Symbol": "A partially drunken wineglass with colourful orbs floating out of it",
@@ -399,9 +395,7 @@
       "ElvenPantheon"
     ],
     "cover_file": "Araleth.png",
-    "intro": [
-      "Araleth Letheranil, Prince of Stars, takes the form of an elf-like man whose hair falls in strands of woven silver starlight, each strand faintly luminous. His eyes burn molten gold, casting soft sunlight out from beneath pale brows. Upon his right shoulder sits a scar of total black, rimmed at its jagged edge with a thin corona of light, like the instant of a total eclipse frozen in place. He wears constellation-etched plate armour beneath a cloak of streaming twilight, star-spurred boots at his heels, a set of rider's reins gripped in one hand and a long spear crowned with a silver sun held in the other."
-    ],
+    "intro": [],
     "infobox": {
       "Alignment": "Chaotic Good",
       "Symbol": "A white shaft of light, narrow at the top and widening toward the base",
@@ -1346,9 +1340,7 @@
       "TrickeryDomain"
     ],
     "cover_file": "Sashelas.png",
-    "intro": [
-      "Deep Sashelas takes the form of a sea elf-like man with skin and eyes of deep blue-green, both faintly luminous beneath open water. Fine ridges of pale coral run down his forearms and spine, fused directly into his flesh in overlapping layers. Threads of pale bioluminescence trace beneath his skin in shifting lines, brightening faintly at his temples and along his collarbones. He wears little beyond a mantle of dried kelp and clustered pearls slung across one shoulder, and in his hands he carries a trident of pale giant coral grown fused around three ivory narwhal horns."
-    ],
+    "intro": [],
     "infobox": {
       "Alignment": "Chaotic Good",
       "Symbol": "A dolphin",
@@ -1802,9 +1794,7 @@
       "ElvenPantheon"
     ],
     "cover_file": "Elebrin.png",
-    "intro": [
-      "Elebrin Liothiel's skin is dappled gold and green across cheek and shoulder, soft and yielding beneath the touch. His elven ears taper into curling tendrils of budding vine, and his eyes are a clear, honeyed amber. Small blossoms grow along his collarbone and the backs of his hands, opening and closing in a slow, steady rhythm. He wears a tunic of broad oak leaves overlapping down his chest, trousers of trailing bean-vine, a braided cord of wheat at his waist, and a cloak strung with acorns that click softly together with each step, and in one hand he carries a rowan trellis-staff wound thick with climbing roses in full bloom, the wood beneath barely visible through the growth."
-    ],
+    "intro": [],
     "infobox": {
       "Alignment": "Chaotic Good",
       "Symbol": "An acorn on an oak leaf",

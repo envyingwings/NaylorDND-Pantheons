@@ -13,8 +13,6 @@ cover: "[[Alobal.png]]"
 ```columns
 id: -Alobal-Page
 ===
-Alobal Lorfiril takes the form of an elven young adult wearing a coat of overlapping flower petals in a hundred varieties, giving off an intoxicating perfume. Grapevines pierce the length of his long ears, hung with grapes in every colour and finish the eye can register, each one ripe with a different divine flavour. Where his pupils should sit, small kaleidoscope patterns spin lazily, rearranging with every blink. In his hand he turns a wine goblet that never once runs empty no matter how often it is tipped.
-
 - [[#Appendix|Appendix]]
 	- [[#Appendix#Seldarine — Elven Pantheon|Seldarine — Elven Pantheon]]
 ===

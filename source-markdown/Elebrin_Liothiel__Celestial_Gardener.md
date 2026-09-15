@@ -13,8 +13,6 @@ cover: "[[Elebrin.png]]"
 ```columns
 id: -Elebrin-Page
 ===
-Elebrin Liothiel's skin is dappled gold and green across cheek and shoulder, soft and yielding beneath the touch. His elven ears taper into curling tendrils of budding vine, and his eyes are a clear, honeyed amber. Small blossoms grow along his collarbone and the backs of his hands, opening and closing in a slow, steady rhythm. He wears a tunic of broad oak leaves overlapping down his chest, trousers of trailing bean-vine, a braided cord of wheat at his waist, and a cloak strung with acorns that click softly together with each step, and in one hand he carries a rowan trellis-staff wound thick with climbing roses in full bloom, the wood beneath barely visible through the growth.
-
 - [[#Appendix|Appendix]]
 	- [[#Appendix#Seldarine — Elven Pantheon|Seldarine — Elven Pantheon]]
 ===

@@ -15,8 +15,6 @@ cover: "[[Alathrien.png]]"
 ```columns
 id: -Alathrien-Page
 ===
-Alathrien Druanna's skin is pale as parchment, veined with looping elven script that reads as an unbroken journal of her own thoughts, the words sliding steadily down her limbs before spilling off her fingertips as fresh ink. Her hair falls in coils of flowing black ink, each strand curling back into itself on either side of her head, a current with no beginning or end. She wears a robe woven from unbound vellum pages, their edges constantly rewriting themselves in the same silver-white as her skin, closed at the waist by a girdle made of sewn book spines from which hang dozens of component pouches. A single gold-feathered quill rests between two fingers of one hand, angled to catch the ink as it runs from her fingertips, ready to be turned to whatever working she chooses next.
-
 - [[#Appendix|Appendix]]
 	- [[#Appendix#Seldarine — Elven Pantheon|Seldarine — Elven Pantheon]]
 ===

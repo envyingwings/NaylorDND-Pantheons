@@ -26,8 +26,6 @@ cover: "[[Sashelas.png]]"
 ```columns
 id: -Sashelas-Page
 ===
-Deep Sashelas takes the form of a sea elf-like man with skin and eyes of deep blue-green, both faintly luminous beneath open water. Fine ridges of pale coral run down his forearms and spine, fused directly into his flesh in overlapping layers. Threads of pale bioluminescence trace beneath his skin in shifting lines, brightening faintly at his temples and along his collarbones. He wears little beyond a mantle of dried kelp and clustered pearls slung across one shoulder, and in his hands he carries a trident of pale giant coral grown fused around three ivory narwhal horns.
-
 - [[#Appendix|Appendix]]
 	- [[#Appendix#Seldarine — Elven Pantheon|Seldarine — Elven Pantheon]]
 ===
