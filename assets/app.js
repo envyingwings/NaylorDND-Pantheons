@@ -1,6 +1,6 @@
 /* Shared utilities + landing page logic for The Ourosi Pantheon wiki. */
 
-const DATA_URL = "data/deities.json?v=2915ea7a";
+const DATA_URL = "data/deities.json?v=49568a0d";
 
 /** Load the deity dataset once and cache it on window. */
 async function loadDeities() {
@@ -81,10 +81,10 @@ function displayNameHtml(d, mode) {
 
 /* ---------------- Landing page ---------------- */
 
-function deityCardHtml(d, nameMode) {
+function deityCardHtml(d, nameMode, source) {
   const href = d._cardHref || (d.multi_aspect
     ? `deity.html?d=${encodeURIComponent(d.slug)}&source=greater`
-    : `deity.html?d=${encodeURIComponent(d.slug)}`);
+    : `deity.html?d=${encodeURIComponent(d.slug)}${source ? `&source=${encodeURIComponent(source)}` : ""}`);
   const iconSource = d._cardIcon || d;
   return `
     <a class="deity-card" href="${href}" data-slug="${d.slug}">
@@ -120,6 +120,10 @@ function initLandingPage() {
     greater: { include: "OurosiDeity" },
     dwarven: { include: "DwarfPantheon" },
     elven: { include: "ElvenPantheon", exclude: "DrowPantheon", expandAspects: true },
+    drow: { include: "DrowPantheon" },
+    draconic: { include: "DragonPantheon" },
+    gnome: { include: "GnomePantheon" },
+    goblinoid: { include: "GoblinoidPantheon" },
   };
 
   loadDeities().then((deities) => {
@@ -256,7 +260,7 @@ function initLandingPage() {
         grid.innerHTML = `<p class="no-results">No deities match your search.</p>`;
         return;
       }
-      grid.innerHTML = filtered.map((d) => deityCardHtml(d, nameMode)).join("");
+      grid.innerHTML = filtered.map((d) => deityCardHtml(d, nameMode, activeTab)).join("");
     }
 
     function setActiveTab(tab) {

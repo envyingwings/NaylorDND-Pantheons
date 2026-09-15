@@ -86,18 +86,52 @@ def parse_bullets(text):
 
 def parse_appendix(body):
     """
-    Finds '### Appendix' section, extracts the sub-heading title (pantheon name)
-    and any bullet-list pantheon member links that follow the datacards block.
-    Returns dict: {title, members: [{name, blurb}]} or None.
+    Finds the '### Appendix' section and every '#### <Pantheon Name>'
+    subsection within it, each with its own bullet-list of pantheon member
+    links (read only up to the next #### subheading or the end of the
+    section, so multiple subsections never bleed into each other).
+
+    Almost every deity has exactly one subsection (they belong to one
+    pantheon), but a deity that's a genuine member of two pantheons under
+    different names -- e.g. Aasterinian/Avachel, listed on both the
+    Draconic and Elven rosters -- has two. Returns:
+      {"groups": [{"title": ..., "members": [...]}, ...], "title": <first
+      group's title, for backward compatibility>, "members": <first
+      group's members, ditto>} or None if there's no Appendix section at
+      all.
     """
     m = re.search(r"^### Appendix\s*$", body, flags=re.MULTILINE)
     if not m:
         return None
     rest = body[m.end():]
-    sub_m = re.search(r"^####\s+(.+)$", rest, flags=re.MULTILINE)
-    title = sub_m.group(1).strip() if sub_m else None
 
-    rest_wo_fence = re.sub(r"```datacards.*?```", "", rest, flags=re.DOTALL)
+    # Split on every #### subheading. re.split with a capturing group
+    # yields [pre-text-before-first-####, heading1, body1, heading2,
+    # body2, ...]; the pre-text is discarded (an Appendix section always
+    # opens with its first #### heading in every file in this vault).
+    parts = re.split(r"^####\s+(.+)$", rest, flags=re.MULTILINE)
+    sub_titles = parts[1::2]
+    sub_bodies = parts[2::2]
+    if not sub_titles:
+        # No #### subheading at all -- treat the whole section as one
+        # untitled group, same as the old single-group behavior.
+        sub_titles = [None]
+        sub_bodies = [rest]
+
+    groups = [_parse_appendix_members(title, body) for title, body in zip(sub_titles, sub_bodies)]
+    return {
+        "groups": groups,
+        "title": groups[0]["title"] if groups else None,
+        "members": groups[0]["members"] if groups else [],
+    }
+
+
+def _parse_appendix_members(title, section_body):
+    """Parses one #### subsection's bullet-list of member links, after its
+    own datacards fence. Shared by parse_appendix for however many
+    subsections a deity's Appendix has."""
+    title = title.strip() if title else None
+    rest_wo_fence = re.sub(r"```datacards.*?```", "", section_body, flags=re.DOTALL)
 
     members = []
     for line in rest_wo_fence.split("\n"):

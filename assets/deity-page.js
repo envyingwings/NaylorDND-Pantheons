@@ -22,6 +22,57 @@ const SOURCE_NAME_OVERRIDES = {
   elven: { angharradh: "Angharradh, the Moonweaver" },
 };
 
+// The appendix's own title identifies which pantheon it represents (e.g.
+// "Seldarine — Elven Pantheon", "Pantheon Draconis — Draconic Pantheon"),
+// which is exactly the "source" a reader following one of its links should
+// be considered to have come from -- independent of whatever pantheon the
+// currently-viewed deity itself belongs to. Matched by keyword rather than
+// a fixed elven/greater binary so any future pantheon tab (Dragon, Drow,
+// Gnome, Goblinoid, ...) gets a distinct source automatically instead of
+// falling back to "greater" by default. Order matters only in that ties
+// can't occur -- each pantheon title contains exactly one of these words.
+const APPENDIX_SOURCE_KEYWORDS = [
+  { match: /elven/i, source: "elven" },
+  { match: /draconic/i, source: "draconic" },
+  { match: /drow/i, source: "drow" },
+  { match: /dwarven/i, source: "dwarven" },
+  { match: /giant/i, source: "giant" },
+  { match: /gnome/i, source: "gnome" },
+  { match: /goblinoid/i, source: "goblinoid" },
+  { match: /halfling/i, source: "halfling" },
+  { match: /orcish/i, source: "orcish" },
+];
+
+function sourceFromAppendixTitle(title) {
+  if (!title) return "greater";
+  const hit = APPENDIX_SOURCE_KEYWORDS.find((k) => k.match.test(title));
+  return hit ? hit.source : "greater";
+}
+
+// For an ordinary (non-multi-aspect) deity known by a genuinely different
+// name depending on which pantheon page a reader arrived from -- e.g.
+// Aasterinian is the name used on the Draconic Pantheon (Bahamut, Tiamat,
+// Sardior's rosters), Avachel is the name used on the Elven Pantheon
+// (Corellon's roster) -- rather than one name with the other demoted to an
+// epithet. This is deliberately separate from SOURCE_NAME_OVERRIDES: that
+// one selects among an aspect's several *distinct identities* sharing one
+// page (Seha-Angharradh's four goddesses); this one is just an alternate
+// display name for a single deity with one unified page, keyed by slug
+// rather than aspect_slug. Unlisted deities are unaffected regardless of
+// source.
+const DEITY_NAME_OVERRIDES = {
+  "aasterinian-quicksilver-dragon": {
+    draconic: "Aasterinian, the Quicksilver Dragon",
+    elven: "Avachel, the Quicksilver Dragon",
+  },
+};
+
+function resolveDeityName(d, source) {
+  const overrides = DEITY_NAME_OVERRIDES[d.slug];
+  if (overrides && source && overrides[source]) return overrides[source];
+  return d.name;
+}
+
 function resolveAspectName(parent, aspect, source) {
   const overrides = SOURCE_NAME_OVERRIDES[source];
   if (overrides && overrides[aspect.aspect_slug]) return overrides[aspect.aspect_slug];
@@ -98,7 +149,7 @@ function renderMultiAspectPage(parent, placeholderSlugs, deities) {
       ${introHtml(view)}
       ${titlesDomainsHtml(view)}
       ${commandmentsHtml(view)}
-      ${appendixHtml(view, placeholderSlugs, deities)}
+      ${appendixHtml(view, placeholderSlugs, deities, source)}
     `;
     document.getElementById("deity-content").innerHTML = html;
 
@@ -186,7 +237,13 @@ const ASPECT_LINK_HINTS = [
 function resolveMemberHref(m, source) {
   const hint = ASPECT_LINK_HINTS.find((h) => h.slug === m.slug && h.match.test(m.name));
   const aspectParam = hint ? `&aspect=${encodeURIComponent(hint.aspect)}` : "";
-  const sourceParam = hint && source ? `&source=${encodeURIComponent(source)}` : "";
+  // source rides along on every member link, not just aspect ones -- an
+  // ordinary deity can also have a context-dependent name (DEITY_NAME_
+  // OVERRIDES, e.g. Aasterinian/Avachel) with no aspect tab involved at
+  // all, and the destination page ignores source entirely unless it
+  // actually has an override keyed to it, so this is harmless for every
+  // other deity.
+  const sourceParam = source ? `&source=${encodeURIComponent(source)}` : "";
   return `deity.html?d=${encodeURIComponent(m.slug)}${aspectParam}${sourceParam}`;
 }
 
@@ -211,24 +268,48 @@ function pantheonMemberHtml(m, placeholderSlugs, source, iconLookup) {
 // the same way aspectAsDeity already falls back to the parent's appendix.
 function resolveAppendix(appendix, deities) {
   if (!appendix) return null;
-  if (appendix.members && appendix.members.length > 0) return appendix;
-  if (!appendix.title || !deities) return appendix;
-  const holder = deities.find(
-    (x) => x.appendix && x.appendix.title === appendix.title && x.appendix.members && x.appendix.members.length > 0
-  );
+  const groups = appendix.groups || [{ title: appendix.title, members: appendix.members }];
+  const hasContent = groups.some((g) => g.members && g.members.length > 0);
+  if (hasContent) return appendix;
+  // Every group is empty (this deity's own file has an Appendix header and
+  // pantheon title but no bullet-list roster) -- fall back to another
+  // deity that shares the first group's title and does have members, same
+  // as before this function became group-aware.
+  const firstTitle = groups[0] && groups[0].title;
+  if (!firstTitle || !deities) return appendix;
+  const holder = deities.find((x) => {
+    if (!x.appendix) return false;
+    const xGroups = x.appendix.groups || [{ title: x.appendix.title, members: x.appendix.members }];
+    return xGroups.some((g) => g.title === firstTitle && g.members && g.members.length > 0);
+  });
   return holder ? holder.appendix : appendix;
 }
 
-function appendixHtml(d, placeholderSlugs, deities) {
+// Picks which of a deity's appendix groups to display. Almost every deity
+// has exactly one group, so this is a no-op for them. A deity with more
+// than one (currently only Aasterinian/Avachel, member of both the
+// Draconic and Elven rosters under different names) shows whichever group
+// matches the page's own source context, so a reader arriving as "Avachel"
+// from the Elven Pantheon sees the Seldarine roster, not the Draconic one.
+// Falls back to the first group if source doesn't match any (e.g. no
+// source param at all, reached via a bookmark or direct link).
+function selectAppendixGroup(appendix, pageSource) {
+  const groups = appendix.groups || [{ title: appendix.title, members: appendix.members }];
+  if (groups.length <= 1) return groups[0] || { title: null, members: [] };
+  const bySource = groups.find((g) => sourceFromAppendixTitle(g.title) === pageSource);
+  return bySource || groups[0];
+}
+
+function appendixHtml(d, placeholderSlugs, deities, pageSource) {
   const appendix = resolveAppendix(d.appendix, deities);
   if (!appendix) return "";
-  const { title, members } = appendix;
-  // The appendix's own title identifies which pantheon it represents (e.g.
-  // "Seldarine — Elven Pantheon"), which is exactly the "source" a reader
-  // following one of its links should be considered to have come from --
-  // independent of whatever pantheon the currently-viewed deity itself
-  // belongs to.
-  const source = title && /elven/i.test(title) ? "elven" : "greater";
+  const { title, members } = selectAppendixGroup(appendix, pageSource);
+  // Cross-links from this group carry the *linked-to* pantheon as their own
+  // source, independent of pageSource above (which only selected which of
+  // THIS deity's groups to show) -- e.g. following a Draconic Pantheon
+  // member link should tag that link "draconic" regardless of whether this
+  // page itself was reached as "Aasterinian" or "Avachel".
+  const outgoingSource = sourceFromAppendixTitle(title);
   const heading = title ? `<h2>${renderInline(title)}</h2>` : `<h2>Appendix</h2>`;
   if (!members || members.length === 0) {
     return `
@@ -243,7 +324,7 @@ function appendixHtml(d, placeholderSlugs, deities) {
   // looked up here (by slug) rather than duplicated onto every member
   // record, since `deities` already carries icon_ext for every deity.
   const iconLookup = new Map((deities || []).map((x) => [x.slug, x]));
-  const grid = members.map((m) => pantheonMemberHtml(m, placeholderSlugs, source, iconLookup)).join("");
+  const grid = members.map((m) => pantheonMemberHtml(m, placeholderSlugs, outgoingSource, iconLookup)).join("");
   return `
     <section class="deity-section">
       ${heading}
@@ -252,21 +333,22 @@ function appendixHtml(d, placeholderSlugs, deities) {
   `;
 }
 
-function renderDeityPage(d, placeholderSlugs, deities) {
-  document.title = `${d.name} — The Ourosi Pantheon`;
-  document.getElementById("crumb-name").textContent = d.name;
+function renderDeityPage(d, placeholderSlugs, deities, source) {
+  const displayName = resolveDeityName(d, source);
+  document.title = `${displayName} — The Ourosi Pantheon`;
+  document.getElementById("crumb-name").textContent = displayName;
 
   if (d.is_placeholder) {
     document.getElementById("deity-content").innerHTML = `
       <div class="deity-hero">
-        <img class="symbol" src="${iconPath(d)}" alt="${escapeHtml(d.name)} symbol">
+        <img class="symbol" src="${iconPath(d)}" alt="${escapeHtml(displayName)} symbol">
         <div class="deity-hero-text">
-          <h1>${renderInline(d.name)}</h1>
+          <h1>${renderInline(displayName)}</h1>
           <p class="portfolio">This deity's page has not been written yet.</p>
         </div>
       </div>
       <div class="deity-section">
-        <p class="empty-note">${escapeHtml(d.name)} is named as part of a pantheon elsewhere on this wiki, but doesn't have a full entry of their own yet. Check back later, or follow a link back to the deity whose page mentioned them.</p>
+        <p class="empty-note">${escapeHtml(displayName)} is named as part of a pantheon elsewhere on this wiki, but doesn't have a full entry of their own yet. Check back later, or follow a link back to the deity whose page mentioned them.</p>
       </div>
     `;
     return;
@@ -274,9 +356,9 @@ function renderDeityPage(d, placeholderSlugs, deities) {
 
   const html = `
     <div class="deity-hero">
-      <img class="symbol" src="${iconPath(d)}" alt="${escapeHtml(d.name)} symbol">
+      <img class="symbol" src="${iconPath(d)}" alt="${escapeHtml(displayName)} symbol">
       <div class="deity-hero-text">
-        <h1>${renderInline(d.name)}</h1>
+        <h1>${renderInline(displayName)}</h1>
         <p class="portfolio">${renderInline(d.portfolio || "")}</p>
         ${metaRowHtml(d)}
       </div>
@@ -285,7 +367,7 @@ function renderDeityPage(d, placeholderSlugs, deities) {
     ${introHtml(d)}
     ${titlesDomainsHtml(d)}
     ${commandmentsHtml(d)}
-    ${appendixHtml(d, placeholderSlugs, deities)}
+    ${appendixHtml(d, placeholderSlugs, deities, source)}
   `;
   document.getElementById("deity-content").innerHTML = html;
 }
@@ -297,6 +379,8 @@ function initDeityPage() {
     container.innerHTML = `<p class="empty-note">No deity specified.</p>`;
     return;
   }
+  const params = new URLSearchParams(window.location.search);
+  const source = params.get("source");
   loadDeities()
     .then((deities) => {
       const d = deities.find((x) => x.slug === slug);
@@ -308,7 +392,7 @@ function initDeityPage() {
       if (d.multi_aspect && Array.isArray(d.aspects) && d.aspects.length > 0) {
         renderMultiAspectPage(d, placeholderSlugs, deities);
       } else {
-        renderDeityPage(d, placeholderSlugs, deities);
+        renderDeityPage(d, placeholderSlugs, deities, source);
       }
     })
     .catch((err) => {
