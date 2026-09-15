@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ourosi Pantheon — Deities of Ouros</title>
+<meta name="description" content="A wiki of the gods of Ouros: alignment, portfolio, and the faiths that follow them.">
+<link rel="stylesheet" href="assets/style.css?v=87088491">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header-inner">
+    <div class="site-title">
+      <span>The Ourosi Pantheon</span>
+    </div>
+    <nav class="site-nav">
+      <a href="index.html">All Deities</a>
+      <a href="admin.html">Edit</a>
+    </nav>
+  </div>
+</header>
+
+<div class="pantheon-tabs" id="pantheon-tabs">
+  <button type="button" class="pantheon-tab active" data-pantheon="greater">Greater Pantheon</button>
+  <button type="button" class="pantheon-tab" data-pantheon="dwarven">Dwarven Pantheon</button>
+  <button type="button" class="pantheon-tab" data-pantheon="elven">Elven Pantheon</button>
+</div>
+
+<div class="controls">
+  <input type="search" id="search" class="search-input" placeholder="Search by name, portfolio, or title…" autocomplete="off">
+  <select id="alignment-filter" class="filter-select">
+    <option value="">All alignments</option>
+  </select>
+  <select id="name-mode" class="filter-select" title="How deity names are shown on this page">
+    <option value="name">Show: Name only</option>
+    <option value="epithet">Show: Epithet only</option>
+    <option value="both" selected>Show: Name + Epithet</option>
+  </select>
+</div>
+<p class="result-count" id="result-count"></p>
+
+<main>
+  <div class="deity-grid" id="deity-grid">
+    <!-- populated by app.js -->
+  </div>
+</main>
+
+<footer class="site-footer">
+  A fan-made compendium of the gods of Ouros. Symbols shown are placeholder emblems pending final artwork.
+</footer>
+
+<script src="assets/app.js?v=fe5703d4"></script>
+</body>
+</html>
