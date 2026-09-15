@@ -212,7 +212,7 @@
         }
       ]
     },
-    "icon_ext": "svg",
+    "icon_ext": "webp",
     "source_file": "Alathrien_Druanna__Glyphscribe.md",
     "is_placeholder": false
   },
@@ -1488,7 +1488,7 @@
         }
       ]
     },
-    "icon_ext": "svg",
+    "icon_ext": "webp",
     "source_file": "Deep_Sashelas__Dolphin_Prince.md",
     "is_placeholder": false
   },
@@ -1942,7 +1942,7 @@
         }
       ]
     },
-    "icon_ext": "svg",
+    "icon_ext": "webp",
     "source_file": "Elebrin_Liothiel__Celestial_Gardener.md",
     "is_placeholder": false
   },
@@ -2161,7 +2161,7 @@
         }
       ]
     },
-    "icon_ext": "svg",
+    "icon_ext": "webp",
     "source_file": "Erevan_Ilesere__the_Green_Changeling.md",
     "is_placeholder": false
   },
@@ -2939,7 +2939,7 @@
         }
       ]
     },
-    "icon_ext": "svg",
+    "icon_ext": "webp",
     "source_file": "Kirith_Sotheril__The_Rainbow_Magess.md",
     "is_placeholder": false
   },
@@ -3167,7 +3167,7 @@
         }
       ]
     },
-    "icon_ext": "svg",
+    "icon_ext": "webp",
     "source_file": "Labelas_Enoreth__Sage_at_Sunset.md",
     "is_placeholder": false
   },
@@ -3690,7 +3690,7 @@
         }
       ]
     },
-    "icon_ext": "svg",
+    "icon_ext": "webp",
     "source_file": "Melira_Taralen__Evergold_Songstress.md",
     "is_placeholder": false
   },
@@ -4134,7 +4134,7 @@
         }
       ]
     },
-    "icon_ext": "svg",
+    "icon_ext": "webp",
     "source_file": "Mythrien_Sarath__Mythal_Protector.md",
     "is_placeholder": false
   },
@@ -4298,7 +4298,7 @@
         }
       ]
     },
-    "icon_ext": "svg",
+    "icon_ext": "webp",
     "source_file": "Naralis_Analor__Watcher_of_Souls.md",
     "is_placeholder": false
   },
@@ -4565,7 +4565,7 @@
         }
       ]
     },
-    "icon_ext": "svg",
+    "icon_ext": "webp",
     "source_file": "Rillifane_Rallathil__Many-Branched_Wildling.md",
     "is_placeholder": false
   },
@@ -5267,7 +5267,7 @@
           "Ascend, soar, glide, dive and ascend again and relish in the freedom to do so."
         ],
         "appendix": null,
-        "icon_ext": "svg"
+        "icon_ext": "webp"
       },
       {
         "aspect_slug": "hanali",
@@ -5286,7 +5286,7 @@
         "domains_line": null,
         "commandments": [],
         "appendix": null,
-        "icon_ext": "svg"
+        "icon_ext": "webp"
       },
       {
         "aspect_slug": "sehanine",
@@ -5697,7 +5697,7 @@
         }
       ]
     },
-    "icon_ext": "svg",
+    "icon_ext": "webp",
     "source_file": "Solonor_Thelandira__Unerring_Archer.md",
     "is_placeholder": false
   },
@@ -5871,7 +5871,7 @@
         }
       ]
     },
-    "icon_ext": "svg",
+    "icon_ext": "webp",
     "source_file": "Tarsellis_Meunniduin__Frost_Hermit.md",
     "is_placeholder": false
   },
@@ -6789,7 +6789,7 @@
         }
       ]
     },
-    "icon_ext": "svg",
+    "icon_ext": "webp",
     "source_file": "Vandria_Gilmadrith__Lady_Steelheart.md",
     "is_placeholder": false
   },
