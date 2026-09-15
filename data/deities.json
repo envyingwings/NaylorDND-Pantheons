@@ -386,7 +386,7 @@
   {
     "slug": "araleth-letheranil",
     "name": "Araleth Letheranil, the Prince of Stars",
-    "portfolio": "Greater God of Stars, Elven god of light, revelations, starlight, and twilight",
+    "portfolio": "Elven god of light, revelations, starlight, and twilight",
     "alignment": "Chaotic Good",
     "domains": [],
     "status": [],
@@ -1032,7 +1032,7 @@
   {
     "slug": "clangeddin-silverbeard",
     "name": "Clangeddin Silverbeard, Rock of Battle",
-    "portfolio": "Greater God of Battle, Dwarven god of battle, bravery, honour, sports, and war",
+    "portfolio": "Dwarven god of battle, bravery, honour, sports, and war",
     "alignment": "Lawful Good",
     "domains": [
       "War"
@@ -1267,7 +1267,7 @@
   {
     "slug": "deep-duerra",
     "name": "Deep Duerra, Queen of the Invisible Art",
-    "portfolio": "Greater God of the Invisible Art, Duergar goddess of psionics and conquest",
+    "portfolio": "Duergar goddess of psionics and conquest",
     "alignment": "Lawful Evil",
     "domains": [
       "Arcana",
@@ -1314,7 +1314,7 @@
   {
     "slug": "deep-sashelas",
     "name": "Deep Sashelas, the Dolphin Prince",
-    "portfolio": "Greater God of Undersea, Elven god of seas and knowledge",
+    "portfolio": "Elven god of seas and knowledge",
     "alignment": "Chaotic Good",
     "domains": [
       "Knowledge",
@@ -2645,7 +2645,7 @@
   {
     "slug": "haela-brightaxe",
     "name": "Haela Brightaxe, Lady of the Fray",
-    "portfolio": "Greater God of the Fray, Dwarven goddess of luck, anticipation, and circumstance",
+    "portfolio": "Dwarven goddess of luck, anticipation, and circumstance",
     "alignment": "Chaotic Good",
     "domains": [
       "War"
@@ -4141,7 +4141,7 @@
   {
     "slug": "naralis-analor",
     "name": "Naralis Analor, the Watcher of Souls",
-    "portfolio": "Greater God of Souls, Elven god of healing, passage and peace",
+    "portfolio": "Elven god of healing, passage and peace",
     "alignment": "Neutral Good",
     "domains": [],
     "status": [],
@@ -5878,7 +5878,7 @@
   {
     "slug": "tethrin-veraldé",
     "name": "Tethrin Veraldé, the Master of Blades",
-    "portfolio": "Greater God of Blades, Elven god of swordsmanship",
+    "portfolio": "Elven god of swordsmanship",
     "alignment": "Neutral Good",
     "domains": [],
     "status": [
@@ -6045,7 +6045,7 @@
   {
     "slug": "thard-harr",
     "name": "Thard Harr, Dwarf of Jungle Deeps",
-    "portfolio": "Greater God of Jungle Deeps, Dwarven god of instincts, resourcefulness, and wilderness",
+    "portfolio": "Dwarven god of instincts, resourcefulness, and wilderness",
     "alignment": "Chaotic Good",
     "domains": [
       "Hunt",
@@ -6141,7 +6141,7 @@
   {
     "slug": "tharmekhûl",
     "name": "Tharmekhûl, Tender of the Forge",
-    "portfolio": "Greater God of the Forge, Dwarven god of azers, metalworking, and volcanoes",
+    "portfolio": "Dwarven god of azers, metalworking, and volcanoes",
     "alignment": "True Neutral",
     "domains": [
       "Cataclysm",
@@ -6551,7 +6551,7 @@
   {
     "slug": "ulaa",
     "name": "Ulaa, Immaculate Princess",
-    "portfolio": "Greater God of the Hills, Dwarven goddess of aristocracy, hills, and opulence",
+    "portfolio": "Dwarven goddess of aristocracy, hills, and opulence",
     "alignment": "Lawful Good",
     "domains": [
       "Beauty",

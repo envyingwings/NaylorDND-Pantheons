@@ -167,11 +167,18 @@ CANONICAL_PORTFOLIOS = {
 }
 
 
-def clean_portfolio(raw, slug):
+def clean_portfolio(raw, slug, is_greater_pantheon=False):
     """Return the hand-curated canonical portfolio for this deity slug, if
     one exists; otherwise fall back to a best-effort clean of the raw
     frontmatter string (used for any future deity not yet in the table
-    above)."""
+    above).
+
+    The "Greater God/Goddess of X" formula only applies to members of the
+    Greater Pantheon (is_greater_pantheon=True) -- for every other deity
+    (dwarven, elven, etc.) the second half of the raw string (the plain
+    "Dwarven god of..." / "Elven god of..." description) is already the
+    correct, complete portfolio text and must be returned as-is rather than
+    prefixed with an unearned "Greater God of ..." lead-in."""
     if slug in CANONICAL_PORTFOLIOS:
         return CANONICAL_PORTFOLIOS[slug]
 
@@ -182,6 +189,9 @@ def clean_portfolio(raw, slug):
 
     left, right = [p.strip() for p in raw.split("|", 1)]
     right_clean = right.rstrip(".")
+
+    if not is_greater_pantheon:
+        return right_clean
 
     if re.match(r"^Greater\s+(God|Goddess)\s+of\s+", right, flags=re.IGNORECASE):
         return right_clean
@@ -263,7 +273,11 @@ def parse_aspect_block(block_text, aspect_slug):
     appendix = parse_appendix(block_text)
 
     portfolio_raw = infobox.get("Portfolio", "")
-    portfolio = clean_portfolio(portfolio_raw, aspect_slug) if portfolio_raw else portfolio_raw
+    # Aspect portfolio text always comes from the rendered infobox line
+    # (never the raw "Title | Description" frontmatter format), so it has
+    # no pipe to split and is_greater_pantheon has no effect here -- passed
+    # through for consistency with the other call site regardless.
+    portfolio = clean_portfolio(portfolio_raw, aspect_slug, is_greater_pantheon=True) if portfolio_raw else portfolio_raw
 
     return {
         "aspect_slug": aspect_slug,
@@ -418,7 +432,10 @@ def parse_file(path):
     slug = slugify(name_guess.split(",")[0])
 
     portfolio_raw = frontmatter.get("Portfolio", "")
-    portfolio = clean_portfolio(portfolio_raw, slug)
+    tags_fm = frontmatter.get("tags", [])
+    tags_list = tags_fm if isinstance(tags_fm, list) else ([tags_fm] if tags_fm else [])
+    is_greater = "OurosiDeity" in tags_list
+    portfolio = clean_portfolio(portfolio_raw, slug, is_greater_pantheon=is_greater)
     alignment = frontmatter.get("Alignment", infobox.get("Alignment", ""))
     domains_fm = frontmatter.get("Divine Domains", [])
     status = frontmatter.get("Status", [])
