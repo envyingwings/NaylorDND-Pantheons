@@ -45,3 +45,27 @@ layout: grid
 columns: 4
 imageProperty: cover
 ```
+
+- [[Abbathor, Avaricious Trovelord]]
+- [[Berronar Truesilver, Revered Mother]]
+- [[Clangeddin Silverbeard, Rock of Battle]]
+- [[Deep Duerra, Queen of the Invisible Art]]
+- [[Diinkarazan, Twin Betrayed]]
+- [[Diirinka, Betrayer Savant]]
+- [[Dugmaren Brightmantle, Errant Explorer]]
+- [[Dumathoin, Keeper Under the Mountain]]
+- [[Gendwar Argrim, Doomed Dwarf]]
+- [[Gorm Gulthyn, Lord Bronzemask]]
+- [[Haela Brightaxe, Lady of the Fray]]
+- [[Hanseath, the Hirsute Boozer]]
+- [[Laduguer, Exile in Grey]]
+- [[Marthammor Duin, Watcher over Wanderers]]
+- [[Moradin, the All-Hammer]]
+- [[Roknar, Lord with Two Tongues]]
+- [[Sharindlar, the Shining Dancer]]
+- [[Thard Harr, Dwarf of Jungle Deeps]]
+- [[Tharmekhûl, Tender of the Forge]]
+- [[Thautam, the Blind Sage]]
+- [[Ulaa, Immaculate Princess]]
+- [[Valkauna, the Runecarver]]
+- [[Vergadain, the Laughing Merchant]]

@@ -64,7 +64,7 @@ function aspectTabsHtml(parent, activeAspectSlug, source) {
   return `<div class="aspect-tabs" id="aspect-tabs">${tabs}</div>`;
 }
 
-function renderMultiAspectPage(parent, placeholderSlugs) {
+function renderMultiAspectPage(parent, placeholderSlugs, deities) {
   const params = new URLSearchParams(window.location.search);
   const requestedAspect = params.get("aspect");
   const validSlugs = new Set(parent.aspects.map((a) => a.aspect_slug));
@@ -98,7 +98,7 @@ function renderMultiAspectPage(parent, placeholderSlugs) {
       ${introHtml(view)}
       ${titlesDomainsHtml(view)}
       ${commandmentsHtml(view)}
-      ${appendixHtml(view, placeholderSlugs)}
+      ${appendixHtml(view, placeholderSlugs, deities)}
     `;
     document.getElementById("deity-content").innerHTML = html;
 
@@ -198,9 +198,27 @@ function pantheonMemberHtml(m, placeholderSlugs, source) {
   return `<div class="pantheon-member${isPlaceholder ? " no-page" : ""}">${nameHtml}${stubTag}${blurb}</div>`;
 }
 
-function appendixHtml(d, placeholderSlugs) {
-  if (!d.appendix) return "";
-  const { title, members } = d.appendix;
+// Most pantheon member pages only carry an `### Appendix` heading (a link
+// back to the roster) with no member bullets of their own -- only the
+// pantheon's roster-holder page (e.g. Moradin for the Morndinsamman) has the
+// full member list in its source file. resolveAppendix finds that populated
+// roster elsewhere in `deities` by matching the appendix title, so every
+// member of a pantheon shows the same roster grid as the roster-holder does,
+// the same way aspectAsDeity already falls back to the parent's appendix.
+function resolveAppendix(appendix, deities) {
+  if (!appendix) return null;
+  if (appendix.members && appendix.members.length > 0) return appendix;
+  if (!appendix.title || !deities) return appendix;
+  const holder = deities.find(
+    (x) => x.appendix && x.appendix.title === appendix.title && x.appendix.members && x.appendix.members.length > 0
+  );
+  return holder ? holder.appendix : appendix;
+}
+
+function appendixHtml(d, placeholderSlugs, deities) {
+  const appendix = resolveAppendix(d.appendix, deities);
+  if (!appendix) return "";
+  const { title, members } = appendix;
   // The appendix's own title identifies which pantheon it represents (e.g.
   // "Seldarine — Elven Pantheon"), which is exactly the "source" a reader
   // following one of its links should be considered to have come from --

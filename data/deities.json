@@ -40,7 +40,146 @@
     "commandments": [],
     "appendix": {
       "title": "Morndinsamman — Dwarven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Berronar Truesilver, Revered Mother",
+          "slug": "berronar-truesilver",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Clangeddin Silverbeard, Rock of Battle",
+          "slug": "clangeddin-silverbeard",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Duerra, Queen of the Invisible Art",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diinkarazan, Twin Betrayed",
+          "slug": "diinkarazan",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diirinka, Betrayer Savant",
+          "slug": "diirinka",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dugmaren Brightmantle, Errant Explorer",
+          "slug": "dugmaren-brightmantle",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dumathoin, Keeper Under the Mountain",
+          "slug": "dumathoin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gendwar Argrim, Doomed Dwarf",
+          "slug": "gendwar-argrim",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gorm Gulthyn, Lord Bronzemask",
+          "slug": "gorm-gulthyn",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Haela Brightaxe, Lady of the Fray",
+          "slug": "haela-brightaxe",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Hanseath, the Hirsute Boozer",
+          "slug": "hanseath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Laduguer, Exile in Grey",
+          "slug": "laduguer",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Marthammor Duin, Watcher over Wanderers",
+          "slug": "marthammor-duin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Moradin, the All-Hammer",
+          "slug": "moradin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mya, Arch-Völva",
+          "slug": "mya",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Roknar, Lord with Two Tongues",
+          "slug": "roknar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sharindlar, the Shining Dancer",
+          "slug": "sharindlar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thard Harr, Dwarf of Jungle Deeps",
+          "slug": "thard-harr",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tharmekhûl, Tender of the Forge",
+          "slug": "tharmekhûl",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thautam, the Blind Sage",
+          "slug": "thautam",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Ulaa, Immaculate Princess",
+          "slug": "ulaa",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Valkauna, the Runecarver",
+          "slug": "valkauna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vergadain, the Laughing Merchant",
+          "slug": "vergadain",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "webp",
     "source_file": "Abbathor__Avaricious_Trovelord.md",
@@ -66,9 +205,9 @@
     "cover_file": "Alathrien.png",
     "intro": [],
     "infobox": {
-      "Alignment": "Neutral",
+      "Alignment": "True Neutral",
       "Symbol": "A quill drawing a rune",
-      "Portfolio": "Elven goddess of literature, runes and spellcrafting",
+      "Portfolio": "Elven goddess of writing, runes, and spellcrafting",
       "Divine Realm": "House of Knowledge, Outlands",
       "Worshippers": "Archivists, mages, scholars, spellwrights"
     },
@@ -580,7 +719,7 @@
     "infobox": {
       "Alignment": "Lawful Evil",
       "Symbol": "A crown of spiked onyx and curved horns",
-      "Portfolio": "Greater God of Indulgence, Sin, Damnation, Politics, and Negotiation",
+      "Portfolio": "Greater God of the Hells, Indulgence, Sin and Negotiation",
       "Divine Realm": "Nessus, Ninth Circle of Hell",
       "Worshippers": "Devils, the power-hungry, the desparate"
     },
@@ -780,7 +919,7 @@
     "infobox": {
       "Alignment": "Lawful Good",
       "Symbol": "A silver dragon's head in profile",
-      "Portfolio": "Greater God of Virtue, Honour, Justice, Good-aligned Dragons",
+      "Portfolio": "Greater God of Virtue, Honour, and Justice",
       "Divine Realm": "Bahamut's Palace, Mercuria",
       "Worshippers": "Dragonborn, knights, metallic dragons, nobles, paladins"
     },
@@ -906,7 +1045,7 @@
     "infobox": {
       "Alignment": "Lawful Evil",
       "Symbol": "A steel gauntlet clutching a rusted chain",
-      "Portfolio": "Greater God of Conflict, Discipline, Oppression, Strategy, Warfare and patron of Goblinkind",
+      "Portfolio": "Greater God of Conflict, Discipline, Oppression, and Warfare",
       "Divine Realm": "Banehold, Myriad Battlefields of Acheron",
       "Worshippers": "Goblinoids, conquerors, tyrants, and warlords"
     },
@@ -1023,7 +1162,146 @@
     "commandments": [],
     "appendix": {
       "title": "Morndinsamman — Dwarven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Abbathor, Avaricious Trovelord",
+          "slug": "abbathor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Clangeddin Silverbeard, Rock of Battle",
+          "slug": "clangeddin-silverbeard",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Duerra, Queen of the Invisible Art",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diinkarazan, Twin Betrayed",
+          "slug": "diinkarazan",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diirinka, Betrayer Savant",
+          "slug": "diirinka",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dugmaren Brightmantle, Errant Explorer",
+          "slug": "dugmaren-brightmantle",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dumathoin, Keeper Under the Mountain",
+          "slug": "dumathoin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gendwar Argrim, Doomed Dwarf",
+          "slug": "gendwar-argrim",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gorm Gulthyn, Lord Bronzemask",
+          "slug": "gorm-gulthyn",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Haela Brightaxe, Lady of the Fray",
+          "slug": "haela-brightaxe",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Hanseath, the Hirsute Boozer",
+          "slug": "hanseath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Laduguer, Exile in Grey",
+          "slug": "laduguer",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Marthammor Duin, Watcher over Wanderers",
+          "slug": "marthammor-duin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Moradin, the All-Hammer",
+          "slug": "moradin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mya, Arch-Völva",
+          "slug": "mya",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Roknar, Lord with Two Tongues",
+          "slug": "roknar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sharindlar, the Shining Dancer",
+          "slug": "sharindlar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thard Harr, Dwarf of Jungle Deeps",
+          "slug": "thard-harr",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tharmekhûl, Tender of the Forge",
+          "slug": "tharmekhûl",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thautam, the Blind Sage",
+          "slug": "thautam",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Ulaa, Immaculate Princess",
+          "slug": "ulaa",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Valkauna, the Runecarver",
+          "slug": "valkauna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vergadain, the Laughing Merchant",
+          "slug": "vergadain",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "webp",
     "source_file": "Berronar_Truesilver__Revered_Mother.md",
@@ -1068,7 +1346,146 @@
     "commandments": [],
     "appendix": {
       "title": "Morndinsamman — Dwarven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Abbathor, Avaricious Trovelord",
+          "slug": "abbathor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Berronar Truesilver, Revered Mother",
+          "slug": "berronar-truesilver",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Duerra, Queen of the Invisible Art",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diinkarazan, Twin Betrayed",
+          "slug": "diinkarazan",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diirinka, Betrayer Savant",
+          "slug": "diirinka",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dugmaren Brightmantle, Errant Explorer",
+          "slug": "dugmaren-brightmantle",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dumathoin, Keeper Under the Mountain",
+          "slug": "dumathoin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gendwar Argrim, Doomed Dwarf",
+          "slug": "gendwar-argrim",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gorm Gulthyn, Lord Bronzemask",
+          "slug": "gorm-gulthyn",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Haela Brightaxe, Lady of the Fray",
+          "slug": "haela-brightaxe",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Hanseath, the Hirsute Boozer",
+          "slug": "hanseath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Laduguer, Exile in Grey",
+          "slug": "laduguer",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Marthammor Duin, Watcher over Wanderers",
+          "slug": "marthammor-duin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Moradin, the All-Hammer",
+          "slug": "moradin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mya, Arch-Völva",
+          "slug": "mya",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Roknar, Lord with Two Tongues",
+          "slug": "roknar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sharindlar, the Shining Dancer",
+          "slug": "sharindlar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thard Harr, Dwarf of Jungle Deeps",
+          "slug": "thard-harr",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tharmekhûl, Tender of the Forge",
+          "slug": "tharmekhûl",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thautam, the Blind Sage",
+          "slug": "thautam",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Ulaa, Immaculate Princess",
+          "slug": "ulaa",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Valkauna, the Runecarver",
+          "slug": "valkauna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vergadain, the Laughing Merchant",
+          "slug": "vergadain",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "webp",
     "source_file": "Clangeddin_Silverbeard__Rock_of_Battle.md",
@@ -1112,7 +1529,7 @@
     "infobox": {
       "Alignment": "Chaotic Good",
       "Symbol": "Two crescent moons facing each other atop a four-pointed star",
-      "Portfolio": "Greater God of Stars, Magic, Artistry, Reincarnation, and Elves",
+      "Portfolio": "Greater God of Stars, Magic, Artistry, and Reincarnation",
       "Divine Realm": "Crescent Grove, Arvandor, Arborea",
       "Worshippers": "Elves, artists, centaur, fey"
     },
@@ -1296,7 +1713,7 @@
     "infobox": {
       "Alignment": "Lawful Evil",
       "Symbol": "Cracked illithid skull",
-      "Portfolio": "Duergar goddess of conquest and psionics",
+      "Portfolio": "Duergar goddess of psionics and conquest",
       "Divine Realm": "Citadel of Thought, Thuldanin",
       "Worshippers": "Duergar, psions, underdark travellers"
     },
@@ -1305,7 +1722,146 @@
     "commandments": [],
     "appendix": {
       "title": "Morndinsamman — Dwarven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Abbathor, Avaricious Trovelord",
+          "slug": "abbathor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Berronar Truesilver, Revered Mother",
+          "slug": "berronar-truesilver",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Clangeddin Silverbeard, Rock of Battle",
+          "slug": "clangeddin-silverbeard",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diinkarazan, Twin Betrayed",
+          "slug": "diinkarazan",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diirinka, Betrayer Savant",
+          "slug": "diirinka",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dugmaren Brightmantle, Errant Explorer",
+          "slug": "dugmaren-brightmantle",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dumathoin, Keeper Under the Mountain",
+          "slug": "dumathoin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gendwar Argrim, Doomed Dwarf",
+          "slug": "gendwar-argrim",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gorm Gulthyn, Lord Bronzemask",
+          "slug": "gorm-gulthyn",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Haela Brightaxe, Lady of the Fray",
+          "slug": "haela-brightaxe",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Hanseath, the Hirsute Boozer",
+          "slug": "hanseath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Laduguer, Exile in Grey",
+          "slug": "laduguer",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Marthammor Duin, Watcher over Wanderers",
+          "slug": "marthammor-duin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Moradin, the All-Hammer",
+          "slug": "moradin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mya, Arch-Völva",
+          "slug": "mya",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Roknar, Lord with Two Tongues",
+          "slug": "roknar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sharindlar, the Shining Dancer",
+          "slug": "sharindlar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thard Harr, Dwarf of Jungle Deeps",
+          "slug": "thard-harr",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tharmekhûl, Tender of the Forge",
+          "slug": "tharmekhûl",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thautam, the Blind Sage",
+          "slug": "thautam",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Ulaa, Immaculate Princess",
+          "slug": "ulaa",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Valkauna, the Runecarver",
+          "slug": "valkauna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vergadain, the Laughing Merchant",
+          "slug": "vergadain",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "webp",
     "source_file": "Deep_Duerra__Queen_of_the_Invisible_Art.md",
@@ -1534,7 +2090,146 @@
     "commandments": [],
     "appendix": {
       "title": "Morndinsamman — Dwarven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Abbathor, Avaricious Trovelord",
+          "slug": "abbathor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Berronar Truesilver, Revered Mother",
+          "slug": "berronar-truesilver",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Clangeddin Silverbeard, Rock of Battle",
+          "slug": "clangeddin-silverbeard",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Duerra, Queen of the Invisible Art",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diirinka, Betrayer Savant",
+          "slug": "diirinka",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dugmaren Brightmantle, Errant Explorer",
+          "slug": "dugmaren-brightmantle",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dumathoin, Keeper Under the Mountain",
+          "slug": "dumathoin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gendwar Argrim, Doomed Dwarf",
+          "slug": "gendwar-argrim",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gorm Gulthyn, Lord Bronzemask",
+          "slug": "gorm-gulthyn",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Haela Brightaxe, Lady of the Fray",
+          "slug": "haela-brightaxe",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Hanseath, the Hirsute Boozer",
+          "slug": "hanseath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Laduguer, Exile in Grey",
+          "slug": "laduguer",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Marthammor Duin, Watcher over Wanderers",
+          "slug": "marthammor-duin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Moradin, the All-Hammer",
+          "slug": "moradin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mya, Arch-Völva",
+          "slug": "mya",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Roknar, Lord with Two Tongues",
+          "slug": "roknar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sharindlar, the Shining Dancer",
+          "slug": "sharindlar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thard Harr, Dwarf of Jungle Deeps",
+          "slug": "thard-harr",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tharmekhûl, Tender of the Forge",
+          "slug": "tharmekhûl",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thautam, the Blind Sage",
+          "slug": "thautam",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Ulaa, Immaculate Princess",
+          "slug": "ulaa",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Valkauna, the Runecarver",
+          "slug": "valkauna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vergadain, the Laughing Merchant",
+          "slug": "vergadain",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "webp",
     "source_file": "Diinkarazan__Twin_Betrayed.md",
@@ -1572,7 +2267,7 @@
     "infobox": {
       "Alignment": "Chaotic Evil",
       "Symbol": "A cruel and jagged smile",
-      "Portfolio": "Derro god of cruelty, knowledge and magic",
+      "Portfolio": "Derro god of magic, knowledge, and cruelty",
       "Divine Realm": "Hidden Betrayal, Phlegethon",
       "Worshippers": "Derro"
     },
@@ -1581,7 +2276,146 @@
     "commandments": [],
     "appendix": {
       "title": "Morndinsamman — Dwarven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Abbathor, Avaricious Trovelord",
+          "slug": "abbathor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Berronar Truesilver, Revered Mother",
+          "slug": "berronar-truesilver",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Clangeddin Silverbeard, Rock of Battle",
+          "slug": "clangeddin-silverbeard",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Duerra, Queen of the Invisible Art",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diinkarazan, Twin Betrayed",
+          "slug": "diinkarazan",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dugmaren Brightmantle, Errant Explorer",
+          "slug": "dugmaren-brightmantle",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dumathoin, Keeper Under the Mountain",
+          "slug": "dumathoin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gendwar Argrim, Doomed Dwarf",
+          "slug": "gendwar-argrim",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gorm Gulthyn, Lord Bronzemask",
+          "slug": "gorm-gulthyn",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Haela Brightaxe, Lady of the Fray",
+          "slug": "haela-brightaxe",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Hanseath, the Hirsute Boozer",
+          "slug": "hanseath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Laduguer, Exile in Grey",
+          "slug": "laduguer",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Marthammor Duin, Watcher over Wanderers",
+          "slug": "marthammor-duin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Moradin, the All-Hammer",
+          "slug": "moradin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mya, Arch-Völva",
+          "slug": "mya",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Roknar, Lord with Two Tongues",
+          "slug": "roknar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sharindlar, the Shining Dancer",
+          "slug": "sharindlar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thard Harr, Dwarf of Jungle Deeps",
+          "slug": "thard-harr",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tharmekhûl, Tender of the Forge",
+          "slug": "tharmekhûl",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thautam, the Blind Sage",
+          "slug": "thautam",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Ulaa, Immaculate Princess",
+          "slug": "ulaa",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Valkauna, the Runecarver",
+          "slug": "valkauna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vergadain, the Laughing Merchant",
+          "slug": "vergadain",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "webp",
     "source_file": "Diirinka__the_Betrayer_Savant.md",
@@ -1628,7 +2462,146 @@
     "commandments": [],
     "appendix": {
       "title": "Morndinsamman — Dwarven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Abbathor, Avaricious Trovelord",
+          "slug": "abbathor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Berronar Truesilver, Revered Mother",
+          "slug": "berronar-truesilver",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Clangeddin Silverbeard, Rock of Battle",
+          "slug": "clangeddin-silverbeard",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Duerra, Queen of the Invisible Art",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diinkarazan, Twin Betrayed",
+          "slug": "diinkarazan",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diirinka, Betrayer Savant",
+          "slug": "diirinka",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dumathoin, Keeper Under the Mountain",
+          "slug": "dumathoin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gendwar Argrim, Doomed Dwarf",
+          "slug": "gendwar-argrim",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gorm Gulthyn, Lord Bronzemask",
+          "slug": "gorm-gulthyn",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Haela Brightaxe, Lady of the Fray",
+          "slug": "haela-brightaxe",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Hanseath, the Hirsute Boozer",
+          "slug": "hanseath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Laduguer, Exile in Grey",
+          "slug": "laduguer",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Marthammor Duin, Watcher over Wanderers",
+          "slug": "marthammor-duin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Moradin, the All-Hammer",
+          "slug": "moradin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mya, Arch-Völva",
+          "slug": "mya",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Roknar, Lord with Two Tongues",
+          "slug": "roknar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sharindlar, the Shining Dancer",
+          "slug": "sharindlar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thard Harr, Dwarf of Jungle Deeps",
+          "slug": "thard-harr",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tharmekhûl, Tender of the Forge",
+          "slug": "tharmekhûl",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thautam, the Blind Sage",
+          "slug": "thautam",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Ulaa, Immaculate Princess",
+          "slug": "ulaa",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Valkauna, the Runecarver",
+          "slug": "valkauna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vergadain, the Laughing Merchant",
+          "slug": "vergadain",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "webp",
     "source_file": "Dugmaren_Brightmantle__the_Errant_Explorer.md",
@@ -1661,7 +2634,7 @@
       "His realm is Deepshaft Hall, the lowest district of the Dwarven Mountain, its caverns rich with ore and natural gems left untouched. It reaches deep toward the centre of the Outlands and overlaps in places with the realm of the illithid god Ilsensine, an arrangement that is nonhostile between the two gods and entirely hostile between their followers."
     ],
     "infobox": {
-      "Alignment": "Neutral",
+      "Alignment": "True Neutral",
       "Symbol": "Gemstone inside a mountain",
       "Portfolio": "Dwarven god of mining, ore, gems, and the dead",
       "Divine Realm": "The Deepstone Forge, Outlands",
@@ -1672,7 +2645,146 @@
     "commandments": [],
     "appendix": {
       "title": "Morndinsamman — Dwarven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Abbathor, Avaricious Trovelord",
+          "slug": "abbathor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Berronar Truesilver, Revered Mother",
+          "slug": "berronar-truesilver",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Clangeddin Silverbeard, Rock of Battle",
+          "slug": "clangeddin-silverbeard",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Duerra, Queen of the Invisible Art",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diinkarazan, Twin Betrayed",
+          "slug": "diinkarazan",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diirinka, Betrayer Savant",
+          "slug": "diirinka",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dugmaren Brightmantle, Errant Explorer",
+          "slug": "dugmaren-brightmantle",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gendwar Argrim, Doomed Dwarf",
+          "slug": "gendwar-argrim",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gorm Gulthyn, Lord Bronzemask",
+          "slug": "gorm-gulthyn",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Haela Brightaxe, Lady of the Fray",
+          "slug": "haela-brightaxe",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Hanseath, the Hirsute Boozer",
+          "slug": "hanseath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Laduguer, Exile in Grey",
+          "slug": "laduguer",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Marthammor Duin, Watcher over Wanderers",
+          "slug": "marthammor-duin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Moradin, the All-Hammer",
+          "slug": "moradin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mya, Arch-Völva",
+          "slug": "mya",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Roknar, Lord with Two Tongues",
+          "slug": "roknar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sharindlar, the Shining Dancer",
+          "slug": "sharindlar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thard Harr, Dwarf of Jungle Deeps",
+          "slug": "thard-harr",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tharmekhûl, Tender of the Forge",
+          "slug": "tharmekhûl",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thautam, the Blind Sage",
+          "slug": "thautam",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Ulaa, Immaculate Princess",
+          "slug": "ulaa",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Valkauna, the Runecarver",
+          "slug": "valkauna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vergadain, the Laughing Merchant",
+          "slug": "vergadain",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "webp",
     "source_file": "Dumathoin__Keeper_Under_the_Mountain.md",
@@ -1976,7 +3088,7 @@
     "infobox": {
       "Alignment": "Lawful Neutral",
       "Symbol": "Double-headed axe inset with a pattern of scales",
-      "Portfolio": "Greater Goddess of Law, Civilization, Commerce, Peace, and Progress.",
+      "Portfolio": "Greater Goddess of Law, Civilization, Commerce, Peace, and Progress",
       "Divine Realm": "Hestavar, Astral Sea",
       "Worshippers": "Architects, judges, knights, minotaurs, rulers"
     },
@@ -2181,7 +3293,7 @@
     "infobox": {
       "Alignment": "Chaotic Neutral",
       "Symbol": "Two peering elven eyes surrounded by darkness",
-      "Portfolio": "Elven god of survival, scapegoats, outcasts, and isolation",
+      "Portfolio": "Elven god of survival, scapegoats, outcasts and isolation",
       "Divine Realm": "Fennimar, Arvandor",
       "Worshippers": "Exiles, hermits, outlaws, refugees, wild elves"
     },
@@ -2365,7 +3477,7 @@
     "infobox": {
       "Alignment": "Lawful Good",
       "Symbol": "A gold nugget",
-      "Portfolio": "Greater God of Artifice, Celebration, Jewels, Wealth, and Gnomes",
+      "Portfolio": "Greater God of Artifice, Celebration, Jewels, and Wealth",
       "Divine Realm": "The Goldenhills, Bytopia",
       "Worshippers": "Gnomes, bards, gemcutters, inventors, jewellers"
     },
@@ -2493,7 +3605,146 @@
     ],
     "appendix": {
       "title": "Morndinsamman — Dwarven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Abbathor, Avaricious Trovelord",
+          "slug": "abbathor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Berronar Truesilver, Revered Mother",
+          "slug": "berronar-truesilver",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Clangeddin Silverbeard, Rock of Battle",
+          "slug": "clangeddin-silverbeard",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Duerra, Queen of the Invisible Art",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diinkarazan, Twin Betrayed",
+          "slug": "diinkarazan",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diirinka, Betrayer Savant",
+          "slug": "diirinka",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dugmaren Brightmantle, Errant Explorer",
+          "slug": "dugmaren-brightmantle",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dumathoin, Keeper Under the Mountain",
+          "slug": "dumathoin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gorm Gulthyn, Lord Bronzemask",
+          "slug": "gorm-gulthyn",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Haela Brightaxe, Lady of the Fray",
+          "slug": "haela-brightaxe",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Hanseath, the Hirsute Boozer",
+          "slug": "hanseath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Laduguer, Exile in Grey",
+          "slug": "laduguer",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Marthammor Duin, Watcher over Wanderers",
+          "slug": "marthammor-duin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Moradin, the All-Hammer",
+          "slug": "moradin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mya, Arch-Völva",
+          "slug": "mya",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Roknar, Lord with Two Tongues",
+          "slug": "roknar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sharindlar, the Shining Dancer",
+          "slug": "sharindlar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thard Harr, Dwarf of Jungle Deeps",
+          "slug": "thard-harr",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tharmekhûl, Tender of the Forge",
+          "slug": "tharmekhûl",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thautam, the Blind Sage",
+          "slug": "thautam",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Ulaa, Immaculate Princess",
+          "slug": "ulaa",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Valkauna, the Runecarver",
+          "slug": "valkauna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vergadain, the Laughing Merchant",
+          "slug": "vergadain",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "webp",
     "source_file": "Gendwar_Argrim__Doomed_Dwarf.md",
@@ -2536,7 +3787,146 @@
     "commandments": [],
     "appendix": {
       "title": "Morndinsamman — Dwarven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Abbathor, Avaricious Trovelord",
+          "slug": "abbathor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Berronar Truesilver, Revered Mother",
+          "slug": "berronar-truesilver",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Clangeddin Silverbeard, Rock of Battle",
+          "slug": "clangeddin-silverbeard",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Duerra, Queen of the Invisible Art",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diinkarazan, Twin Betrayed",
+          "slug": "diinkarazan",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diirinka, Betrayer Savant",
+          "slug": "diirinka",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dugmaren Brightmantle, Errant Explorer",
+          "slug": "dugmaren-brightmantle",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dumathoin, Keeper Under the Mountain",
+          "slug": "dumathoin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gendwar Argrim, Doomed Dwarf",
+          "slug": "gendwar-argrim",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Haela Brightaxe, Lady of the Fray",
+          "slug": "haela-brightaxe",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Hanseath, the Hirsute Boozer",
+          "slug": "hanseath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Laduguer, Exile in Grey",
+          "slug": "laduguer",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Marthammor Duin, Watcher over Wanderers",
+          "slug": "marthammor-duin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Moradin, the All-Hammer",
+          "slug": "moradin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mya, Arch-Völva",
+          "slug": "mya",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Roknar, Lord with Two Tongues",
+          "slug": "roknar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sharindlar, the Shining Dancer",
+          "slug": "sharindlar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thard Harr, Dwarf of Jungle Deeps",
+          "slug": "thard-harr",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tharmekhûl, Tender of the Forge",
+          "slug": "tharmekhûl",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thautam, the Blind Sage",
+          "slug": "thautam",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Ulaa, Immaculate Princess",
+          "slug": "ulaa",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Valkauna, the Runecarver",
+          "slug": "valkauna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vergadain, the Laughing Merchant",
+          "slug": "vergadain",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "webp",
     "source_file": "Gorm_Gulthyn__Lord_Bronzemask.md",
@@ -2586,7 +3976,7 @@
     "infobox": {
       "Alignment": "Chaotic Evil",
       "Symbol": "A single, unlinking, bleeding eye",
-      "Portfolio": "Greater God of Natural Disasters, Curses, Outcasts, Strength, and Orcs",
+      "Portfolio": "Greater God of Natural Disasters, Curses, Outcasts, and Strength",
       "Divine Realm": "Nishrek, Avalas, Myriad Battlefields of Acheron",
       "Worshippers": "Orcs, beastfolk barbarians, outcasts, raiders"
     },
@@ -2677,7 +4067,146 @@
     "commandments": [],
     "appendix": {
       "title": "Morndinsamman — Dwarven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Abbathor, Avaricious Trovelord",
+          "slug": "abbathor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Berronar Truesilver, Revered Mother",
+          "slug": "berronar-truesilver",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Clangeddin Silverbeard, Rock of Battle",
+          "slug": "clangeddin-silverbeard",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Duerra, Queen of the Invisible Art",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diinkarazan, Twin Betrayed",
+          "slug": "diinkarazan",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diirinka, Betrayer Savant",
+          "slug": "diirinka",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dugmaren Brightmantle, Errant Explorer",
+          "slug": "dugmaren-brightmantle",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dumathoin, Keeper Under the Mountain",
+          "slug": "dumathoin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gendwar Argrim, Doomed Dwarf",
+          "slug": "gendwar-argrim",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gorm Gulthyn, Lord Bronzemask",
+          "slug": "gorm-gulthyn",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Hanseath, the Hirsute Boozer",
+          "slug": "hanseath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Laduguer, Exile in Grey",
+          "slug": "laduguer",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Marthammor Duin, Watcher over Wanderers",
+          "slug": "marthammor-duin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Moradin, the All-Hammer",
+          "slug": "moradin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mya, Arch-Völva",
+          "slug": "mya",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Roknar, Lord with Two Tongues",
+          "slug": "roknar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sharindlar, the Shining Dancer",
+          "slug": "sharindlar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thard Harr, Dwarf of Jungle Deeps",
+          "slug": "thard-harr",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tharmekhûl, Tender of the Forge",
+          "slug": "tharmekhûl",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thautam, the Blind Sage",
+          "slug": "thautam",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Ulaa, Immaculate Princess",
+          "slug": "ulaa",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Valkauna, the Runecarver",
+          "slug": "valkauna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vergadain, the Laughing Merchant",
+          "slug": "vergadain",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "webp",
     "source_file": "Haela_Brightaxe__Lady_of_the_Fray.md",
@@ -2721,7 +4250,146 @@
     "commandments": [],
     "appendix": {
       "title": "Morndinsamman — Dwarven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Abbathor, Avaricious Trovelord",
+          "slug": "abbathor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Berronar Truesilver, Revered Mother",
+          "slug": "berronar-truesilver",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Clangeddin Silverbeard, Rock of Battle",
+          "slug": "clangeddin-silverbeard",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Duerra, Queen of the Invisible Art",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diinkarazan, Twin Betrayed",
+          "slug": "diinkarazan",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diirinka, Betrayer Savant",
+          "slug": "diirinka",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dugmaren Brightmantle, Errant Explorer",
+          "slug": "dugmaren-brightmantle",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dumathoin, Keeper Under the Mountain",
+          "slug": "dumathoin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gendwar Argrim, Doomed Dwarf",
+          "slug": "gendwar-argrim",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gorm Gulthyn, Lord Bronzemask",
+          "slug": "gorm-gulthyn",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Haela Brightaxe, Lady of the Fray",
+          "slug": "haela-brightaxe",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Laduguer, Exile in Grey",
+          "slug": "laduguer",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Marthammor Duin, Watcher over Wanderers",
+          "slug": "marthammor-duin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Moradin, the All-Hammer",
+          "slug": "moradin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mya, Arch-Völva",
+          "slug": "mya",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Roknar, Lord with Two Tongues",
+          "slug": "roknar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sharindlar, the Shining Dancer",
+          "slug": "sharindlar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thard Harr, Dwarf of Jungle Deeps",
+          "slug": "thard-harr",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tharmekhûl, Tender of the Forge",
+          "slug": "tharmekhûl",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thautam, the Blind Sage",
+          "slug": "thautam",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Ulaa, Immaculate Princess",
+          "slug": "ulaa",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Valkauna, the Runecarver",
+          "slug": "valkauna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vergadain, the Laughing Merchant",
+          "slug": "vergadain",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "webp",
     "source_file": "Hanseath__Bearded_Brewer.md",
@@ -2753,9 +4421,9 @@
       "**Ioun** (pronounced /aɪˈuːn/ eye-OON), the **Knowing Mentor**, keeps the **Endless Atheneum** adrift in the Astral Sea, where she is revered by sages, seers, archivists, and tacticians, and by any who live by wit and learning rather than strength of arm. She guided the growth of civilization throughout the ages like sunlight guides the branches of a tree. Her teachings were silenced when she was grievously wounded by the Chained Oblivion during the Calamity, and though she survived and went into hiding behind the Divine Gate, her followers are hunted by agents of her ancient foes to this day. Truth and Knowledge, she teaches, cannot be quelled so easily."
     ],
     "infobox": {
-      "Alignment": "Neutral",
+      "Alignment": "True Neutral",
       "Symbol": "Pair of open eyes crowned with a third open eye",
-      "Portfolio": "Greater Goddess of Truth, Education, Knowledge, Language, Lore, Prophecy, Skill, and Wizardry",
+      "Portfolio": "Greater Goddess of Truth, Knowledge, Lore, Skill, and Wizardry",
       "Divine Realm": "Endless Atheneum",
       "Worshippers": "Sages, seers, scribes, students, wizards"
     },
@@ -2977,7 +4645,7 @@
     "infobox": {
       "Alignment": "Chaotic Neutral",
       "Symbol": "Four bolts of lightning radiating from the centre of a shield",
-      "Portfolio": "Greater God of Storms, Skies, Athletics, Battle, Heroes, Victory, and patron of Giants",
+      "Portfolio": "Greater God of Storms, Skies, Athletics, Battle, Heroes, and Victory",
       "Divine Realm": "Heroic Domains of Ysgard#Jotunheim",
       "Worshippers": "Goliath, athletes, giants, giantkin, gladiators, heroes, sailors, warriors"
     },
@@ -3198,7 +4866,7 @@
     "infobox": {
       "Alignment": "Lawful Evil",
       "Symbol": "Broken arrow",
-      "Portfolio": "Duergar god of artificers, exploitation and toil",
+      "Portfolio": "Dwarven god of artificers, exploitation and toil",
       "Divine Realm": "Hammergrim, Thuldanin",
       "Worshippers": "Duergar, artificers, slavers"
     },
@@ -3207,7 +4875,146 @@
     "commandments": [],
     "appendix": {
       "title": "Morndinsamman — Dwarven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Abbathor, Avaricious Trovelord",
+          "slug": "abbathor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Berronar Truesilver, Revered Mother",
+          "slug": "berronar-truesilver",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Clangeddin Silverbeard, Rock of Battle",
+          "slug": "clangeddin-silverbeard",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Duerra, Queen of the Invisible Art",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diinkarazan, Twin Betrayed",
+          "slug": "diinkarazan",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diirinka, Betrayer Savant",
+          "slug": "diirinka",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dugmaren Brightmantle, Errant Explorer",
+          "slug": "dugmaren-brightmantle",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dumathoin, Keeper Under the Mountain",
+          "slug": "dumathoin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gendwar Argrim, Doomed Dwarf",
+          "slug": "gendwar-argrim",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gorm Gulthyn, Lord Bronzemask",
+          "slug": "gorm-gulthyn",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Haela Brightaxe, Lady of the Fray",
+          "slug": "haela-brightaxe",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Hanseath, the Hirsute Boozer",
+          "slug": "hanseath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Marthammor Duin, Watcher over Wanderers",
+          "slug": "marthammor-duin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Moradin, the All-Hammer",
+          "slug": "moradin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mya, Arch-Völva",
+          "slug": "mya",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Roknar, Lord with Two Tongues",
+          "slug": "roknar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sharindlar, the Shining Dancer",
+          "slug": "sharindlar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thard Harr, Dwarf of Jungle Deeps",
+          "slug": "thard-harr",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tharmekhûl, Tender of the Forge",
+          "slug": "tharmekhûl",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thautam, the Blind Sage",
+          "slug": "thautam",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Ulaa, Immaculate Princess",
+          "slug": "ulaa",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Valkauna, the Runecarver",
+          "slug": "valkauna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vergadain, the Laughing Merchant",
+          "slug": "vergadain",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "webp",
     "source_file": "Laduguer__Exile_in_Grey.md",
@@ -3369,7 +5176,7 @@
     "infobox": {
       "Alignment": "Chaotic Evil",
       "Symbol": "A bejewelled spider",
-      "Portfolio": "Greater Goddess of Nightmares, Betrayal, Espionage, Manipulation, Seduction, and Drow",
+      "Portfolio": "Greater Goddess of Nightmares, Betrayal, Espionage, Manipulation, and Seduction",
       "Divine Realm": "Demonweb Pits, 66th Layer of the Abyss",
       "Worshippers": "Drow, assassins, matriarchal societies, spiders, spies"
     },
@@ -3474,7 +5281,146 @@
     "commandments": [],
     "appendix": {
       "title": "Morndinsamman — Dwarven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Abbathor, Avaricious Trovelord",
+          "slug": "abbathor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Berronar Truesilver, Revered Mother",
+          "slug": "berronar-truesilver",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Clangeddin Silverbeard, Rock of Battle",
+          "slug": "clangeddin-silverbeard",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Duerra, Queen of the Invisible Art",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diinkarazan, Twin Betrayed",
+          "slug": "diinkarazan",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diirinka, Betrayer Savant",
+          "slug": "diirinka",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dugmaren Brightmantle, Errant Explorer",
+          "slug": "dugmaren-brightmantle",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dumathoin, Keeper Under the Mountain",
+          "slug": "dumathoin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gendwar Argrim, Doomed Dwarf",
+          "slug": "gendwar-argrim",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gorm Gulthyn, Lord Bronzemask",
+          "slug": "gorm-gulthyn",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Haela Brightaxe, Lady of the Fray",
+          "slug": "haela-brightaxe",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Hanseath, the Hirsute Boozer",
+          "slug": "hanseath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Laduguer, Exile in Grey",
+          "slug": "laduguer",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Moradin, the All-Hammer",
+          "slug": "moradin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mya, Arch-Völva",
+          "slug": "mya",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Roknar, Lord with Two Tongues",
+          "slug": "roknar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sharindlar, the Shining Dancer",
+          "slug": "sharindlar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thard Harr, Dwarf of Jungle Deeps",
+          "slug": "thard-harr",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tharmekhûl, Tender of the Forge",
+          "slug": "tharmekhûl",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thautam, the Blind Sage",
+          "slug": "thautam",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Ulaa, Immaculate Princess",
+          "slug": "ulaa",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Valkauna, the Runecarver",
+          "slug": "valkauna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vergadain, the Laughing Merchant",
+          "slug": "vergadain",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "webp",
     "source_file": "Marthammor_Duin__Watcher_over_Wanderers.md",
@@ -3725,9 +5671,9 @@
       "**Melora** (pronounced /məˈlɔːrə/ muh-LOR-uh), widely known as the **Wildmother**, is as much beast as woman, both predator and prey, embodying every part of the living world's hunger and its gentleness. She roams the Beastlands, present in docile grasslands and calm tides as surely as in apex predators and the slow reclamation of fallen cities by root and wave. Hunters, druids, sailors, and nomads revere her as the mother of untamed places and the shifting ocean, seeking her blessing to live in harmony with lands and waters that still bear their wild fangs."
     ],
     "infobox": {
-      "Alignment": "Neutral",
+      "Alignment": "True Neutral",
       "Symbol": "A wreath of plantlife affixed to an anchor or crook.",
-      "Portfolio": "Greater Goddess of Nature, Beasts, Hunters, Seas, Wilderness and patron of Beastfolk.",
+      "Portfolio": "Greater Goddess of Nature, Beasts, Hunters, Seas, and Wilderness",
       "Divine Realm": "Happy Hunting Grounds of the Beastlands",
       "Worshippers": "Beastfolk, druids, hunters, rangers, sailors"
     },
@@ -3776,7 +5722,7 @@
     "infobox": {
       "Alignment": "Lawful Good",
       "Symbol": "A hammer with ends carved in the likeness of dwarven heads",
-      "Portfolio": "Greater God of Creation, Artisans, Harmony, Loyalty, Labour, Machines, and Dwarves",
+      "Portfolio": "Greater God of Creation, Artisans, Harmony, Loyalty, Labour, and Machines",
       "Divine Realm": "Dwarfhome, Solania, Mt. Celestia",
       "Worshippers": "Dwarves, artisans, craftsmen, engineers, guildmasters, and labourers"
     },
@@ -3875,6 +5821,12 @@
           "has_page": true
         },
         {
+          "name": "Tharmekhûl — Tender of the Forge",
+          "slug": "tharmekhûl",
+          "blurb": "",
+          "has_page": true
+        },
+        {
           "name": "Thautam — the Blind Sage",
           "slug": "thautam",
           "blurb": "",
@@ -3961,7 +5913,146 @@
     "commandments": [],
     "appendix": {
       "title": "Morndinsamman — Dwarven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Abbathor, Avaricious Trovelord",
+          "slug": "abbathor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Berronar Truesilver, Revered Mother",
+          "slug": "berronar-truesilver",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Clangeddin Silverbeard, Rock of Battle",
+          "slug": "clangeddin-silverbeard",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Duerra, Queen of the Invisible Art",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diinkarazan, Twin Betrayed",
+          "slug": "diinkarazan",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diirinka, Betrayer Savant",
+          "slug": "diirinka",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dugmaren Brightmantle, Errant Explorer",
+          "slug": "dugmaren-brightmantle",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dumathoin, Keeper Under the Mountain",
+          "slug": "dumathoin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gendwar Argrim, Doomed Dwarf",
+          "slug": "gendwar-argrim",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gorm Gulthyn, Lord Bronzemask",
+          "slug": "gorm-gulthyn",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Haela Brightaxe, Lady of the Fray",
+          "slug": "haela-brightaxe",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Hanseath, the Hirsute Boozer",
+          "slug": "hanseath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Laduguer, Exile in Grey",
+          "slug": "laduguer",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Marthammor Duin, Watcher over Wanderers",
+          "slug": "marthammor-duin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Moradin, the All-Hammer",
+          "slug": "moradin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Roknar, Lord with Two Tongues",
+          "slug": "roknar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sharindlar, the Shining Dancer",
+          "slug": "sharindlar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thard Harr, Dwarf of Jungle Deeps",
+          "slug": "thard-harr",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tharmekhûl, Tender of the Forge",
+          "slug": "tharmekhûl",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thautam, the Blind Sage",
+          "slug": "thautam",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Ulaa, Immaculate Princess",
+          "slug": "ulaa",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Valkauna, the Runecarver",
+          "slug": "valkauna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vergadain, the Laughing Merchant",
+          "slug": "vergadain",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "webp",
     "source_file": "Mya__Arch-Völva.md",
@@ -4154,7 +6245,7 @@
     "infobox": {
       "Alignment": "Neutral Good",
       "Symbol": "A white dove",
-      "Portfolio": "Elven god of healing, passage, and peace",
+      "Portfolio": "Elven god of healing, passage and peace",
       "Divine Realm": "Healing Glade, Amoria",
       "Worshippers": "Caretakers, gravediggers, healers, midwives, physicians, the dying"
     },
@@ -4332,7 +6423,7 @@
     "infobox": {
       "Alignment": "Lawful Good",
       "Symbol": "A bright, eight-pointed star",
-      "Portfolio": "Greater God of Dawn, Agriculture, Martyrs, Summer, the Sun, and patron of Humans",
+      "Portfolio": "Greater God of Dawn, Agriculture, Martyrs, Summer, and the Sun",
       "Divine Realm": "Light's Blessing, Amoria, Blessed Fields of Elysium",
       "Worshippers": "Humans, farmers, healers, paladins"
     },
@@ -4380,7 +6471,7 @@
     "infobox": {
       "Alignment": "Neutral Good",
       "Symbol": "A humanoid, feminine phoenix in flames.",
-      "Portfolio": "Greater Goddess of Redemption, Altruism, Fire, and Healing.",
+      "Portfolio": "Greater Goddess of Redemption, Altruism, Fire, and Healing",
       "Divine Realm": "Island of Renewal, Blessed Fields of Elysium",
       "Worshippers": "Healers, desert cultures, reformed criminals, the charitable"
     },
@@ -4602,7 +6693,146 @@
     "commandments": [],
     "appendix": {
       "title": "Morndinsamman — Dwarven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Abbathor, Avaricious Trovelord",
+          "slug": "abbathor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Berronar Truesilver, Revered Mother",
+          "slug": "berronar-truesilver",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Clangeddin Silverbeard, Rock of Battle",
+          "slug": "clangeddin-silverbeard",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Duerra, Queen of the Invisible Art",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diinkarazan, Twin Betrayed",
+          "slug": "diinkarazan",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diirinka, Betrayer Savant",
+          "slug": "diirinka",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dugmaren Brightmantle, Errant Explorer",
+          "slug": "dugmaren-brightmantle",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dumathoin, Keeper Under the Mountain",
+          "slug": "dumathoin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gendwar Argrim, Doomed Dwarf",
+          "slug": "gendwar-argrim",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gorm Gulthyn, Lord Bronzemask",
+          "slug": "gorm-gulthyn",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Haela Brightaxe, Lady of the Fray",
+          "slug": "haela-brightaxe",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Hanseath, the Hirsute Boozer",
+          "slug": "hanseath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Laduguer, Exile in Grey",
+          "slug": "laduguer",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Marthammor Duin, Watcher over Wanderers",
+          "slug": "marthammor-duin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Moradin, the All-Hammer",
+          "slug": "moradin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mya, Arch-Völva",
+          "slug": "mya",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sharindlar, the Shining Dancer",
+          "slug": "sharindlar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thard Harr, Dwarf of Jungle Deeps",
+          "slug": "thard-harr",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tharmekhûl, Tender of the Forge",
+          "slug": "tharmekhûl",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thautam, the Blind Sage",
+          "slug": "thautam",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Ulaa, Immaculate Princess",
+          "slug": "ulaa",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Valkauna, the Runecarver",
+          "slug": "valkauna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vergadain, the Laughing Merchant",
+          "slug": "vergadain",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "webp",
     "source_file": "Roknar__Lord_with_Two_Tongues.md",
@@ -4635,9 +6865,9 @@
       "**Sardior** (pronounced /ˈsɑːrdiɔːr/ SAR-dee-or), the **Ruby Wyrm**, drifts at the edge of divine perception, so consumed by the vast interior architecture of his own contemplation that the affairs of gods and mortals wash past him like wind across stone. Psions and philosophers claim him as their patron regardless, drawn to a god who seems to have found something worth thinking about for eternity. He is said to reside in the Ruby Palace, a vast and darkened fortress of gem-encrusted stone that drifts endlessly through the visible Astral Sea, often mistaken from the ground for a reddish star low on the horizon; whether he is truly within, no one has been able to say for certain."
     ],
     "infobox": {
-      "Alignment": "Neutral",
+      "Alignment": "True Neutral",
       "Symbol": "A ruby dragon with glowing eyes coiling a tower.",
-      "Portfolio": "Greater God of Psionics",
+      "Portfolio": "Greater God of Psionics, Philosophy, and Enlightenment",
       "Divine Realm": "Ruby Palace",
       "Worshippers": "Gem dragons, astronomers, monks, philosophers, psions"
     },
@@ -5343,7 +7573,7 @@
     "infobox": {
       "Alignment": "Chaotic Good",
       "Symbol": "Burning needle",
-      "Portfolio": "Dwarven goddess of love, dance, mercy, and the moon",
+      "Portfolio": "Dwarven goddess of communication, love, mercy, and the moon",
       "Divine Realm": "The Merciful Court, Nidavellir",
       "Worshippers": "Healers, lovers, midwives, those seeking courtship"
     },
@@ -5352,7 +7582,146 @@
     "commandments": [],
     "appendix": {
       "title": "Morndinsamman — Dwarven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Abbathor, Avaricious Trovelord",
+          "slug": "abbathor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Berronar Truesilver, Revered Mother",
+          "slug": "berronar-truesilver",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Clangeddin Silverbeard, Rock of Battle",
+          "slug": "clangeddin-silverbeard",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Duerra, Queen of the Invisible Art",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diinkarazan, Twin Betrayed",
+          "slug": "diinkarazan",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diirinka, Betrayer Savant",
+          "slug": "diirinka",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dugmaren Brightmantle, Errant Explorer",
+          "slug": "dugmaren-brightmantle",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dumathoin, Keeper Under the Mountain",
+          "slug": "dumathoin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gendwar Argrim, Doomed Dwarf",
+          "slug": "gendwar-argrim",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gorm Gulthyn, Lord Bronzemask",
+          "slug": "gorm-gulthyn",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Haela Brightaxe, Lady of the Fray",
+          "slug": "haela-brightaxe",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Hanseath, the Hirsute Boozer",
+          "slug": "hanseath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Laduguer, Exile in Grey",
+          "slug": "laduguer",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Marthammor Duin, Watcher over Wanderers",
+          "slug": "marthammor-duin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Moradin, the All-Hammer",
+          "slug": "moradin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mya, Arch-Völva",
+          "slug": "mya",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Roknar, Lord with Two Tongues",
+          "slug": "roknar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thard Harr, Dwarf of Jungle Deeps",
+          "slug": "thard-harr",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tharmekhûl, Tender of the Forge",
+          "slug": "tharmekhûl",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thautam, the Blind Sage",
+          "slug": "thautam",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Ulaa, Immaculate Princess",
+          "slug": "ulaa",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Valkauna, the Runecarver",
+          "slug": "valkauna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vergadain, the Laughing Merchant",
+          "slug": "vergadain",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "webp",
     "source_file": "Sharindlar__the_Shining_Dancer.md",
@@ -5727,7 +8096,7 @@
     "infobox": {
       "Alignment": "Chaotic Neutral",
       "Symbol": "A snowcapped mountain",
-      "Portfolio": "Elven god of mountains, rivers, and snow",
+      "Portfolio": "Elven god of mountains, rivers and snow",
       "Divine Realm": "Wild Ride, Ysgard",
       "Worshippers": "Herders, hermits, mountaineers, snow elves"
     },
@@ -6080,7 +8449,146 @@
     "commandments": [],
     "appendix": {
       "title": "Morndinsamman — Dwarven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Abbathor, Avaricious Trovelord",
+          "slug": "abbathor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Berronar Truesilver, Revered Mother",
+          "slug": "berronar-truesilver",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Clangeddin Silverbeard, Rock of Battle",
+          "slug": "clangeddin-silverbeard",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Duerra, Queen of the Invisible Art",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diinkarazan, Twin Betrayed",
+          "slug": "diinkarazan",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diirinka, Betrayer Savant",
+          "slug": "diirinka",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dugmaren Brightmantle, Errant Explorer",
+          "slug": "dugmaren-brightmantle",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dumathoin, Keeper Under the Mountain",
+          "slug": "dumathoin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gendwar Argrim, Doomed Dwarf",
+          "slug": "gendwar-argrim",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gorm Gulthyn, Lord Bronzemask",
+          "slug": "gorm-gulthyn",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Haela Brightaxe, Lady of the Fray",
+          "slug": "haela-brightaxe",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Hanseath, the Hirsute Boozer",
+          "slug": "hanseath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Laduguer, Exile in Grey",
+          "slug": "laduguer",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Marthammor Duin, Watcher over Wanderers",
+          "slug": "marthammor-duin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Moradin, the All-Hammer",
+          "slug": "moradin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mya, Arch-Völva",
+          "slug": "mya",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Roknar, Lord with Two Tongues",
+          "slug": "roknar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sharindlar, the Shining Dancer",
+          "slug": "sharindlar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tharmekhûl, Tender of the Forge",
+          "slug": "tharmekhûl",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thautam, the Blind Sage",
+          "slug": "thautam",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Ulaa, Immaculate Princess",
+          "slug": "ulaa",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Valkauna, the Runecarver",
+          "slug": "valkauna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vergadain, the Laughing Merchant",
+          "slug": "vergadain",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "webp",
     "source_file": "Thard_Harr__Dwarf_of_Jungle_Deeps.md",
@@ -6119,7 +8627,7 @@
     ],
     "infobox": {
       "Alignment": "Chaotic Evil",
-      "Portfolio": "Greater God of",
+      "Portfolio": "Greater God of the Abyss, Insanity, Entropy, Extinction, and Calamity",
       "Divine Realm": "Voidharrow, Layer 666 of the Infinite Abyss",
       "Worshippers": "Demons, madmen"
     },
@@ -6158,8 +8666,8 @@
       "His realm is the Istor's Forge in Dwarfhome, the beating heart of the dwarven afterlife, which dwarven scholars hold to be the source of all heat in its surrounding plane. His petitioners tend it alongside him, and ensure no fire in Dwarfhome goes out without his express orders."
     ],
     "infobox": {
-      "Alignment": "Neutral",
-      "Symbol": "Anvil topped with flame",
+      "Alignment": "True Neutral",
+      "Symbol": "Anvil topped by flame",
       "Portfolio": "Dwarven god of azers, metalworking, and volcanoes",
       "Divine Realm": "Istor's Forge, Dwarfhome",
       "Worshippers": "Azers, blacksmiths, pyromancers, smelters"
@@ -6169,7 +8677,146 @@
     "commandments": [],
     "appendix": {
       "title": "Morndinsamman — Dwarven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Abbathor, Avaricious Trovelord",
+          "slug": "abbathor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Berronar Truesilver, Revered Mother",
+          "slug": "berronar-truesilver",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Clangeddin Silverbeard, Rock of Battle",
+          "slug": "clangeddin-silverbeard",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Duerra, Queen of the Invisible Art",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diinkarazan, Twin Betrayed",
+          "slug": "diinkarazan",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diirinka, Betrayer Savant",
+          "slug": "diirinka",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dugmaren Brightmantle, Errant Explorer",
+          "slug": "dugmaren-brightmantle",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dumathoin, Keeper Under the Mountain",
+          "slug": "dumathoin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gendwar Argrim, Doomed Dwarf",
+          "slug": "gendwar-argrim",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gorm Gulthyn, Lord Bronzemask",
+          "slug": "gorm-gulthyn",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Haela Brightaxe, Lady of the Fray",
+          "slug": "haela-brightaxe",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Hanseath, the Hirsute Boozer",
+          "slug": "hanseath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Laduguer, Exile in Grey",
+          "slug": "laduguer",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Marthammor Duin, Watcher over Wanderers",
+          "slug": "marthammor-duin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Moradin, the All-Hammer",
+          "slug": "moradin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mya, Arch-Völva",
+          "slug": "mya",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Roknar, Lord with Two Tongues",
+          "slug": "roknar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sharindlar, the Shining Dancer",
+          "slug": "sharindlar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thard Harr, Dwarf of Jungle Deeps",
+          "slug": "thard-harr",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thautam, the Blind Sage",
+          "slug": "thautam",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Ulaa, Immaculate Princess",
+          "slug": "ulaa",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Valkauna, the Runecarver",
+          "slug": "valkauna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vergadain, the Laughing Merchant",
+          "slug": "vergadain",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "webp",
     "source_file": "Tharmekhûl__Tender_of_the_Forge.md",
@@ -6191,7 +8838,7 @@
     "cover_file": "Thautam.png",
     "intro": [],
     "infobox": {
-      "Alignment": "Neutral",
+      "Alignment": "True Neutral",
       "Symbol": "A blindfolded dwarf's face",
       "Portfolio": "Dwarven god of magic, mysteries, blindness, and lost treasures",
       "Divine Realm": "The Vault of Unknowing, Outlands",
@@ -6202,7 +8849,146 @@
     "commandments": [],
     "appendix": {
       "title": "Morndinsamman — Dwarven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Abbathor, Avaricious Trovelord",
+          "slug": "abbathor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Berronar Truesilver, Revered Mother",
+          "slug": "berronar-truesilver",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Clangeddin Silverbeard, Rock of Battle",
+          "slug": "clangeddin-silverbeard",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Duerra, Queen of the Invisible Art",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diinkarazan, Twin Betrayed",
+          "slug": "diinkarazan",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diirinka, Betrayer Savant",
+          "slug": "diirinka",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dugmaren Brightmantle, Errant Explorer",
+          "slug": "dugmaren-brightmantle",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dumathoin, Keeper Under the Mountain",
+          "slug": "dumathoin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gendwar Argrim, Doomed Dwarf",
+          "slug": "gendwar-argrim",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gorm Gulthyn, Lord Bronzemask",
+          "slug": "gorm-gulthyn",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Haela Brightaxe, Lady of the Fray",
+          "slug": "haela-brightaxe",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Hanseath, the Hirsute Boozer",
+          "slug": "hanseath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Laduguer, Exile in Grey",
+          "slug": "laduguer",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Marthammor Duin, Watcher over Wanderers",
+          "slug": "marthammor-duin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Moradin, the All-Hammer",
+          "slug": "moradin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mya, Arch-Völva",
+          "slug": "mya",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Roknar, Lord with Two Tongues",
+          "slug": "roknar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sharindlar, the Shining Dancer",
+          "slug": "sharindlar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thard Harr, Dwarf of Jungle Deeps",
+          "slug": "thard-harr",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tharmekhûl, Tender of the Forge",
+          "slug": "tharmekhûl",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Ulaa, Immaculate Princess",
+          "slug": "ulaa",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Valkauna, the Runecarver",
+          "slug": "valkauna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vergadain, the Laughing Merchant",
+          "slug": "vergadain",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "webp",
     "source_file": "Thautam__the_Blind_Sage.md",
@@ -6240,7 +9026,7 @@
     "infobox": {
       "Alignment": "Neutral Evil",
       "Symbol": "A five-headed dragon",
-      "Portfolio": "Greater Goddess of Ambition, Greed, and Chromatic Dragons",
+      "Portfolio": "Greater Goddess of Ambition, Greed, and Piracy",
       "Divine Realm": "Avernus, 1st Circle of Hell",
       "Worshippers": "Chromatic dragons, pirates"
     },
@@ -6361,7 +9147,7 @@
     "infobox": {
       "Alignment": "Neutral Evil",
       "Symbol": "Three pale arms clawing from a dark void",
-      "Portfolio": "Greater God of Pain, Suffering, Disability, Imprisonment, and the Underdark",
+      "Portfolio": "Greater God of Pain, Suffering, Disability, and Imprisonment",
       "Divine Realm": "Tartarean Depths of Carceri",
       "Worshippers": "Jailers, slavers, torturers"
     },
@@ -6580,7 +9366,146 @@
     "commandments": [],
     "appendix": {
       "title": "Morndinsamman — Dwarven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Abbathor, Avaricious Trovelord",
+          "slug": "abbathor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Berronar Truesilver, Revered Mother",
+          "slug": "berronar-truesilver",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Clangeddin Silverbeard, Rock of Battle",
+          "slug": "clangeddin-silverbeard",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Duerra, Queen of the Invisible Art",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diinkarazan, Twin Betrayed",
+          "slug": "diinkarazan",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diirinka, Betrayer Savant",
+          "slug": "diirinka",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dugmaren Brightmantle, Errant Explorer",
+          "slug": "dugmaren-brightmantle",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dumathoin, Keeper Under the Mountain",
+          "slug": "dumathoin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gendwar Argrim, Doomed Dwarf",
+          "slug": "gendwar-argrim",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gorm Gulthyn, Lord Bronzemask",
+          "slug": "gorm-gulthyn",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Haela Brightaxe, Lady of the Fray",
+          "slug": "haela-brightaxe",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Hanseath, the Hirsute Boozer",
+          "slug": "hanseath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Laduguer, Exile in Grey",
+          "slug": "laduguer",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Marthammor Duin, Watcher over Wanderers",
+          "slug": "marthammor-duin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Moradin, the All-Hammer",
+          "slug": "moradin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mya, Arch-Völva",
+          "slug": "mya",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Roknar, Lord with Two Tongues",
+          "slug": "roknar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sharindlar, the Shining Dancer",
+          "slug": "sharindlar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thard Harr, Dwarf of Jungle Deeps",
+          "slug": "thard-harr",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tharmekhûl, Tender of the Forge",
+          "slug": "tharmekhûl",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thautam, the Blind Sage",
+          "slug": "thautam",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Valkauna, the Runecarver",
+          "slug": "valkauna",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vergadain, the Laughing Merchant",
+          "slug": "vergadain",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "webp",
     "source_file": "Ulaa__Immaculate_Princess.md",
@@ -6614,7 +9539,146 @@
     "commandments": [],
     "appendix": {
       "title": "Morndinsamman — Dwarven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Abbathor, Avaricious Trovelord",
+          "slug": "abbathor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Berronar Truesilver, Revered Mother",
+          "slug": "berronar-truesilver",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Clangeddin Silverbeard, Rock of Battle",
+          "slug": "clangeddin-silverbeard",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Duerra, Queen of the Invisible Art",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diinkarazan, Twin Betrayed",
+          "slug": "diinkarazan",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diirinka, Betrayer Savant",
+          "slug": "diirinka",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dugmaren Brightmantle, Errant Explorer",
+          "slug": "dugmaren-brightmantle",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dumathoin, Keeper Under the Mountain",
+          "slug": "dumathoin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gendwar Argrim, Doomed Dwarf",
+          "slug": "gendwar-argrim",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gorm Gulthyn, Lord Bronzemask",
+          "slug": "gorm-gulthyn",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Haela Brightaxe, Lady of the Fray",
+          "slug": "haela-brightaxe",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Hanseath, the Hirsute Boozer",
+          "slug": "hanseath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Laduguer, Exile in Grey",
+          "slug": "laduguer",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Marthammor Duin, Watcher over Wanderers",
+          "slug": "marthammor-duin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Moradin, the All-Hammer",
+          "slug": "moradin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mya, Arch-Völva",
+          "slug": "mya",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Roknar, Lord with Two Tongues",
+          "slug": "roknar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sharindlar, the Shining Dancer",
+          "slug": "sharindlar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thard Harr, Dwarf of Jungle Deeps",
+          "slug": "thard-harr",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tharmekhûl, Tender of the Forge",
+          "slug": "tharmekhûl",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thautam, the Blind Sage",
+          "slug": "thautam",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Ulaa, Immaculate Princess",
+          "slug": "ulaa",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Vergadain, the Laughing Merchant",
+          "slug": "vergadain",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "webp",
     "source_file": "Valkauna__the_Runecarver.md",
@@ -6860,7 +9924,7 @@
     "cover_file": "Vergadain.png",
     "intro": [],
     "infobox": {
-      "Alignment": "Neutral",
+      "Alignment": "True Neutral",
       "Symbol": "Gold coin with a dwarf's face",
       "Portfolio": "Dwarven god of wealth, luck, trickery, and diplomacy",
       "Divine Realm": "The Golden Hall, Outlands",
@@ -6871,7 +9935,146 @@
     "commandments": [],
     "appendix": {
       "title": "Morndinsamman — Dwarven Pantheon",
-      "members": []
+      "members": [
+        {
+          "name": "Abbathor, Avaricious Trovelord",
+          "slug": "abbathor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Berronar Truesilver, Revered Mother",
+          "slug": "berronar-truesilver",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Clangeddin Silverbeard, Rock of Battle",
+          "slug": "clangeddin-silverbeard",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Deep Duerra, Queen of the Invisible Art",
+          "slug": "deep-duerra",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diinkarazan, Twin Betrayed",
+          "slug": "diinkarazan",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Diirinka, Betrayer Savant",
+          "slug": "diirinka",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dugmaren Brightmantle, Errant Explorer",
+          "slug": "dugmaren-brightmantle",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Dumathoin, Keeper Under the Mountain",
+          "slug": "dumathoin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gendwar Argrim, Doomed Dwarf",
+          "slug": "gendwar-argrim",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Gorm Gulthyn, Lord Bronzemask",
+          "slug": "gorm-gulthyn",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Haela Brightaxe, Lady of the Fray",
+          "slug": "haela-brightaxe",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Hanseath, the Hirsute Boozer",
+          "slug": "hanseath",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Laduguer, Exile in Grey",
+          "slug": "laduguer",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Marthammor Duin, Watcher over Wanderers",
+          "slug": "marthammor-duin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Moradin, the All-Hammer",
+          "slug": "moradin",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Mya, Arch-Völva",
+          "slug": "mya",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Roknar, Lord with Two Tongues",
+          "slug": "roknar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sharindlar, the Shining Dancer",
+          "slug": "sharindlar",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thard Harr, Dwarf of Jungle Deeps",
+          "slug": "thard-harr",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tharmekhûl, Tender of the Forge",
+          "slug": "tharmekhûl",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Thautam, the Blind Sage",
+          "slug": "thautam",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Ulaa, Immaculate Princess",
+          "slug": "ulaa",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Valkauna, the Runecarver",
+          "slug": "valkauna",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
     },
     "icon_ext": "webp",
     "source_file": "Vergadain__the_Laughing_Merchant.md",
@@ -6911,7 +10114,7 @@
     "infobox": {
       "Alignment": "Lawful Evil",
       "Symbol": "A mask with blue lenses inset over the eyes.",
-      "Portfolio": "Greater God of Theatre, Thieves, the Estranged, Territory, and Rebellion.",
+      "Portfolio": "Greater God of Theatre, Thieves, Territory, and Rebellion",
       "Divine Realm": "Ellaniath, Colothys",
       "Worshippers": "Drow (typically males), charlatans, criminals, performers."
     },
@@ -7013,7 +10216,7 @@
     "infobox": {
       "Alignment": "Lawful Good",
       "Symbol": "A cornucopia on a shield",
-      "Portfolio": "Greater God of",
+      "Portfolio": "Greater Goddess of Bounty, Fertility, Friendship, Home, Husbandry, and Medicine",
       "Divine Realm": "Green Fields, Venya, Celestia",
       "Worshippers": ""
     },
@@ -7112,7 +10315,7 @@
     "infobox": {
       "Alignment": "Chaotic Evil",
       "Symbol": "A coiled jade serpent",
-      "Portfolio": "Greater God of Blood, Poison, Murder, Obsession, Reptiles, Transmutation, and Yuan-Ti",
+      "Portfolio": "Greater God of Blood, Poison, Murder, Obsession, Reptiles, and Transmutation",
       "Divine Realm": "Sea of Poison, Towers of Night, Astral Sea",
       "Worshippers": ""
     },

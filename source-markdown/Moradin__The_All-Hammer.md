@@ -76,6 +76,7 @@ imageProperty: cover
 - [[Roknar — Lord with Two Tongues]]
 - [[Sharindlar — the Shining Dancer]]
 - [[Thard Harr — Dwarf of Jungle Deeps]]
+- [[Tharmekhûl — Tender of the Forge]]
 - [[Thautam — the Blind Sage]]
 - [[Ulaa — Immaculate Princess]]
 - [[Valkauna — the Runecarver]]

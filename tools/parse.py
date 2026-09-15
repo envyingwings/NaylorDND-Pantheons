@@ -436,7 +436,24 @@ def parse_file(path):
     tags_list = tags_fm if isinstance(tags_fm, list) else ([tags_fm] if tags_fm else [])
     is_greater = "OurosiDeity" in tags_list
     portfolio = clean_portfolio(portfolio_raw, slug, is_greater_pantheon=is_greater)
+    # The infobox's own **Portfolio.** line is hand-typed separately in the
+    # source and has repeatedly drifted from (or been left truncated
+    # relative to) the canonical portfolio above -- e.g. race/patron
+    # mentions the canonical text deliberately omits, or a line simply cut
+    # off mid-sentence. The canonical portfolio is always correct and
+    # complete, so it always wins: overwrite the infobox's displayed
+    # Portfolio row with it rather than trusting the separately-typed line.
+    if portfolio:
+        infobox["Portfolio"] = portfolio
     alignment = frontmatter.get("Alignment", infobox.get("Alignment", ""))
+    # Same drift as Portfolio above: the infobox's own **Alignment.** line is
+    # hand-typed separately from frontmatter and has been caught out of date
+    # after the standing "Neutral/Unaligned -> True Neutral" fix was applied
+    # to frontmatter but not mirrored here. Frontmatter (or its fallback to
+    # the infobox value when frontmatter has none) is always the canonical
+    # alignment, so it always wins on the displayed row too.
+    if alignment:
+        infobox["Alignment"] = alignment
     domains_fm = frontmatter.get("Divine Domains", [])
     status = frontmatter.get("Status", [])
     warlock = frontmatter.get("Warlock Province", [])

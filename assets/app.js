@@ -1,6 +1,6 @@
 /* Shared utilities + landing page logic for The Ourosi Pantheon wiki. */
 
-const DATA_URL = "data/deities.json?v=0f20a8d0";
+const DATA_URL = "data/deities.json?v=ea9e2a71";
 
 /** Load the deity dataset once and cache it on window. */
 async function loadDeities() {
