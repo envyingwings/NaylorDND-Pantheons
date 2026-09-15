@@ -432,6 +432,24 @@ a:hover { text-decoration: underline; }
   border-radius: 8px;
   padding: 12px 14px;
   font-size: 0.9rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.pantheon-member .m-symbol {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: contain;
+  background: var(--bg);
+  padding: 5px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.pantheon-member .m-text {
+  min-width: 0;
 }
 
 .pantheon-member .m-name {

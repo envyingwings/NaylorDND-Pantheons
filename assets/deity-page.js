@@ -190,12 +190,16 @@ function resolveMemberHref(m, source) {
   return `deity.html?d=${encodeURIComponent(m.slug)}${aspectParam}${sourceParam}`;
 }
 
-function pantheonMemberHtml(m, placeholderSlugs, source) {
+function pantheonMemberHtml(m, placeholderSlugs, source, iconLookup) {
   const isPlaceholder = placeholderSlugs.has(m.slug);
   const nameHtml = `<a class="m-name" href="${resolveMemberHref(m, source)}">${renderInline(m.name)}</a>`;
   const blurb = m.blurb ? `<span class="m-blurb">${renderInline(m.blurb)}</span>` : "";
   const stubTag = isPlaceholder ? `<span class="stub-tag">unwritten</span>` : "";
-  return `<div class="pantheon-member${isPlaceholder ? " no-page" : ""}">${nameHtml}${stubTag}${blurb}</div>`;
+  const iconDeity = iconLookup ? iconLookup.get(m.slug) : null;
+  const iconHtml = iconDeity
+    ? `<img class="m-symbol" src="${iconPath(iconDeity)}" alt="${escapeHtml(m.name)} symbol" loading="lazy">`
+    : "";
+  return `<div class="pantheon-member${isPlaceholder ? " no-page" : ""}">${iconHtml}<div class="m-text">${nameHtml}${stubTag}${blurb}</div></div>`;
 }
 
 // Most pantheon member pages only carry an `### Appendix` heading (a link
@@ -234,7 +238,12 @@ function appendixHtml(d, placeholderSlugs, deities) {
       </section>
     `;
   }
-  const grid = members.map((m) => pantheonMemberHtml(m, placeholderSlugs, source)).join("");
+  // Each member card shows the same symbol its own page uses, including the
+  // auto-generated placeholder icon for members without a full page yet --
+  // looked up here (by slug) rather than duplicated onto every member
+  // record, since `deities` already carries icon_ext for every deity.
+  const iconLookup = new Map((deities || []).map((x) => [x.slug, x]));
+  const grid = members.map((m) => pantheonMemberHtml(m, placeholderSlugs, source, iconLookup)).join("");
   return `
     <section class="deity-section">
       ${heading}
@@ -243,7 +252,7 @@ function appendixHtml(d, placeholderSlugs, deities) {
   `;
 }
 
-function renderDeityPage(d, placeholderSlugs) {
+function renderDeityPage(d, placeholderSlugs, deities) {
   document.title = `${d.name} — The Ourosi Pantheon`;
   document.getElementById("crumb-name").textContent = d.name;
 
@@ -276,7 +285,7 @@ function renderDeityPage(d, placeholderSlugs) {
     ${introHtml(d)}
     ${titlesDomainsHtml(d)}
     ${commandmentsHtml(d)}
-    ${appendixHtml(d, placeholderSlugs)}
+    ${appendixHtml(d, placeholderSlugs, deities)}
   `;
   document.getElementById("deity-content").innerHTML = html;
 }
@@ -297,9 +306,9 @@ function initDeityPage() {
       }
       const placeholderSlugs = new Set(deities.filter((x) => x.is_placeholder).map((x) => x.slug));
       if (d.multi_aspect && Array.isArray(d.aspects) && d.aspects.length > 0) {
-        renderMultiAspectPage(d, placeholderSlugs);
+        renderMultiAspectPage(d, placeholderSlugs, deities);
       } else {
-        renderDeityPage(d, placeholderSlugs);
+        renderDeityPage(d, placeholderSlugs, deities);
       }
     })
     .catch((err) => {
