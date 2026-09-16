@@ -26,7 +26,7 @@ id: -Tarsellis-Page
 [Forgotten Realms Wiki](https://forgottenrealms.fandom.com/wiki/Tarsellis_Meunniduin)
 ![[Tarsellis.png]]
 **Alignment.** Chaotic Neutral
-**Symbol.** A snowcapped mountain
+**Symbol.** A snow-capped icy mountain
 **Portfolio.** Elven god of mountains, rivers, and snow
 **Divine Realm.** Wild Ride, [[Heroic Domains of Ysgard|Ysgard]]
 **Worshippers.** Herders, hermits, mountaineers, snow elves

@@ -318,7 +318,7 @@
         }
       ]
     },
-    "icon_ext": "svg",
+    "icon_ext": "webp",
     "source_file": "Aasterinian__Quicksilver_Dragon.md",
     "is_placeholder": false
   },
@@ -1264,7 +1264,7 @@
         }
       ]
     },
-    "icon_ext": "svg",
+    "icon_ext": "webp",
     "source_file": "Alobal_Lorfiril__Merry_Magician.md",
     "is_placeholder": false
   },
@@ -1309,7 +1309,7 @@
     "intro": [],
     "infobox": {
       "Alignment": "Chaotic Good",
-      "Symbol": "A white shaft of light, narrow at the top and widening toward the base",
+      "Symbol": "A lantern containing a star",
       "Portfolio": "Elven god of light, revelations, starlight, and twilight",
       "Divine Realm": "House of Glowing Stars, Arvandor",
       "Worshippers": "Adventurers, astrologers, sailors, scouts, sentries"
@@ -1593,7 +1593,7 @@
         }
       ]
     },
-    "icon_ext": "svg",
+    "icon_ext": "webp",
     "source_file": "Araleth_Letheranil__Prince_of_Stars.md",
     "is_placeholder": false
   },
@@ -6333,7 +6333,7 @@
     "intro": [],
     "infobox": {
       "Alignment": "Chaotic Neutral",
-      "Symbol": "Two peering elven eyes surrounded by darkness",
+      "Symbol": "Birch bark bearing two eyes",
       "Portfolio": "Elven god of survival, scapegoats, outcasts and isolation",
       "Divine Realm": "Fennimar, Arvandor",
       "Worshippers": "Exiles, hermits, outlaws, refugees, wild elves"
@@ -6617,7 +6617,7 @@
         }
       ]
     },
-    "icon_ext": "svg",
+    "icon_ext": "webp",
     "source_file": "Fenmarel_Mestarine__the_Lone_Wolf.md",
     "is_placeholder": false
   },
@@ -14202,7 +14202,7 @@
         }
       ]
     },
-    "icon_ext": "svg",
+    "icon_ext": "webp",
     "source_file": "Sarula_Iliene__Nixie_Queen.md",
     "is_placeholder": false
   },
@@ -15638,7 +15638,7 @@
         }
       ]
     },
-    "icon_ext": "svg",
+    "icon_ext": "webp",
     "source_file": "Shevarash__Black_Archer.md",
     "is_placeholder": false
   },
@@ -16136,7 +16136,7 @@
     "intro": [],
     "infobox": {
       "Alignment": "Chaotic Neutral",
-      "Symbol": "A snowcapped mountain",
+      "Symbol": "A snow-capped icy mountain",
       "Portfolio": "Elven god of mountains, rivers and snow",
       "Divine Realm": "Wild Ride, Ysgard",
       "Worshippers": "Herders, hermits, mountaineers, snow elves"
@@ -16726,7 +16726,7 @@
         }
       ]
     },
-    "icon_ext": "svg",
+    "icon_ext": "webp",
     "source_file": "Tethrin_Veraldé__Master_of_Blades.md",
     "is_placeholder": false
   },
@@ -18334,7 +18334,7 @@
         }
       ]
     },
-    "icon_ext": "svg",
+    "icon_ext": "webp",
     "source_file": "Trishina__Joyswimmer.md",
     "is_placeholder": false
   },

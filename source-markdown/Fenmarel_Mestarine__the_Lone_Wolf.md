@@ -16,7 +16,7 @@ id: -Fenmarel-Page
 [Forgotten Realms Wiki](https://forgottenrealms.fandom.com/wiki/Fenmarel_Mestarine)
 ![[Fenmarel.png]]
 **Alignment.** Chaotic Neutral
-**Symbol.** Two peering elven eyes surrounded by darkness
+**Symbol.** Birch bark bearing two eyes
 **Portfolio.** Elven god of survival, scapegoats, outcasts, and isolation
 **Divine Realm.** Fennimar, [[Arvandor — The High Forest|Arvandor]]
 **Worshippers.** Exiles, hermits, outlaws, refugees, wild elves

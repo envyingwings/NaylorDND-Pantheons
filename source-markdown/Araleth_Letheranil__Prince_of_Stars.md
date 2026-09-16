@@ -16,7 +16,7 @@ id: -Araleth-Page
 [Forgotten Realms Wiki](https://forgottenrealms.fandom.com/wiki/Araleth_Letheranil)
 ![[Araleth.png]]
 **Alignment.** Chaotic Good
-**Symbol.** A white shaft of light, narrow at the top and widening toward the base
+**Symbol.** A lantern containing a star
 **Portfolio.** Elven god of light, revelations, starlight, and twilight
 **Divine Realm.** House of Glowing Stars, [[Arvandor — The High Forest|Arvandor]]
 **Worshippers.** Adventurers, astrologers, sailors, scouts, sentries
