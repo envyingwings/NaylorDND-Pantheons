@@ -1,6 +1,6 @@
 /* Shared utilities + landing page logic for The Ourosi Pantheon wiki. */
 
-const DATA_URL = "data/deities.json?v=d5c2fbcb";
+const DATA_URL = "data/deities.json?v=66432436";
 
 /** Load the deity dataset once and cache it on window. */
 async function loadDeities() {
@@ -174,7 +174,7 @@ function initLandingPage() {
     dwarven: { include: "DwarfPantheon" },
     elven: { include: "ElvenPantheon", exclude: "DrowPantheon", expandAspects: true },
     drow: { include: "DrowPantheon" },
-    draconic: { include: "DragonPantheon" },
+    draconic: { include: "DragonPantheon", expandAspects: true },
     gnome: { include: "GnomePantheon" },
     goblinoid: { include: "GoblinoidPantheon" },
     giant: { include: "GiantPantheon" },
@@ -210,18 +210,34 @@ function initLandingPage() {
     // Mirrors SOURCE_NAME_OVERRIDES in deity-page.js: on the Elven Pantheon
     // tab, the combined aspect displays as "Angharradh" rather than the
     // "Seha-Angharradh" name used for its card on the Greater Pantheon tab.
-    const ELVEN_ASPECT_NAME_OVERRIDES = { angharradh: "Angharradh, the Moonweaver" };
+    // Only Seha-Angharradh's combined/default aspect genuinely reads
+    // differently depending on which pantheon tab is showing it (Seha-
+    // Angharradh vs Angharradh) -- Null's three aspects (Null, Chronepsis,
+    // Falazure) are the same names on every tab that lists them, so no
+    // override entry is needed for that parent at all. Keyed by parent
+    // slug -> {aspect_slug: name}, so this can hold entries for more than
+    // one multi-aspect deity without them interfering with each other.
+    const ASPECT_NAME_OVERRIDES = {
+      "seha-angharradh": { angharradh: "Angharradh, the Moonweaver" },
+    };
 
     function expandToAspectCards(d) {
+      const overrides = ASPECT_NAME_OVERRIDES[d.slug] || {};
       return d.aspects.map((a) => ({
         slug: d.slug,
-        name: ELVEN_ASPECT_NAME_OVERRIDES[a.aspect_slug] || a.name,
+        name: overrides[a.aspect_slug] || a.name,
         portfolio: a.portfolio,
         alignment: a.alignment,
         domains: d.domains,
-        _cardHref: `deity.html?d=${encodeURIComponent(d.slug)}&aspect=${encodeURIComponent(a.aspect_slug)}&source=elven`,
-        // Only the combined/Angharradh aspect uses the merged page's own
-        // symbol; Aerdrie, Hanali, and Sehanine each keep their own icon.
+        // source is the tab this expansion is happening on, not hardcoded
+        // to "elven" -- the same expansion now also runs for the Draconic
+        // tab's Null/Chronepsis/Falazure cards, and each needs its own
+        // cards to link back with the correct source for anything that
+        // reads it downstream (e.g. a future per-tab name or portfolio
+        // override for one of these aspects).
+        _cardHref: `deity.html?d=${encodeURIComponent(d.slug)}&aspect=${encodeURIComponent(a.aspect_slug)}&source=${encodeURIComponent(activeTab)}`,
+        // Only the combined/default aspect uses the merged page's own
+        // symbol; every other aspect keeps its own distinct icon.
         _cardIcon: a.aspect_slug === d.default_aspect
           ? d
           : { slug: a.aspect_slug, icon_ext: a.icon_ext },

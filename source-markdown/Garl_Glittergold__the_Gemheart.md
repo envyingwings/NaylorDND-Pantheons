@@ -62,15 +62,15 @@ layout: grid
 columns: 4
 imageProperty: cover
 ```
-- [[Baervan Wildwanderer — Woodland Rascal|Baervan Wildwanderer, the Woodland Rascal]]
-- [[Baravar Cloakshadow — Lord of Sly Disguises|Baravar Cloakshadow, the Lord of Sly Disguise]]
-- [[Callarduran Smoothhands — Brother Deepearth|Callarduran Smoothands, Brother Deepearth]]
-- [[Flandal Steelskin — Great Steelsmith|Flandal Steelskin, the Great Steelsmith]]
-- [[Gaerdal Ironhand — Shield of Goldenhills|Gaeldal Ironhand, the Shield of Goldenhills]]
+- [[Baervan Wildwanderer, the Woodland Rascal]]
+- [[Baravar Cloakshadow, the Lord of Sly Disguise]]
+- [[Callarduran Smoothhands, Brother Deepearth]]
+- [[Flandal Steelskin, the Great Steelsmith]]
+- [[Gaeldal Ironhand, the Shield of Goldenhills]]
 - [[Gelf Darkhearth, Twin of Sorrow]]
-- [[Nebelun the Meddler, the Interloping Inventor|Nebelun the Meddler, the Interloping Inventor]]
+- [[Nebelun the Meddler, the Interloping Inventor]]
 - [[Ril Cleverthrush, Skylark Artist]]
 - [[Roykyn, the Teasing Trickster]]
-- [[Segojan Earthcaller — Lord of the Burrow|Segojan Earthcaller, Lord of the Burrow]]
+- [[Segojan Earthcaller, Lord of the Burrow]]
 - [[Sheyanna Flaxenstrand, Glamoured Princess]]
-- [[Urdlen — Crawler Below|Urdlen, the Mole of Gluttony]]
+- [[Urdlen, the Mole of Gluttony]]

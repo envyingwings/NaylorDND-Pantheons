@@ -1269,6 +1269,32 @@
     "is_placeholder": false
   },
   {
+    "slug": "annam-all-father",
+    "name": "Annam All-Father, the Lord of the Ordning",
+    "portfolio": "Giant god of creation, fertility, philosophy, and titans",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Giant Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GiantPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Giant god of creation, fertility, philosophy, and titans"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Annam_All-Father__the_Lord_of_the_Ordning.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "araleth-letheranil",
     "name": "Araleth Letheranil, the Prince of Stars",
     "portfolio": "Elven god of light, revelations, starlight, and twilight",
@@ -1572,6 +1598,32 @@
     "is_placeholder": false
   },
   {
+    "slug": "arvoreen",
+    "name": "Arvoreen, Wary Sword of Hin",
+    "portfolio": "Halfling god of defence, duty, and vigilance",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Halfling Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "HalflingPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Halfling god of defence, duty, and vigilance"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Arvoreen__Wary_Sword_of_Hin.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "asmodeus",
     "name": "Asmodeus, Lord of the Nine Hells",
     "portfolio": "Greater God of the Hells, Indulgence, Sin and Negotiation",
@@ -1728,6 +1780,32 @@
     "is_placeholder": false
   },
   {
+    "slug": "astilabor",
+    "name": "Astilabor, the Hoardmistress",
+    "portfolio": "Draconic goddess of materialism, status, and wealth",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Draconic Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "DragonPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Draconic goddess of materialism, status, and wealth"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Astilabor__the_Hoardmistress.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "avandra",
     "name": "Avandra, the Changebringer",
     "portfolio": "Greater Goddess of Change, Freedom, Revolution, Travel, and Luck",
@@ -1872,6 +1950,32 @@
     },
     "icon_ext": "webp",
     "source_file": "Avandra__The_Changebringer.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "baervan-wildwanderer",
+    "name": "Baervan Wildwanderer, the Woodland Rascal",
+    "portfolio": "Gnome god of forests, travel, and nature",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Gnome Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GnomePantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Gnome god of forests, travel, and nature"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Baervan_Wildwanderer__the_Woodland_Rascal.md",
     "is_placeholder": false
   },
   {
@@ -2080,6 +2184,32 @@
     "is_placeholder": false
   },
   {
+    "slug": "bahgtru",
+    "name": "Bahgtru, Fist of the Chieftain",
+    "portfolio": "Orcish god of brutality, loyalty, and strength",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Orc Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "OrcPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Orcish god of brutality, loyalty, and strength"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Bahgtru__Fist_of_the_Chieftain.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "bane",
     "name": "Bane, the Strife Emperor",
     "portfolio": "Greater God of Conflict, Discipline, Oppression, and Warfare",
@@ -2131,25 +2261,25 @@
           "members": [
             {
               "name": "Bargrivyek, Peace's Enforcer",
-              "slug": "bargrivyek-indurate-enforcer",
+              "slug": "bargrivyek",
               "blurb": "",
               "has_page": true
             },
             {
               "name": "Grankhul, the Hunterbug",
-              "slug": "grankhul-the-hunterbug",
+              "slug": "grankhul",
               "blurb": "",
               "has_page": true
             },
             {
               "name": "Hruggek, the Dropbear",
-              "slug": "hruggek-the-dropbear",
+              "slug": "hruggek",
               "blurb": "",
               "has_page": true
             },
             {
               "name": "Khurgorbaeyag, the Red Overseer",
-              "slug": "khurgorbaeyag-the-overseer",
+              "slug": "khurgorbaeyag",
               "blurb": "",
               "has_page": true
             },
@@ -2161,7 +2291,7 @@
             },
             {
               "name": "Maglubiyet, the Blue Chieftain",
-              "slug": "maglubiyet-blue-chieftain",
+              "slug": "maglubiyet",
               "blurb": "",
               "has_page": true
             },
@@ -2173,13 +2303,13 @@
             },
             {
               "name": "Nomog-Geaya, the Red General",
-              "slug": "nomog-geaya-the-red-general",
+              "slug": "nomog-geaya",
               "blurb": "",
               "has_page": true
             },
             {
               "name": "Skiggaret, Bugbear's Bogeyman",
-              "slug": "skiggaret-bugbears-bogeyman",
+              "slug": "skiggaret",
               "blurb": "",
               "has_page": true
             }
@@ -2190,25 +2320,25 @@
       "members": [
         {
           "name": "Bargrivyek, Peace's Enforcer",
-          "slug": "bargrivyek-indurate-enforcer",
+          "slug": "bargrivyek",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Grankhul, the Hunterbug",
-          "slug": "grankhul-the-hunterbug",
+          "slug": "grankhul",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Hruggek, the Dropbear",
-          "slug": "hruggek-the-dropbear",
+          "slug": "hruggek",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Khurgorbaeyag, the Red Overseer",
-          "slug": "khurgorbaeyag-the-overseer",
+          "slug": "khurgorbaeyag",
           "blurb": "",
           "has_page": true
         },
@@ -2220,7 +2350,7 @@
         },
         {
           "name": "Maglubiyet, the Blue Chieftain",
-          "slug": "maglubiyet-blue-chieftain",
+          "slug": "maglubiyet",
           "blurb": "",
           "has_page": true
         },
@@ -2232,13 +2362,13 @@
         },
         {
           "name": "Nomog-Geaya, the Red General",
-          "slug": "nomog-geaya-the-red-general",
+          "slug": "nomog-geaya",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Skiggaret, Bugbear's Bogeyman",
-          "slug": "skiggaret-bugbears-bogeyman",
+          "slug": "skiggaret",
           "blurb": "",
           "has_page": true
         }
@@ -2246,6 +2376,58 @@
     },
     "icon_ext": "webp",
     "source_file": "Bane__The_Strife_Emperor.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "baravar-cloakshadow",
+    "name": "Baravar Cloakshadow, the Lord of Sly Disguise",
+    "portfolio": "Gnome god of illusions and stealth",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Gnome Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GnomePantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Gnome god of illusions and stealth"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Baravar_Cloakshadow__the_Lord_of_Sly_Disguise.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "bargrivyek",
+    "name": "Bargrivyek, Peace's Enforcer",
+    "portfolio": "Hobgoblin god of duty, cooperation, enforcement, and territory",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Goblinoid Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GoblinoidPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Hobgoblin god of duty, cooperation, enforcement, and territory"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Bargrivyek__Peaces_Enforcer.md",
     "is_placeholder": false
   },
   {
@@ -2579,6 +2761,58 @@
     },
     "icon_ext": "webp",
     "source_file": "Berronar_Truesilver__Revered_Mother.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "brandobaris",
+    "name": "Brandobaris, the Irrepressible Scamp",
+    "portfolio": "Halfling god of adventure, treasure, and thieves",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Halfling Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "HalflingPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Halfling god of adventure, treasure, and thieves"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Brandobaris__the_Irrepressible_Scamp.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "callarduran-smoothhands",
+    "name": "Callarduran Smoothhands, Brother Deepearth",
+    "portfolio": "Gnome god of mining and the Underdark",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Gnome Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GnomePantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Gnome god of mining and the Underdark"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Callarduran_Smoothhands__Brother_Deepearth.md",
     "is_placeholder": false
   },
   {
@@ -3237,6 +3471,58 @@
     },
     "icon_ext": "webp",
     "source_file": "Corellon_Larethian__The_Arch-Seldarine.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "cyrollalee",
+    "name": "Cyrollalee, Hand of the Fellowship",
+    "portfolio": "Halfling goddess of hospitality and community",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Halfling Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "HalflingPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Halfling goddess of hospitality and community"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Cyrollalee__Hand_of_the_Fellowship.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "dallah-thaun",
+    "name": "Dallah Thaun, Lady of Mystery",
+    "portfolio": "Halfling goddess of death, night, and secrets",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Halfling Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "HalflingPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Halfling goddess of death, night, and secrets"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Dallah_Thaun__Lady_of_Mystery.md",
     "is_placeholder": false
   },
   {
@@ -6336,6 +6622,58 @@
     "is_placeholder": false
   },
   {
+    "slug": "flandal-steelskin",
+    "name": "Flandal Steelskin, the Great Steelsmith",
+    "portfolio": "Gnome god of metalworking",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Gnome Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GnomePantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Gnome god of metalworking"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Flandal_Steelskin__the_Great_Steelsmith.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "gaeldal-ironhand",
+    "name": "Gaeldal Ironhand, the Shield of Goldenhills",
+    "portfolio": "Gnome god of combat and vigilance",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Gnome Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GnomePantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Gnome god of combat and vigilance"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Gaeldal_Ironhand__the_Shield_of_Goldenhills.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "garl-glittergold",
     "name": "Garl Glittergold, the Gemheart",
     "portfolio": "Greater God of Artifice, Celebration, Jewels, and Wealth",
@@ -6389,31 +6727,31 @@
           "members": [
             {
               "name": "Baervan Wildwanderer, the Woodland Rascal",
-              "slug": "baervan-wildwanderer-woodland-rascal",
+              "slug": "baervan-wildwanderer",
               "blurb": "",
               "has_page": true
             },
             {
               "name": "Baravar Cloakshadow, the Lord of Sly Disguise",
-              "slug": "baravar-cloakshadow-lord-of-sly-disguises",
+              "slug": "baravar-cloakshadow",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Callarduran Smoothands, Brother Deepearth",
-              "slug": "callarduran-smoothhands-brother-deepearth",
+              "name": "Callarduran Smoothhands, Brother Deepearth",
+              "slug": "callarduran-smoothhands",
               "blurb": "",
               "has_page": true
             },
             {
               "name": "Flandal Steelskin, the Great Steelsmith",
-              "slug": "flandal-steelskin-great-steelsmith",
+              "slug": "flandal-steelskin",
               "blurb": "",
               "has_page": true
             },
             {
               "name": "Gaeldal Ironhand, the Shield of Goldenhills",
-              "slug": "gaerdal-ironhand-shield-of-goldenhills",
+              "slug": "gaeldal-ironhand",
               "blurb": "",
               "has_page": true
             },
@@ -6443,7 +6781,7 @@
             },
             {
               "name": "Segojan Earthcaller, Lord of the Burrow",
-              "slug": "segojan-earthcaller-lord-of-the-burrow",
+              "slug": "segojan-earthcaller",
               "blurb": "",
               "has_page": true
             },
@@ -6455,7 +6793,7 @@
             },
             {
               "name": "Urdlen, the Mole of Gluttony",
-              "slug": "urdlen-crawler-below",
+              "slug": "urdlen",
               "blurb": "",
               "has_page": true
             }
@@ -6466,31 +6804,31 @@
       "members": [
         {
           "name": "Baervan Wildwanderer, the Woodland Rascal",
-          "slug": "baervan-wildwanderer-woodland-rascal",
+          "slug": "baervan-wildwanderer",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Baravar Cloakshadow, the Lord of Sly Disguise",
-          "slug": "baravar-cloakshadow-lord-of-sly-disguises",
+          "slug": "baravar-cloakshadow",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Callarduran Smoothands, Brother Deepearth",
-          "slug": "callarduran-smoothhands-brother-deepearth",
+          "name": "Callarduran Smoothhands, Brother Deepearth",
+          "slug": "callarduran-smoothhands",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Flandal Steelskin, the Great Steelsmith",
-          "slug": "flandal-steelskin-great-steelsmith",
+          "slug": "flandal-steelskin",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Gaeldal Ironhand, the Shield of Goldenhills",
-          "slug": "gaerdal-ironhand-shield-of-goldenhills",
+          "slug": "gaeldal-ironhand",
           "blurb": "",
           "has_page": true
         },
@@ -6520,7 +6858,7 @@
         },
         {
           "name": "Segojan Earthcaller, Lord of the Burrow",
-          "slug": "segojan-earthcaller-lord-of-the-burrow",
+          "slug": "segojan-earthcaller",
           "blurb": "",
           "has_page": true
         },
@@ -6532,7 +6870,7 @@
         },
         {
           "name": "Urdlen, the Mole of Gluttony",
-          "slug": "urdlen-crawler-below",
+          "slug": "urdlen",
           "blurb": "",
           "has_page": true
         }
@@ -6540,6 +6878,58 @@
     },
     "icon_ext": "webp",
     "source_file": "Garl_Glittergold__the_Gemheart.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "garyx",
+    "name": "Garyx, Cleanser of Worlds",
+    "portfolio": "Draconic god of fire, destruction, and renewal",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Draconic Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "DragonPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Draconic god of fire, destruction, and renewal"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Garyx__Cleanser_of_Worlds.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "gelf-darkhearth",
+    "name": "Gelf Darkhearth, Twin of Sorrow",
+    "portfolio": "Gnome god of compulsion, entropy, and rebellion",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Gnome Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GnomePantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Gnome god of compulsion, entropy, and rebellion"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Gelf_Darkhearth__Twin_of_Sorrow.md",
     "is_placeholder": false
   },
   {
@@ -6869,6 +7259,32 @@
     "is_placeholder": false
   },
   {
+    "slug": "ghaunadaur",
+    "name": "Ghaunadaur, That-Which-Lurks",
+    "portfolio": "Drow god of despair, suicide, oozes, and aberrations",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Drow Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "DrowPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Drow god of despair, suicide, oozes, and aberrations"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Ghaunadaur__That-Which-Lurks.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "gorm-gulthyn",
     "name": "Gorm Gulthyn, Lord Bronzemask",
     "portfolio": "Dwarven god of guardians, protection, and vigilance",
@@ -7193,6 +7609,58 @@
     },
     "icon_ext": "webp",
     "source_file": "Gorm_Gulthyn__Lord_Bronzemask.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "grankhul",
+    "name": "Grankhul, the Hunterbug",
+    "portfolio": "Bugbear god of stealth, instinct, and surprise",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Goblinoid Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GoblinoidPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Bugbear god of stealth, instinct, and surprise"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Grankhul__the_Hunterbug.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "grolantor",
+    "name": "Grolantor, the Ever-Hungry",
+    "portfolio": "Giant god of battle, hunting, strength, and taletelling",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Giant Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GiantPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Giant god of battle, hunting, strength, and taletelling"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Grolantor__the_Ever-Hungry.md",
     "is_placeholder": false
   },
   {
@@ -7992,6 +8460,110 @@
     "is_placeholder": false
   },
   {
+    "slug": "hiatea",
+    "name": "Hiatea, Huntress of Legends",
+    "portfolio": "Giant goddess of nature, children, and sustenance",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Giant Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GiantPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Giant goddess of nature, children, and sustenance"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Hiatea__Huntress_of_Legends.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "hruggek",
+    "name": "Hruggek, the Dropbear",
+    "portfolio": "Bugbear god of ambush and violence",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Goblinoid Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GoblinoidPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Bugbear god of ambush and violence"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Hruggek__the_Dropbear.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "iallanis",
+    "name": "Iallanis, the Gentle Giantess",
+    "portfolio": "Giant goddess of love, beauty, and mercy",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Giant Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GiantPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Giant goddess of love, beauty, and mercy"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Iallanis__the_Gentle_Giantess.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "ilneval",
+    "name": "Ilneval, the Hordemaker",
+    "portfolio": "Orcish god of battle, strategy, and war",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Orc Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "OrcPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Orcish god of battle, strategy, and war"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Ilneval__the_Hordemaker.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "ioun",
     "name": "Ioun, the Knowing Mentor",
     "portfolio": "Greater Goddess of Truth, Knowledge, Lore, Skill, and Wizardry",
@@ -8033,6 +8605,162 @@
     "appendix": null,
     "icon_ext": "webp",
     "source_file": "Ioun__The_Knowing_Mentor.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "karontor",
+    "name": "Karontor, the Crawler-Below",
+    "portfolio": "Giant god of beasts and darkness",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Giant Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GiantPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Giant god of beasts and darkness"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Karontor__the_Crawler-Below.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "keptolo",
+    "name": "Keptolo, the Masochedonist",
+    "portfolio": "Drow god of fertility, flattery, intoxication, and rumour",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Drow Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "DrowPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Drow god of fertility, flattery, intoxication, and rumour"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Keptolo__the_Masochedonist.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "kereska",
+    "name": "Kereska, Wonderbringer",
+    "portfolio": "Draconic goddess of magic, creativity, and grace",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Draconic Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "DragonPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Draconic goddess of magic, creativity, and grace"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Kereska__Wonderbringer.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "khurgorbaeyag",
+    "name": "Khurgorbaeyag, the Red Overseer",
+    "portfolio": "Goblin god of slavery, oppression, and social order",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Goblinoid Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GoblinoidPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Goblin god of slavery, oppression, and social order"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Khurgorbaeyag__the_Red_Overseer.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "kiaransalee",
+    "name": "Kiaransalee, Banshee's Bride",
+    "portfolio": "Drow goddess of divorce, spite, undeath, and vengeance",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Drow Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "DrowPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Drow goddess of divorce, spite, undeath, and vengeance"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Kiaransalee__Banshees_Bride.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "kikanuti",
+    "name": "Kikanuti, the Oasis Kiln",
+    "portfolio": "Goblin goddess of fertility, community, deserts, pottery, and water",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Goblinoid Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GoblinoidPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Goblin goddess of fertility, community, deserts, pottery, and water"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Kikanuti__the_Oasis_Kiln.md",
     "is_placeholder": false
   },
   {
@@ -8525,6 +9253,32 @@
     },
     "icon_ext": "webp",
     "source_file": "Kord__The_Stormwarrior.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "kurtulmak",
+    "name": "Kurtulmak, the Horned Sorcerer",
+    "portfolio": "Kobold god of ambush, mining, sorcerers, and kobolds",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Draconic Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "DragonPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Kobold god of ambush, mining, sorcerers, and kobolds"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Kurtulmak__the_Horned_Sorcerer.md",
     "is_placeholder": false
   },
   {
@@ -9350,6 +10104,32 @@
     "is_placeholder": false
   },
   {
+    "slug": "lendys",
+    "name": "Lendys, Scale of Justice",
+    "portfolio": "Draconic god of balance and justice",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Draconic Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "DragonPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Draconic god of balance and justice"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Lendys__Scale_of_Justice.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "lolth",
     "name": "Lolth, the Spider Queen",
     "portfolio": "Greater Goddess of Nightmares, Betrayal, Espionage, Manipulation, and Seduction",
@@ -9511,6 +10291,84 @@
     },
     "icon_ext": "webp",
     "source_file": "Lolth__The_Queen_of_Spiders.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "luthic",
+    "name": "Luthic, Bloodmoon Mother",
+    "portfolio": "Orcish goddess of beasts, caves, fertility, and witchery",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Orc Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "OrcPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Orcish goddess of beasts, caves, fertility, and witchery"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Luthic__Bloodmoon_Mother.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "maglubiyet",
+    "name": "Maglubiyet, the Blue Chieftain",
+    "portfolio": "Goblin god of conquest and leadership",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Goblinoid Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GoblinoidPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Goblin god of conquest and leadership"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Maglubiyet__the_Blue_Chieftain.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "malyk",
+    "name": "Malyk, Maelstrom Magus",
+    "portfolio": "Drow god of sorcery, destruction, and wild magic",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Drow Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "DrowPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Drow god of sorcery, destruction, and wild magic"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Malyk__Maelstrom_Magus.md",
     "is_placeholder": false
   },
   {
@@ -10246,6 +11104,58 @@
     "appendix": null,
     "icon_ext": "webp",
     "source_file": "Melora__The_Wildmother.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "memnor",
+    "name": "Memnor, the Silver-lined Prince",
+    "portfolio": "Giant god of nobility, pride, and theatre",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Giant Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GiantPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Giant god of nobility, pride, and theatre"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Memnor__the_Silver-lined_Prince.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "meriadar",
+    "name": "Meriadar, Mongrel Saint",
+    "portfolio": "Goblin god of knowledge, mutation, and tolerance",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Goblinoid Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GoblinoidPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Goblin god of knowledge, mutation, and tolerance"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Meriadar__Mongrel_Saint.md",
     "is_placeholder": false
   },
   {
@@ -11521,6 +12431,495 @@
     "is_placeholder": false
   },
   {
+    "slug": "nathair-sgiathach",
+    "name": "Nathair Sgiathach, Scampdrake",
+    "portfolio": "Draconic god of pseudodragons, faerie dragons, and mischief",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Draconic Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "DragonPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Draconic god of pseudodragons, faerie dragons, and mischief"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Nathair_Sgiathach__Scampdrake.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "nebelun-the-meddler",
+    "name": "Nebelun the Meddler, the Interloping Inventor",
+    "portfolio": "Gnome god of invention and construction",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Gnome Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GnomePantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Gnome god of invention and construction"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Nebelun_the_Meddler__the_Interloping_Inventor.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "nomog-geaya",
+    "name": "Nomog-Geaya, the Red General",
+    "portfolio": "Hobgoblin god of war and authority",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Goblinoid Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GoblinoidPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Hobgoblin god of war and authority"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Nomog-Geaya__the_Red_General.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "null",
+    "name": "Null, Great Deathwyrm",
+    "portfolio": "Draconic god of time and death",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Draconic Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "DragonPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Draconic god of time and death"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": {
+      "groups": [
+        {
+          "title": "Pantheon Draconis — Draconic Pantheon",
+          "members": [
+            {
+              "name": "Aasterinian, the Quicksilver Dragon",
+              "slug": "aasterinian",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Astilabor, the Hoardmistress",
+              "slug": "astilabor",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Bahamut, The Platinum Dragon",
+              "slug": "bahamut",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Garyx, Cleanser of Worlds",
+              "slug": "garyx",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Kereska, Wonderbringer",
+              "slug": "kereska",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Kurtulmak, the Horned Sorcerer",
+              "slug": "kurtulmak",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Lendys, Scale of Justice",
+              "slug": "lendys",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Nathair Sgiathach, Scampdrake",
+              "slug": "nathair-sgiathach",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Sardior, The Ruby Wyrm",
+              "slug": "sardior",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Tamara, Her Mercy",
+              "slug": "tamara",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Tiamat, The Chromatic Tyrant",
+              "slug": "tiamat",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Zorquan, Perfect Wyrm",
+              "slug": "zorquan",
+              "blurb": "",
+              "has_page": true
+            }
+          ]
+        }
+      ],
+      "title": "Pantheon Draconis — Draconic Pantheon",
+      "members": [
+        {
+          "name": "Aasterinian, the Quicksilver Dragon",
+          "slug": "aasterinian",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Astilabor, the Hoardmistress",
+          "slug": "astilabor",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Bahamut, The Platinum Dragon",
+          "slug": "bahamut",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Garyx, Cleanser of Worlds",
+          "slug": "garyx",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Kereska, Wonderbringer",
+          "slug": "kereska",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Kurtulmak, the Horned Sorcerer",
+          "slug": "kurtulmak",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Lendys, Scale of Justice",
+          "slug": "lendys",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Nathair Sgiathach, Scampdrake",
+          "slug": "nathair-sgiathach",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Sardior, The Ruby Wyrm",
+          "slug": "sardior",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tamara, Her Mercy",
+          "slug": "tamara",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Tiamat, The Chromatic Tyrant",
+          "slug": "tiamat",
+          "blurb": "",
+          "has_page": true
+        },
+        {
+          "name": "Zorquan, Perfect Wyrm",
+          "slug": "zorquan",
+          "blurb": "",
+          "has_page": true
+        }
+      ]
+    },
+    "icon_ext": "svg",
+    "source_file": "Null__Great_Deathwyrm.md",
+    "multi_aspect": true,
+    "default_aspect": "null",
+    "aspects": [
+      {
+        "aspect_slug": "null",
+        "name": "Null, Great Deathwyrm",
+        "portfolio": "Draconic god of time and death",
+        "alignment": "",
+        "intro": [],
+        "infobox": {
+          "Portfolio": "Draconic god of time and death"
+        },
+        "titles_line": null,
+        "domains_line": null,
+        "commandments": [],
+        "appendix": {
+          "groups": [
+            {
+              "title": "Pantheon Draconis — Draconic Pantheon",
+              "members": [
+                {
+                  "name": "Aasterinian, the Quicksilver Dragon",
+                  "slug": "aasterinian",
+                  "blurb": "",
+                  "has_page": true
+                },
+                {
+                  "name": "Astilabor, the Hoardmistress",
+                  "slug": "astilabor",
+                  "blurb": "",
+                  "has_page": true
+                },
+                {
+                  "name": "Bahamut, The Platinum Dragon",
+                  "slug": "bahamut",
+                  "blurb": "",
+                  "has_page": true
+                },
+                {
+                  "name": "Garyx, Cleanser of Worlds",
+                  "slug": "garyx",
+                  "blurb": "",
+                  "has_page": true
+                },
+                {
+                  "name": "Kereska, Wonderbringer",
+                  "slug": "kereska",
+                  "blurb": "",
+                  "has_page": true
+                },
+                {
+                  "name": "Kurtulmak, the Horned Sorcerer",
+                  "slug": "kurtulmak",
+                  "blurb": "",
+                  "has_page": true
+                },
+                {
+                  "name": "Lendys, Scale of Justice",
+                  "slug": "lendys",
+                  "blurb": "",
+                  "has_page": true
+                },
+                {
+                  "name": "Nathair Sgiathach, Scampdrake",
+                  "slug": "nathair-sgiathach",
+                  "blurb": "",
+                  "has_page": true
+                },
+                {
+                  "name": "Sardior, The Ruby Wyrm",
+                  "slug": "sardior",
+                  "blurb": "",
+                  "has_page": true
+                },
+                {
+                  "name": "Tamara, Her Mercy",
+                  "slug": "tamara",
+                  "blurb": "",
+                  "has_page": true
+                },
+                {
+                  "name": "Tiamat, The Chromatic Tyrant",
+                  "slug": "tiamat",
+                  "blurb": "",
+                  "has_page": true
+                },
+                {
+                  "name": "Zorquan, Perfect Wyrm",
+                  "slug": "zorquan",
+                  "blurb": "",
+                  "has_page": true
+                }
+              ]
+            }
+          ],
+          "title": "Pantheon Draconis — Draconic Pantheon",
+          "members": [
+            {
+              "name": "Aasterinian, the Quicksilver Dragon",
+              "slug": "aasterinian",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Astilabor, the Hoardmistress",
+              "slug": "astilabor",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Bahamut, The Platinum Dragon",
+              "slug": "bahamut",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Garyx, Cleanser of Worlds",
+              "slug": "garyx",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Kereska, Wonderbringer",
+              "slug": "kereska",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Kurtulmak, the Horned Sorcerer",
+              "slug": "kurtulmak",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Lendys, Scale of Justice",
+              "slug": "lendys",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Nathair Sgiathach, Scampdrake",
+              "slug": "nathair-sgiathach",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Sardior, The Ruby Wyrm",
+              "slug": "sardior",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Tamara, Her Mercy",
+              "slug": "tamara",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Tiamat, The Chromatic Tyrant",
+              "slug": "tiamat",
+              "blurb": "",
+              "has_page": true
+            },
+            {
+              "name": "Zorquan, Perfect Wyrm",
+              "slug": "zorquan",
+              "blurb": "",
+              "has_page": true
+            }
+          ]
+        },
+        "icon_ext": "svg"
+      },
+      {
+        "aspect_slug": "chronepsis",
+        "name": "Chronepsis, Guardian of the Lost",
+        "portfolio": "Draconic god of fate, death, and judgement",
+        "alignment": "",
+        "intro": [],
+        "infobox": {
+          "Portfolio": "Draconic god of fate, death, and judgement"
+        },
+        "titles_line": null,
+        "domains_line": null,
+        "commandments": [],
+        "appendix": null,
+        "icon_ext": "svg"
+      },
+      {
+        "aspect_slug": "falazure",
+        "name": "Falazure, the Devourer of Souls",
+        "portfolio": "Draconic god of decay, undeath, and exhaustion",
+        "alignment": "",
+        "intro": [],
+        "infobox": {
+          "Portfolio": "Draconic god of decay, undeath, and exhaustion"
+        },
+        "titles_line": null,
+        "domains_line": null,
+        "commandments": [],
+        "appendix": null,
+        "icon_ext": "svg"
+      }
+    ],
+    "is_placeholder": false
+  },
+  {
+    "slug": "obould-many-arrows",
+    "name": "Obould Many-Arrows, Iron Khan",
+    "portfolio": "Orcish god of tribes, transport, and tribute",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Orc Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "OrcPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Orcish god of tribes, transport, and tribute"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Obould_Many-Arrows__Iron_Khan.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "pelor",
     "name": "Pelor, the Dawnfather",
     "portfolio": "Greater God of Dawn, Agriculture, Martyrs, Summer, and the Sun",
@@ -11612,6 +13011,32 @@
     "appendix": null,
     "icon_ext": "webp",
     "source_file": "Raei__The_Everlight.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "ril-cleverthrush",
+    "name": "Ril Cleverthrush, Skylark Artist",
+    "portfolio": "Gnomish god of artisans, artists, sky, and weather",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Gnome Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GnomePantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Gnomish god of artisans, artists, sky, and weather"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Ril_Cleverthrush__Skylark_Artist.md",
     "is_placeholder": false
   },
   {
@@ -12250,6 +13675,32 @@
     "is_placeholder": false
   },
   {
+    "slug": "roykyn",
+    "name": "Roykyn, the Teasing Trickster",
+    "portfolio": "Gnomish goddess of fear, malice, mockery, and temptation",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Gnome Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GnomePantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Gnomish goddess of fear, malice, mockery, and temptation"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Roykyn__the_Teasing_Trickster.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "sardior",
     "name": "Sardior, the Ruby Wyrm",
     "portfolio": "Greater God of Psionics, Philosophy, and Enlightenment",
@@ -12753,6 +14204,32 @@
     },
     "icon_ext": "svg",
     "source_file": "Sarula_Iliene__Nixie_Queen.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "segojan-earthcaller",
+    "name": "Segojan Earthcaller, Lord of the Burrow",
+    "portfolio": "Gnomish god of earth and death",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Gnome Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GnomePantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Gnomish god of earth and death"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Segojan_Earthcaller__Lord_of_the_Burrow.md",
     "is_placeholder": false
   },
   {
@@ -13454,6 +14931,58 @@
     "is_placeholder": false
   },
   {
+    "slug": "selvetarm",
+    "name": "Selvetarm, Champion of the Spider",
+    "portfolio": "Drow god of warriors and slavery",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Drow Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "DrowPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Drow god of warriors and slavery"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Selvetarm__Champion_of_the_Spider.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "shargaas",
+    "name": "Shargaas, the Stalker Below",
+    "portfolio": "Orcish god of dishonour, darkness, and murder",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Orc Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "OrcPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Orcish god of dishonour, darkness, and murder"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Shargaas__the_Stalker_Below.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "sharindlar",
     "name": "Sharindlar, the Shining Dancer",
     "portfolio": "Dwarven goddess of communication, love, mercy, and the moon",
@@ -13780,6 +15309,32 @@
     "is_placeholder": false
   },
   {
+    "slug": "sheela-peryroyl",
+    "name": "Sheela Peryroyl, Green Sister",
+    "portfolio": "Halfling goddess of nature, art, and love",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Halfling Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "HalflingPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Halfling goddess of nature, art, and love"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Sheela_Peryroyl__Green_Sister.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "shevarash",
     "name": "Shevarash, the Black Archer",
     "portfolio": "Elven god of vengeance, loss, and hatred",
@@ -14085,6 +15640,84 @@
     },
     "icon_ext": "svg",
     "source_file": "Shevarash__Black_Archer.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "sheyanna-flaxenstrand",
+    "name": "Sheyanna Flaxenstrand, Glamoured Princess",
+    "portfolio": "Gnomish goddess of love and passion",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Gnome Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GnomePantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Gnomish goddess of love and passion"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Sheyanna_Flaxenstrand__Glamoured_Princess.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "skiggaret",
+    "name": "Skiggaret, Bugbear's Bogeyman",
+    "portfolio": "Bugbear god of fear, hunting, and monsters",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Goblinoid Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GoblinoidPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Bugbear god of fear, hunting, and monsters"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Skiggaret__Bugbears_Bogeyman.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "skoraeus-stonebones",
+    "name": "Skoraeus Stonebones, the Earthen Dream",
+    "portfolio": "Giant god of burial, dreams, masonry, and painting",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Giant Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GiantPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Giant god of burial, dreams, masonry, and painting"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Skoraeus_Stonebones__the_Earthen_Dream.md",
     "is_placeholder": false
   },
   {
@@ -14398,6 +16031,84 @@
     },
     "icon_ext": "webp",
     "source_file": "Solonor_Thelandira__Unerring_Archer.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "stronmaus",
+    "name": "Stronmaus, the Smiling Storm",
+    "portfolio": "Giant god of sky, sun, music, and weather",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Giant Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GiantPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Giant god of sky, sun, music, and weather"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Stronmaus__the_Smiling_Storm.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "surtr",
+    "name": "Surtr, All-Consuming Flame",
+    "portfolio": "Giant god of fire, machines, metallurgy, and war",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Giant Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GiantPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Giant god of fire, machines, metallurgy, and war"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Surtr__All-Consuming_Flame.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "tamara",
+    "name": "Tamara, Her Mercy",
+    "portfolio": "Draconic god of forgiveness, healing, and mercy",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Draconic Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "DragonPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Draconic god of forgiveness, healing, and mercy"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Tamara__Her_Mercy.md",
     "is_placeholder": false
   },
   {
@@ -16044,6 +17755,32 @@
     "is_placeholder": false
   },
   {
+    "slug": "thrymr",
+    "name": "Thrymr, the Frost Reaver",
+    "portfolio": "Giant god of cold, seas, raiding, and woodworking",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Giant Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GiantPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Giant god of cold, seas, raiding, and woodworking"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Thrymr__the_Frost_Reaver.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "tiamat",
     "name": "Tiamat, the Chromatic Tyrant",
     "portfolio": "Greater Goddess of Ambition, Greed, and Piracy",
@@ -16921,6 +18658,58 @@
     },
     "icon_ext": "webp",
     "source_file": "Ulaa__Immaculate_Princess.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "urdlen",
+    "name": "Urdlen, the Mole of Gluttony",
+    "portfolio": "Gnomish deity of greed and bloodlust",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Gnome Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "GnomePantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Gnomish deity of greed and bloodlust"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Urdlen__the_Mole_of_Gluttony.md",
+    "is_placeholder": false
+  },
+  {
+    "slug": "urogalan",
+    "name": "Urogalan, Black Hound",
+    "portfolio": "Halfling god of graves, exorcism, and omens",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Halfling Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "HalflingPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Halfling god of graves, exorcism, and omens"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Urogalan__Black_Hound.md",
     "is_placeholder": false
   },
   {
@@ -18224,6 +20013,32 @@
     "is_placeholder": false
   },
   {
+    "slug": "yurtrus",
+    "name": "Yurtrus, the White-Handed",
+    "portfolio": "Orcish god of decay, disease, and rot",
+    "alignment": "",
+    "domains": [],
+    "status": [
+      "Orc Pantheon"
+    ],
+    "warlock_province": [],
+    "tags": [
+      "OrcPantheon"
+    ],
+    "cover_file": null,
+    "intro": [],
+    "infobox": {
+      "Portfolio": "Orcish god of decay, disease, and rot"
+    },
+    "titles_line": null,
+    "domains_line": null,
+    "commandments": [],
+    "appendix": null,
+    "icon_ext": "svg",
+    "source_file": "Yurtrus__the_White-Handed.md",
+    "is_placeholder": false
+  },
+  {
     "slug": "zehir",
     "name": "Zehir, the Cloaked Serpent",
     "portfolio": "Greater God of Blood, Poison, Murder, Obsession, Reptiles, and Transmutation",
@@ -18277,202 +20092,56 @@
     "is_placeholder": false
   },
   {
-    "slug": "astilabor",
-    "name": "Astilabor, the Hoardmistress",
-    "portfolio": "",
+    "slug": "zinzerena",
+    "name": "Zinzerena, Princess of the Outcasts",
+    "portfolio": "Drow goddess of humiliation, murder, and escape",
     "alignment": "",
     "domains": [],
-    "status": [],
+    "status": [
+      "Drow Pantheon"
+    ],
     "warlock_province": [],
     "tags": [
-      "DragonPantheon"
+      "DrowPantheon"
     ],
     "cover_file": null,
     "intro": [],
-    "infobox": {},
+    "infobox": {
+      "Portfolio": "Drow goddess of humiliation, murder, and escape"
+    },
     "titles_line": null,
     "domains_line": null,
     "commandments": [],
     "appendix": null,
-    "source_file": null,
     "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "garyx",
-    "name": "Garyx, Cleanser of Worlds",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "DragonPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "kereska",
-    "name": "Kereska, Wonderbringer",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "DragonPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "kurtulmak",
-    "name": "Kurtulmak, the Horned Sorcerer",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "DragonPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "lendys",
-    "name": "Lendys, Scale of Justice",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "DragonPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "nathair-sgiathach",
-    "name": "Nathair Sgiathach, Scampdrake",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "DragonPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "null",
-    "name": "Null, Great Deathwyrm",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "DragonPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "tamara",
-    "name": "Tamara, Her Mercy",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "DragonPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
+    "source_file": "Zinzerena__Princess_of_the_Outcasts.md",
+    "is_placeholder": false
   },
   {
     "slug": "zorquan",
     "name": "Zorquan, Perfect Wyrm",
-    "portfolio": "",
+    "portfolio": "Draconic god of dragonkind",
     "alignment": "",
     "domains": [],
-    "status": [],
+    "status": [
+      "Draconic Pantheon"
+    ],
     "warlock_province": [],
     "tags": [
       "DragonPantheon"
     ],
     "cover_file": null,
     "intro": [],
-    "infobox": {},
+    "infobox": {
+      "Portfolio": "Draconic god of dragonkind"
+    },
     "titles_line": null,
     "domains_line": null,
     "commandments": [],
     "appendix": null,
-    "source_file": null,
     "icon_ext": "svg",
-    "is_placeholder": true
+    "source_file": "Zorquan__Perfect_Wyrm.md",
+    "is_placeholder": false
   },
   {
     "slug": "baalzebul-lord-of-the-flies",
@@ -18623,1084 +20292,6 @@
     "status": [],
     "warlock_province": [],
     "tags": [],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "arvoreen",
-    "name": "Arvoreen, Wary Sword of Hin",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "HalflingPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "brandobaris",
-    "name": "Brandobaris, the Irrepressible Scamp",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "HalflingPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "cyrollalee",
-    "name": "Cyrollalee, Hand of the Fellowship",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "HalflingPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "dallah-thaun",
-    "name": "Dallah Thaun, Lady of Mystery",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "HalflingPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "sheela-peryroyl",
-    "name": "Sheela Peryroyl, Green Sister",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "HalflingPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "urogalan",
-    "name": "Urogalan, Black Hound",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "HalflingPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "bargrivyek-indurate-enforcer",
-    "name": "Bargrivyek, Peace's Enforcer",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GoblinoidPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "grankhul-the-hunterbug",
-    "name": "Grankhul, the Hunterbug",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GoblinoidPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "hruggek-the-dropbear",
-    "name": "Hruggek, the Dropbear",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GoblinoidPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "khurgorbaeyag-the-overseer",
-    "name": "Khurgorbaeyag, the Red Overseer",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GoblinoidPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "kikanuti",
-    "name": "Kikanuti, the Oasis Kiln",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GoblinoidPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "maglubiyet-blue-chieftain",
-    "name": "Maglubiyet, the Blue Chieftain",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GoblinoidPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "meriadar",
-    "name": "Meriadar, Mongrel Saint",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GoblinoidPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "nomog-geaya-the-red-general",
-    "name": "Nomog-Geaya, the Red General",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GoblinoidPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "skiggaret-bugbears-bogeyman",
-    "name": "Skiggaret, Bugbear's Bogeyman",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GoblinoidPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "ghaunadaur",
-    "name": "Ghaunadaur, That-Which-Lurks",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "DrowPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "keptolo",
-    "name": "Keptolo, the Masochedonist",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "DrowPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "kiaransalee",
-    "name": "Kiaransalee, Banshee's Bride",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "DrowPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "malyk",
-    "name": "Malyk, Maelstrom Magus",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "DrowPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "selvetarm",
-    "name": "Selvetarm, Champion of the Spider",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "DrowPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "zinzerena",
-    "name": "Zinzerena, Princess of the Outcasts",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "DrowPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "baervan-wildwanderer-woodland-rascal",
-    "name": "Baervan Wildwanderer, the Woodland Rascal",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GnomePantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "baravar-cloakshadow-lord-of-sly-disguises",
-    "name": "Baravar Cloakshadow, the Lord of Sly Disguise",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GnomePantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "callarduran-smoothhands-brother-deepearth",
-    "name": "Callarduran Smoothands, Brother Deepearth",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GnomePantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "flandal-steelskin-great-steelsmith",
-    "name": "Flandal Steelskin, the Great Steelsmith",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GnomePantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "gaerdal-ironhand-shield-of-goldenhills",
-    "name": "Gaeldal Ironhand, the Shield of Goldenhills",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GnomePantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "gelf-darkhearth",
-    "name": "Gelf Darkhearth, Twin of Sorrow",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GnomePantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "nebelun-the-meddler",
-    "name": "Nebelun the Meddler, the Interloping Inventor",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GnomePantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "ril-cleverthrush",
-    "name": "Ril Cleverthrush, Skylark Artist",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GnomePantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "roykyn",
-    "name": "Roykyn, the Teasing Trickster",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GnomePantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "segojan-earthcaller-lord-of-the-burrow",
-    "name": "Segojan Earthcaller, Lord of the Burrow",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GnomePantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "sheyanna-flaxenstrand",
-    "name": "Sheyanna Flaxenstrand, Glamoured Princess",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GnomePantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "urdlen-crawler-below",
-    "name": "Urdlen, the Mole of Gluttony",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GnomePantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "bahgtru",
-    "name": "Bahgtru, Fist of the Chieftain",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "OrcPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "ilneval",
-    "name": "Ilneval, the Hordemaker",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "OrcPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "luthic",
-    "name": "Luthic, Bloodmoon Mother",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "OrcPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "obould-many-arrows",
-    "name": "Obould Many-Arrows, Iron Khan",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "OrcPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "shargaas",
-    "name": "Shargaas, the Stalker Below",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "OrcPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "yurtrus",
-    "name": "Yurtrus, the White-Handed",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "OrcPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "annam-all-father",
-    "name": "Annam All-Father, the Lord of the Ordning",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GiantPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "grolantor",
-    "name": "Grolantor, the Ever-Hungry",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GiantPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "hiatea",
-    "name": "Hiatea, Huntress of Legends",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GiantPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "iallanis",
-    "name": "Iallanis, the Gentle Giantess",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GiantPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "karontor",
-    "name": "Karontor, the Crawler-Below",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GiantPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "memnor",
-    "name": "Memnor, the Silver-lined Prince",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GiantPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "skoraeus-stonebones",
-    "name": "Skoraeus Stonebones, the Earthen Dream",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GiantPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "stronmaus",
-    "name": "Stronmaus, the Smiling Storm",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GiantPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "surtr",
-    "name": "Surtr, All-Consuming Flame",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GiantPantheon"
-    ],
-    "cover_file": null,
-    "intro": [],
-    "infobox": {},
-    "titles_line": null,
-    "domains_line": null,
-    "commandments": [],
-    "appendix": null,
-    "source_file": null,
-    "icon_ext": "svg",
-    "is_placeholder": true
-  },
-  {
-    "slug": "thrymr",
-    "name": "Thrymr, the Frost Reaver",
-    "portfolio": "",
-    "alignment": "",
-    "domains": [],
-    "status": [],
-    "warlock_province": [],
-    "tags": [
-      "GiantPantheon"
-    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},

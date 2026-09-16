@@ -274,7 +274,18 @@ def parse_aspect_block(block_text, aspect_slug):
 
     if cm:
         after_first_sep = cm.end()
-        next_sep = block_text.find("\n===\n", after_first_sep)
+        # Search for "===\n" without requiring a leading "\n" -- after_first_sep
+        # always starts at the beginning of a line (right after the first
+        # separator's own trailing newline), so when the intro/sidebar section
+        # is completely empty, the second separator appears immediately with no
+        # further newline in front of it (e.g. "===\n===\n### Name" -- back-to-
+        # back separators, nothing between them). Searching for "\n===\n"
+        # instead would miss that adjacent case and always fall through to
+        # "no second separator found", silently swallowing the "### Name"
+        # heading (and everything else) into a dropped/malformed intro instead
+        # of correctly recognizing an empty intro and parsing the infobox that
+        # follows.
+        next_sep = block_text.find("===\n", after_first_sep)
         intro_block = block_text[after_first_sep:next_sep] if next_sep != -1 else ""
         intro_lines = []
         for line in intro_block.split("\n"):
@@ -286,7 +297,7 @@ def parse_aspect_block(block_text, aspect_slug):
         intro_paragraphs = [clean_wikilinks(strip_images(p)) for p in intro_paragraphs]
 
         if next_sep != -1:
-            infobox_start = next_sep + len("\n===\n")
+            infobox_start = next_sep + len("===\n")
             fence_end = block_text.find("\n```", infobox_start)
             infobox_block = block_text[infobox_start:fence_end] if fence_end != -1 else ""
             lines = infobox_block.split("\n")
@@ -426,7 +437,21 @@ def parse_file(path):
 
     if cm:
         after_first_sep = cm.end()
-        next_sep = body.find("\n===\n", after_first_sep)
+        # Search for "===\n" without requiring a leading "\n" -- after_first_sep
+        # always starts at the beginning of a line (right after the first
+        # separator's own trailing newline), so when the intro/sidebar section
+        # is completely empty (no TOC links, common for a minimal placeholder-
+        # turned-real page with no Appendix or Commandments section), the
+        # second separator appears immediately with no further newline in
+        # front of it ("===\n===\n### Name" -- back-to-back separators,
+        # nothing between them). Searching for "\n===\n" instead would miss
+        # that adjacent case and always fall through to "no second separator
+        # found", silently swallowing the "### Name" heading (and the whole
+        # infobox after it) into a dropped/malformed intro -- which in turn
+        # left display_name unset and fell back to a filename-derived guess
+        # instead of the file's own real heading. Same fix as the equivalent
+        # empty-section case in parse_aspect_block.
+        next_sep = body.find("===\n", after_first_sep)
         intro_block = body[after_first_sep:next_sep] if next_sep != -1 else ""
         intro_lines = []
         for line in intro_block.split("\n"):
@@ -438,7 +463,7 @@ def parse_file(path):
         intro_paragraphs = [clean_wikilinks(strip_images(p)) for p in intro_paragraphs]
 
         if next_sep != -1:
-            infobox_start = next_sep + len("\n===\n")
+            infobox_start = next_sep + len("===\n")
             fence_end = body.find("\n```", infobox_start)
             infobox_block = body[infobox_start:fence_end] if fence_end != -1 else ""
             lines = infobox_block.split("\n")

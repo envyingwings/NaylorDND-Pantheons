@@ -61,12 +61,12 @@ layout: grid
 columns: 3
 imageProperty: cover
 ```
-- [[Bargrivyek — Indurate Enforcer|Bargrivyek, Peace's Enforcer]]
-- [[Grankhul — the Hunterbug|Grankhul, the Hunterbug]]
-- [[Hruggek — the Dropbear|Hruggek, the Dropbear]]
-- [[Khurgorbaeyag — the Overseer|Khurgorbaeyag, the Red Overseer]]
+- [[Bargrivyek, Peace's Enforcer]]
+- [[Grankhul, the Hunterbug]]
+- [[Hruggek, the Dropbear]]
+- [[Khurgorbaeyag, the Red Overseer]]
 - [[Kikanuti, the Oasis Kiln]]
-- [[Maglubiyet — Blue Chieftain|Maglubiyet, the Blue Chieftain]]
+- [[Maglubiyet, the Blue Chieftain]]
 - [[Meriadar, Mongrel Saint]]
-- [[Nomog-Geaya — the Red General|Nomog-Geaya, the Red General]]
-- [[Skiggaret — Bugbear’s Bogeyman|Skiggaret, Bugbear's Bogeyman]]
+- [[Nomog-Geaya, the Red General]]
+- [[Skiggaret, Bugbear's Bogeyman]]
