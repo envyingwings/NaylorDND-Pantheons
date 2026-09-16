@@ -84,7 +84,7 @@ Sehanine, eldest of the three and elven goddess of death, governs moonlight, dre
 **Alignment.** Chaotic Good
 **Symbol.** A crescent moon turned upward and strung like a bow
 **Portfolio.** Elven goddess of moonlight, dreams, and death
-**Divine Realm.** Trelania, [[Arvandor — The High Forest|Arvandor]]
+**Divine Realm.** Crescent Grove, [[Arvandor — The High Forest|Arvandor]]
 **Worshippers.** Dreamers, lovers, the dying, illusionists, shapechangers
 ```
 ### Commandments of Sehanine
@@ -108,7 +108,7 @@ id: -Angharradh-Page
 **Alignment.** Chaotic Good
 **Symbol.** A crescent moon turned upward and strung like a bow
 **Portfolio.** Greater Goddess of Dreams, Moon, Intimacy, Mystery, and Shapechanging
-**Divine Realm.** Trelania, [[Arvandor — The High Forest|Arvandor]]
+**Divine Realm.** Crescent Grove, [[Arvandor — The High Forest|Arvandor]]
 **Worshippers.** Dreamers, lovers, the dying, illusionists, shapechangers
 ```
 **Titles:** Moonweaver, Angharradh, Mystic Eye of Night
