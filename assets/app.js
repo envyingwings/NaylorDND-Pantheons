@@ -1,6 +1,6 @@
 /* Shared utilities + landing page logic for The Ourosi Pantheon wiki. */
 
-const DATA_URL = "data/deities.json?v=958093e1";
+const DATA_URL = "data/deities.json?v=0e49dbf3";
 
 /** Load the deity dataset once and cache it on window. */
 async function loadDeities() {
@@ -184,6 +184,13 @@ function initLandingPage() {
     giant: { include: "GiantPantheon" },
     orcish: { include: "OrcPantheon" },
     halfling: { include: "HalflingPantheon" },
+    // Not a real pantheon and deliberately has no button in the tab bar --
+    // reached only via the header's "All Deities" link, which passes
+    // ?pantheon=all. Shows every deity regardless of tag, with every
+    // multi-aspect deity expanded to its individual aspect cards (same as
+    // the Elven/Draconic tabs) so nothing is hidden behind a single merged
+    // card here either.
+    all: { all: true, expandAspects: true },
   };
 
   loadDeities().then((deities) => {
@@ -203,6 +210,14 @@ function initLandingPage() {
       const saved = localStorage.getItem(TAB_STORAGE_KEY);
       if (saved && PANTHEON_TAGS[saved]) activeTab = saved;
     } catch (e) { /* localStorage unavailable, fall back to default */ }
+    // The header's "All Deities" link passes ?pantheon=all, which always
+    // wins over whatever tab was last active/stored -- the whole point of
+    // that link is to jump straight to the full, unfiltered list regardless
+    // of where the visitor currently is. Not persisted to storage: it's a
+    // one-time destination, not a tab someone should land back on by
+    // default next visit.
+    const requestedPantheon = new URLSearchParams(window.location.search).get("pantheon");
+    if (requestedPantheon && PANTHEON_TAGS[requestedPantheon]) activeTab = requestedPantheon;
 
     // Turns one multi-aspect deity record (e.g. Seha-Angharradh) into
     // several card-view objects, one per aspect, each linking straight to
@@ -250,12 +265,14 @@ function initLandingPage() {
 
     function deitiesForActiveTab() {
       const cfg = PANTHEON_TAGS[activeTab];
-      const matched = real.filter((d) => {
-        const tags = d.tags || [];
-        if (!tags.includes(cfg.include)) return false;
-        if (cfg.exclude && tags.includes(cfg.exclude)) return false;
-        return true;
-      });
+      const matched = cfg.all
+        ? real
+        : real.filter((d) => {
+            const tags = d.tags || [];
+            if (!tags.includes(cfg.include)) return false;
+            if (cfg.exclude && tags.includes(cfg.exclude)) return false;
+            return true;
+          });
       let list = matched;
       if (cfg.expandAspects) {
         const expanded = [];
@@ -348,7 +365,13 @@ function initLandingPage() {
     function setActiveTab(tab) {
       if (!PANTHEON_TAGS[tab]) return;
       activeTab = tab;
-      try { localStorage.setItem(TAB_STORAGE_KEY, activeTab); } catch (e) { /* ignore */ }
+      // "all" is a one-time destination reached via the header link, not a
+      // tab a visitor should land back on automatically next time -- every
+      // other tab persists (clicking one is a real ongoing preference),
+      // but this one deliberately doesn't overwrite that stored preference.
+      if (tab !== "all") {
+        try { localStorage.setItem(TAB_STORAGE_KEY, activeTab); } catch (e) { /* ignore */ }
+      }
       tabButtons.forEach((btn) => {
         btn.classList.toggle("active", btn.dataset.pantheon === activeTab);
       });
