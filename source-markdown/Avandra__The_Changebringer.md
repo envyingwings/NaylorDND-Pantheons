@@ -63,10 +63,10 @@ layout: grid
 columns: 3
 imageProperty: cover
 ```
-- [[Arvoreen — Wary Sword of Hin]]
-- [[Brandobaris — Irrepressible Scamp]]
-- [[Cyrollalee — Hand of the Fellowship]]
-- [[Dallah Thaun — Lady of Mystery]]
-- [[Sheela Peryroyl — Green Sister]]
-- [[Urogalan — Black Hound]]
+- [[Arvoreen, Wary Sword of Hin]]
+- [[Brandobaris, the Irrepressible Scamp]]
+- [[Cyrollalee, Hand of the Fellowship]]
+- [[Dallah Thaun, Lady of Mystery]]
+- [[Sheela Peryroyl, Green Sister]]
+- [[Urogalan, Black Hound]]
 - [[Yondalla, The Hearthdame]]

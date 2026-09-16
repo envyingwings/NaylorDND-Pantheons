@@ -67,10 +67,10 @@ layout: grid
 columns: 3
 imageProperty: cover
 ```
-- **[[Arvoreen — Wary Sword of Hin|Arvoreen — Wary Sword of Hin]].**
+- **[[Arvoreen, Wary Sword of Hin|Arvoreen, Wary Sword of Hin]].**
 - **[[Avandra, The Changebringer|Avandra, the Changebringer]].**
-- **[[Brandobaris — Irrepressible Scamp|Brandobaris, the Irrepressible Scamp]].**
-- **[[Cyrollalee — Hand of the Fellowship|Cyrollalee, Hand of the Fellowship]].** 
-- **[[Dallah Thaun — Lady of Mystery|Dallah Thaun, Lady of Mysteries]].**
-- **[[Sheela Peryroyl — Green Sister|Sheela Peryroyl, Our Green Sister]].**
-- **[[Urogalan — Black Hound|Urogalan, the Black Hound]].**
+- **[[Brandobaris, the Irrepressible Scamp|Brandobaris, the Irrepressible Scamp]].**
+- **[[Cyrollalee, Hand of the Fellowship|Cyrollalee, Hand of the Fellowship]].** 
+- **[[Dallah Thaun, Lady of Mystery|Dallah Thaun, Lady of Mysteries]].**
+- **[[Sheela Peryroyl, Green Sister|Sheela Peryroyl, Our Green Sister]].**
+- **[[Urogalan, Black Hound|Urogalan, the Black Hound]].**

@@ -37,44 +37,44 @@
               "has_page": true
             },
             {
-              "name": "Astilabor — The Hoardmistress",
-              "slug": "astilabor-the-hoardmistress",
+              "name": "Astilabor, the Hoardmistress",
+              "slug": "astilabor",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Garyx — Cleanser of Worlds",
-              "slug": "garyx-cleanser-of-worlds",
+              "name": "Garyx, Cleanser of Worlds",
+              "slug": "garyx",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Kereska — Wonderbringer",
-              "slug": "kereska-wonderbringer",
+              "name": "Kereska, Wonderbringer",
+              "slug": "kereska",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Kurtulmak — the Horned Sorcerer",
-              "slug": "kurtulmak-the-horned-sorcerer",
+              "name": "Kurtulmak, the Horned Sorcerer",
+              "slug": "kurtulmak",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Lendys — Scale of Justice",
-              "slug": "lendys-scale-of-justice",
+              "name": "Lendys, Scale of Justice",
+              "slug": "lendys",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Nathair Sgiathach — Scampdrake",
-              "slug": "nathair-sgiathach-scampdrake",
+              "name": "Nathair Sgiathach, Scampdrake",
+              "slug": "nathair-sgiathach",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Null — Great Deathwyrm",
-              "slug": "null-great-deathwyrm",
+              "name": "Null, Great Deathwyrm",
+              "slug": "null",
               "blurb": "",
               "has_page": true
             },
@@ -85,8 +85,8 @@
               "has_page": true
             },
             {
-              "name": "Tamara — Her Mercy",
-              "slug": "tamara-her-mercy",
+              "name": "Tamara, Her Mercy",
+              "slug": "tamara",
               "blurb": "",
               "has_page": true
             },
@@ -97,8 +97,8 @@
               "has_page": true
             },
             {
-              "name": "Zorquan — Perfect Wyrm",
-              "slug": "zorquan-perfect-wyrm",
+              "name": "Zorquan, Perfect Wyrm",
+              "slug": "zorquan",
               "blurb": "",
               "has_page": true
             }
@@ -251,44 +251,44 @@
           "has_page": true
         },
         {
-          "name": "Astilabor — The Hoardmistress",
-          "slug": "astilabor-the-hoardmistress",
+          "name": "Astilabor, the Hoardmistress",
+          "slug": "astilabor",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Garyx — Cleanser of Worlds",
-          "slug": "garyx-cleanser-of-worlds",
+          "name": "Garyx, Cleanser of Worlds",
+          "slug": "garyx",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Kereska — Wonderbringer",
-          "slug": "kereska-wonderbringer",
+          "name": "Kereska, Wonderbringer",
+          "slug": "kereska",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Kurtulmak — the Horned Sorcerer",
-          "slug": "kurtulmak-the-horned-sorcerer",
+          "name": "Kurtulmak, the Horned Sorcerer",
+          "slug": "kurtulmak",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Lendys — Scale of Justice",
-          "slug": "lendys-scale-of-justice",
+          "name": "Lendys, Scale of Justice",
+          "slug": "lendys",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Nathair Sgiathach — Scampdrake",
-          "slug": "nathair-sgiathach-scampdrake",
+          "name": "Nathair Sgiathach, Scampdrake",
+          "slug": "nathair-sgiathach",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Null — Great Deathwyrm",
-          "slug": "null-great-deathwyrm",
+          "name": "Null, Great Deathwyrm",
+          "slug": "null",
           "blurb": "",
           "has_page": true
         },
@@ -299,8 +299,8 @@
           "has_page": true
         },
         {
-          "name": "Tamara — Her Mercy",
-          "slug": "tamara-her-mercy",
+          "name": "Tamara, Her Mercy",
+          "slug": "tamara",
           "blurb": "",
           "has_page": true
         },
@@ -311,8 +311,8 @@
           "has_page": true
         },
         {
-          "name": "Zorquan — Perfect Wyrm",
-          "slug": "zorquan-perfect-wyrm",
+          "name": "Zorquan, Perfect Wyrm",
+          "slug": "zorquan",
           "blurb": "",
           "has_page": true
         }
@@ -1780,38 +1780,38 @@
           "title": "Yondalla's Children — Halfling Pantheon",
           "members": [
             {
-              "name": "Arvoreen — Wary Sword of Hin",
-              "slug": "arvoreen-wary-sword-of-hin",
+              "name": "Arvoreen, Wary Sword of Hin",
+              "slug": "arvoreen",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Brandobaris — Irrepressible Scamp",
-              "slug": "brandobaris-irrepressible-scamp",
+              "name": "Brandobaris, the Irrepressible Scamp",
+              "slug": "brandobaris",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Cyrollalee — Hand of the Fellowship",
-              "slug": "cyrollalee-hand-of-the-fellowship",
+              "name": "Cyrollalee, Hand of the Fellowship",
+              "slug": "cyrollalee",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Dallah Thaun — Lady of Mystery",
-              "slug": "dallah-thaun-lady-of-mystery",
+              "name": "Dallah Thaun, Lady of Mystery",
+              "slug": "dallah-thaun",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Sheela Peryroyl — Green Sister",
-              "slug": "sheela-peryroyl-green-sister",
+              "name": "Sheela Peryroyl, Green Sister",
+              "slug": "sheela-peryroyl",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Urogalan — Black Hound",
-              "slug": "urogalan-black-hound",
+              "name": "Urogalan, Black Hound",
+              "slug": "urogalan",
               "blurb": "",
               "has_page": true
             },
@@ -1827,38 +1827,38 @@
       "title": "Yondalla's Children — Halfling Pantheon",
       "members": [
         {
-          "name": "Arvoreen — Wary Sword of Hin",
-          "slug": "arvoreen-wary-sword-of-hin",
+          "name": "Arvoreen, Wary Sword of Hin",
+          "slug": "arvoreen",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Brandobaris — Irrepressible Scamp",
-          "slug": "brandobaris-irrepressible-scamp",
+          "name": "Brandobaris, the Irrepressible Scamp",
+          "slug": "brandobaris",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Cyrollalee — Hand of the Fellowship",
-          "slug": "cyrollalee-hand-of-the-fellowship",
+          "name": "Cyrollalee, Hand of the Fellowship",
+          "slug": "cyrollalee",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Dallah Thaun — Lady of Mystery",
-          "slug": "dallah-thaun-lady-of-mystery",
+          "name": "Dallah Thaun, Lady of Mystery",
+          "slug": "dallah-thaun",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Sheela Peryroyl — Green Sister",
-          "slug": "sheela-peryroyl-green-sister",
+          "name": "Sheela Peryroyl, Green Sister",
+          "slug": "sheela-peryroyl",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Urogalan — Black Hound",
-          "slug": "urogalan-black-hound",
+          "name": "Urogalan, Black Hound",
+          "slug": "urogalan",
           "blurb": "",
           "has_page": true
         },
@@ -1931,44 +1931,44 @@
               "has_page": true
             },
             {
-              "name": "Astilabor — The Hoardmistress",
-              "slug": "astilabor-the-hoardmistress",
+              "name": "Astilabor, the Hoardmistress",
+              "slug": "astilabor",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Garyx — Cleanser of Worlds",
-              "slug": "garyx-cleanser-of-worlds",
+              "name": "Garyx, Cleanser of Worlds",
+              "slug": "garyx",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Kereska — Wonderbringer",
-              "slug": "kereska-wonderbringer",
+              "name": "Kereska, Wonderbringer",
+              "slug": "kereska",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Kurtulmak — the Horned Sorcerer",
-              "slug": "kurtulmak-the-horned-sorcerer",
+              "name": "Kurtulmak, the Horned Sorcerer",
+              "slug": "kurtulmak",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Lendys — Scale of Justice",
-              "slug": "lendys-scale-of-justice",
+              "name": "Lendys, Scale of Justice",
+              "slug": "lendys",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Nathair Sgiathach — Scampdrake",
-              "slug": "nathair-sgiathach-scampdrake",
+              "name": "Nathair Sgiathach, Scampdrake",
+              "slug": "nathair-sgiathach",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Null — Great Deathwyrm",
-              "slug": "null-great-deathwyrm",
+              "name": "Null, Great Deathwyrm",
+              "slug": "null",
               "blurb": "",
               "has_page": true
             },
@@ -1979,8 +1979,8 @@
               "has_page": true
             },
             {
-              "name": "Tamara — Her Mercy",
-              "slug": "tamara-her-mercy",
+              "name": "Tamara, Her Mercy",
+              "slug": "tamara",
               "blurb": "",
               "has_page": true
             },
@@ -1991,8 +1991,8 @@
               "has_page": true
             },
             {
-              "name": "Zorquan — Perfect Wyrm",
-              "slug": "zorquan-perfect-wyrm",
+              "name": "Zorquan, Perfect Wyrm",
+              "slug": "zorquan",
               "blurb": "",
               "has_page": true
             }
@@ -2008,44 +2008,44 @@
           "has_page": true
         },
         {
-          "name": "Astilabor — The Hoardmistress",
-          "slug": "astilabor-the-hoardmistress",
+          "name": "Astilabor, the Hoardmistress",
+          "slug": "astilabor",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Garyx — Cleanser of Worlds",
-          "slug": "garyx-cleanser-of-worlds",
+          "name": "Garyx, Cleanser of Worlds",
+          "slug": "garyx",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Kereska — Wonderbringer",
-          "slug": "kereska-wonderbringer",
+          "name": "Kereska, Wonderbringer",
+          "slug": "kereska",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Kurtulmak — the Horned Sorcerer",
-          "slug": "kurtulmak-the-horned-sorcerer",
+          "name": "Kurtulmak, the Horned Sorcerer",
+          "slug": "kurtulmak",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Lendys — Scale of Justice",
-          "slug": "lendys-scale-of-justice",
+          "name": "Lendys, Scale of Justice",
+          "slug": "lendys",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Nathair Sgiathach — Scampdrake",
-          "slug": "nathair-sgiathach-scampdrake",
+          "name": "Nathair Sgiathach, Scampdrake",
+          "slug": "nathair-sgiathach",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Null — Great Deathwyrm",
-          "slug": "null-great-deathwyrm",
+          "name": "Null, Great Deathwyrm",
+          "slug": "null",
           "blurb": "",
           "has_page": true
         },
@@ -2056,8 +2056,8 @@
           "has_page": true
         },
         {
-          "name": "Tamara — Her Mercy",
-          "slug": "tamara-her-mercy",
+          "name": "Tamara, Her Mercy",
+          "slug": "tamara",
           "blurb": "",
           "has_page": true
         },
@@ -2068,8 +2068,8 @@
           "has_page": true
         },
         {
-          "name": "Zorquan — Perfect Wyrm",
-          "slug": "zorquan-perfect-wyrm",
+          "name": "Zorquan, Perfect Wyrm",
+          "slug": "zorquan",
           "blurb": "",
           "has_page": true
         }
@@ -2154,8 +2154,8 @@
               "has_page": true
             },
             {
-              "name": "Kikanuti — the Oasis Kiln",
-              "slug": "kikanuti-the-oasis-kiln",
+              "name": "Kikanuti, the Oasis Kiln",
+              "slug": "kikanuti",
               "blurb": "",
               "has_page": true
             },
@@ -2166,8 +2166,8 @@
               "has_page": true
             },
             {
-              "name": "Meriadar — Mongrel Saint",
-              "slug": "meriadar-mongrel-saint",
+              "name": "Meriadar, Mongrel Saint",
+              "slug": "meriadar",
               "blurb": "",
               "has_page": true
             },
@@ -2213,8 +2213,8 @@
           "has_page": true
         },
         {
-          "name": "Kikanuti — the Oasis Kiln",
-          "slug": "kikanuti-the-oasis-kiln",
+          "name": "Kikanuti, the Oasis Kiln",
+          "slug": "kikanuti",
           "blurb": "",
           "has_page": true
         },
@@ -2225,8 +2225,8 @@
           "has_page": true
         },
         {
-          "name": "Meriadar — Mongrel Saint",
-          "slug": "meriadar-mongrel-saint",
+          "name": "Meriadar, Mongrel Saint",
+          "slug": "meriadar",
           "blurb": "",
           "has_page": true
         },
@@ -5262,20 +5262,20 @@
           "title": "Liantarine — Drow Pantheon",
           "members": [
             {
-              "name": "Ghaunadaur — That-Which-Lurks",
-              "slug": "ghaunadaur-that-which-lurks",
+              "name": "Ghaunadaur, That-Which-Lurks",
+              "slug": "ghaunadaur",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Keptolo — the Masochedonist",
-              "slug": "keptolo-the-masochedonist",
+              "name": "Keptolo, the Masochedonist",
+              "slug": "keptolo",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Kiaransalee — Banshee's Bride",
-              "slug": "kiaransalee-banshees-bride",
+              "name": "Kiaransalee, Banshee's Bride",
+              "slug": "kiaransalee",
               "blurb": "",
               "has_page": true
             },
@@ -5286,14 +5286,14 @@
               "has_page": true
             },
             {
-              "name": "Malyk — Maelstrom Magus",
-              "slug": "malyk-maelstrom-magus",
+              "name": "Malyk, Maelstrom Magus",
+              "slug": "malyk",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Selvetarm — Champion of the Spider",
-              "slug": "selvetarm-champion-of-the-spider",
+              "name": "Selvetarm, Champion of the Spider",
+              "slug": "selvetarm",
               "blurb": "",
               "has_page": true
             },
@@ -5304,8 +5304,8 @@
               "has_page": true
             },
             {
-              "name": "Zinzerena — Princess of the Outcasts",
-              "slug": "zinzerena-princess-of-the-outcasts",
+              "name": "Zinzerena, Princess of the Outcasts",
+              "slug": "zinzerena",
               "blurb": "",
               "has_page": true
             }
@@ -5315,20 +5315,20 @@
       "title": "Liantarine — Drow Pantheon",
       "members": [
         {
-          "name": "Ghaunadaur — That-Which-Lurks",
-          "slug": "ghaunadaur-that-which-lurks",
+          "name": "Ghaunadaur, That-Which-Lurks",
+          "slug": "ghaunadaur",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Keptolo — the Masochedonist",
-          "slug": "keptolo-the-masochedonist",
+          "name": "Keptolo, the Masochedonist",
+          "slug": "keptolo",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Kiaransalee — Banshee's Bride",
-          "slug": "kiaransalee-banshees-bride",
+          "name": "Kiaransalee, Banshee's Bride",
+          "slug": "kiaransalee",
           "blurb": "",
           "has_page": true
         },
@@ -5339,14 +5339,14 @@
           "has_page": true
         },
         {
-          "name": "Malyk — Maelstrom Magus",
-          "slug": "malyk-maelstrom-magus",
+          "name": "Malyk, Maelstrom Magus",
+          "slug": "malyk",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Selvetarm — Champion of the Spider",
-          "slug": "selvetarm-champion-of-the-spider",
+          "name": "Selvetarm, Champion of the Spider",
+          "slug": "selvetarm",
           "blurb": "",
           "has_page": true
         },
@@ -5357,8 +5357,8 @@
           "has_page": true
         },
         {
-          "name": "Zinzerena — Princess of the Outcasts",
-          "slug": "zinzerena-princess-of-the-outcasts",
+          "name": "Zinzerena, Princess of the Outcasts",
+          "slug": "zinzerena",
           "blurb": "",
           "has_page": true
         }
@@ -6418,26 +6418,26 @@
               "has_page": true
             },
             {
-              "name": "Gelf Darkhearth — Twin of Sorrow",
-              "slug": "gelf-darkhearth-twin-of-sorrow",
+              "name": "Gelf Darkhearth, Twin of Sorrow",
+              "slug": "gelf-darkhearth",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Nebelun the Meddler — the Interloping Inventor",
-              "slug": "nebelun-the-meddler-the-interloping-inventor",
+              "name": "Nebelun the Meddler, the Interloping Inventor",
+              "slug": "nebelun-the-meddler",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Ril Cleverthrush — Skylark Artist",
-              "slug": "ril-cleverthrush-skylark-artist",
+              "name": "Ril Cleverthrush, Skylark Artist",
+              "slug": "ril-cleverthrush",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Roykyn — Teasing Trickster",
-              "slug": "roykyn-teasing-trickster",
+              "name": "Roykyn, the Teasing Trickster",
+              "slug": "roykyn",
               "blurb": "",
               "has_page": true
             },
@@ -6448,8 +6448,8 @@
               "has_page": true
             },
             {
-              "name": "Sheyanna Flaxenstrand — Glamoured Princess",
-              "slug": "sheyanna-flaxenstrand-glamoured-princess",
+              "name": "Sheyanna Flaxenstrand, Glamoured Princess",
+              "slug": "sheyanna-flaxenstrand",
               "blurb": "",
               "has_page": true
             },
@@ -6495,26 +6495,26 @@
           "has_page": true
         },
         {
-          "name": "Gelf Darkhearth — Twin of Sorrow",
-          "slug": "gelf-darkhearth-twin-of-sorrow",
+          "name": "Gelf Darkhearth, Twin of Sorrow",
+          "slug": "gelf-darkhearth",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Nebelun the Meddler — the Interloping Inventor",
-          "slug": "nebelun-the-meddler-the-interloping-inventor",
+          "name": "Nebelun the Meddler, the Interloping Inventor",
+          "slug": "nebelun-the-meddler",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Ril Cleverthrush — Skylark Artist",
-          "slug": "ril-cleverthrush-skylark-artist",
+          "name": "Ril Cleverthrush, Skylark Artist",
+          "slug": "ril-cleverthrush",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Roykyn — Teasing Trickster",
-          "slug": "roykyn-teasing-trickster",
+          "name": "Roykyn, the Teasing Trickster",
+          "slug": "roykyn",
           "blurb": "",
           "has_page": true
         },
@@ -6525,8 +6525,8 @@
           "has_page": true
         },
         {
-          "name": "Sheyanna Flaxenstrand — Glamoured Princess",
-          "slug": "sheyanna-flaxenstrand-glamoured-princess",
+          "name": "Sheyanna Flaxenstrand, Glamoured Princess",
+          "slug": "sheyanna-flaxenstrand",
           "blurb": "",
           "has_page": true
         },
@@ -7256,38 +7256,38 @@
           "title": "Tribe of He-Who-Watches — Orcish Pantheon",
           "members": [
             {
-              "name": "Bahgtru — Fist of the Chieftain",
-              "slug": "bahgtru-fist-of-the-chieftain",
+              "name": "Bahgtru, Fist of the Chieftain",
+              "slug": "bahgtru",
               "blurb": "Orc god of brute strength and unquestioning loyalty.",
               "has_page": true
             },
             {
-              "name": "Ilneval — the Hordemaker",
-              "slug": "ilneval-the-hordemaker",
+              "name": "Ilneval, the Hordemaker",
+              "slug": "ilneval",
               "blurb": "Orc god of strategy and command, patron of war-leaders.",
               "has_page": true
             },
             {
-              "name": "Luthic — Bloodmoon Mother",
-              "slug": "luthic-bloodmoon-mother",
+              "name": "Luthic, Bloodmoon Mother",
+              "slug": "luthic",
               "blurb": "Orc goddess of healing and fecundity, who tends the tribe so it can continue fighting.",
               "has_page": true
             },
             {
-              "name": "Obould Many-Arrows — Iron Khan",
-              "slug": "obould-many-arrows-iron-khan",
+              "name": "Obould Many-Arrows, Iron Khan",
+              "slug": "obould-many-arrows",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Shargaas — the Stalker Below",
-              "slug": "shargaas-the-stalker-below",
+              "name": "Shargaas, the Stalker Below",
+              "slug": "shargaas",
               "blurb": "Orc god of darkness, dishonour, and murder.",
               "has_page": true
             },
             {
-              "name": "Yurtrus — the White-Handed",
-              "slug": "yurtrus-the-white-handed",
+              "name": "Yurtrus, the White-Handed",
+              "slug": "yurtrus",
               "blurb": "Orc god of disease and decay, keeper of plagues and slow, suffocating deaths.",
               "has_page": true
             }
@@ -7297,38 +7297,38 @@
       "title": "Tribe of He-Who-Watches — Orcish Pantheon",
       "members": [
         {
-          "name": "Bahgtru — Fist of the Chieftain",
-          "slug": "bahgtru-fist-of-the-chieftain",
+          "name": "Bahgtru, Fist of the Chieftain",
+          "slug": "bahgtru",
           "blurb": "Orc god of brute strength and unquestioning loyalty.",
           "has_page": true
         },
         {
-          "name": "Ilneval — the Hordemaker",
-          "slug": "ilneval-the-hordemaker",
+          "name": "Ilneval, the Hordemaker",
+          "slug": "ilneval",
           "blurb": "Orc god of strategy and command, patron of war-leaders.",
           "has_page": true
         },
         {
-          "name": "Luthic — Bloodmoon Mother",
-          "slug": "luthic-bloodmoon-mother",
+          "name": "Luthic, Bloodmoon Mother",
+          "slug": "luthic",
           "blurb": "Orc goddess of healing and fecundity, who tends the tribe so it can continue fighting.",
           "has_page": true
         },
         {
-          "name": "Obould Many-Arrows — Iron Khan",
-          "slug": "obould-many-arrows-iron-khan",
+          "name": "Obould Many-Arrows, Iron Khan",
+          "slug": "obould-many-arrows",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Shargaas — the Stalker Below",
-          "slug": "shargaas-the-stalker-below",
+          "name": "Shargaas, the Stalker Below",
+          "slug": "shargaas",
           "blurb": "Orc god of darkness, dishonour, and murder.",
           "has_page": true
         },
         {
-          "name": "Yurtrus — the White-Handed",
-          "slug": "yurtrus-the-white-handed",
+          "name": "Yurtrus, the White-Handed",
+          "slug": "yurtrus",
           "blurb": "Orc god of disease and decay, keeper of plagues and slow, suffocating deaths.",
           "has_page": true
         }
@@ -9413,32 +9413,32 @@
               "has_page": true
             },
             {
-              "name": "Ghaunadaur — That-Which-Lurks",
-              "slug": "ghaunadaur-that-which-lurks",
+              "name": "Ghaunadaur, That-Which-Lurks",
+              "slug": "ghaunadaur",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Keptolo — the Masochedonist",
-              "slug": "keptolo-the-masochedonist",
+              "name": "Keptolo, the Masochedonist",
+              "slug": "keptolo",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Kiaransalee — Banshee's Bride",
-              "slug": "kiaransalee-banshees-bride",
+              "name": "Kiaransalee, Banshee's Bride",
+              "slug": "kiaransalee",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Malyk — Maelstrom Magus",
-              "slug": "malyk-maelstrom-magus",
+              "name": "Malyk, Maelstrom Magus",
+              "slug": "malyk",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Selvetarm — Champion of the Spider",
-              "slug": "selvetarm-champion-of-the-spider",
+              "name": "Selvetarm, Champion of the Spider",
+              "slug": "selvetarm",
               "blurb": "",
               "has_page": true
             },
@@ -9449,8 +9449,8 @@
               "has_page": true
             },
             {
-              "name": "Zinzerena — Princess of the Outcasts",
-              "slug": "zinzerena-princess-of-the-outcasts",
+              "name": "Zinzerena, Princess of the Outcasts",
+              "slug": "zinzerena",
               "blurb": "",
               "has_page": true
             }
@@ -9466,32 +9466,32 @@
           "has_page": true
         },
         {
-          "name": "Ghaunadaur — That-Which-Lurks",
-          "slug": "ghaunadaur-that-which-lurks",
+          "name": "Ghaunadaur, That-Which-Lurks",
+          "slug": "ghaunadaur",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Keptolo — the Masochedonist",
-          "slug": "keptolo-the-masochedonist",
+          "name": "Keptolo, the Masochedonist",
+          "slug": "keptolo",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Kiaransalee — Banshee's Bride",
-          "slug": "kiaransalee-banshees-bride",
+          "name": "Kiaransalee, Banshee's Bride",
+          "slug": "kiaransalee",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Malyk — Maelstrom Magus",
-          "slug": "malyk-maelstrom-magus",
+          "name": "Malyk, Maelstrom Magus",
+          "slug": "malyk",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Selvetarm — Champion of the Spider",
-          "slug": "selvetarm-champion-of-the-spider",
+          "name": "Selvetarm, Champion of the Spider",
+          "slug": "selvetarm",
           "blurb": "",
           "has_page": true
         },
@@ -9502,8 +9502,8 @@
           "has_page": true
         },
         {
-          "name": "Zinzerena — Princess of the Outcasts",
-          "slug": "zinzerena-princess-of-the-outcasts",
+          "name": "Zinzerena, Princess of the Outcasts",
+          "slug": "zinzerena",
           "blurb": "",
           "has_page": true
         }
@@ -12301,8 +12301,8 @@
               "has_page": true
             },
             {
-              "name": "Astilabor — The Hoardmistress",
-              "slug": "astilabor-the-hoardmistress",
+              "name": "Astilabor, the Hoardmistress",
+              "slug": "astilabor",
               "blurb": "",
               "has_page": true
             },
@@ -12313,44 +12313,44 @@
               "has_page": true
             },
             {
-              "name": "Garyx — Cleanser of Worlds",
-              "slug": "garyx-cleanser-of-worlds",
+              "name": "Garyx, Cleanser of Worlds",
+              "slug": "garyx",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Kereska — Wonderbringer",
-              "slug": "kereska-wonderbringer",
+              "name": "Kereska, Wonderbringer",
+              "slug": "kereska",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Kurtulmak — the Horned Sorcerer",
-              "slug": "kurtulmak-the-horned-sorcerer",
+              "name": "Kurtulmak, the Horned Sorcerer",
+              "slug": "kurtulmak",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Lendys — Scale of Justice",
-              "slug": "lendys-scale-of-justice",
+              "name": "Lendys, Scale of Justice",
+              "slug": "lendys",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Nathair Sgiathach — Scampdrake",
-              "slug": "nathair-sgiathach-scampdrake",
+              "name": "Nathair Sgiathach, Scampdrake",
+              "slug": "nathair-sgiathach",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Null — Great Deathwyrm",
-              "slug": "null-great-deathwyrm",
+              "name": "Null, Great Deathwyrm",
+              "slug": "null",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Tamara — Her Mercy",
-              "slug": "tamara-her-mercy",
+              "name": "Tamara, Her Mercy",
+              "slug": "tamara",
               "blurb": "",
               "has_page": true
             },
@@ -12361,8 +12361,8 @@
               "has_page": true
             },
             {
-              "name": "Zorquan — Perfect Wyrm",
-              "slug": "zorquan-perfect-wyrm",
+              "name": "Zorquan, Perfect Wyrm",
+              "slug": "zorquan",
               "blurb": "",
               "has_page": true
             }
@@ -12378,8 +12378,8 @@
           "has_page": true
         },
         {
-          "name": "Astilabor — The Hoardmistress",
-          "slug": "astilabor-the-hoardmistress",
+          "name": "Astilabor, the Hoardmistress",
+          "slug": "astilabor",
           "blurb": "",
           "has_page": true
         },
@@ -12390,44 +12390,44 @@
           "has_page": true
         },
         {
-          "name": "Garyx — Cleanser of Worlds",
-          "slug": "garyx-cleanser-of-worlds",
+          "name": "Garyx, Cleanser of Worlds",
+          "slug": "garyx",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Kereska — Wonderbringer",
-          "slug": "kereska-wonderbringer",
+          "name": "Kereska, Wonderbringer",
+          "slug": "kereska",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Kurtulmak — the Horned Sorcerer",
-          "slug": "kurtulmak-the-horned-sorcerer",
+          "name": "Kurtulmak, the Horned Sorcerer",
+          "slug": "kurtulmak",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Lendys — Scale of Justice",
-          "slug": "lendys-scale-of-justice",
+          "name": "Lendys, Scale of Justice",
+          "slug": "lendys",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Nathair Sgiathach — Scampdrake",
-          "slug": "nathair-sgiathach-scampdrake",
+          "name": "Nathair Sgiathach, Scampdrake",
+          "slug": "nathair-sgiathach",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Null — Great Deathwyrm",
-          "slug": "null-great-deathwyrm",
+          "name": "Null, Great Deathwyrm",
+          "slug": "null",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Tamara — Her Mercy",
-          "slug": "tamara-her-mercy",
+          "name": "Tamara, Her Mercy",
+          "slug": "tamara",
           "blurb": "",
           "has_page": true
         },
@@ -12438,8 +12438,8 @@
           "has_page": true
         },
         {
-          "name": "Zorquan — Perfect Wyrm",
-          "slug": "zorquan-perfect-wyrm",
+          "name": "Zorquan, Perfect Wyrm",
+          "slug": "zorquan",
           "blurb": "",
           "has_page": true
         }
@@ -16098,8 +16098,8 @@
               "has_page": true
             },
             {
-              "name": "Astilabor — The Hoardmistress",
-              "slug": "astilabor-the-hoardmistress",
+              "name": "Astilabor, the Hoardmistress",
+              "slug": "astilabor",
               "blurb": "",
               "has_page": true
             },
@@ -16110,38 +16110,38 @@
               "has_page": true
             },
             {
-              "name": "Garyx — Cleanser of Worlds",
-              "slug": "garyx-cleanser-of-worlds",
+              "name": "Garyx, Cleanser of Worlds",
+              "slug": "garyx",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Kereska — Wonderbringer",
-              "slug": "kereska-wonderbringer",
+              "name": "Kereska, Wonderbringer",
+              "slug": "kereska",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Kurtulmak — the Horned Sorcerer",
-              "slug": "kurtulmak-the-horned-sorcerer",
+              "name": "Kurtulmak, the Horned Sorcerer",
+              "slug": "kurtulmak",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Lendys — Scale of Justice",
-              "slug": "lendys-scale-of-justice",
+              "name": "Lendys, Scale of Justice",
+              "slug": "lendys",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Nathair Sgiathach — Scampdrake",
-              "slug": "nathair-sgiathach-scampdrake",
+              "name": "Nathair Sgiathach, Scampdrake",
+              "slug": "nathair-sgiathach",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Null — Great Deathwyrm",
-              "slug": "null-great-deathwyrm",
+              "name": "Null, Great Deathwyrm",
+              "slug": "null",
               "blurb": "",
               "has_page": true
             },
@@ -16152,14 +16152,14 @@
               "has_page": true
             },
             {
-              "name": "Tamara — Her Mercy",
-              "slug": "tamara-her-mercy",
+              "name": "Tamara, Her Mercy",
+              "slug": "tamara",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Zorquan — Perfect Wyrm",
-              "slug": "zorquan-perfect-wyrm",
+              "name": "Zorquan, Perfect Wyrm",
+              "slug": "zorquan",
               "blurb": "",
               "has_page": true
             }
@@ -16175,8 +16175,8 @@
           "has_page": true
         },
         {
-          "name": "Astilabor — The Hoardmistress",
-          "slug": "astilabor-the-hoardmistress",
+          "name": "Astilabor, the Hoardmistress",
+          "slug": "astilabor",
           "blurb": "",
           "has_page": true
         },
@@ -16187,38 +16187,38 @@
           "has_page": true
         },
         {
-          "name": "Garyx — Cleanser of Worlds",
-          "slug": "garyx-cleanser-of-worlds",
+          "name": "Garyx, Cleanser of Worlds",
+          "slug": "garyx",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Kereska — Wonderbringer",
-          "slug": "kereska-wonderbringer",
+          "name": "Kereska, Wonderbringer",
+          "slug": "kereska",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Kurtulmak — the Horned Sorcerer",
-          "slug": "kurtulmak-the-horned-sorcerer",
+          "name": "Kurtulmak, the Horned Sorcerer",
+          "slug": "kurtulmak",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Lendys — Scale of Justice",
-          "slug": "lendys-scale-of-justice",
+          "name": "Lendys, Scale of Justice",
+          "slug": "lendys",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Nathair Sgiathach — Scampdrake",
-          "slug": "nathair-sgiathach-scampdrake",
+          "name": "Nathair Sgiathach, Scampdrake",
+          "slug": "nathair-sgiathach",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Null — Great Deathwyrm",
-          "slug": "null-great-deathwyrm",
+          "name": "Null, Great Deathwyrm",
+          "slug": "null",
           "blurb": "",
           "has_page": true
         },
@@ -16229,14 +16229,14 @@
           "has_page": true
         },
         {
-          "name": "Tamara — Her Mercy",
-          "slug": "tamara-her-mercy",
+          "name": "Tamara, Her Mercy",
+          "slug": "tamara",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Zorquan — Perfect Wyrm",
-          "slug": "zorquan-perfect-wyrm",
+          "name": "Zorquan, Perfect Wyrm",
+          "slug": "zorquan",
           "blurb": "",
           "has_page": true
         }
@@ -17974,20 +17974,20 @@
               "has_page": true
             },
             {
-              "name": "Ghaunadaur — That-Which-Lurks",
-              "slug": "ghaunadaur-that-which-lurks",
+              "name": "Ghaunadaur, That-Which-Lurks",
+              "slug": "ghaunadaur",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Keptolo — the Masochedonist",
-              "slug": "keptolo-the-masochedonist",
+              "name": "Keptolo, the Masochedonist",
+              "slug": "keptolo",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Kiaransalee — Banshee's Bride",
-              "slug": "kiaransalee-banshees-bride",
+              "name": "Kiaransalee, Banshee's Bride",
+              "slug": "kiaransalee",
               "blurb": "",
               "has_page": true
             },
@@ -17998,20 +17998,20 @@
               "has_page": true
             },
             {
-              "name": "Malyk — Maelstrom Magus",
-              "slug": "malyk-maelstrom-magus",
+              "name": "Malyk, Maelstrom Magus",
+              "slug": "malyk",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Selvetarm — Champion of the Spider",
-              "slug": "selvetarm-champion-of-the-spider",
+              "name": "Selvetarm, Champion of the Spider",
+              "slug": "selvetarm",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Zinzerena — Princess of the Outcasts",
-              "slug": "zinzerena-princess-of-the-outcasts",
+              "name": "Zinzerena, Princess of the Outcasts",
+              "slug": "zinzerena",
               "blurb": "",
               "has_page": true
             }
@@ -18027,20 +18027,20 @@
           "has_page": true
         },
         {
-          "name": "Ghaunadaur — That-Which-Lurks",
-          "slug": "ghaunadaur-that-which-lurks",
+          "name": "Ghaunadaur, That-Which-Lurks",
+          "slug": "ghaunadaur",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Keptolo — the Masochedonist",
-          "slug": "keptolo-the-masochedonist",
+          "name": "Keptolo, the Masochedonist",
+          "slug": "keptolo",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Kiaransalee — Banshee's Bride",
-          "slug": "kiaransalee-banshees-bride",
+          "name": "Kiaransalee, Banshee's Bride",
+          "slug": "kiaransalee",
           "blurb": "",
           "has_page": true
         },
@@ -18051,20 +18051,20 @@
           "has_page": true
         },
         {
-          "name": "Malyk — Maelstrom Magus",
-          "slug": "malyk-maelstrom-magus",
+          "name": "Malyk, Maelstrom Magus",
+          "slug": "malyk",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Selvetarm — Champion of the Spider",
-          "slug": "selvetarm-champion-of-the-spider",
+          "name": "Selvetarm, Champion of the Spider",
+          "slug": "selvetarm",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Zinzerena — Princess of the Outcasts",
-          "slug": "zinzerena-princess-of-the-outcasts",
+          "name": "Zinzerena, Princess of the Outcasts",
+          "slug": "zinzerena",
           "blurb": "",
           "has_page": true
         }
@@ -18129,8 +18129,8 @@
           "title": "Yondalla's Children — Halfling Pantheon",
           "members": [
             {
-              "name": "Arvoreen — Wary Sword of Hin",
-              "slug": "arvoreen-wary-sword-of-hin",
+              "name": "Arvoreen, Wary Sword of Hin",
+              "slug": "arvoreen",
               "blurb": "",
               "has_page": true
             },
@@ -18142,31 +18142,31 @@
             },
             {
               "name": "Brandobaris, the Irrepressible Scamp",
-              "slug": "brandobaris-irrepressible-scamp",
+              "slug": "brandobaris",
               "blurb": "",
               "has_page": true
             },
             {
               "name": "Cyrollalee, Hand of the Fellowship",
-              "slug": "cyrollalee-hand-of-the-fellowship",
+              "slug": "cyrollalee",
               "blurb": "",
               "has_page": true
             },
             {
               "name": "Dallah Thaun, Lady of Mysteries",
-              "slug": "dallah-thaun-lady-of-mystery",
+              "slug": "dallah-thaun",
               "blurb": "",
               "has_page": true
             },
             {
               "name": "Sheela Peryroyl, Our Green Sister",
-              "slug": "sheela-peryroyl-green-sister",
+              "slug": "sheela-peryroyl",
               "blurb": "",
               "has_page": true
             },
             {
               "name": "Urogalan, the Black Hound",
-              "slug": "urogalan-black-hound",
+              "slug": "urogalan",
               "blurb": "",
               "has_page": true
             }
@@ -18176,8 +18176,8 @@
       "title": "Yondalla's Children — Halfling Pantheon",
       "members": [
         {
-          "name": "Arvoreen — Wary Sword of Hin",
-          "slug": "arvoreen-wary-sword-of-hin",
+          "name": "Arvoreen, Wary Sword of Hin",
+          "slug": "arvoreen",
           "blurb": "",
           "has_page": true
         },
@@ -18189,31 +18189,31 @@
         },
         {
           "name": "Brandobaris, the Irrepressible Scamp",
-          "slug": "brandobaris-irrepressible-scamp",
+          "slug": "brandobaris",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Cyrollalee, Hand of the Fellowship",
-          "slug": "cyrollalee-hand-of-the-fellowship",
+          "slug": "cyrollalee",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Dallah Thaun, Lady of Mysteries",
-          "slug": "dallah-thaun-lady-of-mystery",
+          "slug": "dallah-thaun",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Sheela Peryroyl, Our Green Sister",
-          "slug": "sheela-peryroyl-green-sister",
+          "slug": "sheela-peryroyl",
           "blurb": "",
           "has_page": true
         },
         {
           "name": "Urogalan, the Black Hound",
-          "slug": "urogalan-black-hound",
+          "slug": "urogalan",
           "blurb": "",
           "has_page": true
         }
@@ -18277,8 +18277,8 @@
     "is_placeholder": false
   },
   {
-    "slug": "astilabor-the-hoardmistress",
-    "name": "Astilabor — The Hoardmistress",
+    "slug": "astilabor",
+    "name": "Astilabor, the Hoardmistress",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -18299,8 +18299,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "garyx-cleanser-of-worlds",
-    "name": "Garyx — Cleanser of Worlds",
+    "slug": "garyx",
+    "name": "Garyx, Cleanser of Worlds",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -18321,8 +18321,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "kereska-wonderbringer",
-    "name": "Kereska — Wonderbringer",
+    "slug": "kereska",
+    "name": "Kereska, Wonderbringer",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -18343,8 +18343,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "kurtulmak-the-horned-sorcerer",
-    "name": "Kurtulmak — the Horned Sorcerer",
+    "slug": "kurtulmak",
+    "name": "Kurtulmak, the Horned Sorcerer",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -18365,8 +18365,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "lendys-scale-of-justice",
-    "name": "Lendys — Scale of Justice",
+    "slug": "lendys",
+    "name": "Lendys, Scale of Justice",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -18387,8 +18387,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "nathair-sgiathach-scampdrake",
-    "name": "Nathair Sgiathach — Scampdrake",
+    "slug": "nathair-sgiathach",
+    "name": "Nathair Sgiathach, Scampdrake",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -18409,8 +18409,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "null-great-deathwyrm",
-    "name": "Null — Great Deathwyrm",
+    "slug": "null",
+    "name": "Null, Great Deathwyrm",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -18431,8 +18431,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "tamara-her-mercy",
-    "name": "Tamara — Her Mercy",
+    "slug": "tamara",
+    "name": "Tamara, Her Mercy",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -18453,8 +18453,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "zorquan-perfect-wyrm",
-    "name": "Zorquan — Perfect Wyrm",
+    "slug": "zorquan",
+    "name": "Zorquan, Perfect Wyrm",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -18635,8 +18635,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "arvoreen-wary-sword-of-hin",
-    "name": "Arvoreen — Wary Sword of Hin",
+    "slug": "arvoreen",
+    "name": "Arvoreen, Wary Sword of Hin",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -18657,8 +18657,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "brandobaris-irrepressible-scamp",
-    "name": "Brandobaris — Irrepressible Scamp",
+    "slug": "brandobaris",
+    "name": "Brandobaris, the Irrepressible Scamp",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -18679,8 +18679,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "cyrollalee-hand-of-the-fellowship",
-    "name": "Cyrollalee — Hand of the Fellowship",
+    "slug": "cyrollalee",
+    "name": "Cyrollalee, Hand of the Fellowship",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -18701,8 +18701,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "dallah-thaun-lady-of-mystery",
-    "name": "Dallah Thaun — Lady of Mystery",
+    "slug": "dallah-thaun",
+    "name": "Dallah Thaun, Lady of Mystery",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -18723,8 +18723,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "sheela-peryroyl-green-sister",
-    "name": "Sheela Peryroyl — Green Sister",
+    "slug": "sheela-peryroyl",
+    "name": "Sheela Peryroyl, Green Sister",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -18745,8 +18745,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "urogalan-black-hound",
-    "name": "Urogalan — Black Hound",
+    "slug": "urogalan",
+    "name": "Urogalan, Black Hound",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -18855,8 +18855,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "kikanuti-the-oasis-kiln",
-    "name": "Kikanuti — the Oasis Kiln",
+    "slug": "kikanuti",
+    "name": "Kikanuti, the Oasis Kiln",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -18899,8 +18899,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "meriadar-mongrel-saint",
-    "name": "Meriadar — Mongrel Saint",
+    "slug": "meriadar",
+    "name": "Meriadar, Mongrel Saint",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -18965,8 +18965,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "ghaunadaur-that-which-lurks",
-    "name": "Ghaunadaur — That-Which-Lurks",
+    "slug": "ghaunadaur",
+    "name": "Ghaunadaur, That-Which-Lurks",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -18987,8 +18987,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "keptolo-the-masochedonist",
-    "name": "Keptolo — the Masochedonist",
+    "slug": "keptolo",
+    "name": "Keptolo, the Masochedonist",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -19009,8 +19009,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "kiaransalee-banshees-bride",
-    "name": "Kiaransalee — Banshee's Bride",
+    "slug": "kiaransalee",
+    "name": "Kiaransalee, Banshee's Bride",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -19031,8 +19031,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "malyk-maelstrom-magus",
-    "name": "Malyk — Maelstrom Magus",
+    "slug": "malyk",
+    "name": "Malyk, Maelstrom Magus",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -19053,8 +19053,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "selvetarm-champion-of-the-spider",
-    "name": "Selvetarm — Champion of the Spider",
+    "slug": "selvetarm",
+    "name": "Selvetarm, Champion of the Spider",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -19075,8 +19075,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "zinzerena-princess-of-the-outcasts",
-    "name": "Zinzerena — Princess of the Outcasts",
+    "slug": "zinzerena",
+    "name": "Zinzerena, Princess of the Outcasts",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -19207,8 +19207,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "gelf-darkhearth-twin-of-sorrow",
-    "name": "Gelf Darkhearth — Twin of Sorrow",
+    "slug": "gelf-darkhearth",
+    "name": "Gelf Darkhearth, Twin of Sorrow",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -19229,8 +19229,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "nebelun-the-meddler-the-interloping-inventor",
-    "name": "Nebelun the Meddler — the Interloping Inventor",
+    "slug": "nebelun-the-meddler",
+    "name": "Nebelun the Meddler, the Interloping Inventor",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -19251,8 +19251,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "ril-cleverthrush-skylark-artist",
-    "name": "Ril Cleverthrush — Skylark Artist",
+    "slug": "ril-cleverthrush",
+    "name": "Ril Cleverthrush, Skylark Artist",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -19273,8 +19273,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "roykyn-teasing-trickster",
-    "name": "Roykyn — Teasing Trickster",
+    "slug": "roykyn",
+    "name": "Roykyn, the Teasing Trickster",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -19317,8 +19317,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "sheyanna-flaxenstrand-glamoured-princess",
-    "name": "Sheyanna Flaxenstrand — Glamoured Princess",
+    "slug": "sheyanna-flaxenstrand",
+    "name": "Sheyanna Flaxenstrand, Glamoured Princess",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -19361,8 +19361,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "bahgtru-fist-of-the-chieftain",
-    "name": "Bahgtru — Fist of the Chieftain",
+    "slug": "bahgtru",
+    "name": "Bahgtru, Fist of the Chieftain",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -19383,8 +19383,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "ilneval-the-hordemaker",
-    "name": "Ilneval — the Hordemaker",
+    "slug": "ilneval",
+    "name": "Ilneval, the Hordemaker",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -19405,8 +19405,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "luthic-bloodmoon-mother",
-    "name": "Luthic — Bloodmoon Mother",
+    "slug": "luthic",
+    "name": "Luthic, Bloodmoon Mother",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -19427,8 +19427,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "obould-many-arrows-iron-khan",
-    "name": "Obould Many-Arrows — Iron Khan",
+    "slug": "obould-many-arrows",
+    "name": "Obould Many-Arrows, Iron Khan",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -19449,8 +19449,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "shargaas-the-stalker-below",
-    "name": "Shargaas — the Stalker Below",
+    "slug": "shargaas",
+    "name": "Shargaas, the Stalker Below",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -19471,8 +19471,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "yurtrus-the-white-handed",
-    "name": "Yurtrus — the White-Handed",
+    "slug": "yurtrus",
+    "name": "Yurtrus, the White-Handed",
     "portfolio": "",
     "alignment": "",
     "domains": [],

@@ -71,9 +71,9 @@ layout: grid
 columns: 3
 imageProperty: cover
 ```
-- **[[Bahgtru — Fist of the Chieftain]].** Orc god of brute strength and unquestioning loyalty.
-- **[[Ilneval — the Hordemaker]].** Orc god of strategy and command, patron of war-leaders.
-- **[[Luthic — Bloodmoon Mother]].** Orc goddess of healing and fecundity, who tends the tribe so it can continue fighting.
-- [[Obould Many-Arrows — Iron Khan]]
-- **[[Shargaas — the Stalker Below]].** Orc god of darkness, dishonour, and murder.
-- **[[Yurtrus — the White-Handed]].** Orc god of disease and decay, keeper of plagues and slow, suffocating deaths.
+- **[[Bahgtru, Fist of the Chieftain]].** Orc god of brute strength and unquestioning loyalty.
+- **[[Ilneval, the Hordemaker]].** Orc god of strategy and command, patron of war-leaders.
+- **[[Luthic, Bloodmoon Mother]].** Orc goddess of healing and fecundity, who tends the tribe so it can continue fighting.
+- [[Obould Many-Arrows, Iron Khan]]
+- **[[Shargaas, the Stalker Below]].** Orc god of darkness, dishonour, and murder.
+- **[[Yurtrus, the White-Handed]].** Orc god of disease and decay, keeper of plagues and slow, suffocating deaths.

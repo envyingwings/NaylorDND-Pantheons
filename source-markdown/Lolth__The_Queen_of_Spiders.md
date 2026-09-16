@@ -69,10 +69,10 @@ columns: 4
 imageProperty: cover
 ```
 - [[Eilistraee, Lady Silverhair]]
-- [[Ghaunadaur — That-Which-Lurks]]
-- [[Keptolo — the Masochedonist]]
-- [[Kiaransalee — Banshee's Bride]]
-- [[Malyk — Maelstrom Magus]]
-- [[Selvetarm — Champion of the Spider]]
+- [[Ghaunadaur, That-Which-Lurks]]
+- [[Keptolo, the Masochedonist]]
+- [[Kiaransalee, Banshee's Bride]]
+- [[Malyk, Maelstrom Magus]]
+- [[Selvetarm, Champion of the Spider]]
 - [[Vhaeraun, Prince of the Stage]]
-- [[Zinzerena — Princess of the Outcasts]]
+- [[Zinzerena, Princess of the Outcasts]]
