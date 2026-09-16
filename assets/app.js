@@ -1,6 +1,6 @@
 /* Shared utilities + landing page logic for The Ourosi Pantheon wiki. */
 
-const DATA_URL = "data/deities.json?v=a4256c35";
+const DATA_URL = "data/deities.json?v=a0a40368";
 
 /** Load the deity dataset once and cache it on window. */
 async function loadDeities() {
@@ -119,6 +119,10 @@ function resolveDeityName(d, source) {
 const DEITY_PORTFOLIO_OVERRIDES = {
   kord: {
     giant: "Demigod of Heroism and Victory",
+  },
+  aasterinian: {
+    draconic: "Draconic goddess of messengers, humour, invention, and pleasure",
+    elven: "Elven god of messengers, humour, invention, and pleasure",
   },
 };
 

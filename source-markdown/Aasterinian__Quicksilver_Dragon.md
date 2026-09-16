@@ -1,6 +1,6 @@
 ---
 Divine Domains:
-Portfolio:
+Portfolio: God/goddess of messengers, humour, invention, and pleasure
 Status:
   - Seldarine
 tags:
