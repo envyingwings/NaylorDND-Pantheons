@@ -121,7 +121,7 @@ function renderMultiAspectPage(parent, placeholderSlugs, deities) {
           ${metaRowHtml(view)}
         </div>
       </div>
-      ${infoboxHtml(view)}
+      ${infoboxHtml(view, source)}
       ${introHtml(view)}
       ${titlesDomainsHtml(view)}
       ${commandmentsHtml(view)}
@@ -145,9 +145,17 @@ function renderMultiAspectPage(parent, placeholderSlugs, deities) {
   renderAspect(activeSlug);
 }
 
-function infoboxHtml(d) {
+function infoboxHtml(d, source) {
   const rows = [];
-  const box = d.infobox || {};
+  // A per-source portfolio override (e.g. Kord shown as a giant demigod on
+  // the Giant Pantheon's own tab and appendices, rather than his full
+  // Greater God portfolio) replaces the infobox's displayed Portfolio row
+  // the same way it replaces the hero tagline -- built from a shadow copy
+  // of the infobox rather than mutating d.infobox, since that object is
+  // shared by every render of this same deity record.
+  const box = { ...(d.infobox || {}) };
+  const portfolioOverride = resolveDeityPortfolio(d, source);
+  if (portfolioOverride) box.Portfolio = portfolioOverride;
   const order = ["Alignment", "Symbol", "Portfolio", "Divine Realm", "Worshippers"];
   order.forEach((key) => {
     if (box[key]) rows.push([key, box[key]]);
@@ -211,8 +219,12 @@ const ASPECT_LINK_HINTS = [
 ];
 
 function resolveMemberHref(m, source) {
-  const hint = ASPECT_LINK_HINTS.find((h) => h.slug === m.slug && h.match.test(m.name));
-  const aspectParam = hint ? `&aspect=${encodeURIComponent(hint.aspect)}` : "";
+  // An expanded aspect card (expandAppendixMembers) already knows exactly
+  // which aspect it is -- no need for ASPECT_LINK_HINTS' name-matching
+  // heuristic, which exists for the un-expanded case where a bullet link's
+  // display text is the only clue which aspect it means.
+  const aspectSlug = m._aspectSlug || (ASPECT_LINK_HINTS.find((h) => h.slug === m.slug && h.match.test(m.name)) || {}).aspect;
+  const aspectParam = aspectSlug ? `&aspect=${encodeURIComponent(aspectSlug)}` : "";
   // source rides along on every member link, not just aspect ones -- an
   // ordinary deity can also have a context-dependent name (DEITY_NAME_
   // OVERRIDES, e.g. Aasterinian/Avachel) with no aspect tab involved at
@@ -228,7 +240,7 @@ function pantheonMemberHtml(m, placeholderSlugs, source, iconLookup) {
   const nameHtml = `<a class="m-name" href="${resolveMemberHref(m, source)}">${renderInline(m.name)}</a>`;
   const blurb = m.blurb ? `<span class="m-blurb">${renderInline(m.blurb)}</span>` : "";
   const stubTag = isPlaceholder ? `<span class="stub-tag">unwritten</span>` : "";
-  const iconDeity = iconLookup ? iconLookup.get(m.slug) : null;
+  const iconDeity = m._iconOverride || (iconLookup ? iconLookup.get(m.slug) : null);
   const iconHtml = iconDeity
     ? `<img class="m-symbol" src="${iconPath(iconDeity)}" alt="${escapeHtml(m.name)} symbol" loading="lazy">`
     : "";
@@ -276,16 +288,56 @@ function selectAppendixGroup(appendix, pageSource) {
   return bySource || groups[0];
 }
 
+// On an Elven Pantheon roster, the combined Seha-Angharradh record is
+// listed as a single "Angharradh" entry (there's only one bullet for her
+// in the source markdown, same as everywhere else that links her) -- but
+// the Elven tab's own landing-page grid shows her as four separate cards
+// (Angharradh, Aerdrie Faenya, Hanali Celanil, Sehanine Moonbow), and an
+// appendix listing the same roster should match that, not show three of
+// the four Seldarine goddesses as if they weren't members at all. Mirrors
+// expandToAspectCards in app.js, but works on the lighter {name, slug,
+// blurb} member shape an appendix roster uses rather than a full deity
+// record, and is only applied for the Elven source specifically -- same
+// scope as PANTHEON_TAGS.elven.expandAspects on the landing page.
+function expandAppendixMembers(members, outgoingSource, deities) {
+  if (outgoingSource !== "elven" || !deities) return members;
+  const bySlug = new Map(deities.map((x) => [x.slug, x]));
+  const expanded = [];
+  members.forEach((m) => {
+    const full = bySlug.get(m.slug);
+    if (full && full.multi_aspect && Array.isArray(full.aspects) && full.aspects.length > 0) {
+      full.aspects.forEach((a) => {
+        expanded.push({
+          name: (SOURCE_NAME_OVERRIDES.elven && SOURCE_NAME_OVERRIDES.elven[a.aspect_slug]) || a.name,
+          slug: full.slug,
+          blurb: "",
+          has_page: true,
+          _aspectSlug: a.aspect_slug,
+          // Only the combined/default aspect (Angharradh) uses the merged
+          // page's own symbol; Aerdrie, Hanali, and Sehanine each keep
+          // their own distinct icon -- mirrors expandToAspectCards' same
+          // _cardIcon logic in app.js.
+          _iconOverride: a.aspect_slug === full.default_aspect ? null : { slug: a.aspect_slug, icon_ext: a.icon_ext },
+        });
+      });
+    } else {
+      expanded.push(m);
+    }
+  });
+  return expanded;
+}
+
 function appendixHtml(d, placeholderSlugs, deities, pageSource) {
   const appendix = resolveAppendix(d.appendix, deities);
   if (!appendix) return "";
-  const { title, members } = selectAppendixGroup(appendix, pageSource);
+  const { title, members: rawMembers } = selectAppendixGroup(appendix, pageSource);
   // Cross-links from this group carry the *linked-to* pantheon as their own
   // source, independent of pageSource above (which only selected which of
   // THIS deity's groups to show) -- e.g. following a Draconic Pantheon
   // member link should tag that link "draconic" regardless of whether this
   // page itself was reached as "Aasterinian" or "Avachel".
   const outgoingSource = sourceFromAppendixTitle(title);
+  const members = expandAppendixMembers(rawMembers, outgoingSource, deities);
   const heading = title ? `<h2>${renderInline(title)}</h2>` : `<h2>Appendix</h2>`;
   if (!members || members.length === 0) {
     return `
@@ -330,16 +382,17 @@ function renderDeityPage(d, placeholderSlugs, deities, source) {
     return;
   }
 
+  const displayPortfolio = resolveDeityPortfolio(d, source);
   const html = `
     <div class="deity-hero">
       <img class="symbol" src="${iconPath(d)}" alt="${escapeHtml(displayName)} symbol">
       <div class="deity-hero-text">
         <h1>${renderInline(displayName)}</h1>
-        <p class="portfolio">${renderInline(d.portfolio || "")}</p>
+        <p class="portfolio">${renderInline(displayPortfolio || "")}</p>
         ${metaRowHtml(d)}
       </div>
     </div>
-    ${infoboxHtml(d)}
+    ${infoboxHtml(d, source)}
     ${introHtml(d)}
     ${titlesDomainsHtml(d)}
     ${commandmentsHtml(d)}

@@ -85,6 +85,8 @@ a:hover { text-decoration: underline; }
   margin: 28px auto 0;
   padding: 0 24px;
   display: flex;
+  flex-wrap: wrap;
+  row-gap: 4px;
   gap: 8px;
   border-bottom: 1px solid var(--border);
 }

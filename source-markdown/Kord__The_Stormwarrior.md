@@ -61,13 +61,13 @@ layout: grid
 columns: 3
 imageProperty: cover
 ```
-- [[Annam All-Father — the Lord of the Ordning]]
-- [[Grolantor — the Ever-Hungry]]
-- [[Hiatea — Huntress of Legends]]
-- [[Iallanis — the Gentle Giantess]]
-- [[Karontor — the Crawler-Below]]
-- [[Memnor — the Silver-lined Prince]]
-- [[Skoraeus Stonebones — the Earthen Dream]]
-- [[Stronmaus — the Smiling Storm]]
-- [[Surtr — All-Consuming Flame]]
-- [[Thrymr — the Frost Reaver]]
+- [[Annam All-Father, the Lord of the Ordning]]
+- [[Grolantor, the Ever-Hungry]]
+- [[Hiatea, Huntress of Legends]]
+- [[Iallanis, the Gentle Giantess]]
+- [[Karontor, the Crawler-Below]]
+- [[Memnor, the Silver-lined Prince]]
+- [[Skoraeus Stonebones, the Earthen Dream]]
+- [[Stronmaus, the Smiling Storm]]
+- [[Surtr, All-Consuming Flame]]
+- [[Thrymr, the Frost Reaver]]

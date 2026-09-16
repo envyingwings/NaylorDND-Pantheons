@@ -1,7 +1,7 @@
 [
   {
-    "slug": "aasterinian-quicksilver-dragon",
-    "name": "Aasterinian — Quicksilver Dragon",
+    "slug": "aasterinian",
+    "name": "Aasterinian, the Quicksilver Dragon",
     "portfolio": null,
     "alignment": "",
     "domains": [],
@@ -701,7 +701,7 @@
             },
             {
               "name": "Avachel — the Quicksilver Dragon",
-              "slug": "aasterinian-quicksilver-dragon",
+              "slug": "aasterinian",
               "blurb": "",
               "has_page": true
             },
@@ -838,7 +838,7 @@
         },
         {
           "name": "Avachel — the Quicksilver Dragon",
-          "slug": "aasterinian-quicksilver-dragon",
+          "slug": "aasterinian",
           "blurb": "",
           "has_page": true
         },
@@ -1007,7 +1007,7 @@
             },
             {
               "name": "Avachel — the Quicksilver Dragon",
-              "slug": "aasterinian-quicksilver-dragon",
+              "slug": "aasterinian",
               "blurb": "",
               "has_page": true
             },
@@ -1144,7 +1144,7 @@
         },
         {
           "name": "Avachel — the Quicksilver Dragon",
-          "slug": "aasterinian-quicksilver-dragon",
+          "slug": "aasterinian",
           "blurb": "",
           "has_page": true
         },
@@ -1310,7 +1310,7 @@
             },
             {
               "name": "Avachel — the Quicksilver Dragon",
-              "slug": "aasterinian-quicksilver-dragon",
+              "slug": "aasterinian",
               "blurb": "",
               "has_page": true
             },
@@ -1447,7 +1447,7 @@
         },
         {
           "name": "Avachel — the Quicksilver Dragon",
-          "slug": "aasterinian-quicksilver-dragon",
+          "slug": "aasterinian",
           "blurb": "",
           "has_page": true
         },
@@ -1925,8 +1925,8 @@
           "title": "Pantheon Draconis — Draconic Pantheon",
           "members": [
             {
-              "name": "Aasterinian — Quicksilver Dragon",
-              "slug": "aasterinian-quicksilver-dragon",
+              "name": "Aasterinian, the Quicksilver Dragon",
+              "slug": "aasterinian",
               "blurb": "",
               "has_page": true
             },
@@ -2002,8 +2002,8 @@
       "title": "Pantheon Draconis — Draconic Pantheon",
       "members": [
         {
-          "name": "Aasterinian — Quicksilver Dragon",
-          "slug": "aasterinian-quicksilver-dragon",
+          "name": "Aasterinian, the Quicksilver Dragon",
+          "slug": "aasterinian",
           "blurb": "",
           "has_page": true
         },
@@ -2984,7 +2984,7 @@
             },
             {
               "name": "Avachel — the Quicksilver Dragon",
-              "slug": "aasterinian-quicksilver-dragon",
+              "slug": "aasterinian",
               "blurb": "",
               "has_page": true
             },
@@ -3121,7 +3121,7 @@
         },
         {
           "name": "Avachel — the Quicksilver Dragon",
-          "slug": "aasterinian-quicksilver-dragon",
+          "slug": "aasterinian",
           "blurb": "",
           "has_page": true
         },
@@ -3635,7 +3635,7 @@
             },
             {
               "name": "Avachel — the Quicksilver Dragon",
-              "slug": "aasterinian-quicksilver-dragon",
+              "slug": "aasterinian",
               "blurb": "",
               "has_page": true
             },
@@ -3772,7 +3772,7 @@
         },
         {
           "name": "Avachel — the Quicksilver Dragon",
-          "slug": "aasterinian-quicksilver-dragon",
+          "slug": "aasterinian",
           "blurb": "",
           "has_page": true
         },
@@ -5419,7 +5419,7 @@
             },
             {
               "name": "Avachel — the Quicksilver Dragon",
-              "slug": "aasterinian-quicksilver-dragon",
+              "slug": "aasterinian",
               "blurb": "",
               "has_page": true
             },
@@ -5556,7 +5556,7 @@
         },
         {
           "name": "Avachel — the Quicksilver Dragon",
-          "slug": "aasterinian-quicksilver-dragon",
+          "slug": "aasterinian",
           "blurb": "",
           "has_page": true
         },
@@ -5777,7 +5777,7 @@
             },
             {
               "name": "Avachel — the Quicksilver Dragon",
-              "slug": "aasterinian-quicksilver-dragon",
+              "slug": "aasterinian",
               "blurb": "",
               "has_page": true
             },
@@ -5914,7 +5914,7 @@
         },
         {
           "name": "Avachel — the Quicksilver Dragon",
-          "slug": "aasterinian-quicksilver-dragon",
+          "slug": "aasterinian",
           "blurb": "",
           "has_page": true
         },
@@ -6080,7 +6080,7 @@
             },
             {
               "name": "Avachel — the Quicksilver Dragon",
-              "slug": "aasterinian-quicksilver-dragon",
+              "slug": "aasterinian",
               "blurb": "",
               "has_page": true
             },
@@ -6217,7 +6217,7 @@
         },
         {
           "name": "Avachel — the Quicksilver Dragon",
-          "slug": "aasterinian-quicksilver-dragon",
+          "slug": "aasterinian",
           "blurb": "",
           "has_page": true
         },
@@ -8091,7 +8091,7 @@
             },
             {
               "name": "Avachel — the Quicksilver Dragon",
-              "slug": "aasterinian-quicksilver-dragon",
+              "slug": "aasterinian",
               "blurb": "",
               "has_page": true
             },
@@ -8228,7 +8228,7 @@
         },
         {
           "name": "Avachel — the Quicksilver Dragon",
-          "slug": "aasterinian-quicksilver-dragon",
+          "slug": "aasterinian",
           "blurb": "",
           "has_page": true
         },
@@ -8397,62 +8397,62 @@
           "title": "The Ordning — Giant Pantheon",
           "members": [
             {
-              "name": "Annam All-Father — the Lord of the Ordning",
-              "slug": "annam-all-father-the-lord-of-the-ordning",
+              "name": "Annam All-Father, the Lord of the Ordning",
+              "slug": "annam-all-father",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Grolantor — the Ever-Hungry",
-              "slug": "grolantor-the-ever-hungry",
+              "name": "Grolantor, the Ever-Hungry",
+              "slug": "grolantor",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Hiatea — Huntress of Legends",
-              "slug": "hiatea-huntress-of-legends",
+              "name": "Hiatea, Huntress of Legends",
+              "slug": "hiatea",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Iallanis — the Gentle Giantess",
-              "slug": "iallanis-the-gentle-giantess",
+              "name": "Iallanis, the Gentle Giantess",
+              "slug": "iallanis",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Karontor — the Crawler-Below",
-              "slug": "karontor-the-crawler-below",
+              "name": "Karontor, the Crawler-Below",
+              "slug": "karontor",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Memnor — the Silver-lined Prince",
-              "slug": "memnor-the-silver-lined-prince",
+              "name": "Memnor, the Silver-lined Prince",
+              "slug": "memnor",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Skoraeus Stonebones — the Earthen Dream",
-              "slug": "skoraeus-stonebones-the-earthen-dream",
+              "name": "Skoraeus Stonebones, the Earthen Dream",
+              "slug": "skoraeus-stonebones",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Stronmaus — the Smiling Storm",
-              "slug": "stronmaus-the-smiling-storm",
+              "name": "Stronmaus, the Smiling Storm",
+              "slug": "stronmaus",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Surtr — All-Consuming Flame",
-              "slug": "surtr-all-consuming-flame",
+              "name": "Surtr, All-Consuming Flame",
+              "slug": "surtr",
               "blurb": "",
               "has_page": true
             },
             {
-              "name": "Thrymr — the Frost Reaver",
-              "slug": "thrymr-the-frost-reaver",
+              "name": "Thrymr, the Frost Reaver",
+              "slug": "thrymr",
               "blurb": "",
               "has_page": true
             }
@@ -8462,62 +8462,62 @@
       "title": "The Ordning — Giant Pantheon",
       "members": [
         {
-          "name": "Annam All-Father — the Lord of the Ordning",
-          "slug": "annam-all-father-the-lord-of-the-ordning",
+          "name": "Annam All-Father, the Lord of the Ordning",
+          "slug": "annam-all-father",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Grolantor — the Ever-Hungry",
-          "slug": "grolantor-the-ever-hungry",
+          "name": "Grolantor, the Ever-Hungry",
+          "slug": "grolantor",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Hiatea — Huntress of Legends",
-          "slug": "hiatea-huntress-of-legends",
+          "name": "Hiatea, Huntress of Legends",
+          "slug": "hiatea",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Iallanis — the Gentle Giantess",
-          "slug": "iallanis-the-gentle-giantess",
+          "name": "Iallanis, the Gentle Giantess",
+          "slug": "iallanis",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Karontor — the Crawler-Below",
-          "slug": "karontor-the-crawler-below",
+          "name": "Karontor, the Crawler-Below",
+          "slug": "karontor",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Memnor — the Silver-lined Prince",
-          "slug": "memnor-the-silver-lined-prince",
+          "name": "Memnor, the Silver-lined Prince",
+          "slug": "memnor",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Skoraeus Stonebones — the Earthen Dream",
-          "slug": "skoraeus-stonebones-the-earthen-dream",
+          "name": "Skoraeus Stonebones, the Earthen Dream",
+          "slug": "skoraeus-stonebones",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Stronmaus — the Smiling Storm",
-          "slug": "stronmaus-the-smiling-storm",
+          "name": "Stronmaus, the Smiling Storm",
+          "slug": "stronmaus",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Surtr — All-Consuming Flame",
-          "slug": "surtr-all-consuming-flame",
+          "name": "Surtr, All-Consuming Flame",
+          "slug": "surtr",
           "blurb": "",
           "has_page": true
         },
         {
-          "name": "Thrymr — the Frost Reaver",
-          "slug": "thrymr-the-frost-reaver",
+          "name": "Thrymr, the Frost Reaver",
+          "slug": "thrymr",
           "blurb": "",
           "has_page": true
         }
@@ -8586,7 +8586,7 @@
             },
             {
               "name": "Avachel — the Quicksilver Dragon",
-              "slug": "aasterinian-quicksilver-dragon",
+              "slug": "aasterinian",
               "blurb": "",
               "has_page": true
             },
@@ -8723,7 +8723,7 @@
         },
         {
           "name": "Avachel — the Quicksilver Dragon",
-          "slug": "aasterinian-quicksilver-dragon",
+          "slug": "aasterinian",
           "blurb": "",
           "has_page": true
         },
@@ -9944,7 +9944,7 @@
             },
             {
               "name": "Avachel — the Quicksilver Dragon",
-              "slug": "aasterinian-quicksilver-dragon",
+              "slug": "aasterinian",
               "blurb": "",
               "has_page": true
             },
@@ -10081,7 +10081,7 @@
         },
         {
           "name": "Avachel — the Quicksilver Dragon",
-          "slug": "aasterinian-quicksilver-dragon",
+          "slug": "aasterinian",
           "blurb": "",
           "has_page": true
         },
@@ -10962,7 +10962,7 @@
             },
             {
               "name": "Avachel — the Quicksilver Dragon",
-              "slug": "aasterinian-quicksilver-dragon",
+              "slug": "aasterinian",
               "blurb": "",
               "has_page": true
             },
@@ -11099,7 +11099,7 @@
         },
         {
           "name": "Avachel — the Quicksilver Dragon",
-          "slug": "aasterinian-quicksilver-dragon",
+          "slug": "aasterinian",
           "blurb": "",
           "has_page": true
         },
@@ -11265,7 +11265,7 @@
             },
             {
               "name": "Avachel — the Quicksilver Dragon",
-              "slug": "aasterinian-quicksilver-dragon",
+              "slug": "aasterinian",
               "blurb": "",
               "has_page": true
             },
@@ -11402,7 +11402,7 @@
         },
         {
           "name": "Avachel — the Quicksilver Dragon",
-          "slug": "aasterinian-quicksilver-dragon",
+          "slug": "aasterinian",
           "blurb": "",
           "has_page": true
         },
@@ -11671,7 +11671,7 @@
             },
             {
               "name": "Avachel — the Quicksilver Dragon",
-              "slug": "aasterinian-quicksilver-dragon",
+              "slug": "aasterinian",
               "blurb": "",
               "has_page": true
             },
@@ -11808,7 +11808,7 @@
         },
         {
           "name": "Avachel — the Quicksilver Dragon",
-          "slug": "aasterinian-quicksilver-dragon",
+          "slug": "aasterinian",
           "blurb": "",
           "has_page": true
         },
@@ -12295,8 +12295,8 @@
           "title": "Pantheon Draconis — Draconic Pantheon",
           "members": [
             {
-              "name": "Aasterinian — Quicksilver Dragon",
-              "slug": "aasterinian-quicksilver-dragon",
+              "name": "Aasterinian, the Quicksilver Dragon",
+              "slug": "aasterinian",
               "blurb": "",
               "has_page": true
             },
@@ -12372,8 +12372,8 @@
       "title": "Pantheon Draconis — Draconic Pantheon",
       "members": [
         {
-          "name": "Aasterinian — Quicksilver Dragon",
-          "slug": "aasterinian-quicksilver-dragon",
+          "name": "Aasterinian, the Quicksilver Dragon",
+          "slug": "aasterinian",
           "blurb": "",
           "has_page": true
         },
@@ -12500,7 +12500,7 @@
             },
             {
               "name": "Avachel — the Quicksilver Dragon",
-              "slug": "aasterinian-quicksilver-dragon",
+              "slug": "aasterinian",
               "blurb": "",
               "has_page": true
             },
@@ -12637,7 +12637,7 @@
         },
         {
           "name": "Avachel — the Quicksilver Dragon",
-          "slug": "aasterinian-quicksilver-dragon",
+          "slug": "aasterinian",
           "blurb": "",
           "has_page": true
         },
@@ -12828,7 +12828,7 @@
             },
             {
               "name": "Avachel — the Quicksilver Dragon",
-              "slug": "aasterinian-quicksilver-dragon",
+              "slug": "aasterinian",
               "blurb": "",
               "has_page": true
             },
@@ -12965,7 +12965,7 @@
         },
         {
           "name": "Avachel — the Quicksilver Dragon",
-          "slug": "aasterinian-quicksilver-dragon",
+          "slug": "aasterinian",
           "blurb": "",
           "has_page": true
         },
@@ -13131,7 +13131,7 @@
                 },
                 {
                   "name": "Avachel — the Quicksilver Dragon",
-                  "slug": "aasterinian-quicksilver-dragon",
+                  "slug": "aasterinian",
                   "blurb": "",
                   "has_page": true
                 },
@@ -13268,7 +13268,7 @@
             },
             {
               "name": "Avachel — the Quicksilver Dragon",
-              "slug": "aasterinian-quicksilver-dragon",
+              "slug": "aasterinian",
               "blurb": "",
               "has_page": true
             },
@@ -13832,7 +13832,7 @@
             },
             {
               "name": "Avachel — the Quicksilver Dragon",
-              "slug": "aasterinian-quicksilver-dragon",
+              "slug": "aasterinian",
               "blurb": "",
               "has_page": true
             },
@@ -13969,7 +13969,7 @@
         },
         {
           "name": "Avachel — the Quicksilver Dragon",
-          "slug": "aasterinian-quicksilver-dragon",
+          "slug": "aasterinian",
           "blurb": "",
           "has_page": true
         },
@@ -14145,7 +14145,7 @@
             },
             {
               "name": "Avachel — the Quicksilver Dragon",
-              "slug": "aasterinian-quicksilver-dragon",
+              "slug": "aasterinian",
               "blurb": "",
               "has_page": true
             },
@@ -14282,7 +14282,7 @@
         },
         {
           "name": "Avachel — the Quicksilver Dragon",
-          "slug": "aasterinian-quicksilver-dragon",
+          "slug": "aasterinian",
           "blurb": "",
           "has_page": true
         },
@@ -14458,7 +14458,7 @@
             },
             {
               "name": "Avachel — the Quicksilver Dragon",
-              "slug": "aasterinian-quicksilver-dragon",
+              "slug": "aasterinian",
               "blurb": "",
               "has_page": true
             },
@@ -14595,7 +14595,7 @@
         },
         {
           "name": "Avachel — the Quicksilver Dragon",
-          "slug": "aasterinian-quicksilver-dragon",
+          "slug": "aasterinian",
           "blurb": "",
           "has_page": true
         },
@@ -14764,7 +14764,7 @@
             },
             {
               "name": "Avachel — the Quicksilver Dragon",
-              "slug": "aasterinian-quicksilver-dragon",
+              "slug": "aasterinian",
               "blurb": "",
               "has_page": true
             },
@@ -14901,7 +14901,7 @@
         },
         {
           "name": "Avachel — the Quicksilver Dragon",
-          "slug": "aasterinian-quicksilver-dragon",
+          "slug": "aasterinian",
           "blurb": "",
           "has_page": true
         },
@@ -16092,8 +16092,8 @@
           "title": "Pantheon Draconis — Draconic Pantheon",
           "members": [
             {
-              "name": "Aasterinian — Quicksilver Dragon",
-              "slug": "aasterinian-quicksilver-dragon",
+              "name": "Aasterinian, the Quicksilver Dragon",
+              "slug": "aasterinian",
               "blurb": "",
               "has_page": true
             },
@@ -16169,8 +16169,8 @@
       "title": "Pantheon Draconis — Draconic Pantheon",
       "members": [
         {
-          "name": "Aasterinian — Quicksilver Dragon",
-          "slug": "aasterinian-quicksilver-dragon",
+          "name": "Aasterinian, the Quicksilver Dragon",
+          "slug": "aasterinian",
           "blurb": "",
           "has_page": true
         },
@@ -16346,7 +16346,7 @@
             },
             {
               "name": "Avachel — the Quicksilver Dragon",
-              "slug": "aasterinian-quicksilver-dragon",
+              "slug": "aasterinian",
               "blurb": "",
               "has_page": true
             },
@@ -16483,7 +16483,7 @@
         },
         {
           "name": "Avachel — the Quicksilver Dragon",
-          "slug": "aasterinian-quicksilver-dragon",
+          "slug": "aasterinian",
           "blurb": "",
           "has_page": true
         },
@@ -17298,7 +17298,7 @@
             },
             {
               "name": "Avachel — the Quicksilver Dragon",
-              "slug": "aasterinian-quicksilver-dragon",
+              "slug": "aasterinian",
               "blurb": "",
               "has_page": true
             },
@@ -17435,7 +17435,7 @@
         },
         {
           "name": "Avachel — the Quicksilver Dragon",
-          "slug": "aasterinian-quicksilver-dragon",
+          "slug": "aasterinian",
           "blurb": "",
           "has_page": true
         },
@@ -19493,8 +19493,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "annam-all-father-the-lord-of-the-ordning",
-    "name": "Annam All-Father — the Lord of the Ordning",
+    "slug": "annam-all-father",
+    "name": "Annam All-Father, the Lord of the Ordning",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -19515,8 +19515,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "grolantor-the-ever-hungry",
-    "name": "Grolantor — the Ever-Hungry",
+    "slug": "grolantor",
+    "name": "Grolantor, the Ever-Hungry",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -19537,8 +19537,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "hiatea-huntress-of-legends",
-    "name": "Hiatea — Huntress of Legends",
+    "slug": "hiatea",
+    "name": "Hiatea, Huntress of Legends",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -19559,8 +19559,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "iallanis-the-gentle-giantess",
-    "name": "Iallanis — the Gentle Giantess",
+    "slug": "iallanis",
+    "name": "Iallanis, the Gentle Giantess",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -19581,8 +19581,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "karontor-the-crawler-below",
-    "name": "Karontor — the Crawler-Below",
+    "slug": "karontor",
+    "name": "Karontor, the Crawler-Below",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -19603,8 +19603,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "memnor-the-silver-lined-prince",
-    "name": "Memnor — the Silver-lined Prince",
+    "slug": "memnor",
+    "name": "Memnor, the Silver-lined Prince",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -19625,8 +19625,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "skoraeus-stonebones-the-earthen-dream",
-    "name": "Skoraeus Stonebones — the Earthen Dream",
+    "slug": "skoraeus-stonebones",
+    "name": "Skoraeus Stonebones, the Earthen Dream",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -19647,8 +19647,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "stronmaus-the-smiling-storm",
-    "name": "Stronmaus — the Smiling Storm",
+    "slug": "stronmaus",
+    "name": "Stronmaus, the Smiling Storm",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -19669,8 +19669,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "surtr-all-consuming-flame",
-    "name": "Surtr — All-Consuming Flame",
+    "slug": "surtr",
+    "name": "Surtr, All-Consuming Flame",
     "portfolio": "",
     "alignment": "",
     "domains": [],
@@ -19691,8 +19691,8 @@
     "is_placeholder": true
   },
   {
-    "slug": "thrymr-the-frost-reaver",
-    "name": "Thrymr — the Frost Reaver",
+    "slug": "thrymr",
+    "name": "Thrymr, the Frost Reaver",
     "portfolio": "",
     "alignment": "",
     "domains": [],

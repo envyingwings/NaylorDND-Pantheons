@@ -60,7 +60,7 @@ layout: grid
 columns: 3
 imageProperty: cover
 ```
-- [[Aasterinian — Quicksilver Dragon]]
+- [[Aasterinian, the Quicksilver Dragon]]
 - [[Astilabor — The Hoardmistress]]
 - [[Bahamut, the Platinum Dragon]]
 - [[Garyx — Cleanser of Worlds]]

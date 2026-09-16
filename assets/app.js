@@ -1,6 +1,6 @@
 /* Shared utilities + landing page logic for The Ourosi Pantheon wiki. */
 
-const DATA_URL = "data/deities.json?v=4f0d25a2";
+const DATA_URL = "data/deities.json?v=93a2ea5d";
 
 /** Load the deity dataset once and cache it on window. */
 async function loadDeities() {
@@ -93,7 +93,7 @@ function displayNameHtml(d, mode) {
 // so both the landing-page card and the deity page's own hero/title need
 // it. Unlisted deities are unaffected regardless of source.
 const DEITY_NAME_OVERRIDES = {
-  "aasterinian-quicksilver-dragon": {
+  aasterinian: {
     draconic: "Aasterinian, the Quicksilver Dragon",
     elven: "Avachel, the Quicksilver Dragon",
   },
@@ -105,6 +105,29 @@ function resolveDeityName(d, source) {
   return d.name;
 }
 
+// A deity can hold a narrower rank and portfolio within a pantheon they're
+// not truly a member of -- Kord is a full Greater God on the Ourosi
+// (Greater) Pantheon, but within the Ordning he's honored only as a
+// demigod exarch of Annam All-Father, with a correspondingly narrower
+// portfolio (Storms/Skies/Athletics/Battle/Heroes/Victory in full,
+// Heroism/Victory alone in the giants' own regard). Same shape and
+// rationale as DEITY_NAME_OVERRIDES -- keyed by slug then source, lives
+// here so both the landing-page card and the deity page's own hero
+// tagline/infobox Portfolio row apply it. Unlisted deities (and any
+// source without an entry) fall through to the deity's own portfolio
+// unchanged.
+const DEITY_PORTFOLIO_OVERRIDES = {
+  kord: {
+    giant: "Demigod of Heroism and Victory",
+  },
+};
+
+function resolveDeityPortfolio(d, source) {
+  const overrides = DEITY_PORTFOLIO_OVERRIDES[d.slug];
+  if (overrides && source && overrides[source]) return overrides[source];
+  return d.portfolio;
+}
+
 /* ---------------- Landing page ---------------- */
 
 function deityCardHtml(d, nameMode, source) {
@@ -114,12 +137,13 @@ function deityCardHtml(d, nameMode, source) {
   const iconSource = d._cardIcon || d;
   const stubTag = d.is_placeholder ? `<span class="stub-tag">unwritten</span>` : "";
   const displayName = resolveDeityName(d, source);
+  const displayPortfolio = resolveDeityPortfolio(d, source);
   return `
     <a class="deity-card${d.is_placeholder ? " no-page" : ""}" href="${href}" data-slug="${d.slug}">
       <img class="symbol" src="${iconPath(iconSource)}" alt="${escapeHtml(displayName)} symbol" loading="lazy">
       <h2 class="card-name card-name--${nameMode}">${displayNameHtml({ name: displayName }, nameMode)}</h2>
       ${stubTag}
-      <p class="portfolio">${renderInline(d.portfolio || "")}</p>
+      <p class="portfolio">${renderInline(displayPortfolio || "")}</p>
       ${d.alignment ? `<span class="alignment-tag">${escapeHtml(d.alignment)}</span>` : ""}
     </a>
   `;
@@ -168,9 +192,6 @@ function initLandingPage() {
     // below already handles without a separate blanket exclusion here.
     const real = deities;
 
-    // Sort alphabetically by display name (ignoring leading articles/titles noise)
-    const sorted = [...real].sort((a, b) => a.name.localeCompare(b.name));
-
     // Active pantheon tab persists across visits, same as name display mode.
     const TAB_STORAGE_KEY = "ourosi-pantheon-tab";
     let activeTab = "greater";
@@ -209,29 +230,34 @@ function initLandingPage() {
 
     function deitiesForActiveTab() {
       const cfg = PANTHEON_TAGS[activeTab];
-      const matched = sorted.filter((d) => {
+      const matched = real.filter((d) => {
         const tags = d.tags || [];
         if (!tags.includes(cfg.include)) return false;
         if (cfg.exclude && tags.includes(cfg.exclude)) return false;
         return true;
       });
-      if (!cfg.expandAspects) return matched;
-      const expanded = [];
-      matched.forEach((d) => {
-        if (d.multi_aspect && Array.isArray(d.aspects) && d.aspects.length > 0) {
-          expanded.push(...expandToAspectCards(d));
-        } else {
-          expanded.push(d);
-        }
-      });
-      // Expansion replaces one record (sorted by its own top-level name,
-      // e.g. "Seha-Angharradh...") with several cards under their own
-      // distinct display names (e.g. "Angharradh...", "Aerdrie Faenya...")
-      // -- those need their own alphabetical position, so re-sort after
-      // expanding rather than relying on the position the un-expanded
-      // record held in `sorted`.
-      expanded.sort((a, b) => a.name.localeCompare(b.name));
-      return expanded;
+      let list = matched;
+      if (cfg.expandAspects) {
+        const expanded = [];
+        matched.forEach((d) => {
+          if (d.multi_aspect && Array.isArray(d.aspects) && d.aspects.length > 0) {
+            expanded.push(...expandToAspectCards(d));
+          } else {
+            expanded.push(d);
+          }
+        });
+        list = expanded;
+      }
+      // Sorted here, not once up front, because a deity's alphabetical
+      // position can depend on which tab is showing it -- both because of
+      // aspect expansion just above (one record becomes several, each
+      // under its own name) and because of DEITY_NAME_OVERRIDES, where the
+      // same record's *display name itself* changes per tab (Aasterinian
+      // on the Draconic tab, but Avachel -- sorting under A-V, not A-A --
+      // on the Elven tab). Sorting once before the tab is even known can
+      // only ever be correct for whichever name the un-toured record
+      // happens to carry natively.
+      return [...list].sort((a, b) => resolveDeityName(a, activeTab).localeCompare(resolveDeityName(b, activeTab)));
     }
 
     // Rebuilds the alignment filter's options to match whichever alignments

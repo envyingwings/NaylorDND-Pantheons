@@ -137,7 +137,7 @@ imageProperty: cover
 - [[Alathrien Druanna — the Glyphscribe]]
 - [[Alobal Lorfiril — the Merry Magician]]
 - [[Araleth Letheranil — the Prince of Stars]]
-- [[Aasterinian — Quicksilver Dragon|Avachel — the Quicksilver Dragon]]
+- [[Aasterinian, the Quicksilver Dragon|Avachel — the Quicksilver Dragon]]
 - [[Corellon Larethian, The Arch-Seldarine]]
 - [[Deep Sashelas — the Dolphin Prince]]
 - [[Elebrin Liothiel — the Celestial Gardener]]

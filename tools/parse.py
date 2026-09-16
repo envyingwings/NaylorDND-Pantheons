@@ -155,7 +155,17 @@ def _parse_appendix_members(title, section_body):
             continue
         members.append({
             "name": name_clean,
-            "slug": slugify(target),
+            # Slugified the same way parse_file computes a real page's own
+            # slug (split at the first comma, then slugify only that first
+            # part) rather than slugifying the whole target string -- the
+            # two must agree, or a link written as "Name, Epithet" (the
+            # site's standard name/epithet format) can never resolve to a
+            # same-named real page, which only slugifies its own "Name"
+            # half. No-op for the more common "Name — Epithet" (em-dash,
+            # no comma) target style already used throughout this vault,
+            # since split(",")[0] is the whole string when there's no
+            # comma to split on.
+            "slug": slugify(target.split(",")[0]),
             "blurb": blurb
         })
     return {"title": title, "members": members}

@@ -42,7 +42,7 @@ imageProperty: cover
 ```
 - [[Alathrien Druanna — the Glyphscribe]]
 - [[Araleth Letheranil — the Prince of Stars]]
-- [[Aasterinian — Quicksilver Dragon|Avachel — the Quicksilver Dragon]]
+- [[Aasterinian, the Quicksilver Dragon|Avachel — the Quicksilver Dragon]]
 - [[Seha-Angharradh, The Moonweaver|Angharradh]]
 - [[Corellon Larethian, The Arch-Seldarine]]
 - [[Deep Sashelas — the Dolphin Prince]]

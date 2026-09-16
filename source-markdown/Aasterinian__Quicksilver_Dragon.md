@@ -14,7 +14,7 @@ id: -Aasterinian-Page
 	- [[#Appendix#Pantheon Draconis — Draconic Pantheon|Pantheon Draconis — Draconic Pantheon]]
 	- [[#Appendix#Seldarine — Elven Pantheon|Seldarine — Elven Pantheon]]
 ===
-### Aasterinian — Quicksilver Dragon
+### Aasterinian, the Quicksilver Dragon
 **Alignment.**
 **Symbol.**
 **Portfolio.**
