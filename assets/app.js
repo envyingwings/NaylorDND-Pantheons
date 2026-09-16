@@ -1,6 +1,6 @@
 /* Shared utilities + landing page logic for The Ourosi Pantheon wiki. */
 
-const DATA_URL = "data/deities.json?v=49568a0d";
+const DATA_URL = "data/deities.json?v=4f0d25a2";
 
 /** Load the deity dataset once and cache it on window. */
 async function loadDeities() {
@@ -79,6 +79,32 @@ function displayNameHtml(d, mode) {
   return renderInline(name);
 }
 
+// For an ordinary (non-multi-aspect) deity known by a genuinely different
+// name depending on which pantheon page a reader arrived from -- e.g.
+// Aasterinian is the name used on the Draconic Pantheon (Bahamut, Tiamat,
+// Sardior's rosters), Avachel is the name used on the Elven Pantheon
+// (Corellon's roster) -- rather than one name with the other demoted to an
+// epithet. This is deliberately separate from SOURCE_NAME_OVERRIDES in
+// deity-page.js: that one selects among an aspect's several *distinct
+// identities* sharing one page (Seha-Angharradh's four goddesses); this
+// one is just an alternate display name for a single deity with one
+// unified page, keyed by slug rather than aspect_slug. Lives here (not
+// deity-page.js) because app.js loads on both index.html and deity.html,
+// so both the landing-page card and the deity page's own hero/title need
+// it. Unlisted deities are unaffected regardless of source.
+const DEITY_NAME_OVERRIDES = {
+  "aasterinian-quicksilver-dragon": {
+    draconic: "Aasterinian, the Quicksilver Dragon",
+    elven: "Avachel, the Quicksilver Dragon",
+  },
+};
+
+function resolveDeityName(d, source) {
+  const overrides = DEITY_NAME_OVERRIDES[d.slug];
+  if (overrides && source && overrides[source]) return overrides[source];
+  return d.name;
+}
+
 /* ---------------- Landing page ---------------- */
 
 function deityCardHtml(d, nameMode, source) {
@@ -86,12 +112,15 @@ function deityCardHtml(d, nameMode, source) {
     ? `deity.html?d=${encodeURIComponent(d.slug)}&source=greater`
     : `deity.html?d=${encodeURIComponent(d.slug)}${source ? `&source=${encodeURIComponent(source)}` : ""}`);
   const iconSource = d._cardIcon || d;
+  const stubTag = d.is_placeholder ? `<span class="stub-tag">unwritten</span>` : "";
+  const displayName = resolveDeityName(d, source);
   return `
-    <a class="deity-card" href="${href}" data-slug="${d.slug}">
-      <img class="symbol" src="${iconPath(iconSource)}" alt="${escapeHtml(d.name)} symbol" loading="lazy">
-      <h2 class="card-name card-name--${nameMode}">${displayNameHtml(d, nameMode)}</h2>
+    <a class="deity-card${d.is_placeholder ? " no-page" : ""}" href="${href}" data-slug="${d.slug}">
+      <img class="symbol" src="${iconPath(iconSource)}" alt="${escapeHtml(displayName)} symbol" loading="lazy">
+      <h2 class="card-name card-name--${nameMode}">${displayNameHtml({ name: displayName }, nameMode)}</h2>
+      ${stubTag}
       <p class="portfolio">${renderInline(d.portfolio || "")}</p>
-      <span class="alignment-tag">${escapeHtml(d.alignment || "Unaligned")}</span>
+      ${d.alignment ? `<span class="alignment-tag">${escapeHtml(d.alignment)}</span>` : ""}
     </a>
   `;
 }
@@ -124,13 +153,20 @@ function initLandingPage() {
     draconic: { include: "DragonPantheon" },
     gnome: { include: "GnomePantheon" },
     goblinoid: { include: "GoblinoidPantheon" },
+    giant: { include: "GiantPantheon" },
+    orcish: { include: "OrcPantheon" },
+    halfling: { include: "HalflingPantheon" },
   };
 
   loadDeities().then((deities) => {
-    // Placeholders (unwritten pantheon members) don't appear in the main
-    // directory -- only real, fully-written deity pages do. Placeholders
-    // are still reachable by following a link from a deity's Appendix.
-    const real = deities.filter((d) => !d.is_placeholder);
+    // Placeholders (unwritten pantheon members) are tagged with whichever
+    // pantheon they were linked from (see parse.py), so they now appear on
+    // that pantheon's own tab -- marked "unwritten" -- rather than being
+    // hidden everywhere. They still never show up on a tab they have no
+    // tag for (the Greater Pantheon tab, in particular, since no
+    // placeholder carries OurosiDeity), which the tag-based filtering
+    // below already handles without a separate blanket exclusion here.
+    const real = deities;
 
     // Sort alphabetically by display name (ignoring leading articles/titles noise)
     const sorted = [...real].sort((a, b) => a.name.localeCompare(b.name));

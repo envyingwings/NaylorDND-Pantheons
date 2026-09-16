@@ -572,66 +572,125 @@ def main():
 
     for d in deities:
         if d["appendix"]:
-            for member in d["appendix"]["members"]:
-                member_first = re.sub(
-                    r"[^\w-]", "",
-                    member["name"].split(",")[0].split(" ")[0].split("—")[0].strip().lower()
-                )
-                matched_slug = None
-                if member["slug"] in ALIAS_SLUGS:
-                    matched_slug = ALIAS_SLUGS[member["slug"]]
-                elif member_first in ALIAS_SLUGS:
-                    matched_slug = ALIAS_SLUGS[member_first]
-                elif member["slug"] in slug_set:
-                    matched_slug = member["slug"]
-                elif member_first in firstword_to_slug:
-                    matched_slug = firstword_to_slug[member_first]
-                member["has_page"] = matched_slug is not None
-                if matched_slug:
-                    member["slug"] = matched_slug
+            groups = d["appendix"].get("groups") or [
+                {"title": d["appendix"].get("title"), "members": d["appendix"].get("members", [])}
+            ]
+            for group in groups:
+                for member in group["members"]:
+                    member_first = re.sub(
+                        r"[^\w-]", "",
+                        member["name"].split(",")[0].split(" ")[0].split("—")[0].strip().lower()
+                    )
+                    matched_slug = None
+                    if member["slug"] in ALIAS_SLUGS:
+                        matched_slug = ALIAS_SLUGS[member["slug"]]
+                    elif member_first in ALIAS_SLUGS:
+                        matched_slug = ALIAS_SLUGS[member_first]
+                    elif member["slug"] in slug_set:
+                        matched_slug = member["slug"]
+                    elif member_first in firstword_to_slug:
+                        matched_slug = firstword_to_slug[member_first]
+                    member["has_page"] = matched_slug is not None
+                    if matched_slug:
+                        member["slug"] = matched_slug
 
     # Every appendix member without a real page gets a minimal placeholder
     # "deity" entry instead, so links always resolve to something rather
     # than rendering as dead, unclickable text. Deduplicated by slug, since
     # the same member can appear in more than one deity's appendix (e.g. a
     # goblinoid god listed under both Bane and their own future page).
+    #
+    # A placeholder is tagged with the pantheon tag matching the appendix
+    # group it was linked from, so it shows up on that pantheon's landing
+    # page tab like any real deity would -- keyed by the same keyword
+    # found in the group's own "#### <Pantheon Name>" title as the
+    # frontend's sourceFromAppendixTitle()/PANTHEON_TAGS use, so a
+    # placeholder appears on exactly the tab a reader would expect after
+    # following the link that created it. Titles that don't match any
+    # pantheon tab (e.g. "Abyssal Lords", "Vassals of Asmodeus") leave the
+    # placeholder untagged, same as before -- those groupings have no tab.
+    APPENDIX_TITLE_TO_TAG = [
+        (re.compile(r"draconic", re.IGNORECASE), "DragonPantheon"),
+        (re.compile(r"drow", re.IGNORECASE), "DrowPantheon"),
+        (re.compile(r"dwarven", re.IGNORECASE), "DwarfPantheon"),
+        (re.compile(r"elven", re.IGNORECASE), "ElvenPantheon"),
+        (re.compile(r"giant", re.IGNORECASE), "GiantPantheon"),
+        (re.compile(r"gnome", re.IGNORECASE), "GnomePantheon"),
+        (re.compile(r"goblinoid", re.IGNORECASE), "GoblinoidPantheon"),
+        (re.compile(r"halfling", re.IGNORECASE), "HalflingPantheon"),
+        (re.compile(r"orcish", re.IGNORECASE), "OrcPantheon"),
+    ]
+
+    def tag_for_appendix_title(title):
+        if not title:
+            return None
+        for pattern, tag in APPENDIX_TITLE_TO_TAG:
+            if pattern.search(title):
+                return tag
+        return None
+
     placeholder_slugs_seen = set()
+    # First pass: collect every pantheon tag a given slug is linked under,
+    # across ALL deities' appendices -- a slug can be reached from more
+    # than one deity's roster (e.g. a goblinoid god listed under both Bane
+    # and their own future page) and, in principle, from more than one
+    # pantheon group, so this must finish before any placeholder record is
+    # built rather than accumulating tags as we go; building the record on
+    # first sight would miss tags contributed by a later deity in the loop.
+    placeholder_tags = {}  # slug -> set of pantheon tags
+    for d in deities:
+        if not d["appendix"]:
+            continue
+        groups = d["appendix"].get("groups") or [
+            {"title": d["appendix"].get("title"), "members": d["appendix"].get("members", [])}
+        ]
+        for group in groups:
+            group_tag = tag_for_appendix_title(group.get("title"))
+            if not group_tag:
+                continue
+            for member in group["members"]:
+                placeholder_tags.setdefault(member["slug"], set()).add(group_tag)
+
     placeholders = []
     for d in deities:
         if not d["appendix"]:
             continue
-        for member in d["appendix"]["members"]:
-            if member["has_page"]:
-                continue
-            slug = member["slug"]
-            if slug in slug_set or slug in placeholder_slugs_seen:
-                # Already a real page, or already created as a placeholder from
-                # an earlier deity's appendix -- just point this member at it.
-                member["has_page"] = True
+        groups = d["appendix"].get("groups") or [
+            {"title": d["appendix"].get("title"), "members": d["appendix"].get("members", [])}
+        ]
+        for group in groups:
+            for member in group["members"]:
+                if member["has_page"]:
+                    continue
+                slug = member["slug"]
+                if slug in slug_set or slug in placeholder_slugs_seen:
+                    # Already a real page, or already created as a placeholder from
+                    # an earlier deity's appendix -- just point this member at it.
+                    member["has_page"] = True
+                    placeholder_slugs_seen.add(slug)
+                    continue
                 placeholder_slugs_seen.add(slug)
-                continue
-            placeholder_slugs_seen.add(slug)
-            placeholders.append({
-                "slug": slug,
-                "name": member["name"],
-                "portfolio": "",
-                "alignment": "",
-                "domains": [],
-                "status": [],
-                "warlock_province": [],
-                "tags": [],
-                "cover_file": None,
-                "intro": [],
-                "infobox": {},
-                "titles_line": None,
-                "domains_line": None,
-                "commandments": [],
-                "appendix": None,
-                "source_file": None,
-                "icon_ext": detect_icon_ext(slug),
-                "is_placeholder": True,
-            })
-            member["has_page"] = True
+                placeholders.append({
+                    "slug": slug,
+                    "name": member["name"],
+                    "portfolio": "",
+                    "alignment": "",
+                    "domains": [],
+                    "status": [],
+                    "warlock_province": [],
+                    "tags": sorted(placeholder_tags.get(slug, [])),
+                    "cover_file": None,
+                    "intro": [],
+                    "infobox": {},
+                    "titles_line": None,
+                    "domains_line": None,
+                    "commandments": [],
+                    "appendix": None,
+                    "source_file": None,
+                    "icon_ext": detect_icon_ext(slug),
+                    "is_placeholder": True,
+                })
+                member["has_page"] = True
 
     for d in deities:
         d.setdefault("is_placeholder", False)

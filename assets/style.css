@@ -475,6 +475,11 @@ a:hover { text-decoration: underline; }
   border-style: dashed;
 }
 
+.deity-card.no-page {
+  opacity: 0.72;
+  border-style: dashed;
+}
+
 .stub-tag {
   display: inline-block;
   font-size: 0.62rem;

@@ -109,113 +109,135 @@
           "members": [
             {
               "name": "Alathrien Druanna — the Glyphscribe",
-              "slug": "alathrien-druanna-the-glyphscribe",
-              "blurb": ""
+              "slug": "alathrien-druanna",
+              "blurb": "",
+              "has_page": true
             },
             {
               "name": "Alobal Lorfiril — the Merry Magician",
-              "slug": "alobal-lorfiril-the-merry-magician",
-              "blurb": ""
+              "slug": "alobal-lorfiril",
+              "blurb": "",
+              "has_page": true
             },
             {
               "name": "Araleth Letheranil — the Prince of Stars",
-              "slug": "araleth-letheranil-the-prince-of-stars",
-              "blurb": ""
+              "slug": "araleth-letheranil",
+              "blurb": "",
+              "has_page": true
             },
             {
               "name": "Corellon Larethian, The Arch-Seldarine",
-              "slug": "corellon-larethian-the-arch-seldarine",
-              "blurb": ""
+              "slug": "corellon-larethian",
+              "blurb": "",
+              "has_page": true
             },
             {
               "name": "Deep Sashelas — the Dolphin Prince",
-              "slug": "deep-sashelas-the-dolphin-prince",
-              "blurb": ""
+              "slug": "deep-duerra",
+              "blurb": "",
+              "has_page": true
             },
             {
               "name": "Elebrin Liothiel — the Celestial Gardener",
-              "slug": "elebrin-liothiel-the-celestial-gardener",
-              "blurb": ""
+              "slug": "elebrin-liothiel",
+              "blurb": "",
+              "has_page": true
             },
             {
               "name": "Erevan Ilesere — the Green Changeling",
-              "slug": "erevan-ilesere-the-green-changeling",
-              "blurb": ""
+              "slug": "erevan-ilesere",
+              "blurb": "",
+              "has_page": true
             },
             {
               "name": "Fenmarel Mestarine — the Lone Wolf",
-              "slug": "fenmarel-mestarine-the-lone-wolf",
-              "blurb": ""
+              "slug": "fenmarel-mestarine",
+              "blurb": "",
+              "has_page": true
             },
             {
               "name": "Kirith Sotheril — The Rainbow Magess",
-              "slug": "kirith-sotheril-the-rainbow-magess",
-              "blurb": ""
+              "slug": "kirith-sotheril",
+              "blurb": "",
+              "has_page": true
             },
             {
               "name": "Labelas Enoreth — the Sage at Sunset",
-              "slug": "labelas-enoreth-the-sage-at-sunset",
-              "blurb": ""
+              "slug": "labelas-enoreth",
+              "blurb": "",
+              "has_page": true
             },
             {
               "name": "Melira Taralen — the Fountainside Songstress",
-              "slug": "melira-taralen-the-fountainside-songstress",
-              "blurb": ""
+              "slug": "melira-taralen",
+              "blurb": "",
+              "has_page": true
             },
             {
               "name": "Mythrien Sarath — the Mythal Protector",
-              "slug": "mythrien-sarath-the-mythal-protector",
-              "blurb": ""
+              "slug": "mythrien-sarath",
+              "blurb": "",
+              "has_page": true
             },
             {
               "name": "Naralis Analor — the Watcher of Souls",
-              "slug": "naralis-analor-the-watcher-of-souls",
-              "blurb": ""
+              "slug": "naralis-analor",
+              "blurb": "",
+              "has_page": true
             },
             {
               "name": "Rillifane Rallathil — the Many-Branched Wildling",
-              "slug": "rillifane-rallathil-the-many-branched-wildling",
-              "blurb": ""
+              "slug": "rillifane-rallathil",
+              "blurb": "",
+              "has_page": true
             },
             {
               "name": "Sarula Iliene — the Nixie Queen",
-              "slug": "sarula-iliene-the-nixie-queen",
-              "blurb": ""
+              "slug": "sarula-iliene",
+              "blurb": "",
+              "has_page": true
             },
             {
               "name": "Shevarash — Black Archer",
-              "slug": "shevarash-black-archer",
-              "blurb": ""
+              "slug": "shevarash",
+              "blurb": "",
+              "has_page": true
             },
             {
               "name": "Angharradh — the Moonweaver",
-              "slug": "seha-angharradh-the-moonweaver",
-              "blurb": ""
+              "slug": "seha-angharradh",
+              "blurb": "",
+              "has_page": true
             },
             {
               "name": "Solonor Thelandira — the Unerring Archer",
-              "slug": "solonor-thelandira-the-unerring-archer",
-              "blurb": ""
+              "slug": "solonor-thelandira",
+              "blurb": "",
+              "has_page": true
             },
             {
               "name": "Tarsellis Meunniduin — Frost Hermit",
-              "slug": "tarsellis-meunniduin-frost-hermit",
-              "blurb": ""
+              "slug": "tarsellis-meunniduin",
+              "blurb": "",
+              "has_page": true
             },
             {
               "name": "Tethrin Veraldé — the Master of Blades",
-              "slug": "tethrin-veraldé-the-master-of-blades",
-              "blurb": ""
+              "slug": "tethrin-veraldé",
+              "blurb": "",
+              "has_page": true
             },
             {
               "name": "Trishina — Joyswimmer",
-              "slug": "trishina-joyswimmer",
-              "blurb": ""
+              "slug": "trishina",
+              "blurb": "",
+              "has_page": true
             },
             {
               "name": "Vandria Gilmadrith — Lady Steelheart",
-              "slug": "vandria-gilmadrith-lady-steelheart",
-              "blurb": ""
+              "slug": "vandria-gilmadrith",
+              "blurb": "",
+              "has_page": true
             }
           ]
         }
@@ -1903,7 +1925,7 @@
           "title": "Pantheon Draconis — Draconic Pantheon",
           "members": [
             {
-              "name": "Avachel — the Quicksilver Dragon",
+              "name": "Aasterinian — Quicksilver Dragon",
               "slug": "aasterinian-quicksilver-dragon",
               "blurb": "",
               "has_page": true
@@ -1980,7 +2002,7 @@
       "title": "Pantheon Draconis — Draconic Pantheon",
       "members": [
         {
-          "name": "Avachel — the Quicksilver Dragon",
+          "name": "Aasterinian — Quicksilver Dragon",
           "slug": "aasterinian-quicksilver-dragon",
           "blurb": "",
           "has_page": true
@@ -12273,7 +12295,7 @@
           "title": "Pantheon Draconis — Draconic Pantheon",
           "members": [
             {
-              "name": "Avachel — the Quicksilver Dragon",
+              "name": "Aasterinian — Quicksilver Dragon",
               "slug": "aasterinian-quicksilver-dragon",
               "blurb": "",
               "has_page": true
@@ -12350,7 +12372,7 @@
       "title": "Pantheon Draconis — Draconic Pantheon",
       "members": [
         {
-          "name": "Avachel — the Quicksilver Dragon",
+          "name": "Aasterinian — Quicksilver Dragon",
           "slug": "aasterinian-quicksilver-dragon",
           "blurb": "",
           "has_page": true
@@ -16070,7 +16092,7 @@
           "title": "Pantheon Draconis — Draconic Pantheon",
           "members": [
             {
-              "name": "Avachel — the Quicksilver Dragon",
+              "name": "Aasterinian — Quicksilver Dragon",
               "slug": "aasterinian-quicksilver-dragon",
               "blurb": "",
               "has_page": true
@@ -16147,7 +16169,7 @@
       "title": "Pantheon Draconis — Draconic Pantheon",
       "members": [
         {
-          "name": "Avachel — the Quicksilver Dragon",
+          "name": "Aasterinian — Quicksilver Dragon",
           "slug": "aasterinian-quicksilver-dragon",
           "blurb": "",
           "has_page": true
@@ -18262,7 +18284,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "DragonPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18282,7 +18306,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "DragonPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18302,7 +18328,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "DragonPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18322,7 +18350,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "DragonPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18342,7 +18372,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "DragonPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18362,7 +18394,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "DragonPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18382,7 +18416,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "DragonPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18402,7 +18438,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "DragonPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18422,7 +18460,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "DragonPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18602,7 +18642,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "HalflingPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18622,7 +18664,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "HalflingPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18642,7 +18686,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "HalflingPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18662,7 +18708,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "HalflingPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18682,7 +18730,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "HalflingPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18702,7 +18752,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "HalflingPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18722,7 +18774,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GoblinoidPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18742,7 +18796,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GoblinoidPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18762,7 +18818,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GoblinoidPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18782,7 +18840,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GoblinoidPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18802,7 +18862,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GoblinoidPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18822,7 +18884,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GoblinoidPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18842,7 +18906,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GoblinoidPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18862,7 +18928,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GoblinoidPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18882,7 +18950,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GoblinoidPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18902,7 +18972,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "DrowPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18922,7 +18994,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "DrowPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18942,7 +19016,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "DrowPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18962,7 +19038,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "DrowPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -18982,7 +19060,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "DrowPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19002,7 +19082,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "DrowPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19022,7 +19104,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GnomePantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19042,7 +19126,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GnomePantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19062,7 +19148,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GnomePantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19082,7 +19170,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GnomePantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19102,7 +19192,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GnomePantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19122,7 +19214,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GnomePantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19142,7 +19236,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GnomePantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19162,7 +19258,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GnomePantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19182,7 +19280,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GnomePantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19202,7 +19302,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GnomePantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19222,7 +19324,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GnomePantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19242,7 +19346,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GnomePantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19262,7 +19368,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "OrcPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19282,7 +19390,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "OrcPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19302,7 +19412,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "OrcPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19322,7 +19434,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "OrcPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19342,7 +19456,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "OrcPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19362,7 +19478,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "OrcPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19382,7 +19500,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GiantPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19402,7 +19522,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GiantPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19422,7 +19544,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GiantPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19442,7 +19566,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GiantPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19462,7 +19588,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GiantPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19482,7 +19610,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GiantPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19502,7 +19632,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GiantPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19522,7 +19654,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GiantPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19542,7 +19676,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GiantPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},
@@ -19562,7 +19698,9 @@
     "domains": [],
     "status": [],
     "warlock_province": [],
-    "tags": [],
+    "tags": [
+      "GiantPantheon"
+    ],
     "cover_file": null,
     "intro": [],
     "infobox": {},

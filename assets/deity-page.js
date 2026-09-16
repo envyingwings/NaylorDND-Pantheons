@@ -49,30 +49,6 @@ function sourceFromAppendixTitle(title) {
   return hit ? hit.source : "greater";
 }
 
-// For an ordinary (non-multi-aspect) deity known by a genuinely different
-// name depending on which pantheon page a reader arrived from -- e.g.
-// Aasterinian is the name used on the Draconic Pantheon (Bahamut, Tiamat,
-// Sardior's rosters), Avachel is the name used on the Elven Pantheon
-// (Corellon's roster) -- rather than one name with the other demoted to an
-// epithet. This is deliberately separate from SOURCE_NAME_OVERRIDES: that
-// one selects among an aspect's several *distinct identities* sharing one
-// page (Seha-Angharradh's four goddesses); this one is just an alternate
-// display name for a single deity with one unified page, keyed by slug
-// rather than aspect_slug. Unlisted deities are unaffected regardless of
-// source.
-const DEITY_NAME_OVERRIDES = {
-  "aasterinian-quicksilver-dragon": {
-    draconic: "Aasterinian, the Quicksilver Dragon",
-    elven: "Avachel, the Quicksilver Dragon",
-  },
-};
-
-function resolveDeityName(d, source) {
-  const overrides = DEITY_NAME_OVERRIDES[d.slug];
-  if (overrides && source && overrides[source]) return overrides[source];
-  return d.name;
-}
-
 function resolveAspectName(parent, aspect, source) {
   const overrides = SOURCE_NAME_OVERRIDES[source];
   if (overrides && overrides[aspect.aspect_slug]) return overrides[aspect.aspect_slug];

@@ -61,7 +61,7 @@ layout: grid
 columns: 3
 imageProperty: cover
 ```
-- [[Aasterinian — Quicksilver Dragon|Avachel — the Quicksilver Dragon]]
+- [[Aasterinian — Quicksilver Dragon]]
 - [[Astilabor — The Hoardmistress]]
 - [[Garyx — Cleanser of Worlds]]
 - [[Kereska — Wonderbringer]]
