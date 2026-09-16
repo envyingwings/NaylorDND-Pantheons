@@ -1,6 +1,6 @@
 /* Shared utilities + landing page logic for The Ourosi Pantheon wiki. */
 
-const DATA_URL = "data/deities.json?v=a0a40368";
+const DATA_URL = "data/deities.json?v=958093e1";
 
 /** Load the deity dataset once and cache it on window. */
 async function loadDeities() {
@@ -222,7 +222,7 @@ function initLandingPage() {
     // slug -> {aspect_slug: name}, so this can hold entries for more than
     // one multi-aspect deity without them interfering with each other.
     const ASPECT_NAME_OVERRIDES = {
-      "seha-angharradh": { angharradh: "Angharradh, the Moonweaver" },
+      "seha-angharradh": { angharradh: "Angharradh, the Triune Goddess" },
     };
 
     function expandToAspectCards(d) {

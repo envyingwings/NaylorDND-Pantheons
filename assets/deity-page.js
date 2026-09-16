@@ -19,7 +19,7 @@ function getSlugFromQuery() {
 // keyed by the `source` URL param a link into this page was built with.
 const SOURCE_NAME_OVERRIDES = {
   greater: { angharradh: "Seha-Angharradh, the Moonweaver" },
-  elven: { angharradh: "Angharradh, the Moonweaver" },
+  elven: { angharradh: "Angharradh, the Triune Goddess" },
 };
 
 // The appendix's own title identifies which pantheon it represents (e.g.

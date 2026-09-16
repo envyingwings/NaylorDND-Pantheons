@@ -78,7 +78,7 @@ Sehanine, eldest of the three and elven goddess of death, governs moonlight, dre
 
 - [[#Commandments of Sehanine|Commandments of Sehanine]]
 ===
-### Sehanine Moonbow, the Moonweaver
+### Sehanine Moonbow, Lady of Dreams
 [Miraheze](https://criticalrole.miraheze.org/wiki/Sehanine), [Forgotten Realms](https://forgottenrealms.fandom.com/wiki/Sehanine_Moonbow)
 ![[SehanineSymbol.webp]]
 **Alignment.** Chaotic Good
@@ -102,7 +102,7 @@ id: -Angharradh-Page
 - [[#Appendix|Appendix]]
 	- [[#Appendix#Seldarine — Elven Pantheon|Seldarine — Elven Pantheon]]
 ===
-### Angharradh, the Moonweaver
+### Angharradh, the Triune Goddess
 [Forgotten Realms (Sehanine)](https://forgottenrealms.fandom.com/wiki/Sehanine_Moonbow), [Forgotten Realms (Angharradh)](https://forgottenrealms.fandom.com/wiki/Angharradh)
 ![[SehanineSymbol.webp]]
 **Alignment.** Chaotic Good
