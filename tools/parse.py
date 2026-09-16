@@ -639,11 +639,10 @@ def main():
     # group it was linked from, so it shows up on that pantheon's landing
     # page tab like any real deity would -- keyed by the same keyword
     # found in the group's own "#### <Pantheon Name>" title as the
-    # frontend's sourceFromAppendixTitle()/PANTHEON_TAGS use, so a
-    # placeholder appears on exactly the tab a reader would expect after
-    # following the link that created it. Titles that don't match any
-    # pantheon tab (e.g. "Abyssal Lords", "Vassals of Asmodeus") leave the
-    # placeholder untagged, same as before -- those groupings have no tab.
+    # pantheon tab, so a placeholder appears on exactly the tab a reader
+    # would expect after following the link that created it. Titles that
+    # don't match any of these -- neither a real pantheon tab nor the
+    # Lesser Idol groupings below -- leave the placeholder untagged.
     APPENDIX_TITLE_TO_TAG = [
         (re.compile(r"draconic", re.IGNORECASE), "DragonPantheon"),
         (re.compile(r"drow", re.IGNORECASE), "DrowPantheon"),
@@ -654,6 +653,16 @@ def main():
         (re.compile(r"goblinoid", re.IGNORECASE), "GoblinoidPantheon"),
         (re.compile(r"halfling", re.IGNORECASE), "HalflingPantheon"),
         (re.compile(r"orcish", re.IGNORECASE), "OrcPantheon"),
+        # Archdukes of Baator and the Demon Princes of the Abyss aren't a
+        # pantheon with a tab of their own -- they're evil-power groupings
+        # that will eventually get real writeups, but for now every member
+        # is an unwritten placeholder. Tagged "Lesser Idol" instead of a
+        # pantheon tag so the frontend can specifically exclude them from
+        # the "All Deities" view (which otherwise shows every deity
+        # regardless of tag) without a pantheon tab ever needing to filter
+        # them out too.
+        (re.compile(r"baator", re.IGNORECASE), "Lesser Idol"),
+        (re.compile(r"abyss", re.IGNORECASE), "Lesser Idol"),
     ]
 
     def tag_for_appendix_title(title):

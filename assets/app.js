@@ -1,6 +1,6 @@
 /* Shared utilities + landing page logic for The Ourosi Pantheon wiki. */
 
-const DATA_URL = "data/deities.json?v=0e49dbf3";
+const DATA_URL = "data/deities.json?v=f6f626ba";
 
 /** Load the deity dataset once and cache it on window. */
 async function loadDeities() {
@@ -189,8 +189,11 @@ function initLandingPage() {
     // ?pantheon=all. Shows every deity regardless of tag, with every
     // multi-aspect deity expanded to its individual aspect cards (same as
     // the Elven/Draconic tabs) so nothing is hidden behind a single merged
-    // card here either.
-    all: { all: true, expandAspects: true },
+    // card here either. Excludes "Lesser Idol" (Archdukes of Baator, Demon
+    // Princes of the Abyss) -- these are unwritten placeholder groupings
+    // with no pantheon tab of their own, not meant to clutter this view
+    // until real pages exist for them.
+    all: { all: true, exclude: "Lesser Idol", expandAspects: true },
   };
 
   loadDeities().then((deities) => {
@@ -265,14 +268,12 @@ function initLandingPage() {
 
     function deitiesForActiveTab() {
       const cfg = PANTHEON_TAGS[activeTab];
-      const matched = cfg.all
-        ? real
-        : real.filter((d) => {
-            const tags = d.tags || [];
-            if (!tags.includes(cfg.include)) return false;
-            if (cfg.exclude && tags.includes(cfg.exclude)) return false;
-            return true;
-          });
+      const matched = real.filter((d) => {
+        const tags = d.tags || [];
+        if (!cfg.all && !tags.includes(cfg.include)) return false;
+        if (cfg.exclude && tags.includes(cfg.exclude)) return false;
+        return true;
+      });
       let list = matched;
       if (cfg.expandAspects) {
         const expanded = [];
